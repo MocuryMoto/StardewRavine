@@ -2,6 +2,8 @@ package net.mocury.stardewravine;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mocury.stardewravine.block.ModBlocks;
+import net.mocury.stardewravine.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,7 @@ public class StardewRavine implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
