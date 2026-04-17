@@ -21,6 +21,8 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block PRISMATIC_SHARD_BLOCK = registerBlock("prismatic_shard_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -36,6 +38,7 @@ public class ModBlocks {
         StardewRavine.LOGGER.info("Registering Mod Blocks for "+StardewRavine.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+            entries.add(ModBlocks.PRISMATIC_SHARD_BLOCK);
             entries.add(ModBlocks.AQUAMARINE_BLOCK);
             entries.add(ModBlocks.TOPAZ_BLOCK);
             entries.add(ModBlocks.JADE_BLOCK);

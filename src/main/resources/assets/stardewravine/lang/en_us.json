@@ -3,11 +3,13 @@
   "item.stardewravine.topaz": "Topaz",
   "item.stardewravine.jade": "Jade",
   "item.stardewravine.ruby": "Ruby",
+  "item.stardewravine.prismatic_shard": "Prismatic Shard",
 
   "block.stardewravine.aquamarine_block": "Block of Aquamarine",
   "block.stardewravine.topaz_block": "Block of Topaz",
   "block.stardewravine.jade_block": "Block of Jade",
   "block.stardewravine.ruby_block": "Block of Ruby",
+  "block.stardewravine.prismatic_shard_block": "Prismatic Shard Block",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine"
 }
