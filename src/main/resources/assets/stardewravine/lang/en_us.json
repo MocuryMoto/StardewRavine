@@ -7,5 +7,7 @@
   "block.stardewravine.aquamarine_block": "Block of Aquamarine",
   "block.stardewravine.topaz_block": "Block of Topaz",
   "block.stardewravine.jade_block": "Block of Jade",
-  "block.stardewravine.ruby_block": "Block of Ruby"
+  "block.stardewravine.ruby_block": "Block of Ruby",
+
+  "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine"
 }

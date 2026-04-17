@@ -18,9 +18,9 @@ public class ModBlocks {
     public static final Block TOPAZ_BLOCK = registerBlock("topaz_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
     public static final Block JADE_BLOCK = registerBlock("jade_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
-    public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block RUBY_BLOCK = registerBlock("ruby_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
