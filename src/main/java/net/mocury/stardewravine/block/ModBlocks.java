@@ -29,6 +29,26 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
     public static final Block NETHER_RADIONITE_ORE = registerBlock("nether_radionite_ore",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block AQUAMARINE_ORE = registerBlock("aquamarine_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block AQUAMARINE_DEEPSLATE_ORE = registerBlock("aquamarine_deepslate_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block TOPAZ_ORE = registerBlock("topaz_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block TOPAZ_DEEPSLATE_ORE = registerBlock("topaz_deepslate_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block NETHER_TOPAZ_ORE = registerBlock("nether_topaz_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block JADE_ORE = registerBlock("jade_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block JADE_DEEPSLATE_ORE = registerBlock("jade_deepslate_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block RUBY_DEEPSLATE_ORE = registerBlock("ruby_deepslate_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block NETHER_RUBY_ORE = registerBlock("nether_ruby_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -51,7 +71,6 @@ public class ModBlocks {
             entries.add(ModBlocks.RUBY_BLOCK);
             entries.add(ModBlocks.RADIONITE_BLOCK);
             entries.add(ModBlocks.RAW_RADIONITE_BLOCK);
-            entries.add(ModBlocks.NETHER_RADIONITE_ORE);
         });
     }
 }
