@@ -23,6 +23,12 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
     public static final Block PRISMATIC_SHARD_BLOCK = registerBlock("prismatic_shard_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block RADIONITE_BLOCK = registerBlock("radionite_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block RAW_RADIONITE_BLOCK = registerBlock("raw_radionite_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block NETHER_RADIONITE_ORE = registerBlock("nether_radionite_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -43,6 +49,9 @@ public class ModBlocks {
             entries.add(ModBlocks.TOPAZ_BLOCK);
             entries.add(ModBlocks.JADE_BLOCK);
             entries.add(ModBlocks.RUBY_BLOCK);
+            entries.add(ModBlocks.RADIONITE_BLOCK);
+            entries.add(ModBlocks.RAW_RADIONITE_BLOCK);
+            entries.add(ModBlocks.NETHER_RADIONITE_ORE);
         });
     }
 }

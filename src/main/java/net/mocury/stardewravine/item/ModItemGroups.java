@@ -26,6 +26,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.JADE_BLOCK);
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModItems.RADIONITE_INGOT);
+                        entries.add(ModItems.RAW_RADIONITE);
+                        entries.add(ModBlocks.RADIONITE_BLOCK);
+                        entries.add(ModBlocks.RAW_RADIONITE_BLOCK);
+                        entries.add(ModBlocks.NETHER_RADIONITE_ORE);
 
                     }).build());
 
