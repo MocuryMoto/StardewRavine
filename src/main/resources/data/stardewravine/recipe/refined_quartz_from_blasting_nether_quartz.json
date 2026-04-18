@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.3,
+  "group": "stardew_ravine",
+  "ingredient": {
+    "item": "minecraft:quartz"
+  },
+  "result": {
+    "id": "stardewravine:refined_quartz"
+  }
+}

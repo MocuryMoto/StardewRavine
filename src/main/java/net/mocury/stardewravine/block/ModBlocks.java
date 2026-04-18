@@ -49,6 +49,8 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
     public static final Block NETHER_RUBY_ORE = registerBlock("nether_ruby_ore",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block REFINED_QUARTZ_BLOCK = registerBlock("refined_quartz_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -71,6 +73,7 @@ public class ModBlocks {
             entries.add(ModBlocks.RUBY_BLOCK);
             entries.add(ModBlocks.RADIONITE_BLOCK);
             entries.add(ModBlocks.RAW_RADIONITE_BLOCK);
+            entries.add(ModBlocks.REFINED_QUARTZ_BLOCK);
         });
     }
 }

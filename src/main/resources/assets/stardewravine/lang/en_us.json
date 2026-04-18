@@ -6,6 +6,7 @@
   "item.stardewravine.prismatic_shard": "Prismatic Shard",
   "item.stardewravine.radionite_ingot": "Radionite Ingot",
   "item.stardewravine.raw_radionite": "Raw Radionite",
+  "item.stardewravine.refined_quartz": "Refined Quartz",
 
   "block.stardewravine.aquamarine_block": "Block of Aquamarine",
   "block.stardewravine.aquamarine_ore": "Aquamarine Ore",
@@ -25,6 +26,7 @@
   "block.stardewravine.radionite_block": "Block of Radionite",
   "block.stardewravine.raw_radionite_block": "Block of Raw Radionite",
   "block.stardewravine.nether_radionite_ore": "Radionite Ore",
+  "block.stardewravine.refined_quartz_block": "Refined Quartz Block",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine"
 }
