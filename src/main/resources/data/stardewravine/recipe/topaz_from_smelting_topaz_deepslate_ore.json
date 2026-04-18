@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "stardew_ravine",
+  "ingredient": {
+    "item": "stardewravine:topaz_deepslate_ore"
+  },
+  "result": {
+    "id": "stardewravine:topaz"
+  }
+}

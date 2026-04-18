@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "stardewravine:ruby_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "stardewravine:ruby"
+  }
+}

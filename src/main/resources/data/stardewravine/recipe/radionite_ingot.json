@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "stardewravine:radionite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "stardewravine:radionite_ingot"
+  }
+}
