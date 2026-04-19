@@ -3,6 +3,7 @@ package net.mocury.stardewravine.block;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -10,6 +11,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.mocury.stardewravine.StardewRavine;
 
 public class ModBlocks {
@@ -28,29 +30,40 @@ public class ModBlocks {
     public static final Block RAW_RADIONITE_BLOCK = registerBlock("raw_radionite_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
     public static final Block NETHER_RADIONITE_ORE = registerBlock("nether_radionite_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 5),
+                    AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
     public static final Block AQUAMARINE_ORE = registerBlock("aquamarine_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 3),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
     public static final Block AQUAMARINE_DEEPSLATE_ORE = registerBlock("aquamarine_deepslate_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block TOPAZ_ORE = registerBlock("topaz_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 3),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
     public static final Block TOPAZ_DEEPSLATE_ORE = registerBlock("topaz_deepslate_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 4),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block NETHER_TOPAZ_ORE = registerBlock("nether_topaz_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
     public static final Block JADE_ORE = registerBlock("jade_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 3),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
     public static final Block JADE_DEEPSLATE_ORE = registerBlock("jade_deepslate_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 3),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
     public static final Block RUBY_DEEPSLATE_ORE = registerBlock("ruby_deepslate_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block NETHER_RUBY_ORE = registerBlock("nether_ruby_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 4),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
     public static final Block REFINED_QUARTZ_BLOCK = registerBlock("refined_quartz_block",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

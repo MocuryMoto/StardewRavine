@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "stardewravine:aquamarine_block",
+    "stardewravine:aquamarine_ore",
+    "stardewravine:aquamarine_deepslate_ore",
+    "stardewravine:topaz_block",
+    "stardewravine:topaz_ore",
+    "stardewravine:topaz_deepslate_ore",
+    "stardewravine:nether_topaz_ore",
+    "stardewravine:jade_block",
+    "stardewravine:jade_ore",
+    "stardewravine:jade_deepslate_ore",
+    "stardewravine:ruby_block",
+    "stardewravine:ruby_ore",
+    "stardewravine:ruby_deepslate_ore",
+    "stardewravine:nether_ruby_ore"
+  ]
+}

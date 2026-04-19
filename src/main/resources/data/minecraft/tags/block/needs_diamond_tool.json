@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "stardewravine:nether_radionite_ore",
+    "stardewravine:radionite_block",
+    "stardewravine:raw_radionite_block",
+    "stardewravine:prismatic_shard_block"
+  ]
+}
