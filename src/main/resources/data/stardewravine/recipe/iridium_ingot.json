@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "stardewravine:iridium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "stardewravine:iridium_ingot"
+  }
+}

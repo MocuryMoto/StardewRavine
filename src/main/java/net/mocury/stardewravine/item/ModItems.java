@@ -17,6 +17,8 @@ public class ModItems {
     public static final Item RADIONITE_INGOT = registerItem("radionite_ingot", new Item(new Item.Settings()));
     public static final Item RAW_RADIONITE = registerItem("raw_radionite", new Item(new Item.Settings()));
     public static final Item REFINED_QUARTZ = registerItem("refined_quartz", new Item(new Item.Settings()));
+    public static final Item IRIDIUM_INGOT = registerItem("iridium_ingot", new Item(new Item.Settings()));
+    public static final Item RAW_IRIDIUM = registerItem("raw_iridium", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(StardewRavine.MOD_ID, name), item);
@@ -34,6 +36,8 @@ public class ModItems {
            entries.add(RAW_RADIONITE);
            entries.add(RADIONITE_INGOT);
            entries.add(REFINED_QUARTZ);
+           entries.add(IRIDIUM_INGOT);
+           entries.add(RAW_IRIDIUM);
         });
     }
 }

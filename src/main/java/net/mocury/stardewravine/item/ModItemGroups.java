@@ -41,6 +41,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RADIONITE_BLOCK);
                         entries.add(ModBlocks.RAW_RADIONITE_BLOCK);
                         entries.add(ModBlocks.NETHER_RADIONITE_ORE);
+                        entries.add(ModItems.IRIDIUM_INGOT);
+                        entries.add(ModItems.RAW_IRIDIUM);
+                        entries.add(ModBlocks.IRIDIUM_BLOCK);
+                        entries.add(ModBlocks.RAW_IRIDIUM_BLOCK);
+                        entries.add(ModBlocks.IRIDIUM_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.NETHER_IRIDIUM_ORE);
                         entries.add(ModItems.REFINED_QUARTZ);
                         entries.add(ModBlocks.REFINED_QUARTZ_BLOCK);
 

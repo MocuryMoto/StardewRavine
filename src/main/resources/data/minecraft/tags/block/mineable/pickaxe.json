@@ -19,6 +19,10 @@
     "stardewravine:radionite_block",
     "stardewravine:raw_radionite_block",
     "stardewravine:prismatic_shard_block",
-    "stardewravine:refined_quartz_block"
+    "stardewravine:refined_quartz_block",
+    "stardewravine:iridium_block",
+    "stardewravine:raw_iridium_block",
+    "stardewravine:iridium_deepslate_ore",
+    "stardewravine:nether_iridium_ore"
   ]
 }

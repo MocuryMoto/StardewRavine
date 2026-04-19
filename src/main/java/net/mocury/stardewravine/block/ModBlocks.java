@@ -64,6 +64,16 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
     public static final Block REFINED_QUARTZ_BLOCK = registerBlock("refined_quartz_block",
             new Block(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block IRIDIUM_BLOCK = registerBlock("iridium_block",
+            new Block(AbstractBlock.Settings.create().strength(6f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block RAW_IRIDIUM_BLOCK = registerBlock("raw_iridium_block",
+            new Block(AbstractBlock.Settings.create().strength(6f).requiresTool()));
+    public static final Block IRIDIUM_DEEPSLATE_ORE = registerBlock("iridium_deepslate_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 7),
+                    AbstractBlock.Settings.create().strength(8f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block NETHER_IRIDIUM_ORE = registerBlock("nether_iridium_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 6),
+                    AbstractBlock.Settings.create().strength(7f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -87,6 +97,8 @@ public class ModBlocks {
             entries.add(ModBlocks.RADIONITE_BLOCK);
             entries.add(ModBlocks.RAW_RADIONITE_BLOCK);
             entries.add(ModBlocks.REFINED_QUARTZ_BLOCK);
+            entries.add(ModBlocks.IRIDIUM_BLOCK);
+            entries.add(ModBlocks.RAW_IRIDIUM_BLOCK);
         });
     }
 }

@@ -7,6 +7,8 @@
   "item.stardewravine.radionite_ingot": "Radionite Ingot",
   "item.stardewravine.raw_radionite": "Raw Radionite",
   "item.stardewravine.refined_quartz": "Refined Quartz",
+  "item.stardewravine.iridium_ingot": "Iridium Ingot",
+  "item.stardewravine.raw_iridium": "Raw Iridium",
 
   "block.stardewravine.aquamarine_block": "Block of Aquamarine",
   "block.stardewravine.aquamarine_ore": "Aquamarine Ore",
@@ -27,6 +29,10 @@
   "block.stardewravine.raw_radionite_block": "Block of Raw Radionite",
   "block.stardewravine.nether_radionite_ore": "Radionite Ore",
   "block.stardewravine.refined_quartz_block": "Refined Quartz Block",
+  "block.stardewravine.iridium_block": "Block of Iridium",
+  "block.stardewravine.raw_iridium_block": "Block of Raw Iridium",
+  "block.stardewravine.iridium_deepslate_ore": "Iridium Ore",
+  "block.stardewravine.nether_iridium_ore": "Nether Iridium Ore",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine"
 }

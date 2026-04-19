@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1,
+  "group": "stardew_ravine",
+  "ingredient": {
+    "item": "stardewravine:raw_iridium"
+  },
+  "result": {
+    "id": "stardewravine:iridium_ingot"
+  }
+}
