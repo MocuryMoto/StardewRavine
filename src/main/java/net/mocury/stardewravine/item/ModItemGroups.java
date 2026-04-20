@@ -49,6 +49,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NETHER_IRIDIUM_ORE);
                         entries.add(ModItems.REFINED_QUARTZ);
                         entries.add(ModBlocks.REFINED_QUARTZ_BLOCK);
+                        entries.add(ModItems.FAIRY_BOX);
+                        entries.add(ModItems.MAGIC_QUIVER);
+                        entries.add(ModItems.BASILISK_PAW);
+                        entries.add(ModItems.ICE_ROD);
+                        entries.add(ModItems.RUSTY_SPUR);
+                        entries.add(ModItems.GOLDEN_SPUR);
+                        entries.add(ModItems.RUSTY_COG);
+                        entries.add(ModItems.IRON_COG);
+                        entries.add(ModItems.RUSTY_SPOON);
+                        entries.add(ModItems.SILVER_SPOON);
+                        entries.add(ModItems.DRIED_STARFISH);
 
                     }).build());
 
