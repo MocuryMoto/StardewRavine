@@ -46,6 +46,22 @@
   "block.stardewravine.raw_iridium_block": "Block of Raw Iridium",
   "block.stardewravine.iridium_deepslate_ore": "Iridium Ore",
   "block.stardewravine.nether_iridium_ore": "Nether Iridium Ore",
+  "block.stardewravine.esperite": "Esperite",
+  "block.stardewravine.polished_esperite": "Polished Esperite",
+  "block.stardewravine.smooth_esperite": "Smooth Esperite",
+  "block.stardewravine.esperite_bricks": "Esperite Bricks",
+  "block.stardewravine.marble": "Marble",
+  "block.stardewravine.polished_marble": "Polished Marble",
+  "block.stardewravine.smooth_marble": "Smooth Marble",
+  "block.stardewravine.marble_bricks": "Marble Bricks",
+  "block.stardewravine.soapstone": "Soapstone",
+  "block.stardewravine.polished_soapstone": "Polished Soapstone",
+  "block.stardewravine.smooth_soapstone": "Smooth Soapstone",
+  "block.stardewravine.soapstone_bricks": "Soapstone Bricks",
+  "block.stardewravine.limestone": "Limestone",
+  "block.stardewravine.polished_limestone": "Polished Limestone",
+  "block.stardewravine.smooth_limestone": "Smooth Limestone",
+  "block.stardewravine.limestone_bricks": "Limestone Bricks",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine"
 }

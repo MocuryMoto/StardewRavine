@@ -23,6 +23,22 @@
     "stardewravine:iridium_block",
     "stardewravine:raw_iridium_block",
     "stardewravine:iridium_deepslate_ore",
-    "stardewravine:nether_iridium_ore"
+    "stardewravine:nether_iridium_ore",
+    "stardewravine:esperite",
+    "stardewravine:polished_esperite",
+    "stardewravine:smooth_esperite",
+    "stardewravine:esperite_bricks",
+    "stardewravine:marble",
+    "stardewravine:polished_marble",
+    "stardewravine:smooth_marble",
+    "stardewravine:marble_bricks",
+    "stardewravine:soapstone",
+    "stardewravine:polished_soapstone",
+    "stardewravine:smooth_soapstone",
+    "stardewravine:soapstone_bricks",
+    "stardewravine:limestone",
+    "stardewravine:polished_limestone",
+    "stardewravine:smooth_limestone",
+    "stardewravine:limestone_bricks"
   ]
 }

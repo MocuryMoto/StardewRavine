@@ -75,6 +75,39 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(4, 6),
                     AbstractBlock.Settings.create().strength(7f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
 
+    public static final Block ESPERITE = registerBlock("esperite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_ESPERITE = registerBlock("polished_esperite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block SMOOTH_ESPERITE = registerBlock("smooth_esperite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block ESPERITE_BRICKS = registerBlock("esperite_bricks",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block MARBLE = registerBlock("marble",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_MARBLE = registerBlock("polished_marble",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block SMOOTH_MARBLE = registerBlock("smooth_marble",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block MARBLE_BRICKS = registerBlock("marble_bricks",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block SOAPSTONE = registerBlock("soapstone",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_SOAPSTONE = registerBlock("polished_soapstone",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block SMOOTH_SOAPSTONE = registerBlock("smooth_soapstone",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block SOAPSTONE_BRICKS = registerBlock("soapstone_bricks",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block LIMESTONE = registerBlock("limestone",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_LIMESTONE = registerBlock("polished_limestone",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block SMOOTH_LIMESTONE = registerBlock("smooth_limestone",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block LIMESTONE_BRICKS = registerBlock("limestone_bricks",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(StardewRavine.MOD_ID, name), block);
@@ -99,6 +132,22 @@ public class ModBlocks {
             entries.add(ModBlocks.REFINED_QUARTZ_BLOCK);
             entries.add(ModBlocks.IRIDIUM_BLOCK);
             entries.add(ModBlocks.RAW_IRIDIUM_BLOCK);
+            entries.add(ModBlocks.ESPERITE);
+            entries.add(ModBlocks.POLISHED_ESPERITE);
+            entries.add(ModBlocks.SMOOTH_ESPERITE);
+            entries.add(ModBlocks.ESPERITE_BRICKS);
+            entries.add(ModBlocks.MARBLE);
+            entries.add(ModBlocks.POLISHED_MARBLE);
+            entries.add(ModBlocks.SMOOTH_MARBLE);
+            entries.add(ModBlocks.MARBLE_BRICKS);
+            entries.add(ModBlocks.SOAPSTONE);
+            entries.add(ModBlocks.POLISHED_SOAPSTONE);
+            entries.add(ModBlocks.SMOOTH_SOAPSTONE);
+            entries.add(ModBlocks.SOAPSTONE_BRICKS);
+            entries.add(ModBlocks.LIMESTONE);
+            entries.add(ModBlocks.POLISHED_LIMESTONE);
+            entries.add(ModBlocks.SMOOTH_LIMESTONE);
+            entries.add(ModBlocks.LIMESTONE_BRICKS);
         });
     }
 }

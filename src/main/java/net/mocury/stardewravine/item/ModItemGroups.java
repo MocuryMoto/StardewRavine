@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.stardewravine.stardew_ravine_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.STARDROP);
+                        entries.add(ModItems.ANCIENT_FRUIT);
                         entries.add(ModItems.PRISMATIC_SHARD);
                         entries.add(ModBlocks.PRISMATIC_SHARD_BLOCK);
                         entries.add(ModItems.AQUAMARINE);
@@ -61,7 +62,22 @@ public class ModItemGroups {
                         entries.add(ModItems.RUSTY_SPOON);
                         entries.add(ModItems.SILVER_SPOON);
                         entries.add(ModItems.DRIED_STARFISH);
-                        entries.add(ModItems.ANCIENT_FRUIT);
+                        entries.add(ModBlocks.ESPERITE);
+                        entries.add(ModBlocks.POLISHED_ESPERITE);
+                        entries.add(ModBlocks.SMOOTH_ESPERITE);
+                        entries.add(ModBlocks.ESPERITE_BRICKS);
+                        entries.add(ModBlocks.MARBLE);
+                        entries.add(ModBlocks.POLISHED_MARBLE);
+                        entries.add(ModBlocks.SMOOTH_MARBLE);
+                        entries.add(ModBlocks.MARBLE_BRICKS);
+                        entries.add(ModBlocks.SOAPSTONE);
+                        entries.add(ModBlocks.POLISHED_SOAPSTONE);
+                        entries.add(ModBlocks.SMOOTH_SOAPSTONE);
+                        entries.add(ModBlocks.SOAPSTONE_BRICKS);
+                        entries.add(ModBlocks.LIMESTONE);
+                        entries.add(ModBlocks.POLISHED_LIMESTONE);
+                        entries.add(ModBlocks.SMOOTH_LIMESTONE);
+                        entries.add(ModBlocks.LIMESTONE_BRICKS);
 
                     }).build());
 
