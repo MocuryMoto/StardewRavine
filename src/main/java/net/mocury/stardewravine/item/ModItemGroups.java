@@ -13,9 +13,10 @@ import net.mocury.stardewravine.block.ModBlocks;
 public class ModItemGroups {
     public static final ItemGroup STARDEW_RAVINE_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(StardewRavine.MOD_ID, "stardew_ravine_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PRISMATIC_SHARD))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.STARDROP))
                     .displayName(Text.translatable("itemgroup.stardewravine.stardew_ravine_items"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModItems.STARDROP);
                         entries.add(ModItems.PRISMATIC_SHARD);
                         entries.add(ModBlocks.PRISMATIC_SHARD_BLOCK);
                         entries.add(ModItems.AQUAMARINE);
@@ -60,6 +61,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RUSTY_SPOON);
                         entries.add(ModItems.SILVER_SPOON);
                         entries.add(ModItems.DRIED_STARFISH);
+                        entries.add(ModItems.ANCIENT_FRUIT);
 
                     }).build());
 

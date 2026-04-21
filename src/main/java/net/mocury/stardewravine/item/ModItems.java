@@ -33,6 +33,9 @@ public class ModItems {
     public static final Item SILVER_SPOON = registerItem("silver_spoon", new SilverSpoonItem(new Item.Settings()));
     public static final Item DRIED_STARFISH = registerItem("dried_starfish", new DriedStarfishItem(new Item.Settings()));
 
+    public static final Item STARDROP = registerItem("stardrop", new Item(new Item.Settings().food(ModFoodComponents.STARDROP)));
+    public static final Item ANCIENT_FRUIT = registerItem("ancient_fruit", new Item(new Item.Settings().food(ModFoodComponents.ANCIENT_FRUIT)));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(StardewRavine.MOD_ID, name), item);
     }
@@ -51,6 +54,10 @@ public class ModItems {
            entries.add(REFINED_QUARTZ);
            entries.add(IRIDIUM_INGOT);
            entries.add(RAW_IRIDIUM);
+
+        });ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
+           entries.add(STARDROP);
+           entries.add(ANCIENT_FRUIT);
         });
     }
 }
