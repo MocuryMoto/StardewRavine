@@ -85,6 +85,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LARGE_CINDER_BUD);
                         entries.add(ModBlocks.MEDIUM_CINDER_BUD);
                         entries.add(ModBlocks.SMALL_CINDER_BUD);
+                        entries.add(ModBlocks.CINDER_SHARD_ORE);
+                        entries.add(ModItems.PEARL);
+                        entries.add(ModBlocks.PEARL_BLOCK);
 
                     }).build());
 

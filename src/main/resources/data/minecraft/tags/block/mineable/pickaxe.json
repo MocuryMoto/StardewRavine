@@ -44,6 +44,8 @@
     "stardewravine:cinder_cluster",
     "stardewravine:large_cinder_bud",
     "stardewravine:medium_cinder_bud",
-    "stardewravine:small_cinder_bud"
+    "stardewravine:small_cinder_bud",
+    "stardewravine:cinder_shard_ore",
+    "stardewravine:pearl_block"
   ]
 }

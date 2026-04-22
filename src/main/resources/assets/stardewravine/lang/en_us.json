@@ -23,6 +23,7 @@
   "item.stardewravine.stardrop": "Stardrop",
   "item.stardewravine.ancient_fruit": "Ancient Fruit",
   "item.stardewravine.cinder_shard": "Cinder Shard",
+  "item.stardewravine.pearl": "Pearl",
 
   "block.stardewravine.aquamarine_block": "Block of Aquamarine",
   "block.stardewravine.aquamarine_ore": "Aquamarine Ore",
@@ -69,6 +70,8 @@
   "block.stardewravine.large_cinder_bud": "Large Cinder Bud",
   "block.stardewravine.medium_cinder_bud": "Medium Cinder Bud",
   "block.stardewravine.small_cinder_bud": "Small Cinder Bud",
+  "block.stardewravine.cinder_shard_ore": "Cinder Ore",
+  "block.stardewravine.pearl_block": "Pearl Block",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine"
 }
