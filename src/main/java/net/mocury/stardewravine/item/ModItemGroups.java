@@ -78,6 +78,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_LIMESTONE);
                         entries.add(ModBlocks.SMOOTH_LIMESTONE);
                         entries.add(ModBlocks.LIMESTONE_BRICKS);
+                        entries.add(ModItems.CINDER_SHARD);
+                        entries.add(ModBlocks.CINDER_SHARD_BLOCK);
+                        entries.add(ModBlocks.BUDDING_CINDER_SHARD_BLOCK);
+                        entries.add(ModBlocks.CINDER_CLUSTER);
+                        entries.add(ModBlocks.LARGE_CINDER_BUD);
+                        entries.add(ModBlocks.MEDIUM_CINDER_BUD);
+                        entries.add(ModBlocks.SMALL_CINDER_BUD);
 
                     }).build());
 

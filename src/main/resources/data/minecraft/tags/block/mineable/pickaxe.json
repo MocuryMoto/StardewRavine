@@ -39,6 +39,11 @@
     "stardewravine:limestone",
     "stardewravine:polished_limestone",
     "stardewravine:smooth_limestone",
-    "stardewravine:limestone_bricks"
+    "stardewravine:limestone_bricks",
+    "stardewravine:cinder_shard_block",
+    "stardewravine:cinder_cluster",
+    "stardewravine:large_cinder_bud",
+    "stardewravine:medium_cinder_bud",
+    "stardewravine:small_cinder_bud"
   ]
 }

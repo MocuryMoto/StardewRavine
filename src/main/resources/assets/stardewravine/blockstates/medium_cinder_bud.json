@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "stardewravine:block/medium_cinder_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "stardewravine:block/medium_cinder_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "stardewravine:block/medium_cinder_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "stardewravine:block/medium_cinder_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "stardewravine:block/medium_cinder_bud"
+    },
+    "facing=west": {
+      "model": "stardewravine:block/medium_cinder_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

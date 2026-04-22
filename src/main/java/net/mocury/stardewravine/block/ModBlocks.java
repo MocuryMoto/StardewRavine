@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -13,6 +14,9 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.mocury.stardewravine.StardewRavine;
+import net.mocury.stardewravine.block.custom.BuddingCinderShardBlock;
+import net.mocury.stardewravine.block.custom.CinderClusterBlock;
+import net.mocury.stardewravine.block.custom.CinderShardBlock;
 
 public class ModBlocks {
     public static final Block AQUAMARINE_BLOCK = registerBlock("aquamarine_block",
@@ -107,6 +111,19 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
     public static final Block LIMESTONE_BRICKS = registerBlock("limestone_bricks",
             new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block BUDDING_CINDER_SHARD_BLOCK = registerBlock("budding_cinder_shard_block",
+            new BuddingCinderShardBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block CINDER_SHARD_BLOCK = registerBlock("cinder_shard_block",
+            new CinderShardBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CINDER_CLUSTER = registerBlock("cinder_cluster",
+            new CinderClusterBlock(0,0, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block LARGE_CINDER_BUD = registerBlock("large_cinder_bud",
+            new CinderClusterBlock(0,0, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block MEDIUM_CINDER_BUD = registerBlock("medium_cinder_bud",
+            new CinderClusterBlock(0,0, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block SMALL_CINDER_BUD = registerBlock("small_cinder_bud",
+            new CinderClusterBlock(0,0, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

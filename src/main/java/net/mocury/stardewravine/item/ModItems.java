@@ -20,6 +20,7 @@ public class ModItems {
     public static final Item REFINED_QUARTZ = registerItem("refined_quartz", new Item(new Item.Settings()));
     public static final Item IRIDIUM_INGOT = registerItem("iridium_ingot", new Item(new Item.Settings()));
     public static final Item RAW_IRIDIUM = registerItem("raw_iridium", new Item(new Item.Settings()));
+    public static final Item CINDER_SHARD = registerItem("cinder_shard", new Item(new Item.Settings()));
 
     public static final Item FAIRY_BOX = registerItem("fairy_box", new FairyBoxItem(new Item.Settings()));
     public static final Item MAGIC_QUIVER = registerItem("magic_quiver", new MagicQuiverItem(new Item.Settings()));

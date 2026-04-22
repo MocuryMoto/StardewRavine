@@ -22,6 +22,7 @@
   "item.stardewravine.dried_starfish": "Dried Starfish",
   "item.stardewravine.stardrop": "Stardrop",
   "item.stardewravine.ancient_fruit": "Ancient Fruit",
+  "item.stardewravine.cinder_shard": "Cinder Shard",
 
   "block.stardewravine.aquamarine_block": "Block of Aquamarine",
   "block.stardewravine.aquamarine_ore": "Aquamarine Ore",
@@ -62,6 +63,12 @@
   "block.stardewravine.polished_limestone": "Polished Limestone",
   "block.stardewravine.smooth_limestone": "Smooth Limestone",
   "block.stardewravine.limestone_bricks": "Limestone Bricks",
+  "block.stardewravine.budding_cinder_shard_block": "Budding Block of Cinder",
+  "block.stardewravine.cinder_shard_block": "Block of Cinder",
+  "block.stardewravine.cinder_cluster": "Cinder Cluster",
+  "block.stardewravine.large_cinder_bud": "Large Cinder Bud",
+  "block.stardewravine.medium_cinder_bud": "Medium Cinder Bud",
+  "block.stardewravine.small_cinder_bud": "Small Cinder Bud",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine"
 }
