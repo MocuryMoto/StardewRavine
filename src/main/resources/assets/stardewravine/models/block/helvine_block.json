@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "stardewravine:block/helvine_up",
+    "east": "stardewravine:block/helvine_up",
+    "north": "stardewravine:block/helvine_down",
+    "particle": "stardewravine:block/helvine_down",
+    "south": "stardewravine:block/helvine_down",
+    "up": "stardewravine:block/helvine_up",
+    "west": "stardewravine:block/helvine_up"
+  }
+}

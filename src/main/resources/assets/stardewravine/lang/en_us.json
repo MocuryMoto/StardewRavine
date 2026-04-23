@@ -72,6 +72,16 @@
   "block.stardewravine.small_cinder_bud": "Small Cinder Bud",
   "block.stardewravine.cinder_shard_ore": "Cinder Ore",
   "block.stardewravine.pearl_block": "Pearl Block",
+  "block.stardewravine.esperite_pillar": "Esperite Pillar",
+  "block.stardewravine.marble_pillar": "Marble Pillar",
+  "block.stardewravine.soapstone_pillar": "Soapstone Pillar",
+  "block.stardewravine.limestone_pillar": "Limestone Pillar",
+  "block.stardewravine.chiseled_esperite": "Chiseled Esperite",
+  "block.stardewravine.chiseled_marble": "Chiseled Marble",
+  "block.stardewravine.chiseled_soapstone": "Chiseled Soapstone",
+  "block.stardewravine.chiseled_limestone": "Chiseled Limestone",
+  "block.stardewravine.helvine": "Helvine",
+  "block.stardewravine.helvine_block": "Block of Helvine",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine"
 }

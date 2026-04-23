@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "stardewravine:block/chiseled_soapstone_top",
+    "side": "stardewravine:block/chiseled_soapstone"
+  }
+}

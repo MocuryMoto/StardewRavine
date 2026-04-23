@@ -66,18 +66,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_ESPERITE);
                         entries.add(ModBlocks.SMOOTH_ESPERITE);
                         entries.add(ModBlocks.ESPERITE_BRICKS);
+                        entries.add(ModBlocks.ESPERITE_PILLAR);
+                        entries.add(ModBlocks.CHISELED_ESPERITE);
                         entries.add(ModBlocks.MARBLE);
                         entries.add(ModBlocks.POLISHED_MARBLE);
                         entries.add(ModBlocks.SMOOTH_MARBLE);
                         entries.add(ModBlocks.MARBLE_BRICKS);
+                        entries.add(ModBlocks.MARBLE_PILLAR);
+                        entries.add(ModBlocks.CHISELED_MARBLE);
                         entries.add(ModBlocks.SOAPSTONE);
                         entries.add(ModBlocks.POLISHED_SOAPSTONE);
                         entries.add(ModBlocks.SMOOTH_SOAPSTONE);
                         entries.add(ModBlocks.SOAPSTONE_BRICKS);
+                        entries.add(ModBlocks.SOAPSTONE_PILLAR);
+                        entries.add(ModBlocks.CHISELED_SOAPSTONE);
                         entries.add(ModBlocks.LIMESTONE);
                         entries.add(ModBlocks.POLISHED_LIMESTONE);
                         entries.add(ModBlocks.SMOOTH_LIMESTONE);
                         entries.add(ModBlocks.LIMESTONE_BRICKS);
+                        entries.add(ModBlocks.LIMESTONE_PILLAR);
+                        entries.add(ModBlocks.CHISELED_LIMESTONE);
                         entries.add(ModItems.CINDER_SHARD);
                         entries.add(ModBlocks.CINDER_SHARD_BLOCK);
                         entries.add(ModBlocks.BUDDING_CINDER_SHARD_BLOCK);
@@ -88,6 +96,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CINDER_SHARD_ORE);
                         entries.add(ModItems.PEARL);
                         entries.add(ModBlocks.PEARL_BLOCK);
+                        entries.add(ModItems.HELVINE);
+                        entries.add(ModBlocks.HELVINE_BLOCK);
 
                     }).build());
 
