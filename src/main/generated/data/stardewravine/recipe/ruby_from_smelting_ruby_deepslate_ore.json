@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "stardew_ravine",
+  "ingredient": {
+    "item": "stardewravine:ruby_deepslate_ore"
+  },
+  "result": {
+    "id": "stardewravine:ruby"
+  }
+}

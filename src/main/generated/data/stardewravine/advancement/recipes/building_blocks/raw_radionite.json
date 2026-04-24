@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_radionite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:raw_radionite_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:raw_radionite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_radionite_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_radionite"
+    ]
+  }
+}

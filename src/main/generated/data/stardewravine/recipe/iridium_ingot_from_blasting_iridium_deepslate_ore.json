@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "stardew_ravine",
+  "ingredient": {
+    "item": "stardewravine:iridium_deepslate_ore"
+  },
+  "result": {
+    "id": "stardewravine:iridium_ingot"
+  }
+}

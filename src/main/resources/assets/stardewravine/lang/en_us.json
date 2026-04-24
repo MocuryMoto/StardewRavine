@@ -24,6 +24,7 @@
   "item.stardewravine.ancient_fruit": "Ancient Fruit",
   "item.stardewravine.cinder_shard": "Cinder Shard",
   "item.stardewravine.pearl": "Pearl",
+  "item.stardewravine.helvine": "Helvine",
 
   "block.stardewravine.aquamarine_block": "Block of Aquamarine",
   "block.stardewravine.aquamarine_ore": "Aquamarine Ore",
@@ -80,7 +81,6 @@
   "block.stardewravine.chiseled_marble": "Chiseled Marble",
   "block.stardewravine.chiseled_soapstone": "Chiseled Soapstone",
   "block.stardewravine.chiseled_limestone": "Chiseled Limestone",
-  "block.stardewravine.helvine": "Helvine",
   "block.stardewravine.helvine_block": "Block of Helvine",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine"

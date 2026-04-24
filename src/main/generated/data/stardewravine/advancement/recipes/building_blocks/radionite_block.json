@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_radionite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:radionite_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:radionite_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_radionite_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:radionite_block"
+    ]
+  }
+}
