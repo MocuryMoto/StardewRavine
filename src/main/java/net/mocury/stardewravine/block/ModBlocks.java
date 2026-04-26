@@ -186,6 +186,24 @@ public class ModBlocks {
     public static final Block POLISHED_LIMESTONE_WALL = registerBlock("polished_limestone_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
 
+    public static final Block FIRE_QUARTZ_BLOCK = registerBlock("fire_quartz_block",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block SMOOTH_FIRE_QUARTZ_BLOCK = registerBlock("smooth_fire_quartz_block",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block FIRE_QUARTZ_BRICKS = registerBlock("fire_quartz_bricks",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block FIRE_QUARTZ_PILLAR = registerBlock("fire_quartz_pillar",
+            new PillarBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block CHISELED_FIRE_QUARTZ  = registerBlock("chiseled_fire_quartz",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block FIRE_QUARTZ_SLAB = registerBlock("fire_quartz_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block FIRE_QUARTZ_STAIRS = registerBlock("fire_quartz_stairs",
+            new StairsBlock(ModBlocks.FIRE_QUARTZ_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block FIRE_QUARTZ_ORE = registerBlock("fire_quartz_ore",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+
     public static final Block BUDDING_CINDER_SHARD_BLOCK = registerBlock("budding_cinder_shard_block",
             new BuddingCinderShardBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block CINDER_SHARD_BLOCK = registerBlock("cinder_shard_block",

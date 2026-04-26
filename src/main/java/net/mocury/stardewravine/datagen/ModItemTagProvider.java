@@ -21,6 +21,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.TOPAZ)
                 .add(ModItems.JADE)
                 .add(ModItems.RUBY)
+                .add(ModItems.FIRE_QUARTZ)
                 .add(ModItems.HELVINE)
                 .add(Items.EMERALD)
                 .add(Items.DIAMOND)

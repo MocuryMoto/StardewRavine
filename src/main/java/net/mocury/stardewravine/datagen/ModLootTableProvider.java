@@ -79,6 +79,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POLISHED_MARBLE_WALL);
         addDrop(ModBlocks.POLISHED_SOAPSTONE_WALL);
         addDrop(ModBlocks.POLISHED_LIMESTONE_WALL);
+
         addDrop(ModBlocks.ESPERITE_SLAB, slabDrops(ModBlocks.ESPERITE_SLAB));
         addDrop(ModBlocks.MARBLE_SLAB, slabDrops(ModBlocks.MARBLE_SLAB));
         addDrop(ModBlocks.SOAPSTONE_SLAB, slabDrops(ModBlocks.SOAPSTONE_SLAB));
@@ -104,6 +105,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.CINDER_SHARD_ORE, multipleOreDrops(ModBlocks.CINDER_SHARD_ORE, ModItems.CINDER_SHARD, 2,5));
         addDrop(ModBlocks.CINDER_CLUSTER, multipleOreDrops(ModBlocks.CINDER_CLUSTER, ModItems.CINDER_SHARD, 1,4));
+        addDrop(ModBlocks.FIRE_QUARTZ_ORE, multipleOreDrops(ModBlocks.FIRE_QUARTZ_ORE, ModItems.FIRE_QUARTZ, 2,4));
 
         addDropWithSilkTouch(ModBlocks.LARGE_CINDER_BUD);
         addDropWithSilkTouch(ModBlocks.MEDIUM_CINDER_BUD);

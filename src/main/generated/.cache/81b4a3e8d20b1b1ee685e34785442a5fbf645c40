@@ -1,4 +1,4 @@
-// 1.21	2026-04-26T12:06:31.3740114	Stardew Ravine/Block Loot Tables
+// 1.21	2026-04-26T14:03:14.050542	Stardew Ravine/Block Loot Tables
 cd7d5bdc2052b37a91425ad463d43c8ae7c9a188 data\stardewravine\loot_table\blocks\polished_limestone.json
 5094dd1e6cd8c3e921e81dd8712e8dfa677678a6 data\stardewravine\loot_table\blocks\aquamarine_block.json
 3a83f9af6aa2a76932dfb6fc5858ee8ff86f314e data\stardewravine\loot_table\blocks\refined_quartz_block.json
@@ -13,6 +13,7 @@ fb08509409734f3b2406bb60868a023e0a541e40 data\stardewravine\loot_table\blocks\sm
 937f114d80691b44927dd9ebf735994d1c91b8bd data\stardewravine\loot_table\blocks\esperite_slab.json
 fa945d98dcd3f4528fe423c8c33f36d54f942bca data\stardewravine\loot_table\blocks\marble_slab.json
 8a7f34622deb975bf6646845fb0889005f602712 data\stardewravine\loot_table\blocks\polished_marble.json
+befecfe1de14692728511da161e6d15ec61c3384 data\stardewravine\loot_table\blocks\fire_quartz_ore.json
 3b20ca8797ca7106cde1e39b8778a51f135a19e3 data\stardewravine\loot_table\blocks\ruby_block.json
 562f00e03a6d75509dccba9df4055442ecbb470e data\stardewravine\loot_table\blocks\polished_esperite.json
 b513d2fb5b781eaca28c4e3a6db315f0e00bfe09 data\stardewravine\loot_table\blocks\topaz_block.json

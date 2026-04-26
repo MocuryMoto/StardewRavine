@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardewravine:block/fire_quartz_slab"
+    },
+    "type=double": {
+      "model": "stardewravine:block/fire_quartz_block"
+    },
+    "type=top": {
+      "model": "stardewravine:block/fire_quartz_slab_top"
+    }
+  }
+}

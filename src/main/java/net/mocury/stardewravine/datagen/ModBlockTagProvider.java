@@ -79,7 +79,32 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SOAPSTONE_WALL)
                 .add(ModBlocks.POLISHED_SOAPSTONE_WALL)
                 .add(ModBlocks.LIMESTONE_WALL)
-                .add(ModBlocks.POLISHED_LIMESTONE_WALL);
+                .add(ModBlocks.POLISHED_LIMESTONE_WALL)
+                .add(ModBlocks.FIRE_QUARTZ_BLOCK)
+                .add(ModBlocks.SMOOTH_FIRE_QUARTZ_BLOCK)
+                .add(ModBlocks.FIRE_QUARTZ_BRICKS)
+                .add(ModBlocks.FIRE_QUARTZ_PILLAR)
+                .add(ModBlocks.CHISELED_FIRE_QUARTZ)
+                .add(ModBlocks.FIRE_QUARTZ_SLAB)
+                .add(ModBlocks.FIRE_QUARTZ_STAIRS)
+                .add(ModBlocks.FIRE_QUARTZ_ORE)
+                .add(ModBlocks.ESPERITE_SLAB)
+                .add(ModBlocks.POLISHED_ESPERITE_SLAB)
+                .add(ModBlocks.ESPERITE_STAIRS)
+                .add(ModBlocks.POLISHED_ESPERITE_STAIRS)
+                .add(ModBlocks.MARBLE_SLAB)
+                .add(ModBlocks.POLISHED_MARBLE_SLAB)
+                .add(ModBlocks.MARBLE_STAIRS)
+                .add(ModBlocks.POLISHED_MARBLE_STAIRS)
+                .add(ModBlocks.SOAPSTONE_SLAB)
+                .add(ModBlocks.POLISHED_SOAPSTONE_SLAB)
+                .add(ModBlocks.SOAPSTONE_STAIRS)
+                .add(ModBlocks.POLISHED_SOAPSTONE_STAIRS)
+                .add(ModBlocks.LIMESTONE_SLAB)
+                .add(ModBlocks.POLISHED_LIMESTONE_SLAB)
+                .add(ModBlocks.LIMESTONE_STAIRS)
+                .add(ModBlocks.POLISHED_LIMESTONE_STAIRS)
+        ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.AQUAMARINE_BLOCK)
@@ -96,7 +121,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.RUBY_DEEPSLATE_ORE)
                 .add(ModBlocks.NETHER_RUBY_ORE)
-                .add(ModBlocks.CINDER_SHARD_ORE);
+                .add(ModBlocks.CINDER_SHARD_ORE)
+                .add(ModBlocks.FIRE_QUARTZ_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.NETHER_RADIONITE_ORE)

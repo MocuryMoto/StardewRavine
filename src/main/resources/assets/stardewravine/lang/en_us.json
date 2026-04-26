@@ -25,6 +25,7 @@
   "item.stardewravine.cinder_shard": "Cinder Shard",
   "item.stardewravine.pearl": "Pearl",
   "item.stardewravine.helvine": "Helvine",
+  "item.stardewravine.fire_quartz": "Fire Quartz",
 
   "block.stardewravine.aquamarine_block": "Block of Aquamarine",
   "block.stardewravine.aquamarine_ore": "Aquamarine Ore",
@@ -106,6 +107,14 @@
   "block.stardewravine.chiseled_soapstone": "Chiseled Soapstone",
   "block.stardewravine.chiseled_limestone": "Chiseled Limestone",
   "block.stardewravine.helvine_block": "Block of Helvine",
+  "block.stardewravine.fire_quartz_block": "Block of Fire Quartz",
+  "block.stardewravine.smooth_fire_quartz_block": "Smooth Fire Quartz",
+  "block.stardewravine.fire_quartz_bricks": "Fire Quartz Bricks",
+  "block.stardewravine.fire_quartz_pillar": "Fire Quartz Pillar",
+  "block.stardewravine.chiseled_fire_quartz": "Chiseled Fire Quartz",
+  "block.stardewravine.fire_quartz_slab": "Fire Quartz Slab",
+  "block.stardewravine.fire_quartz_stairs": "Fire Quartz Stairs",
+  "block.stardewravine.fire_quartz_ore": "Fire Quartz Ore",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine"
 }

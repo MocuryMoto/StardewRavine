@@ -38,7 +38,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         List<ItemConvertible> RADIONITE_SMELTABLES = List.of(ModBlocks.NETHER_RADIONITE_ORE, ModItems.RAW_RADIONITE);
         offerSmelting(exporter, RADIONITE_SMELTABLES, RecipeCategory.MISC, ModItems.RADIONITE_INGOT, 1f, 200, "stardew_ravine");
         offerBlasting(exporter, RADIONITE_SMELTABLES, RecipeCategory.MISC, ModItems.RADIONITE_INGOT, 1f, 100, "stardew_ravine");
-        List<ItemConvertible> REFINED_QUARTZ_SMELTABLES = List.of(Items.QUARTZ);
+        List<ItemConvertible> REFINED_QUARTZ_SMELTABLES = List.of(ModItems.FIRE_QUARTZ, Items.QUARTZ);
         offerSmelting(exporter, REFINED_QUARTZ_SMELTABLES, RecipeCategory.MISC, ModItems.REFINED_QUARTZ, 0.1f, 200, "stardew_ravine");
         offerBlasting(exporter, REFINED_QUARTZ_SMELTABLES, RecipeCategory.MISC, ModItems.REFINED_QUARTZ, 0.1f, 100, "stardew_ravine");
 

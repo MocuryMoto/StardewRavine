@@ -49,6 +49,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_IRIDIUM_BLOCK);
                         entries.add(ModBlocks.IRIDIUM_DEEPSLATE_ORE);
                         entries.add(ModBlocks.NETHER_IRIDIUM_ORE);
+                        entries.add(ModItems.FIRE_QUARTZ);
+                        entries.add(ModBlocks.FIRE_QUARTZ_ORE);
+                        entries.add(ModBlocks.FIRE_QUARTZ_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_FIRE_QUARTZ_BLOCK);
+                        entries.add(ModBlocks.FIRE_QUARTZ_BRICKS);
+                        entries.add(ModBlocks.FIRE_QUARTZ_PILLAR);
+                        entries.add(ModBlocks.CHISELED_FIRE_QUARTZ);
+                        entries.add(ModBlocks.FIRE_QUARTZ_STAIRS);
+                        entries.add(ModBlocks.FIRE_QUARTZ_SLAB);
                         entries.add(ModItems.REFINED_QUARTZ);
                         entries.add(ModBlocks.REFINED_QUARTZ_BLOCK);
                         entries.add(ModItems.FAIRY_BOX);
