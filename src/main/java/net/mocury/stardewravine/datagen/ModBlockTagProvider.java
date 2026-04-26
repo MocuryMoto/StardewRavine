@@ -71,7 +71,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SMALL_CINDER_BUD)
                 .add(ModBlocks.CINDER_SHARD_ORE)
                 .add(ModBlocks.HELVINE_BLOCK)
-                .add(ModBlocks.PEARL_BLOCK);
+                .add(ModBlocks.PEARL_BLOCK)
+                .add(ModBlocks.ESPERITE_WALL)
+                .add(ModBlocks.POLISHED_ESPERITE_WALL)
+                .add(ModBlocks.MARBLE_WALL)
+                .add(ModBlocks.POLISHED_MARBLE_WALL)
+                .add(ModBlocks.SOAPSTONE_WALL)
+                .add(ModBlocks.POLISHED_SOAPSTONE_WALL)
+                .add(ModBlocks.LIMESTONE_WALL)
+                .add(ModBlocks.POLISHED_LIMESTONE_WALL);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.AQUAMARINE_BLOCK)
@@ -99,5 +107,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_IRIDIUM_BLOCK)
                 .add(ModBlocks.IRIDIUM_DEEPSLATE_ORE)
                 .add(ModBlocks.NETHER_IRIDIUM_ORE);
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.ESPERITE_WALL)
+                .add(ModBlocks.POLISHED_ESPERITE_WALL)
+                .add(ModBlocks.MARBLE_WALL)
+                .add(ModBlocks.POLISHED_MARBLE_WALL)
+                .add(ModBlocks.SOAPSTONE_WALL)
+                .add(ModBlocks.POLISHED_SOAPSTONE_WALL)
+                .add(ModBlocks.LIMESTONE_WALL)
+                .add(ModBlocks.POLISHED_LIMESTONE_WALL);
     }
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardewravine:block/esperite_slab"
+    },
+    "type=double": {
+      "model": "stardewravine:block/esperite"
+    },
+    "type=top": {
+      "model": "stardewravine:block/esperite_slab_top"
+    }
+  }
+}

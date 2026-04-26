@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "stardewravine:block/limestone",
+    "side": "stardewravine:block/limestone",
+    "top": "stardewravine:block/limestone"
+  }
+}

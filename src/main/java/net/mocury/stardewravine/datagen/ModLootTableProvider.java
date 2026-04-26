@@ -63,6 +63,30 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SOAPSTONE_BRICKS);
         addDrop(ModBlocks.SOAPSTONE_PILLAR);
         addDrop(ModBlocks.TOPAZ_BLOCK);
+        addDrop(ModBlocks.ESPERITE_STAIRS);
+        addDrop(ModBlocks.MARBLE_STAIRS);
+        addDrop(ModBlocks.SOAPSTONE_STAIRS);
+        addDrop(ModBlocks.LIMESTONE_STAIRS);
+        addDrop(ModBlocks.POLISHED_ESPERITE_STAIRS);
+        addDrop(ModBlocks.POLISHED_MARBLE_STAIRS);
+        addDrop(ModBlocks.POLISHED_SOAPSTONE_STAIRS);
+        addDrop(ModBlocks.POLISHED_LIMESTONE_STAIRS);
+        addDrop(ModBlocks.ESPERITE_WALL);
+        addDrop(ModBlocks.MARBLE_WALL);
+        addDrop(ModBlocks.SOAPSTONE_WALL);
+        addDrop(ModBlocks.LIMESTONE_WALL);
+        addDrop(ModBlocks.POLISHED_ESPERITE_WALL);
+        addDrop(ModBlocks.POLISHED_MARBLE_WALL);
+        addDrop(ModBlocks.POLISHED_SOAPSTONE_WALL);
+        addDrop(ModBlocks.POLISHED_LIMESTONE_WALL);
+        addDrop(ModBlocks.ESPERITE_SLAB, slabDrops(ModBlocks.ESPERITE_SLAB));
+        addDrop(ModBlocks.MARBLE_SLAB, slabDrops(ModBlocks.MARBLE_SLAB));
+        addDrop(ModBlocks.SOAPSTONE_SLAB, slabDrops(ModBlocks.SOAPSTONE_SLAB));
+        addDrop(ModBlocks.LIMESTONE_SLAB, slabDrops(ModBlocks.LIMESTONE_SLAB));
+        addDrop(ModBlocks.POLISHED_ESPERITE_SLAB, slabDrops(ModBlocks.POLISHED_ESPERITE_SLAB));
+        addDrop(ModBlocks.POLISHED_MARBLE_SLAB, slabDrops(ModBlocks.POLISHED_MARBLE_SLAB));
+        addDrop(ModBlocks.POLISHED_SOAPSTONE_SLAB, slabDrops(ModBlocks.POLISHED_SOAPSTONE_SLAB));
+        addDrop(ModBlocks.POLISHED_LIMESTONE_SLAB, slabDrops(ModBlocks.POLISHED_LIMESTONE_SLAB));
 
         addDrop(ModBlocks.AQUAMARINE_ORE, oreDrops(ModBlocks.AQUAMARINE_ORE, ModItems.AQUAMARINE));
         addDrop(ModBlocks.AQUAMARINE_DEEPSLATE_ORE, oreDrops(ModBlocks.AQUAMARINE_DEEPSLATE_ORE, ModItems.AQUAMARINE));
@@ -79,8 +103,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NETHER_IRIDIUM_ORE, oreDrops(ModBlocks.NETHER_IRIDIUM_ORE, ModItems.RAW_IRIDIUM));
 
         addDrop(ModBlocks.CINDER_SHARD_ORE, multipleOreDrops(ModBlocks.CINDER_SHARD_ORE, ModItems.CINDER_SHARD, 2,5));
+        addDrop(ModBlocks.CINDER_CLUSTER, multipleOreDrops(ModBlocks.CINDER_CLUSTER, ModItems.CINDER_SHARD, 1,4));
 
-        addDropWithSilkTouch(ModBlocks.CINDER_CLUSTER);
         addDropWithSilkTouch(ModBlocks.LARGE_CINDER_BUD);
         addDropWithSilkTouch(ModBlocks.MEDIUM_CINDER_BUD);
         addDropWithSilkTouch(ModBlocks.SMALL_CINDER_BUD);

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardewravine:block/marble_slab"
+    },
+    "type=double": {
+      "model": "stardewravine:block/marble"
+    },
+    "type=top": {
+      "model": "stardewravine:block/marble_slab_top"
+    }
+  }
+}

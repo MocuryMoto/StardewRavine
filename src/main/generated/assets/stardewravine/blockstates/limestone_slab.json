@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardewravine:block/limestone_slab"
+    },
+    "type=double": {
+      "model": "stardewravine:block/limestone"
+    },
+    "type=top": {
+      "model": "stardewravine:block/limestone_slab_top"
+    }
+  }
+}

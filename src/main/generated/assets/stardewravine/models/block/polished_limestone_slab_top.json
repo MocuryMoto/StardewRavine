@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "stardewravine:block/polished_limestone",
+    "side": "stardewravine:block/polished_limestone",
+    "top": "stardewravine:block/polished_limestone"
+  }
+}

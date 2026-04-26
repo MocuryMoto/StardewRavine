@@ -1,10 +1,7 @@
 package net.mocury.stardewravine.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
-import net.minecraft.block.PillarBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -85,53 +82,109 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block ESPERITE = registerBlock("esperite",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block POLISHED_ESPERITE = registerBlock("polished_esperite",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block SMOOTH_ESPERITE = registerBlock("smooth_esperite",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block ESPERITE_BRICKS = registerBlock("esperite_bricks",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block ESPERITE_PILLAR = registerBlock("esperite_pillar",
-            new PillarBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new PillarBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block CHISELED_ESPERITE = registerBlock("chiseled_esperite",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block ESPERITE_SLAB = registerBlock("esperite_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block ESPERITE_STAIRS = registerBlock("esperite_stairs",
+            new StairsBlock(ModBlocks.ESPERITE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block ESPERITE_WALL = registerBlock("esperite_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block POLISHED_ESPERITE_SLAB = registerBlock("polished_esperite_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block POLISHED_ESPERITE_STAIRS = registerBlock("polished_esperite_stairs",
+            new StairsBlock(ModBlocks.POLISHED_ESPERITE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block POLISHED_ESPERITE_WALL = registerBlock("polished_esperite_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block MARBLE = registerBlock("marble",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block POLISHED_MARBLE = registerBlock("polished_marble",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block SMOOTH_MARBLE = registerBlock("smooth_marble",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block MARBLE_BRICKS = registerBlock("marble_bricks",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block MARBLE_PILLAR = registerBlock("marble_pillar",
-            new PillarBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new PillarBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block CHISELED_MARBLE = registerBlock("chiseled_marble",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block MARBLE_SLAB = registerBlock("marble_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block MARBLE_STAIRS = registerBlock("marble_stairs",
+            new StairsBlock(ModBlocks.MARBLE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block MARBLE_WALL = registerBlock("marble_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block POLISHED_MARBLE_SLAB = registerBlock("polished_marble_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block POLISHED_MARBLE_STAIRS = registerBlock("polished_marble_stairs",
+            new StairsBlock(ModBlocks.POLISHED_MARBLE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block POLISHED_MARBLE_WALL = registerBlock("polished_marble_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block SOAPSTONE = registerBlock("soapstone",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block POLISHED_SOAPSTONE = registerBlock("polished_soapstone",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block SMOOTH_SOAPSTONE = registerBlock("smooth_soapstone",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block SOAPSTONE_BRICKS = registerBlock("soapstone_bricks",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block SOAPSTONE_PILLAR = registerBlock("soapstone_pillar",
-            new PillarBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new PillarBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block CHISELED_SOAPSTONE = registerBlock("chiseled_soapstone",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block SOAPSTONE_SLAB = registerBlock("soapstone_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block SOAPSTONE_STAIRS = registerBlock("soapstone_stairs",
+            new StairsBlock(ModBlocks.SOAPSTONE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block SOAPSTONE_WALL = registerBlock("soapstone_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block POLISHED_SOAPSTONE_SLAB = registerBlock("polished_soapstone_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block POLISHED_SOAPSTONE_STAIRS = registerBlock("polished_soapstone_stairs",
+            new StairsBlock(ModBlocks.POLISHED_SOAPSTONE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block POLISHED_SOAPSTONE_WALL = registerBlock("polished_soapstone_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block LIMESTONE = registerBlock("limestone",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block POLISHED_LIMESTONE = registerBlock("polished_limestone",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block SMOOTH_LIMESTONE = registerBlock("smooth_limestone",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block LIMESTONE_BRICKS = registerBlock("limestone_bricks",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block LIMESTONE_PILLAR = registerBlock("limestone_pillar",
-            new PillarBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new PillarBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block CHISELED_LIMESTONE = registerBlock("chiseled_limestone",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block LIMESTONE_SLAB = registerBlock("limestone_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block LIMESTONE_STAIRS = registerBlock("limestone_stairs",
+            new StairsBlock(ModBlocks.LIMESTONE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block LIMESTONE_WALL = registerBlock("limestone_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block POLISHED_LIMESTONE_SLAB = registerBlock("polished_limestone_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block POLISHED_LIMESTONE_STAIRS = registerBlock("polished_limestone_stairs",
+            new StairsBlock(ModBlocks.POLISHED_LIMESTONE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block POLISHED_LIMESTONE_WALL = registerBlock("polished_limestone_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
 
     public static final Block BUDDING_CINDER_SHARD_BLOCK = registerBlock("budding_cinder_shard_block",
             new BuddingCinderShardBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).pistonBehavior(PistonBehavior.BLOCK)));

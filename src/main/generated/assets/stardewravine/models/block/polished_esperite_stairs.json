@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "stardewravine:block/polished_esperite",
+    "side": "stardewravine:block/polished_esperite",
+    "top": "stardewravine:block/polished_esperite"
+  }
+}

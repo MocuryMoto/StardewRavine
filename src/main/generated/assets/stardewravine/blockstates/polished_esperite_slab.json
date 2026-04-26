@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardewravine:block/polished_esperite_slab"
+    },
+    "type=double": {
+      "model": "stardewravine:block/polished_esperite"
+    },
+    "type=top": {
+      "model": "stardewravine:block/polished_esperite_slab_top"
+    }
+  }
+}

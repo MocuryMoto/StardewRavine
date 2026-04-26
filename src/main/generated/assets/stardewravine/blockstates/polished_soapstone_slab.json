@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardewravine:block/polished_soapstone_slab"
+    },
+    "type=double": {
+      "model": "stardewravine:block/polished_soapstone"
+    },
+    "type=top": {
+      "model": "stardewravine:block/polished_soapstone_slab_top"
+    }
+  }
+}

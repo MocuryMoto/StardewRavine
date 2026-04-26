@@ -38,20 +38,20 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.IRIDIUM_DEEPSLATE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_IRIDIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PEARL_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ESPERITE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_ESPERITE);
+        BlockStateModelGenerator.BlockTexturePool esperitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ESPERITE);
+        BlockStateModelGenerator.BlockTexturePool polishedEsperitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_ESPERITE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_ESPERITE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ESPERITE_BRICKS);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MARBLE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_MARBLE);
+        BlockStateModelGenerator.BlockTexturePool marblePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MARBLE);
+        BlockStateModelGenerator.BlockTexturePool polishedMarblePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_MARBLE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_MARBLE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MARBLE_BRICKS);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOAPSTONE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_SOAPSTONE);
+        BlockStateModelGenerator.BlockTexturePool soapstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SOAPSTONE);
+        BlockStateModelGenerator.BlockTexturePool polishedSoapstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_SOAPSTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_SOAPSTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOAPSTONE_BRICKS);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIMESTONE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_LIMESTONE);
+        BlockStateModelGenerator.BlockTexturePool limestonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LIMESTONE);
+        BlockStateModelGenerator.BlockTexturePool polishedLimestonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_LIMESTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_LIMESTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIMESTONE_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BUDDING_CINDER_SHARD_BLOCK);
@@ -60,6 +60,31 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerAmethyst(ModBlocks.LARGE_CINDER_BUD);
         blockStateModelGenerator.registerAmethyst(ModBlocks.MEDIUM_CINDER_BUD);
         blockStateModelGenerator.registerAmethyst(ModBlocks.SMALL_CINDER_BUD);
+
+        esperitePool.stairs(ModBlocks.ESPERITE_STAIRS);
+        esperitePool.slab(ModBlocks.ESPERITE_SLAB);
+        esperitePool.wall(ModBlocks.ESPERITE_WALL);
+        polishedEsperitePool.stairs(ModBlocks.POLISHED_ESPERITE_STAIRS);
+        polishedEsperitePool.slab(ModBlocks.POLISHED_ESPERITE_SLAB);
+        polishedEsperitePool.wall(ModBlocks.POLISHED_ESPERITE_WALL);
+        marblePool.stairs(ModBlocks.MARBLE_STAIRS);
+        marblePool.slab(ModBlocks.MARBLE_SLAB);
+        marblePool.wall(ModBlocks.MARBLE_WALL);
+        polishedMarblePool.stairs(ModBlocks.POLISHED_MARBLE_STAIRS);
+        polishedMarblePool.slab(ModBlocks.POLISHED_MARBLE_SLAB);
+        polishedMarblePool.wall(ModBlocks.POLISHED_MARBLE_WALL);
+        soapstonePool.stairs(ModBlocks.SOAPSTONE_STAIRS);
+        soapstonePool.slab(ModBlocks.SOAPSTONE_SLAB);
+        soapstonePool.wall(ModBlocks.SOAPSTONE_WALL);
+        polishedSoapstonePool.stairs(ModBlocks.POLISHED_SOAPSTONE_STAIRS);
+        polishedSoapstonePool.slab(ModBlocks.POLISHED_SOAPSTONE_SLAB);
+        polishedSoapstonePool.wall(ModBlocks.POLISHED_SOAPSTONE_WALL);
+        limestonePool.stairs(ModBlocks.LIMESTONE_STAIRS);
+        limestonePool.slab(ModBlocks.LIMESTONE_SLAB);
+        limestonePool.wall(ModBlocks.LIMESTONE_WALL);
+        polishedLimestonePool.stairs(ModBlocks.POLISHED_LIMESTONE_STAIRS);
+        polishedLimestonePool.slab(ModBlocks.POLISHED_LIMESTONE_SLAB);
+        polishedLimestonePool.wall(ModBlocks.POLISHED_LIMESTONE_WALL);
     }
 
     @Override
