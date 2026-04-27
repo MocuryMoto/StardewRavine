@@ -36,6 +36,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ESPERITE_BRICKS);
         addDrop(ModBlocks.ESPERITE_PILLAR);
         addDrop(ModBlocks.HELVINE_BLOCK);
+        addDrop(ModBlocks.POLISHED_HELVINE);
         addDrop(ModBlocks.IRIDIUM_BLOCK);
         addDrop(ModBlocks.JADE_BLOCK);
         addDrop(ModBlocks.LIMESTONE);
@@ -79,6 +80,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POLISHED_MARBLE_WALL);
         addDrop(ModBlocks.POLISHED_SOAPSTONE_WALL);
         addDrop(ModBlocks.POLISHED_LIMESTONE_WALL);
+        addDrop(ModBlocks.LEMON_STONE_BLOCK);
+        addDrop(ModBlocks.POLISHED_LEMON_STONE);
+        addDrop(ModBlocks.TIGERS_EYE_BLOCK);
+        addDrop(ModBlocks.POLISHED_TIGERS_EYE);
+        addDrop(ModBlocks.KYANITE_BLOCK);
+        addDrop(ModBlocks.POLISHED_KYANITE);
 
         addDrop(ModBlocks.ESPERITE_SLAB, slabDrops(ModBlocks.ESPERITE_SLAB));
         addDrop(ModBlocks.MARBLE_SLAB, slabDrops(ModBlocks.MARBLE_SLAB));

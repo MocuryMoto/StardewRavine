@@ -6,9 +6,13 @@
     "stardewravine:ruby",
     "stardewravine:fire_quartz",
     "stardewravine:helvine",
+    "stardewravine:lemon_stone",
+    "stardewravine:tigers_eye",
+    "stardewravine:kyanite",
     "minecraft:emerald",
     "minecraft:diamond",
     "minecraft:lapis_lazuli",
-    "minecraft:quartz"
+    "minecraft:quartz",
+    "minecraft:amethyst_shard"
   ]
 }

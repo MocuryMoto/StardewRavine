@@ -23,9 +23,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.RUBY)
                 .add(ModItems.FIRE_QUARTZ)
                 .add(ModItems.HELVINE)
+                .add(ModItems.LEMON_STONE)
+                .add(ModItems.TIGERS_EYE)
+                .add(ModItems.KYANITE)
                 .add(Items.EMERALD)
                 .add(Items.DIAMOND)
                 .add(Items.LAPIS_LAZULI)
-                .add(Items.QUARTZ);
+                .add(Items.QUARTZ)
+                .add(Items.AMETHYST_SHARD)
+        ;
     }
 }

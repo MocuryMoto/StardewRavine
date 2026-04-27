@@ -22,8 +22,12 @@ public class ModItems {
     public static final Item RAW_IRIDIUM = registerItem("raw_iridium", new Item(new Item.Settings()));
     public static final Item CINDER_SHARD = registerItem("cinder_shard", new Item(new Item.Settings()));
     public static final Item PEARL = registerItem("pearl", new Item(new Item.Settings()));
-    public static final Item HELVINE = registerItem("helvine", new Item(new Item.Settings()));
     public static final Item FIRE_QUARTZ = registerItem("fire_quartz", new Item(new Item.Settings()));
+
+    public static final Item HELVINE = registerItem("helvine", new Item(new Item.Settings()));
+    public static final Item LEMON_STONE = registerItem("lemon_stone", new Item(new Item.Settings()));
+    public static final Item TIGERS_EYE = registerItem("tigers_eye", new Item(new Item.Settings()));
+    public static final Item KYANITE = registerItem("kyanite", new Item(new Item.Settings()));
 
     public static final Item FAIRY_BOX = registerItem("fairy_box", new FairyBoxItem(new Item.Settings()));
     public static final Item MAGIC_QUIVER = registerItem("magic_quiver", new MagicQuiverItem(new Item.Settings()));

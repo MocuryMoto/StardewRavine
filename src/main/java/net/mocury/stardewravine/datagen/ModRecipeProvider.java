@@ -46,12 +46,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.JADE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JADE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.TOPAZ, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TOPAZ_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RUBY, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_BLOCK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.HELVINE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.HELVINE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PEARL, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEARL_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PRISMATIC_SHARD, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PRISMATIC_SHARD_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.IRIDIUM_INGOT, RecipeCategory.BUILDING_BLOCKS, ModBlocks.IRIDIUM_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_IRIDIUM, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RAW_IRIDIUM_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RADIONITE_INGOT, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RADIONITE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_RADIONITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RAW_RADIONITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.HELVINE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.HELVINE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LEMON_STONE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEMON_STONE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.TIGERS_EYE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TIGERS_EYE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.KYANITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.KYANITE_BLOCK);
     }
 }

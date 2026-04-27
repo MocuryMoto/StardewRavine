@@ -78,7 +78,22 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(7f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
     public static final Block PEARL_BLOCK = registerBlock("pearl_block",
             new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
     public static final Block HELVINE_BLOCK = registerBlock("helvine_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_HELVINE = registerBlock("polished_helvine",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block LEMON_STONE_BLOCK = registerBlock("lemon_stone_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_LEMON_STONE = registerBlock("polished_lemon_stone",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block TIGERS_EYE_BLOCK = registerBlock("tigers_eye_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_TIGERS_EYE = registerBlock("polished_tigers_eye",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block KYANITE_BLOCK = registerBlock("kyanite_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_KYANITE = registerBlock("polished_kyanite",
             new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block ESPERITE = registerBlock("esperite",

@@ -104,6 +104,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_LIMESTONE_SLAB)
                 .add(ModBlocks.LIMESTONE_STAIRS)
                 .add(ModBlocks.POLISHED_LIMESTONE_STAIRS)
+                .add(ModBlocks.POLISHED_HELVINE)
+                .add(ModBlocks.LEMON_STONE_BLOCK)
+                .add(ModBlocks.POLISHED_LEMON_STONE)
+                .add(ModBlocks.TIGERS_EYE_BLOCK)
+                .add(ModBlocks.POLISHED_TIGERS_EYE)
+                .add(ModBlocks.KYANITE_BLOCK)
+                .add(ModBlocks.POLISHED_KYANITE)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
@@ -122,7 +129,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_DEEPSLATE_ORE)
                 .add(ModBlocks.NETHER_RUBY_ORE)
                 .add(ModBlocks.CINDER_SHARD_ORE)
-                .add(ModBlocks.FIRE_QUARTZ_ORE);
+                .add(ModBlocks.FIRE_QUARTZ_ORE)
+        ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.NETHER_RADIONITE_ORE)
@@ -132,7 +140,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.IRIDIUM_BLOCK)
                 .add(ModBlocks.RAW_IRIDIUM_BLOCK)
                 .add(ModBlocks.IRIDIUM_DEEPSLATE_ORE)
-                .add(ModBlocks.NETHER_IRIDIUM_ORE);
+                .add(ModBlocks.NETHER_IRIDIUM_ORE)
+        ;
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.ESPERITE_WALL)
@@ -142,6 +151,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SOAPSTONE_WALL)
                 .add(ModBlocks.POLISHED_SOAPSTONE_WALL)
                 .add(ModBlocks.LIMESTONE_WALL)
-                .add(ModBlocks.POLISHED_LIMESTONE_WALL);
+                .add(ModBlocks.POLISHED_LIMESTONE_WALL)
+        ;
     }
 }

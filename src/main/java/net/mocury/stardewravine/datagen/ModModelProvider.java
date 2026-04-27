@@ -59,6 +59,13 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_FIRE_QUARTZ_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIRE_QUARTZ_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIRE_QUARTZ_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_HELVINE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LEMON_STONE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_LEMON_STONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIGERS_EYE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_TIGERS_EYE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.KYANITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_KYANITE);
 
         blockStateModelGenerator.registerAmethyst(ModBlocks.CINDER_CLUSTER);
         blockStateModelGenerator.registerAmethyst(ModBlocks.LARGE_CINDER_BUD);
@@ -107,8 +114,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_IRIDIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.CINDER_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.PEARL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.HELVINE, Models.GENERATED);
         itemModelGenerator.register(ModItems.FIRE_QUARTZ, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.HELVINE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEMON_STONE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIGERS_EYE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KYANITE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.FAIRY_BOX, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAGIC_QUIVER, Models.GENERATED);

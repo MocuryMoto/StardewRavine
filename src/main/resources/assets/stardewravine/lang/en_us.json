@@ -26,6 +26,9 @@
   "item.stardewravine.pearl": "Pearl",
   "item.stardewravine.helvine": "Helvine",
   "item.stardewravine.fire_quartz": "Fire Quartz",
+  "item.stardewravine.lemon_stone": "Lemon Stone",
+  "item.stardewravine.tigers_eye": "Tiger's Eye",
+  "item.stardewravine.kyanite": "Kyanite",
 
   "block.stardewravine.aquamarine_block": "Block of Aquamarine",
   "block.stardewravine.aquamarine_ore": "Aquamarine Ore",
@@ -115,6 +118,13 @@
   "block.stardewravine.fire_quartz_slab": "Fire Quartz Slab",
   "block.stardewravine.fire_quartz_stairs": "Fire Quartz Stairs",
   "block.stardewravine.fire_quartz_ore": "Fire Quartz Ore",
+  "block.stardewravine.polished_helvine": "Polished Helvine",
+  "block.stardewravine.lemon_stone_block": "Lemon Stone Block",
+  "block.stardewravine.polished_lemon_stone": "Polished Lemon Stone",
+  "block.stardewravine.tigers_eye_block": "Block of Tiger's Eye",
+  "block.stardewravine.polished_tigers_eye": "Polished Tiger's Eye",
+  "block.stardewravine.kyanite_block": "Block of Kyanite",
+  "block.stardewravine.polished_kyanite": "Polished Kyanite",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine"
 }

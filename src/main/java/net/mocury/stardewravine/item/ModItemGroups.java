@@ -131,6 +131,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PEARL_BLOCK);
                         entries.add(ModItems.HELVINE);
                         entries.add(ModBlocks.HELVINE_BLOCK);
+                        entries.add(ModBlocks.POLISHED_HELVINE);
+                        entries.add(ModItems.LEMON_STONE);
+                        entries.add(ModBlocks.LEMON_STONE_BLOCK);
+                        entries.add(ModBlocks.POLISHED_LEMON_STONE);
+                        entries.add(ModItems.TIGERS_EYE);
+                        entries.add(ModBlocks.TIGERS_EYE_BLOCK);
+                        entries.add(ModBlocks.POLISHED_TIGERS_EYE);
+                        entries.add(ModItems.KYANITE);
+                        entries.add(ModBlocks.KYANITE_BLOCK);
+                        entries.add(ModBlocks.POLISHED_KYANITE);
 
                     }).build());
 
