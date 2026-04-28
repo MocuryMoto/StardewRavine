@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jagoite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:jagoite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:jagoite_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_jagoite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:jagoite_block"
+    ]
+  }
+}

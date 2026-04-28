@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "stardewravine:aerinite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "stardewravine:aerinite"
+  }
+}

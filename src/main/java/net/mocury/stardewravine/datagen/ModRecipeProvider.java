@@ -56,5 +56,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LEMON_STONE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEMON_STONE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.TIGERS_EYE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TIGERS_EYE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.KYANITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.KYANITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PYRITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PYRITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.FLUORAPATITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORAPATITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.JAGOITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JAGOITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.CELESTINE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CELESTINE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.GEMINITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GEMINITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.JASPER, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JASPER_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.AERINITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AERINITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ORPIMENT, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORPIMENT_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.DOLOMITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOLOMITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.JAMBORITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JAMBORITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.NEKOITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEKOITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.NEPTUNITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEPTUNITE_BLOCK);
     }
 }

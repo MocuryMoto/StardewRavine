@@ -95,6 +95,54 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
     public static final Block POLISHED_KYANITE = registerBlock("polished_kyanite",
             new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block PYRITE_BLOCK = registerBlock("pyrite_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_PYRITE = registerBlock("polished_pyrite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block FLUORAPATITE_BLOCK = registerBlock("fluorapatite_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_FLUORAPATITE = registerBlock("polished_fluorapatite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block JAGOITE_BLOCK = registerBlock("jagoite_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_JAGOITE = registerBlock("polished_jagoite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block CELESTINE_BLOCK = registerBlock("celestine_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_CELESTINE = registerBlock("polished_celestine",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block GEMINITE_BLOCK = registerBlock("geminite_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_GEMINITE = registerBlock("polished_geminite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block JASPER_BLOCK = registerBlock("jasper_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_JASPER = registerBlock("polished_jasper",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block AERINITE_BLOCK = registerBlock("aerinite_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_AERINITE = registerBlock("polished_aerinite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block ORPIMENT_BLOCK = registerBlock("orpiment_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_ORPIMENT = registerBlock("polished_orpiment",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block DOLOMITE_BLOCK = registerBlock("dolomite_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_DOLOMITE = registerBlock("polished_dolomite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block JAMBORITE_BLOCK = registerBlock("jamborite_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_JAMBORITE = registerBlock("polished_jamborite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block NEKOITE_BLOCK = registerBlock("nekoite_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_NEKOITE = registerBlock("polished_nekoite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block NEPTUNITE_BLOCK = registerBlock("neptunite_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_NEPTUNITE = registerBlock("polished_neptunite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static final Block ESPERITE = registerBlock("esperite",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
@@ -217,7 +265,8 @@ public class ModBlocks {
             new StairsBlock(ModBlocks.FIRE_QUARTZ_BLOCK.getDefaultState(),
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block FIRE_QUARTZ_ORE = registerBlock("fire_quartz_ore",
-            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
 
     public static final Block BUDDING_CINDER_SHARD_BLOCK = registerBlock("budding_cinder_shard_block",
             new BuddingCinderShardBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).pistonBehavior(PistonBehavior.BLOCK)));

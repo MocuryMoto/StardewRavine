@@ -3,6 +3,7 @@ package net.mocury.stardewravine;
 import net.fabricmc.api.ModInitializer;
 
 import net.mocury.stardewravine.block.ModBlocks;
+import net.mocury.stardewravine.component.ModDataComponentTypes;
 import net.mocury.stardewravine.item.ModItemGroups;
 import net.mocury.stardewravine.item.ModItems;
 import org.slf4j.Logger;
@@ -18,5 +19,7 @@ public class StardewRavine implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModDataComponentTypes.registerDataComponentTypes();
 	}
 }
