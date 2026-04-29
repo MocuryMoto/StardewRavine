@@ -9,6 +9,10 @@ import net.mocury.stardewravine.StardewRavine;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> NEEDS_IRIDIUM_TOOL = createTag("needs_iridium_tool");
+        public static final TagKey<Block> INCORRECT_FOR_IRIDIUM_TOOL = createTag("incorrect_for_iridium_tool");
+        public static final TagKey<Block> NEEDS_NETHER_IRIDIUM_TOOL = createTag("needs_nether_iridium_tool");
+        public static final TagKey<Block> INCORRECT_FOR_NETHER_IRIDIUM_TOOL = createTag("incorrect_for_nether_iridium_tool");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(StardewRavine.MOD_ID, name));

@@ -3,6 +3,7 @@ package net.mocury.stardewravine.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -68,5 +69,76 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.JAMBORITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JAMBORITE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.NEKOITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEKOITE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.NEPTUNITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEPTUNITE_BLOCK);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_SWORD)
+                .pattern(" I ")
+                .pattern(" I ")
+                .pattern(" S ")
+                .input('I', ModItems.IRIDIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM_INGOT), conditionsFromItem(ModItems.IRIDIUM_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_PICKAXE)
+                .pattern("III")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('I', ModItems.IRIDIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM_INGOT), conditionsFromItem(ModItems.IRIDIUM_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_SHOVEL)
+                .pattern(" I ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('I', ModItems.IRIDIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM_INGOT), conditionsFromItem(ModItems.IRIDIUM_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_AXE)
+                .pattern("II ")
+                .pattern("IS ")
+                .pattern(" S ")
+                .input('I', ModItems.IRIDIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM_INGOT), conditionsFromItem(ModItems.IRIDIUM_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_HOE)
+                .pattern("II ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('I', ModItems.IRIDIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.IRIDIUM_INGOT), conditionsFromItem(ModItems.IRIDIUM_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_HELMET)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("   ")
+                .input('I', ModItems.IRIDIUM_INGOT)
+                .criterion(hasItem(ModItems.IRIDIUM_INGOT), conditionsFromItem(ModItems.IRIDIUM_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_CHESTPLATE)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.IRIDIUM_INGOT)
+                .criterion(hasItem(ModItems.IRIDIUM_INGOT), conditionsFromItem(ModItems.IRIDIUM_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_LEGGINGS)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.IRIDIUM_INGOT)
+                .criterion(hasItem(ModItems.IRIDIUM_INGOT), conditionsFromItem(ModItems.IRIDIUM_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_BOOTS)
+                .pattern("   ")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.IRIDIUM_INGOT)
+                .criterion(hasItem(ModItems.IRIDIUM_INGOT), conditionsFromItem(ModItems.IRIDIUM_INGOT))
+                .offerTo(exporter);
+
+
     }
 }

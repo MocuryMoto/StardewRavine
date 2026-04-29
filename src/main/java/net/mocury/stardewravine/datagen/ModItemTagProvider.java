@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 import net.mocury.stardewravine.item.ModItems;
 import net.mocury.stardewravine.util.ModTags;
 
@@ -43,6 +44,33 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.LAPIS_LAZULI)
                 .add(Items.QUARTZ)
                 .add(Items.AMETHYST_SHARD)
+        ;
+
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.IRIDIUM_SWORD)
+                .add(ModItems.NETHER_IRIDIUM_SWORD);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.IRIDIUM_PICKAXE)
+                .add(ModItems.NETHER_IRIDIUM_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.IRIDIUM_SHOVEL)
+                .add(ModItems.NETHER_IRIDIUM_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.IRIDIUM_AXE)
+                .add(ModItems.NETHER_IRIDIUM_AXE);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.IRIDIUM_HOE)
+                .add(ModItems.NETHER_IRIDIUM_HOE);
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.IRIDIUM_HELMET)
+                .add(ModItems.IRIDIUM_CHESTPLATE)
+                .add(ModItems.IRIDIUM_LEGGINGS)
+                .add(ModItems.IRIDIUM_BOOTS)
+                .add(ModItems.NETHER_IRIDIUM_HELMET)
+                .add(ModItems.NETHER_IRIDIUM_CHESTPLATE)
+                .add(ModItems.NETHER_IRIDIUM_LEGGINGS)
+                .add(ModItems.NETHER_IRIDIUM_BOOTS)
         ;
     }
 }

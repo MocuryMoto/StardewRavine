@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.item.ModItems;
 
@@ -159,17 +160,37 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.FAIRY_BOX, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAGIC_QUIVER, Models.GENERATED);
-        itemModelGenerator.register(ModItems.ICE_ROD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ICE_ROD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BASILISK_PAW, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUSTY_SPUR, Models.GENERATED);
         itemModelGenerator.register(ModItems.GOLDEN_SPUR, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUSTY_COG, Models.GENERATED);
         itemModelGenerator.register(ModItems.IRON_COG, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUSTY_SPOON, Models.GENERATED);
-        itemModelGenerator.register(ModItems.SILVER_SPOON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUSTY_SPOON, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVER_SPOON, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DRIED_STARFISH, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.STARDROP, Models.GENERATED);
         itemModelGenerator.register(ModItems.ANCIENT_FRUIT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.IRIDIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRIDIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRIDIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRIDIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRIDIUM_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHER_IRIDIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHER_IRIDIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHER_IRIDIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHER_IRIDIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHER_IRIDIUM_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.IRIDIUM_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.IRIDIUM_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.IRIDIUM_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.IRIDIUM_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NETHER_IRIDIUM_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NETHER_IRIDIUM_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NETHER_IRIDIUM_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NETHER_IRIDIUM_BOOTS));
     }
 }

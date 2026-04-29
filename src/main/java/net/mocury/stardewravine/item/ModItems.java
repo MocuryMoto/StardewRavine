@@ -1,8 +1,7 @@
 package net.mocury.stardewravine.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -52,6 +51,52 @@ public class ModItems {
     public static final Item RUSTY_SPOON = registerItem("rusty_spoon", new RustySpoonItem(new Item.Settings().maxCount(1)));
     public static final Item SILVER_SPOON = registerItem("silver_spoon", new SilverSpoonItem(new Item.Settings().maxCount(1)));
     public static final Item DRIED_STARFISH = registerItem("dried_starfish", new DriedStarfishItem(new Item.Settings().maxCount(1)));
+
+    public static final Item IRIDIUM_SWORD = registerItem("iridium_sword", new SwordItem(ModToolMaterials.IRIDIUM, new Item.Settings()
+            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.IRIDIUM, 3, -2.4f))));
+    public static final Item IRIDIUM_PICKAXE = registerItem("iridium_pickaxe", new PickaxeItem(ModToolMaterials.IRIDIUM, new Item.Settings()
+            .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.IRIDIUM, 1, -2.8f))));
+    public static final Item IRIDIUM_SHOVEL = registerItem("iridium_shovel", new ShovelItem(ModToolMaterials.IRIDIUM, new Item.Settings()
+            .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.IRIDIUM, 1.5f, -3.0f))));
+    public static final Item IRIDIUM_AXE = registerItem("iridium_axe", new AxeItem(ModToolMaterials.IRIDIUM, new Item.Settings()
+            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.IRIDIUM, 6, -3.2f))));
+    public static final Item IRIDIUM_HOE = registerItem("iridium_hoe", new HoeItem(ModToolMaterials.IRIDIUM, new Item.Settings()
+            .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.IRIDIUM, 0, -3.0f))));
+    public static final Item NETHER_IRIDIUM_SWORD = registerItem("nether_iridium_sword", new SwordItem(ModToolMaterials.NETHER_IRIDIUM, new Item.Settings()
+            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.NETHER_IRIDIUM, 3, -2.4f))));
+    public static final Item NETHER_IRIDIUM_PICKAXE = registerItem("nether_iridium_pickaxe", new PickaxeItem(ModToolMaterials.NETHER_IRIDIUM, new Item.Settings()
+            .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.NETHER_IRIDIUM, 1, -2.8f))));
+    public static final Item NETHER_IRIDIUM_SHOVEL = registerItem("nether_iridium_shovel", new ShovelItem(ModToolMaterials.NETHER_IRIDIUM, new Item.Settings()
+            .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.NETHER_IRIDIUM, 1.5f, -3.0f))));
+    public static final Item NETHER_IRIDIUM_AXE = registerItem("nether_iridium_axe", new AxeItem(ModToolMaterials.NETHER_IRIDIUM, new Item.Settings()
+            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.NETHER_IRIDIUM, 6, -3.2f))));
+    public static final Item NETHER_IRIDIUM_HOE = registerItem("nether_iridium_hoe", new HoeItem(ModToolMaterials.NETHER_IRIDIUM, new Item.Settings()
+            .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.NETHER_IRIDIUM, 0, -3.0f))));
+
+    public static final Item IRIDIUM_HELMET = registerItem("iridium_helmet",
+            new ArmorItem(ModArmorMaterials.IRIDIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(35))));
+    public static final Item IRIDIUM_CHESTPLATE = registerItem("iridium_chestplate",
+            new ArmorItem(ModArmorMaterials.IRIDIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(35))));
+    public static final Item IRIDIUM_LEGGINGS = registerItem("iridium_leggings",
+            new ArmorItem(ModArmorMaterials.IRIDIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(35))));
+    public static final Item IRIDIUM_BOOTS = registerItem("iridium_boots",
+            new ArmorItem(ModArmorMaterials.IRIDIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(35))));
+    public static final Item NETHER_IRIDIUM_HELMET = registerItem("nether_iridium_helmet",
+            new ArmorItem(ModArmorMaterials.NETHER_IRIDIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
+    public static final Item NETHER_IRIDIUM_CHESTPLATE = registerItem("nether_iridium_chestplate",
+            new ArmorItem(ModArmorMaterials.NETHER_IRIDIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(40))));
+    public static final Item NETHER_IRIDIUM_LEGGINGS = registerItem("nether_iridium_leggings",
+            new ArmorItem(ModArmorMaterials.NETHER_IRIDIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(40))));
+    public static final Item NETHER_IRIDIUM_BOOTS = registerItem("nether_iridium_boots",
+            new ArmorItem(ModArmorMaterials.NETHER_IRIDIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
 
     public static final Item STARDROP = registerItem("stardrop", new Item(new Item.Settings().food(ModFoodComponents.STARDROP)));
     public static final Item ANCIENT_FRUIT = registerItem("ancient_fruit", new Item(new Item.Settings().food(ModFoodComponents.ANCIENT_FRUIT)));

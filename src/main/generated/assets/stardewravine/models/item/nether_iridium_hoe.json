@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "stardewravine:item/nether_iridium_hoe"
+  }
+}

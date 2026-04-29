@@ -1,2 +1,8 @@
-// 1.21	2026-04-28T11:39:16.0553999	Stardew Ravine/Tags for minecraft:item
+// 1.21	2026-04-28T22:35:12.414068	Stardew Ravine/Tags for minecraft:item
+41f2826ab3ecbcbc40d003062c391795efb5ca51 data\minecraft\tags\item\shovels.json
 b6dc0c41d08e0bb6b8d2a1403e87912f9f23e90b data\stardewravine\tags\item\crystalarium_items.json
+466ff694820aadf2a72ce8d0c42e38ad5054d938 data\minecraft\tags\item\swords.json
+adbbaabe408c1652d84f350825e124451516ca72 data\minecraft\tags\item\trimmable_armor.json
+bae13ac24686f20353c346ec6624502c5de9ead8 data\minecraft\tags\item\pickaxes.json
+1600538a4b0e184f1ae403ee5014e9355a32e038 data\minecraft\tags\item\hoes.json
+318e2cae8a3da199629e44f608f36f2798fa1521 data\minecraft\tags\item\axes.json

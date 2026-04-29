@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.mocury.stardewravine.block.ModBlocks;
+import net.mocury.stardewravine.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -177,5 +178,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LIMESTONE_WALL)
                 .add(ModBlocks.POLISHED_LIMESTONE_WALL)
         ;
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_IRIDIUM_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_NETHER_IRIDIUM_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
     }
 }
