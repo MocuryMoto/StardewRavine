@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stardewravine:fire_quartz_block"
+  },
+  "result": {
+    "count": 2,
+    "id": "stardewravine:fire_quartz_slab"
+  }
+}

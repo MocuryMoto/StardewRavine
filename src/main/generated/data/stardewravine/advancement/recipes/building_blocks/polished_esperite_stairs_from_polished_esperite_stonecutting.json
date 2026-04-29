@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_polished_esperite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:polished_esperite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:polished_esperite_stairs_from_polished_esperite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_polished_esperite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:polished_esperite_stairs_from_polished_esperite_stonecutting"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stardewravine:soapstone"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:polished_soapstone_stairs"
+  }
+}

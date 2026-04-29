@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_soapstone_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:soapstone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stardewravine:chiseled_soapstone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_soapstone_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stardewravine:chiseled_soapstone"
+    ]
+  }
+}

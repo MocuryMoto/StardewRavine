@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stardewravine:esperite"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:esperite_bricks"
+  }
+}

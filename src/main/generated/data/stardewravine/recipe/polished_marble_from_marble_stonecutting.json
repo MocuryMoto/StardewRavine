@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stardewravine:marble"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:polished_marble"
+  }
+}

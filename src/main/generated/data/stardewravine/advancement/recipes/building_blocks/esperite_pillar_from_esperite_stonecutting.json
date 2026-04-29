@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_esperite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:esperite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:esperite_pillar_from_esperite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_esperite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:esperite_pillar_from_esperite_stonecutting"
+    ]
+  }
+}
