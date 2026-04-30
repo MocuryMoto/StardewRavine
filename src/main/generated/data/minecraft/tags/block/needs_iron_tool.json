@@ -15,6 +15,17 @@
     "stardewravine:ruby_deepslate_ore",
     "stardewravine:nether_ruby_ore",
     "stardewravine:cinder_shard_ore",
-    "stardewravine:fire_quartz_ore"
+    "stardewravine:fire_quartz_ore",
+    "stardewravine:raw_hematite",
+    "stardewravine:refined_hematite",
+    "stardewravine:hematite_rose",
+    "stardewravine:calcite_malachite_ore",
+    "stardewravine:limestone_malachite_ore",
+    "stardewravine:opal_ore",
+    "stardewravine:end_opal_ore",
+    "stardewravine:deepslate_opal_ore",
+    "stardewravine:nether_fire_opal_ore",
+    "stardewravine:end_fire_opal_ore",
+    "stardewravine:deepslate_fire_opal_ore"
   ]
 }

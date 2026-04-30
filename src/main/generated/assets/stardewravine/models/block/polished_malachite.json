@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "stardewravine:block/polished_malachite_top",
+    "side": "stardewravine:block/polished_malachite_side"
+  }
+}

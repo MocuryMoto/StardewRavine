@@ -69,6 +69,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.JAMBORITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JAMBORITE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.NEKOITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEKOITE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.NEPTUNITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEPTUNITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LUNARITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LUNARITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.MALACHITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MALACHITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.OPAL, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OPAL_BLOCK);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRIDIUM_SWORD)
                 .pattern(" I ")
@@ -333,6 +336,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_JAMBORITE, ModBlocks.JAMBORITE_BLOCK);
         offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_NEKOITE, ModBlocks.NEKOITE_BLOCK);
         offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_NEPTUNITE, ModBlocks.NEPTUNITE_BLOCK);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_LUNARITE, ModBlocks.LUNARITE_BLOCK);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_MALACHITE, ModBlocks.MALACHITE_BLOCK);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_OPAL_BLOCK, ModBlocks.OPAL_BLOCK);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_FIRE_OPAL_BLOCK, ModBlocks.FIRE_OPAL_BLOCK);
 
         List<ItemConvertible> FIRE_QUARTZ_BLOCK_SMELTABLES = List.of(ModBlocks.FIRE_QUARTZ_BLOCK);
         offerSmelting(exporter, FIRE_QUARTZ_BLOCK_SMELTABLES, RecipeCategory.MISC, ModBlocks.SMOOTH_FIRE_QUARTZ_BLOCK, 0.25f, 200, "stardew_ravine");
@@ -456,6 +463,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('O', ModBlocks.LIMESTONE)
                 .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
                 .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
+                .offerTo(exporter);
+
+        List<ItemConvertible> HEMATITE_SMELTABLES = List.of(ModBlocks.RAW_HEMATITE);
+        offerSmelting(exporter, HEMATITE_SMELTABLES, RecipeCategory.MISC, ModBlocks.REFINED_HEMATITE, 0.25f, 200, "stardew_ravine");
+        offerBlasting(exporter, HEMATITE_SMELTABLES, RecipeCategory.MISC, ModBlocks.REFINED_HEMATITE, 0.25f, 100, "stardew_ravine");
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HEMATITE_ROSE, 4)
+                .pattern(" X ")
+                .pattern("X X")
+                .pattern(" X ")
+                .input('X', ModBlocks.REFINED_HEMATITE)
+                .criterion(hasItem(ModBlocks.REFINED_HEMATITE), conditionsFromItem(ModBlocks.REFINED_HEMATITE))
                 .offerTo(exporter);
 
     }

@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
+import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.item.ModItems;
 import net.mocury.stardewravine.util.ModTags;
 
@@ -39,6 +40,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.JAMBORITE)
                 .add(ModItems.NEKOITE)
                 .add(ModItems.NEPTUNITE)
+                .add(ModItems.LUNARITE)
+                .add(ModItems.MALACHITE)
+                .add(ModItems.OPAL)
+                .add(ModItems.FIRE_OPAL)
                 .add(Items.EMERALD)
                 .add(Items.DIAMOND)
                 .add(Items.LAPIS_LAZULI)

@@ -39,6 +39,10 @@ public class ModItems {
     public static final Item JAMBORITE = registerItem("jamborite", new Item(new Item.Settings()));
     public static final Item NEKOITE = registerItem("nekoite", new Item(new Item.Settings()));
     public static final Item NEPTUNITE = registerItem("neptunite", new Item(new Item.Settings()));
+    public static final Item LUNARITE = registerItem("lunarite", new Item(new Item.Settings()));
+    public static final Item MALACHITE = registerItem("malachite", new Item(new Item.Settings()));
+    public static final Item OPAL = registerItem("opal", new Item(new Item.Settings()));
+    public static final Item FIRE_OPAL = registerItem("fire_opal", new Item(new Item.Settings()));
 
     public static final Item FAIRY_BOX = registerItem("fairy_box", new FairyBoxItem(new Item.Settings().maxCount(1)));
     public static final Item MAGIC_QUIVER = registerItem("magic_quiver", new MagicQuiverItem(new Item.Settings().maxCount(1)));

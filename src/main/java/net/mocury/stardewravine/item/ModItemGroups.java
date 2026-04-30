@@ -213,6 +213,34 @@ public class ModItemGroups {
                         entries.add(ModItems.NEPTUNITE);
                         entries.add(ModBlocks.NEPTUNITE_BLOCK);
                         entries.add(ModBlocks.POLISHED_NEPTUNITE);
+                        entries.add(ModItems.LUNARITE);
+                        entries.add(ModBlocks.LUNARITE_BLOCK);
+                        entries.add(ModBlocks.POLISHED_LUNARITE);
+                        entries.add(ModBlocks.END_LUNARITE_ORE);
+                        entries.add(ModBlocks.RAW_HEMATITE);
+                        entries.add(ModBlocks.REFINED_HEMATITE);
+                        entries.add(ModBlocks.HEMATITE_ROSE);
+                        entries.add(ModBlocks.DESERT_ROSE);
+                        entries.add(ModItems.MALACHITE);
+                        entries.add(ModBlocks.MALACHITE_BLOCK);
+                        entries.add(ModBlocks.POLISHED_MALACHITE);
+                        entries.add(ModBlocks.CALCITE_MALACHITE_ORE);
+                        entries.add(ModBlocks.LIMESTONE_MALACHITE_ORE);
+
+                        entries.add(ModItems.OPAL);
+                        entries.add(ModBlocks.OPAL_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_OPAL_BLOCK);
+                        entries.add(ModBlocks.OPAL_BONE_BLOCK);
+                        entries.add(ModBlocks.OPAL_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_OPAL_ORE);
+                        entries.add(ModBlocks.END_OPAL_ORE);
+                        entries.add(ModItems.FIRE_OPAL);
+                        entries.add(ModBlocks.FIRE_OPAL_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_FIRE_OPAL_BLOCK);
+                        entries.add(ModBlocks.FIRE_OPAL_BONE_BLOCK);
+                        entries.add(ModBlocks.NETHER_FIRE_OPAL_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_FIRE_OPAL_ORE);
+                        entries.add(ModBlocks.END_FIRE_OPAL_ORE);
 
                     }).build());
 

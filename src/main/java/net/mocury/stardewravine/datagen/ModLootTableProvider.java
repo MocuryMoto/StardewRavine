@@ -123,6 +123,20 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POLISHED_NEKOITE);
         addDrop(ModBlocks.NEPTUNITE_BLOCK);
         addDrop(ModBlocks.POLISHED_NEPTUNITE);
+        addDrop(ModBlocks.LUNARITE_BLOCK);
+        addDrop(ModBlocks.POLISHED_LUNARITE);
+        addDrop(ModBlocks.RAW_HEMATITE);
+        addDrop(ModBlocks.REFINED_HEMATITE);
+        addDrop(ModBlocks.HEMATITE_ROSE);
+        addDrop(ModBlocks.DESERT_ROSE);
+        addDrop(ModBlocks.MALACHITE_BLOCK);
+        addDrop(ModBlocks.POLISHED_MALACHITE);
+        addDrop(ModBlocks.OPAL_BLOCK);
+        addDrop(ModBlocks.SMOOTH_OPAL_BLOCK);
+        addDrop(ModBlocks.OPAL_BONE_BLOCK);
+        addDrop(ModBlocks.FIRE_OPAL_BLOCK);
+        addDrop(ModBlocks.SMOOTH_FIRE_OPAL_BLOCK);
+        addDrop(ModBlocks.FIRE_OPAL_BONE_BLOCK);
 
         addDrop(ModBlocks.ESPERITE_SLAB, slabDrops(ModBlocks.ESPERITE_SLAB));
         addDrop(ModBlocks.MARBLE_SLAB, slabDrops(ModBlocks.MARBLE_SLAB));
@@ -146,6 +160,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NETHER_RADIONITE_ORE, oreDrops(ModBlocks.NETHER_RADIONITE_ORE, ModItems.RAW_RADIONITE));
         addDrop(ModBlocks.IRIDIUM_DEEPSLATE_ORE, oreDrops(ModBlocks.IRIDIUM_DEEPSLATE_ORE, ModItems.RAW_IRIDIUM));
         addDrop(ModBlocks.NETHER_IRIDIUM_ORE, oreDrops(ModBlocks.NETHER_IRIDIUM_ORE, ModItems.RAW_IRIDIUM));
+        addDrop(ModBlocks.END_LUNARITE_ORE, oreDrops(ModBlocks.END_LUNARITE_ORE, ModItems.LUNARITE));
+        addDrop(ModBlocks.CALCITE_MALACHITE_ORE, oreDrops(ModBlocks.CALCITE_MALACHITE_ORE, ModItems.MALACHITE));
+        addDrop(ModBlocks.LIMESTONE_MALACHITE_ORE, oreDrops(ModBlocks.LIMESTONE_MALACHITE_ORE, ModItems.MALACHITE));
+        addDrop(ModBlocks.OPAL_ORE, oreDrops(ModBlocks.OPAL_ORE, ModItems.OPAL));
+        addDrop(ModBlocks.DEEPSLATE_OPAL_ORE, oreDrops(ModBlocks.DEEPSLATE_OPAL_ORE, ModItems.OPAL));
+        addDrop(ModBlocks.END_OPAL_ORE, oreDrops(ModBlocks.END_OPAL_ORE, ModItems.OPAL));
+        addDrop(ModBlocks.NETHER_FIRE_OPAL_ORE, oreDrops(ModBlocks.NETHER_FIRE_OPAL_ORE, ModItems.FIRE_OPAL));
+        addDrop(ModBlocks.DEEPSLATE_FIRE_OPAL_ORE, oreDrops(ModBlocks.DEEPSLATE_FIRE_OPAL_ORE, ModItems.FIRE_OPAL));
+        addDrop(ModBlocks.END_FIRE_OPAL_ORE, oreDrops(ModBlocks.END_FIRE_OPAL_ORE, ModItems.FIRE_OPAL));
 
         addDrop(ModBlocks.CINDER_SHARD_ORE, multipleOreDrops(ModBlocks.CINDER_SHARD_ORE, ModItems.CINDER_SHARD, 2,5));
         addDrop(ModBlocks.CINDER_CLUSTER, multipleOreDrops(ModBlocks.CINDER_CLUSTER, ModItems.CINDER_SHARD, 1,4));

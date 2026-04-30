@@ -1,7 +1,7 @@
-// 1.21	2026-04-29T23:19:37.9831237	Stardew Ravine/Tags for minecraft:block
+// 1.21	2026-04-30T18:15:58.7221045	Stardew Ravine/Tags for minecraft:block
 b3333078a28e587a4ed22296449f6a5568eee65e data\minecraft\tags\block\walls.json
-5d1a485554483bb637c894ae17a1f26c32feb52d data\minecraft\tags\block\mineable\pickaxe.json
-d496d5609dcb38d3d9c045b31cfcb1ab0c69142a data\minecraft\tags\block\needs_diamond_tool.json
-dbfbe600d8e177f4dd160c297441c3d672e99eb6 data\minecraft\tags\block\needs_iron_tool.json
+6a264b13c6ce1858332a0abdfe53d7fe69428109 data\minecraft\tags\block\mineable\pickaxe.json
+ce4ae00cb0081c6304d31efa47e4a69397afdee9 data\minecraft\tags\block\needs_diamond_tool.json
+94ae81576d769ac40ff2dc344e84cad26e9ba296 data\minecraft\tags\block\needs_iron_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\stardewravine\tags\block\needs_iridium_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\stardewravine\tags\block\needs_nether_iridium_tool.json

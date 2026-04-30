@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "stardewravine:block/hematite_rose_top",
+    "side": "stardewravine:block/hematite_rose"
+  }
+}

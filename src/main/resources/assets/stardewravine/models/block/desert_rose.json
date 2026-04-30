@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "stardewravine:block/desert_rose_top",
+    "side": "stardewravine:block/desert_rose"
+  }
+}

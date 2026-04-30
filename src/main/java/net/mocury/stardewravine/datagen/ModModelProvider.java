@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.data.client.TexturedModel;
 import net.minecraft.item.ArmorItem;
 import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.item.ModItems;
@@ -91,6 +92,26 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_NEKOITE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NEPTUNITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_NEPTUNITE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LUNARITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_LUNARITE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_LUNARITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_HEMATITE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REFINED_HEMATITE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MALACHITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CALCITE_MALACHITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIMESTONE_MALACHITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.OPAL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_OPAL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.OPAL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_OPAL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_OPAL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIRE_OPAL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMOOTH_FIRE_OPAL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_FIRE_OPAL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_FIRE_OPAL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_FIRE_OPAL_ORE);
+
+        blockStateModelGenerator.registerSingleton(ModBlocks.POLISHED_MALACHITE, TexturedModel.CUBE_COLUMN);
 
         blockStateModelGenerator.registerAmethyst(ModBlocks.CINDER_CLUSTER);
         blockStateModelGenerator.registerAmethyst(ModBlocks.LARGE_CINDER_BUD);
@@ -157,6 +178,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.JAMBORITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.NEKOITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.NEPTUNITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LUNARITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MALACHITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OPAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FIRE_OPAL, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.FAIRY_BOX, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAGIC_QUIVER, Models.GENERATED);

@@ -143,6 +143,63 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
     public static final Block POLISHED_NEPTUNITE = registerBlock("polished_neptunite",
             new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block LUNARITE_BLOCK = registerBlock("lunarite_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_LUNARITE = registerBlock("polished_lunarite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block END_LUNARITE_ORE = registerBlock("end_lunarite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block RAW_HEMATITE = registerBlock("raw_hematite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block REFINED_HEMATITE = registerBlock("refined_hematite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block HEMATITE_ROSE = registerBlock("hematite_rose",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block DESERT_ROSE = registerBlock("desert_rose",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block MALACHITE_BLOCK = registerBlock("malachite_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block POLISHED_MALACHITE = registerBlock("polished_malachite",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block CALCITE_MALACHITE_ORE = registerBlock("calcite_malachite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 3),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+    public static final Block LIMESTONE_MALACHITE_ORE = registerBlock("limestone_malachite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 3),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+
+    public static final Block OPAL_BLOCK = registerBlock("opal_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block SMOOTH_OPAL_BLOCK = registerBlock("smooth_opal_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block OPAL_BONE_BLOCK = registerBlock("opal_bone_block",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block OPAL_ORE = registerBlock("opal_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 3),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
+    public static final Block END_OPAL_ORE = registerBlock("end_opal_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
+                    AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
+    public static final Block DEEPSLATE_OPAL_ORE = registerBlock("deepslate_opal_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 5),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block FIRE_OPAL_BLOCK = registerBlock("fire_opal_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block SMOOTH_FIRE_OPAL_BLOCK = registerBlock("smooth_fire_opal_block",
+            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block FIRE_OPAL_BONE_BLOCK = registerBlock("fire_opal_bone_block",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block NETHER_FIRE_OPAL_ORE = registerBlock("nether_fire_opal_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 3),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
+    public static final Block END_FIRE_OPAL_ORE = registerBlock("end_fire_opal_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
+                    AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
+    public static final Block DEEPSLATE_FIRE_OPAL_ORE = registerBlock("deepslate_fire_opal_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 5),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
 
     public static final Block ESPERITE = registerBlock("esperite",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));

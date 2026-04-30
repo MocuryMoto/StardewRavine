@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "stardew_ravine",
+  "ingredient": {
+    "item": "stardewravine:raw_hematite"
+  },
+  "result": {
+    "id": "stardewravine:refined_hematite"
+  }
+}
