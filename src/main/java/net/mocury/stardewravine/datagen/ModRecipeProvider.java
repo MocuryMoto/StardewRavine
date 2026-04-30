@@ -360,5 +360,103 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_FIRE_QUARTZ, ModBlocks.FIRE_QUARTZ_BLOCK);
         offer2x2CompactingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIRE_QUARTZ_BLOCK, ModItems.FIRE_QUARTZ);
 
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SOAP_LIME_TILES, 4)
+                .pattern("XO")
+                .pattern("OX")
+                .input('X', ModBlocks.SOAPSTONE)
+                .input('O', ModBlocks.LIMESTONE)
+                .criterion(hasItem(ModBlocks.SOAPSTONE), conditionsFromItem(ModBlocks.SOAPSTONE))
+                .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_SOAP_TILES, 4)
+                .pattern("XO")
+                .pattern("OX")
+                .input('X', ModBlocks.LIMESTONE)
+                .input('O', ModBlocks.SOAPSTONE)
+                .criterion(hasItem(ModBlocks.SOAPSTONE), conditionsFromItem(ModBlocks.SOAPSTONE))
+                .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SOAP_ESPER_TILES, 4)
+                .pattern("XO")
+                .pattern("OX")
+                .input('X', ModBlocks.SOAPSTONE)
+                .input('O', ModBlocks.ESPERITE)
+                .criterion(hasItem(ModBlocks.SOAPSTONE), conditionsFromItem(ModBlocks.SOAPSTONE))
+                .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ESPER_SOAP_TILES, 4)
+                .pattern("XO")
+                .pattern("OX")
+                .input('X', ModBlocks.ESPERITE)
+                .input('O', ModBlocks.SOAPSTONE)
+                .criterion(hasItem(ModBlocks.SOAPSTONE), conditionsFromItem(ModBlocks.SOAPSTONE))
+                .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SOAP_MARBLE_TILES, 4)
+                .pattern("XO")
+                .pattern("OX")
+                .input('X', ModBlocks.SOAPSTONE)
+                .input('O', ModBlocks.MARBLE)
+                .criterion(hasItem(ModBlocks.SOAPSTONE), conditionsFromItem(ModBlocks.SOAPSTONE))
+                .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MARBLE_SOAP_TILES, 4)
+                .pattern("XO")
+                .pattern("OX")
+                .input('X', ModBlocks.MARBLE)
+                .input('O', ModBlocks.SOAPSTONE)
+                .criterion(hasItem(ModBlocks.SOAPSTONE), conditionsFromItem(ModBlocks.SOAPSTONE))
+                .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MARBLE_LIME_TILES, 4)
+                .pattern("XO")
+                .pattern("OX")
+                .input('X', ModBlocks.MARBLE)
+                .input('O', ModBlocks.LIMESTONE)
+                .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
+                .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_MARBLE_TILES, 4)
+                .pattern("XO")
+                .pattern("OX")
+                .input('X', ModBlocks.LIMESTONE)
+                .input('O', ModBlocks.MARBLE)
+                .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
+                .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MARBLE_ESPER_TILES, 4)
+                .pattern("XO")
+                .pattern("OX")
+                .input('X', ModBlocks.MARBLE)
+                .input('O', ModBlocks.ESPERITE)
+                .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
+                .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ESPER_MARBLE_TILES, 4)
+                .pattern("XO")
+                .pattern("OX")
+                .input('X', ModBlocks.ESPERITE)
+                .input('O', ModBlocks.MARBLE)
+                .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
+                .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_ESPER_TILES, 4)
+                .pattern("XO")
+                .pattern("OX")
+                .input('X', ModBlocks.LIMESTONE)
+                .input('O', ModBlocks.ESPERITE)
+                .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
+                .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ESPER_LIME_TILES, 4)
+                .pattern("XO")
+                .pattern("OX")
+                .input('X', ModBlocks.ESPERITE)
+                .input('O', ModBlocks.LIMESTONE)
+                .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
+                .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
+                .offerTo(exporter);
+
     }
 }

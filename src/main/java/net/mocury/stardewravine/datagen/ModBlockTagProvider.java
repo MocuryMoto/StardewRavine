@@ -136,6 +136,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_NEKOITE)
                 .add(ModBlocks.NEPTUNITE_BLOCK)
                 .add(ModBlocks.POLISHED_NEPTUNITE)
+                .add(ModBlocks.SOAP_LIME_TILES)
+                .add(ModBlocks.LIME_SOAP_TILES)
+                .add(ModBlocks.SOAP_ESPER_TILES)
+                .add(ModBlocks.ESPER_SOAP_TILES)
+                .add(ModBlocks.SOAP_MARBLE_TILES)
+                .add(ModBlocks.MARBLE_SOAP_TILES)
+                .add(ModBlocks.MARBLE_LIME_TILES)
+                .add(ModBlocks.LIME_MARBLE_TILES)
+                .add(ModBlocks.MARBLE_ESPER_TILES)
+                .add(ModBlocks.ESPER_MARBLE_TILES)
+                .add(ModBlocks.LIME_ESPER_TILES)
+                .add(ModBlocks.ESPER_LIME_TILES)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)

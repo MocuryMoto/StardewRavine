@@ -117,6 +117,18 @@
     "stardewravine:nekoite_block",
     "stardewravine:polished_nekoite",
     "stardewravine:neptunite_block",
-    "stardewravine:polished_neptunite"
+    "stardewravine:polished_neptunite",
+    "stardewravine:soap_lime_tiles",
+    "stardewravine:lime_soap_tiles",
+    "stardewravine:soap_esper_tiles",
+    "stardewravine:esper_soap_tiles",
+    "stardewravine:soap_marble_tiles",
+    "stardewravine:marble_soap_tiles",
+    "stardewravine:marble_lime_tiles",
+    "stardewravine:lime_marble_tiles",
+    "stardewravine:marble_esper_tiles",
+    "stardewravine:esper_marble_tiles",
+    "stardewravine:lime_esper_tiles",
+    "stardewravine:esper_lime_tiles"
   ]
 }

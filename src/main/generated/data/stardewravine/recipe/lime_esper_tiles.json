@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "O": {
+      "item": "stardewravine:esperite"
+    },
+    "X": {
+      "item": "stardewravine:limestone"
+    }
+  },
+  "pattern": [
+    "XO",
+    "OX"
+  ],
+  "result": {
+    "count": 4,
+    "id": "stardewravine:lime_esper_tiles"
+  }
+}

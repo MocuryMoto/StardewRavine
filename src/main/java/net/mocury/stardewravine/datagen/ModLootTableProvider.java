@@ -80,6 +80,19 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POLISHED_MARBLE_WALL);
         addDrop(ModBlocks.POLISHED_SOAPSTONE_WALL);
         addDrop(ModBlocks.POLISHED_LIMESTONE_WALL);
+        addDrop(ModBlocks.SOAP_LIME_TILES);
+        addDrop(ModBlocks.LIME_SOAP_TILES);
+        addDrop(ModBlocks.SOAP_ESPER_TILES);
+        addDrop(ModBlocks.ESPER_SOAP_TILES);
+        addDrop(ModBlocks.SOAP_MARBLE_TILES);
+        addDrop(ModBlocks.MARBLE_SOAP_TILES);
+        addDrop(ModBlocks.MARBLE_LIME_TILES);
+        addDrop(ModBlocks.LIME_MARBLE_TILES);
+        addDrop(ModBlocks.MARBLE_ESPER_TILES);
+        addDrop(ModBlocks.ESPER_MARBLE_TILES);
+        addDrop(ModBlocks.LIME_ESPER_TILES);
+        addDrop(ModBlocks.ESPER_LIME_TILES);
+
         addDrop(ModBlocks.LEMON_STONE_BLOCK);
         addDrop(ModBlocks.POLISHED_LEMON_STONE);
         addDrop(ModBlocks.TIGERS_EYE_BLOCK);

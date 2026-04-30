@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "O": {
+      "item": "stardewravine:soapstone"
+    },
+    "X": {
+      "item": "stardewravine:esperite"
+    }
+  },
+  "pattern": [
+    "XO",
+    "OX"
+  ],
+  "result": {
+    "count": 4,
+    "id": "stardewravine:esper_soap_tiles"
+  }
+}

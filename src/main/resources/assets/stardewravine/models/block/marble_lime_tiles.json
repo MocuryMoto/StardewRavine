@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "stardewravine:block/marble_lime_tiles",
+    "east": "stardewravine:block/marble_lime_tiles",
+    "north": "stardewravine:block/lime_marble_tiles",
+    "particle": "stardewravine:block/lime_marble_tiles",
+    "south": "stardewravine:block/lime_marble_tiles",
+    "up": "stardewravine:block/marble_lime_tiles",
+    "west": "stardewravine:block/marble_lime_tiles"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "stardewravine:block/marble_soap_tiles",
+    "east": "stardewravine:block/marble_soap_tiles",
+    "north": "stardewravine:block/soap_marble_tiles",
+    "particle": "stardewravine:block/soap_marble_tiles",
+    "south": "stardewravine:block/soap_marble_tiles",
+    "up": "stardewravine:block/marble_soap_tiles",
+    "west": "stardewravine:block/marble_soap_tiles"
+  }
+}

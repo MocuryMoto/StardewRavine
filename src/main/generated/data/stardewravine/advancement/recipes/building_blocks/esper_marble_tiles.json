@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_esperite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:esperite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_marble": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:marble"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stardewravine:esper_marble_tiles"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_esperite",
+      "has_marble"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stardewravine:esper_marble_tiles"
+    ]
+  }
+}

@@ -249,6 +249,31 @@ public class ModBlocks {
     public static final Block POLISHED_LIMESTONE_WALL = registerBlock("polished_limestone_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
 
+    public static final Block SOAP_LIME_TILES = registerBlock("soap_lime_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block LIME_SOAP_TILES = registerBlock("lime_soap_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block SOAP_ESPER_TILES = registerBlock("soap_esper_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block ESPER_SOAP_TILES = registerBlock("esper_soap_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block SOAP_MARBLE_TILES = registerBlock("soap_marble_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block MARBLE_SOAP_TILES = registerBlock("marble_soap_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block MARBLE_LIME_TILES = registerBlock("marble_lime_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block LIME_MARBLE_TILES = registerBlock("lime_marble_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block MARBLE_ESPER_TILES = registerBlock("marble_esper_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block ESPER_MARBLE_TILES = registerBlock("esper_marble_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block LIME_ESPER_TILES = registerBlock("lime_esper_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+    public static final Block ESPER_LIME_TILES = registerBlock("esper_lime_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
+
     public static final Block FIRE_QUARTZ_BLOCK = registerBlock("fire_quartz_block",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block SMOOTH_FIRE_QUARTZ_BLOCK = registerBlock("smooth_fire_quartz_block",

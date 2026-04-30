@@ -179,6 +179,18 @@
   "block.stardewravine.polished_nekoite": "Polished Nekoite",
   "block.stardewravine.neptunite_block": "Block of Neptunite",
   "block.stardewravine.polished_neptunite": "Polished Neptunite",
+  "block.stardewravine.soap_lime_tiles": "Soap-Lime Tiles",
+  "block.stardewravine.lime_soap_tiles": "Lime-Soap Tiles",
+  "block.stardewravine.soap_esper_tiles": "Soap-Esper Tiles",
+  "block.stardewravine.esper_soap_tiles": "Esper-Soap Tiles",
+  "block.stardewravine.soap_marble_tiles": "Soap-Marble Tiles",
+  "block.stardewravine.marble_soap_tiles": "Marble-Soap Tiles",
+  "block.stardewravine.marble_lime_tiles": "Marble-Lime Tiles",
+  "block.stardewravine.lime_marble_tiles": "Lime-Marble Tiles",
+  "block.stardewravine.marble_esper_tiles": "Marble-Esper Tiles",
+  "block.stardewravine.esper_marble_tiles": "Esper-Marble Tiles",
+  "block.stardewravine.lime_esper_tiles": "Lime-Esper Tiles",
+  "block.stardewravine.esper_lime_tiles": "Esper-Lime Tiles",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine"
 }

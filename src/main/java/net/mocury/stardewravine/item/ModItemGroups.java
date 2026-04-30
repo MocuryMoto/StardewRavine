@@ -49,6 +49,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_IRIDIUM_BLOCK);
                         entries.add(ModBlocks.IRIDIUM_DEEPSLATE_ORE);
                         entries.add(ModBlocks.NETHER_IRIDIUM_ORE);
+
                         entries.add(ModItems.IRIDIUM_SWORD);
                         entries.add(ModItems.IRIDIUM_PICKAXE);
                         entries.add(ModItems.IRIDIUM_SHOVEL);
@@ -67,6 +68,7 @@ public class ModItemGroups {
                         entries.add(ModItems.NETHER_IRIDIUM_CHESTPLATE);
                         entries.add(ModItems.NETHER_IRIDIUM_LEGGINGS);
                         entries.add(ModItems.NETHER_IRIDIUM_BOOTS);
+
                         entries.add(ModItems.FIRE_QUARTZ);
                         entries.add(ModBlocks.FIRE_QUARTZ_ORE);
                         entries.add(ModBlocks.FIRE_QUARTZ_BLOCK);
@@ -77,6 +79,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FIRE_QUARTZ_STAIRS);
                         entries.add(ModBlocks.FIRE_QUARTZ_SLAB);
                         entries.add(ModItems.REFINED_QUARTZ);
+
                         entries.add(ModBlocks.REFINED_QUARTZ_BLOCK);
                         entries.add(ModItems.FAIRY_BOX);
                         entries.add(ModItems.MAGIC_QUIVER);
@@ -89,6 +92,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RUSTY_SPOON);
                         entries.add(ModItems.SILVER_SPOON);
                         entries.add(ModItems.DRIED_STARFISH);
+
                         entries.add(ModBlocks.ESPERITE);
                         entries.add(ModBlocks.ESPERITE_SLAB);
                         entries.add(ModBlocks.ESPERITE_STAIRS);
@@ -137,6 +141,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LIMESTONE_BRICKS);
                         entries.add(ModBlocks.LIMESTONE_PILLAR);
                         entries.add(ModBlocks.CHISELED_LIMESTONE);
+                        entries.add(ModBlocks.SOAP_LIME_TILES);
+                        entries.add(ModBlocks.LIME_SOAP_TILES);
+                        entries.add(ModBlocks.SOAP_ESPER_TILES);
+                        entries.add(ModBlocks.ESPER_SOAP_TILES);
+                        entries.add(ModBlocks.SOAP_MARBLE_TILES);
+                        entries.add(ModBlocks.MARBLE_SOAP_TILES);
+                        entries.add(ModBlocks.MARBLE_LIME_TILES);
+                        entries.add(ModBlocks.LIME_MARBLE_TILES);
+                        entries.add(ModBlocks.MARBLE_ESPER_TILES);
+                        entries.add(ModBlocks.ESPER_MARBLE_TILES);
+                        entries.add(ModBlocks.LIME_ESPER_TILES);
+                        entries.add(ModBlocks.ESPER_LIME_TILES);
+
                         entries.add(ModItems.CINDER_SHARD);
                         entries.add(ModBlocks.CINDER_SHARD_BLOCK);
                         entries.add(ModBlocks.BUDDING_CINDER_SHARD_BLOCK);
@@ -147,6 +164,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CINDER_SHARD_ORE);
                         entries.add(ModItems.PEARL);
                         entries.add(ModBlocks.PEARL_BLOCK);
+
                         entries.add(ModItems.HELVINE);
                         entries.add(ModBlocks.HELVINE_BLOCK);
                         entries.add(ModBlocks.POLISHED_HELVINE);
