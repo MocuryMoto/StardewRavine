@@ -171,7 +171,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.NETHER_FIRE_OPAL_ORE)
                 .add(ModBlocks.END_FIRE_OPAL_ORE)
                 .add(ModBlocks.DEEPSLATE_FIRE_OPAL_ORE)
+                .add(ModBlocks.MARBLE_LAPIS_ORE)
+                .add(ModBlocks.LIMESTONE_LAPIS_ORE)
+                .add(ModBlocks.PYRITE_LAPIS_ORE)
         ;
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.MARBLE_LAPIS_ORE)
+                .add(ModBlocks.LIMESTONE_LAPIS_ORE)
+                .add(ModBlocks.PYRITE_LAPIS_ORE)
+                ;
+
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.AQUAMARINE_BLOCK)

@@ -350,17 +350,17 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
 
     public static final Block BUDDING_CINDER_SHARD_BLOCK = registerBlock("budding_cinder_shard_block",
-            new BuddingCinderShardBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).pistonBehavior(PistonBehavior.BLOCK)));
+            new BuddingCinderShardBlock(AbstractBlock.Settings.create().ticksRandomly().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block CINDER_SHARD_BLOCK = registerBlock("cinder_shard_block",
             new CinderShardBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block CINDER_CLUSTER = registerBlock("cinder_cluster",
-            new CinderClusterBlock(0,0, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new CinderClusterBlock(7.0f,3.0f, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_CLUSTER)));
     public static final Block LARGE_CINDER_BUD = registerBlock("large_cinder_bud",
-            new CinderClusterBlock(0,0, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new CinderClusterBlock(5.0f,3.0f, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.LARGE_AMETHYST_BUD)));
     public static final Block MEDIUM_CINDER_BUD = registerBlock("medium_cinder_bud",
-            new CinderClusterBlock(0,0, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new CinderClusterBlock(4.0f,3.0f, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD)));
     public static final Block SMALL_CINDER_BUD = registerBlock("small_cinder_bud",
-            new CinderClusterBlock(0,0, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new CinderClusterBlock(3.0f,4.0f, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.SMALL_AMETHYST_BUD)));
     public static final Block CINDER_SHARD_ORE = registerBlock("cinder_shard_ore",
             new Block(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
 
@@ -398,6 +398,16 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
     public static final Block BROWN_SCROLL = registerBlock("brown_scroll",
             new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+
+    public static final Block MARBLE_LAPIS_ORE = registerBlock("marble_lapis_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
+    public static final Block LIMESTONE_LAPIS_ORE = registerBlock("limestone_lapis_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
+    public static final Block PYRITE_LAPIS_ORE = registerBlock("pyrite_lapis_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

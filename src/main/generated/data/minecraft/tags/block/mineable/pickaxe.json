@@ -152,6 +152,9 @@
     "stardewravine:fire_opal_bone_block",
     "stardewravine:nether_fire_opal_ore",
     "stardewravine:end_fire_opal_ore",
-    "stardewravine:deepslate_fire_opal_ore"
+    "stardewravine:deepslate_fire_opal_ore",
+    "stardewravine:marble_lapis_ore",
+    "stardewravine:limestone_lapis_ore",
+    "stardewravine:pyrite_lapis_ore"
   ]
 }

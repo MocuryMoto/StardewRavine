@@ -227,6 +227,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CALCITE_MALACHITE_ORE);
                         entries.add(ModBlocks.LIMESTONE_MALACHITE_ORE);
 
+                        entries.add(ModBlocks.LIMESTONE_LAPIS_ORE);
+                        entries.add(ModBlocks.MARBLE_LAPIS_ORE);
+                        entries.add(ModBlocks.PYRITE_LAPIS_ORE);
+
                         entries.add(ModItems.OPAL);
                         entries.add(ModBlocks.OPAL_BLOCK);
                         entries.add(ModBlocks.SMOOTH_OPAL_BLOCK);

@@ -6,6 +6,7 @@ import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LeafEntry;
@@ -192,6 +193,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CINDER_SHARD_ORE, multipleOreDrops(ModBlocks.CINDER_SHARD_ORE, ModItems.CINDER_SHARD, 2,5));
         addDrop(ModBlocks.CINDER_CLUSTER, multipleOreDrops(ModBlocks.CINDER_CLUSTER, ModItems.CINDER_SHARD, 1,4));
         addDrop(ModBlocks.FIRE_QUARTZ_ORE, multipleOreDrops(ModBlocks.FIRE_QUARTZ_ORE, ModItems.FIRE_QUARTZ, 2,4));
+        addDrop(ModBlocks.MARBLE_LAPIS_ORE, multipleOreDrops(ModBlocks.MARBLE_LAPIS_ORE, Items.LAPIS_LAZULI, 4, 9));
+        addDrop(ModBlocks.LIMESTONE_LAPIS_ORE, multipleOreDrops(ModBlocks.LIMESTONE_LAPIS_ORE, Items.LAPIS_LAZULI, 4, 9));
+        addDrop(ModBlocks.PYRITE_LAPIS_ORE, multipleOreDrops(ModBlocks.PYRITE_LAPIS_ORE, Items.LAPIS_LAZULI, 4, 9));
 
         addDropWithSilkTouch(ModBlocks.LARGE_CINDER_BUD);
         addDropWithSilkTouch(ModBlocks.MEDIUM_CINDER_BUD);

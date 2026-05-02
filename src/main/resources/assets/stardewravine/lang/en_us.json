@@ -235,6 +235,9 @@
   "block.stardewravine.gray_scroll": "Gray Scroll",
   "block.stardewravine.black_scroll": "Black Scroll",
   "block.stardewravine.brown_scroll": "Brown Scroll",
+  "block.stardewravine.marble_lapis_ore": "Marble Lapis Lazuli Ore",
+  "block.stardewravine.limestone_lapis_ore": "Limestone Lapis Lazuli Ore",
+  "block.stardewravine.pyrite_lapis_ore": "Pyrite Lapis Lazuli Ore",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine",
 
