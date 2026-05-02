@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "stardewravine:block/scroll_block_top",
+    "side": "stardewravine:block/red_scroll_side"
+  }
+}

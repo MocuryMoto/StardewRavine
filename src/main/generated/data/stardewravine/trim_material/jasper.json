@@ -1,0 +1,9 @@
+{
+  "asset_name": "jasper",
+  "description": {
+    "color": "#BD2E25",
+    "translate": "trim_material.stardewravine.jasper"
+  },
+  "ingredient": "stardewravine:jasper",
+  "item_model_index": 0.4
+}

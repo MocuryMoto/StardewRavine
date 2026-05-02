@@ -1,0 +1,9 @@
+{
+  "asset_name": "jade",
+  "description": {
+    "color": "#82C58A",
+    "translate": "trim_material.stardewravine.jade"
+  },
+  "ingredient": "stardewravine:jade",
+  "item_model_index": 0.7
+}

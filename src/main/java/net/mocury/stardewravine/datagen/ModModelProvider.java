@@ -7,6 +7,7 @@ import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.data.client.TexturedModel;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.util.Identifier;
 import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.item.ModItems;
 
@@ -112,6 +113,23 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_FIRE_OPAL_ORE);
 
         blockStateModelGenerator.registerSingleton(ModBlocks.POLISHED_MALACHITE, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.SCROLL_BLOCK, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.RED_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.ORANGE_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.YELLOW_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.LIME_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.GREEN_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CYAN_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.LIGHT_BLUE_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.BLUE_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.PURPLE_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.MAGENTA_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.PINK_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.WHITE_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.LIGHT_GRAY_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.GRAY_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.BLACK_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.BROWN_SCROLL, TexturedModel.CUBE_COLUMN);
 
         blockStateModelGenerator.registerAmethyst(ModBlocks.CINDER_CLUSTER);
         blockStateModelGenerator.registerAmethyst(ModBlocks.LARGE_CINDER_BUD);

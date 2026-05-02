@@ -1,0 +1,9 @@
+{
+  "asset_name": "jagoite",
+  "description": {
+    "color": "#B6CA05",
+    "translate": "trim_material.stardewravine.jagoite"
+  },
+  "ingredient": "stardewravine:jagoite",
+  "item_model_index": 0.7
+}

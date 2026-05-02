@@ -1,0 +1,9 @@
+{
+  "asset_name": "kyanite",
+  "description": {
+    "color": "#5C86AD",
+    "translate": "trim_material.stardewravine.kyanite"
+  },
+  "ingredient": "stardewravine:kyanite",
+  "item_model_index": 0.9
+}

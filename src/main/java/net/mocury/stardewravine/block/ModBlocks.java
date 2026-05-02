@@ -200,7 +200,6 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 5),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
-
     public static final Block ESPERITE = registerBlock("esperite",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block POLISHED_ESPERITE = registerBlock("polished_esperite",
@@ -364,6 +363,41 @@ public class ModBlocks {
             new CinderClusterBlock(0,0, AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block CINDER_SHARD_ORE = registerBlock("cinder_shard_ore",
             new Block(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
+
+    public static final Block SCROLL_BLOCK = registerBlock("scroll_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block RED_SCROLL = registerBlock("red_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block ORANGE_SCROLL = registerBlock("orange_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block YELLOW_SCROLL = registerBlock("yellow_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block LIME_SCROLL = registerBlock("lime_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block GREEN_SCROLL = registerBlock("green_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block CYAN_SCROLL = registerBlock("cyan_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block LIGHT_BLUE_SCROLL = registerBlock("light_blue_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block BLUE_SCROLL = registerBlock("blue_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block PURPLE_SCROLL = registerBlock("purple_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block MAGENTA_SCROLL = registerBlock("magenta_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block PINK_SCROLL = registerBlock("pink_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block WHITE_SCROLL = registerBlock("white_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block LIGHT_GRAY_SCROLL = registerBlock("light_gray_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block GRAY_SCROLL = registerBlock("gray_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block BLACK_SCROLL = registerBlock("black_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
+    public static final Block BROWN_SCROLL = registerBlock("brown_scroll",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

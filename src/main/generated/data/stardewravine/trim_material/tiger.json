@@ -1,0 +1,9 @@
+{
+  "asset_name": "tiger",
+  "description": {
+    "color": "#C6882D",
+    "translate": "trim_material.stardewravine.tiger"
+  },
+  "ingredient": "stardewravine:tigers_eye",
+  "item_model_index": 0.6
+}

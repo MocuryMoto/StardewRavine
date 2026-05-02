@@ -1,0 +1,9 @@
+{
+  "asset_name": "refined_quartz",
+  "description": {
+    "color": "#CAC1FF",
+    "translate": "trim_material.stardewravine.refined_quartz"
+  },
+  "ingredient": "stardewravine:refined_quartz",
+  "item_model_index": 0.1
+}

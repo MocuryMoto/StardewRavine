@@ -1,0 +1,9 @@
+{
+  "asset_name": "celestine",
+  "description": {
+    "color": "#94BFEA",
+    "translate": "trim_material.stardewravine.celestine"
+  },
+  "ingredient": "stardewravine:celestine",
+  "item_model_index": 0.8
+}

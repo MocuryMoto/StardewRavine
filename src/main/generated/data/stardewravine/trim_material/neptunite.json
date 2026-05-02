@@ -1,0 +1,9 @@
+{
+  "asset_name": "neptunite",
+  "description": {
+    "color": "#404046",
+    "translate": "trim_material.stardewravine.neptunite"
+  },
+  "ingredient": "stardewravine:neptunite",
+  "item_model_index": 0.3
+}

@@ -1,0 +1,9 @@
+{
+  "asset_name": "malachite",
+  "description": {
+    "color": "#34C884",
+    "translate": "trim_material.stardewravine.malachite"
+  },
+  "ingredient": "stardewravine:malachite",
+  "item_model_index": 0.7
+}

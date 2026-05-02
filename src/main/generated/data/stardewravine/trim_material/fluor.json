@@ -1,0 +1,9 @@
+{
+  "asset_name": "fluor",
+  "description": {
+    "color": "#7D2FBF",
+    "translate": "trim_material.stardewravine.fluor"
+  },
+  "ingredient": "stardewravine:fluorapatite",
+  "item_model_index": 1.0
+}

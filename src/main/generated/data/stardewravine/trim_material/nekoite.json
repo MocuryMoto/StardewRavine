@@ -1,0 +1,9 @@
+{
+  "asset_name": "nekoite",
+  "description": {
+    "color": "#F0E8E3",
+    "translate": "trim_material.stardewravine.nekoite"
+  },
+  "ingredient": "stardewravine:nekoite",
+  "item_model_index": 0.2
+}

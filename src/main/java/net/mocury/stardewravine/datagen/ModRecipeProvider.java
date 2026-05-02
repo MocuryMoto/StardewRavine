@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -474,6 +475,95 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern(" X ")
                 .input('X', ModBlocks.REFINED_HEMATITE)
                 .criterion(hasItem(ModBlocks.REFINED_HEMATITE), conditionsFromItem(ModBlocks.REFINED_HEMATITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.SCROLL_BLOCK, 1)
+                .pattern("XXX")
+                .pattern("OOO")
+                .pattern("XXX")
+                .input('X', Items.PAPER)
+                .input('O', Items.LEATHER)
+                .criterion(hasItem(Items.PAPER), conditionsFromItem(Items.PAPER))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.RED_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.RED_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.ORANGE_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.ORANGE_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.YELLOW_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.YELLOW_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.LIME_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.LIME_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.GREEN_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.GREEN_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.CYAN_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.CYAN_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_BLUE_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.LIGHT_BLUE_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.BLUE_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.BLUE_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.PURPLE_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.PURPLE_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MAGENTA_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.MAGENTA_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.PINK_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.PINK_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.WHITE_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.WHITE_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.LIGHT_GRAY_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.LIGHT_GRAY_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.GRAY_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.GRAY_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.BLACK_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.BLACK_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.BROWN_SCROLL)
+                .input(ModBlocks.SCROLL_BLOCK)
+                .input(Items.BROWN_DYE)
+                .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
                 .offerTo(exporter);
 
     }

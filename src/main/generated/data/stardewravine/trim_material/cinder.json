@@ -1,0 +1,9 @@
+{
+  "asset_name": "cinder",
+  "description": {
+    "color": "#F42F4E",
+    "translate": "trim_material.stardewravine.cinder"
+  },
+  "ingredient": "stardewravine:cinder_shard",
+  "item_model_index": 0.4
+}

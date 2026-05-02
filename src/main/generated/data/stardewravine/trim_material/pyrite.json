@@ -1,0 +1,9 @@
+{
+  "asset_name": "pyrite",
+  "description": {
+    "color": "#BDAB65",
+    "translate": "trim_material.stardewravine.pyrite"
+  },
+  "ingredient": "stardewravine:pyrite",
+  "item_model_index": 0.6
+}

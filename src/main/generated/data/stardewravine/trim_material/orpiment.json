@@ -1,0 +1,9 @@
+{
+  "asset_name": "orpiment",
+  "description": {
+    "color": "#FA980A",
+    "translate": "trim_material.stardewravine.orpiment"
+  },
+  "ingredient": "stardewravine:orpiment",
+  "item_model_index": 0.5
+}

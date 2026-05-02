@@ -1,0 +1,9 @@
+{
+  "asset_name": "iridium",
+  "description": {
+    "color": "#DD7CE4",
+    "translate": "trim_material.stardewravine.iridium"
+  },
+  "ingredient": "stardewravine:iridium_ingot",
+  "item_model_index": 1.0
+}

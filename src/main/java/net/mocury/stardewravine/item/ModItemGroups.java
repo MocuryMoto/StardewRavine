@@ -242,6 +242,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_FIRE_OPAL_ORE);
                         entries.add(ModBlocks.END_FIRE_OPAL_ORE);
 
+                        entries.add(ModBlocks.SCROLL_BLOCK);
+                        entries.add(ModBlocks.RED_SCROLL);
+                        entries.add(ModBlocks.ORANGE_SCROLL);
+                        entries.add(ModBlocks.YELLOW_SCROLL);
+                        entries.add(ModBlocks.LIME_SCROLL);
+                        entries.add(ModBlocks.GREEN_SCROLL);
+                        entries.add(ModBlocks.CYAN_SCROLL);
+                        entries.add(ModBlocks.LIGHT_BLUE_SCROLL);
+                        entries.add(ModBlocks.BLUE_SCROLL);
+                        entries.add(ModBlocks.PURPLE_SCROLL);
+                        entries.add(ModBlocks.MAGENTA_SCROLL);
+                        entries.add(ModBlocks.PINK_SCROLL);
+                        entries.add(ModBlocks.WHITE_SCROLL);
+                        entries.add(ModBlocks.LIGHT_GRAY_SCROLL);
+                        entries.add(ModBlocks.GRAY_SCROLL);
+                        entries.add(ModBlocks.BLACK_SCROLL);
+                        entries.add(ModBlocks.BROWN_SCROLL);
+
                     }).build());
 
 

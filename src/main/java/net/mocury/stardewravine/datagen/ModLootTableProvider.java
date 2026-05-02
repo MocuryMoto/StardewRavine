@@ -138,6 +138,25 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_FIRE_OPAL_BLOCK);
         addDrop(ModBlocks.FIRE_OPAL_BONE_BLOCK);
 
+        addDrop(ModBlocks.SCROLL_BLOCK);
+        addDrop(ModBlocks.RED_SCROLL);
+        addDrop(ModBlocks.RED_SCROLL);
+        addDrop(ModBlocks.ORANGE_SCROLL);
+        addDrop(ModBlocks.YELLOW_SCROLL);
+        addDrop(ModBlocks.LIME_SCROLL);
+        addDrop(ModBlocks.GREEN_SCROLL);
+        addDrop(ModBlocks.CYAN_SCROLL);
+        addDrop(ModBlocks.LIGHT_BLUE_SCROLL);
+        addDrop(ModBlocks.BLUE_SCROLL);
+        addDrop(ModBlocks.PURPLE_SCROLL);
+        addDrop(ModBlocks.MAGENTA_SCROLL);
+        addDrop(ModBlocks.PINK_SCROLL);
+        addDrop(ModBlocks.WHITE_SCROLL);
+        addDrop(ModBlocks.LIGHT_GRAY_SCROLL);
+        addDrop(ModBlocks.GRAY_SCROLL);
+        addDrop(ModBlocks.BLACK_SCROLL);
+        addDrop(ModBlocks.BROWN_SCROLL);
+
         addDrop(ModBlocks.ESPERITE_SLAB, slabDrops(ModBlocks.ESPERITE_SLAB));
         addDrop(ModBlocks.MARBLE_SLAB, slabDrops(ModBlocks.MARBLE_SLAB));
         addDrop(ModBlocks.SOAPSTONE_SLAB, slabDrops(ModBlocks.SOAPSTONE_SLAB));

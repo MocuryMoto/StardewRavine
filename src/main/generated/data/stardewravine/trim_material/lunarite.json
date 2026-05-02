@@ -1,0 +1,9 @@
+{
+  "asset_name": "lunarite",
+  "description": {
+    "color": "#F5F7F7",
+    "translate": "trim_material.stardewravine.lunarite"
+  },
+  "ingredient": "stardewravine:lunarite",
+  "item_model_index": 0.1
+}

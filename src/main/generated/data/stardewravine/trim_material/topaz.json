@@ -1,0 +1,9 @@
+{
+  "asset_name": "topaz",
+  "description": {
+    "color": "#FFBD00",
+    "translate": "trim_material.stardewravine.topaz"
+  },
+  "ingredient": "stardewravine:topaz",
+  "item_model_index": 0.6
+}

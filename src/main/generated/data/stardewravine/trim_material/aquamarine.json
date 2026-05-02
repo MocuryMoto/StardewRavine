@@ -1,0 +1,9 @@
+{
+  "asset_name": "aquamarine",
+  "description": {
+    "color": "#57CBEE",
+    "translate": "trim_material.stardewravine.aquamarine"
+  },
+  "ingredient": "stardewravine:aquamarine",
+  "item_model_index": 0.9
+}

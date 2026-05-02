@@ -1,0 +1,9 @@
+{
+  "asset_name": "radionite",
+  "description": {
+    "color": "#00FF03",
+    "translate": "trim_material.stardewravine.radionite"
+  },
+  "ingredient": "stardewravine:radionite_ingot",
+  "item_model_index": 0.7
+}

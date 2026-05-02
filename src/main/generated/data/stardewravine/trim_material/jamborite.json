@@ -1,0 +1,9 @@
+{
+  "asset_name": "jamborite",
+  "description": {
+    "color": "#37CD3D",
+    "translate": "trim_material.stardewravine.jamborite"
+  },
+  "ingredient": "stardewravine:jamborite",
+  "item_model_index": 0.7
+}

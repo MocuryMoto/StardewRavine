@@ -1,0 +1,9 @@
+{
+  "asset_name": "fire_opal",
+  "description": {
+    "color": "#94077C",
+    "translate": "trim_material.stardewravine.fire_opal"
+  },
+  "ingredient": "stardewravine:fire_opal",
+  "item_model_index": 0.3
+}

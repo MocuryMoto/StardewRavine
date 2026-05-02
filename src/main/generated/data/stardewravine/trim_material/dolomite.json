@@ -1,0 +1,9 @@
+{
+  "asset_name": "dolomite",
+  "description": {
+    "color": "#EEDEED",
+    "translate": "trim_material.stardewravine.dolomite"
+  },
+  "ingredient": "stardewravine:dolomite",
+  "item_model_index": 0.1
+}

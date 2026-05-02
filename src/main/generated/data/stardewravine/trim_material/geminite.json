@@ -1,0 +1,9 @@
+{
+  "asset_name": "geminite",
+  "description": {
+    "color": "#AEE1AB",
+    "translate": "trim_material.stardewravine.geminite"
+  },
+  "ingredient": "stardewravine:geminite",
+  "item_model_index": 0.7
+}

@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
-import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.item.ModItems;
 import net.mocury.stardewravine.util.ModTags;
 
@@ -76,6 +75,38 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.NETHER_IRIDIUM_CHESTPLATE)
                 .add(ModItems.NETHER_IRIDIUM_LEGGINGS)
                 .add(ModItems.NETHER_IRIDIUM_BOOTS)
+        ;
+
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.IRIDIUM_INGOT)
+                .add(ModItems.RADIONITE_INGOT)
+                .add(ModItems.AQUAMARINE)
+                .add(ModItems.TOPAZ)
+                .add(ModItems.JADE)
+                .add(ModItems.RUBY)
+                .add(ModItems.FIRE_QUARTZ)
+                .add(ModItems.REFINED_QUARTZ)
+                .add(ModItems.CINDER_SHARD)
+                .add(ModItems.HELVINE)
+                .add(ModItems.LEMON_STONE)
+                .add(ModItems.TIGERS_EYE)
+                .add(ModItems.KYANITE)
+                .add(ModItems.PYRITE)
+                .add(ModItems.FLUORAPATITE)
+                .add(ModItems.JAGOITE)
+                .add(ModItems.CELESTINE)
+                .add(ModItems.GEMINITE)
+                .add(ModItems.JASPER)
+                .add(ModItems.AERINITE)
+                .add(ModItems.ORPIMENT)
+                .add(ModItems.DOLOMITE)
+                .add(ModItems.JAMBORITE)
+                .add(ModItems.NEKOITE)
+                .add(ModItems.NEPTUNITE)
+                .add(ModItems.LUNARITE)
+                .add(ModItems.MALACHITE)
+                .add(ModItems.OPAL)
+                .add(ModItems.FIRE_OPAL)
         ;
     }
 }

@@ -1,0 +1,9 @@
+{
+  "asset_name": "fire_quartz",
+  "description": {
+    "color": "#F85A55",
+    "translate": "trim_material.stardewravine.fire_quartz"
+  },
+  "ingredient": "stardewravine:fire_quartz",
+  "item_model_index": 0.4
+}

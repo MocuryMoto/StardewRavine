@@ -1,0 +1,9 @@
+{
+  "asset_name": "aerinite",
+  "description": {
+    "color": "#1EC9F3",
+    "translate": "trim_material.stardewravine.aerinite"
+  },
+  "ingredient": "stardewravine:aerinite",
+  "item_model_index": 0.8
+}
