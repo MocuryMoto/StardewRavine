@@ -264,6 +264,28 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLACK_SCROLL);
                         entries.add(ModBlocks.BROWN_SCROLL);
 
+                        entries.add(ModItems.GEODE);
+                        entries.add(ModItems.GEODE_SHELL);
+                        entries.add(ModBlocks.GEODE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_GEODE_ORE);
+                        entries.add(ModItems.FROZEN_GEODE);
+                        entries.add(ModItems.FROZEN_GEODE_SHELL);
+                        entries.add(ModBlocks.FROZEN_GEODE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_FROZEN_GEODE_ORE);
+                        entries.add(ModBlocks.END_FROZEN_GEODE_ORE);
+                        entries.add(ModItems.MAGMA_GEODE);
+                        entries.add(ModItems.MAGMA_GEODE_SHELL);
+                        entries.add(ModBlocks.NETHER_MAGMA_GEODE_ORE);
+                        entries.add(ModBlocks.BLACKSTONE_MAGMA_GEODE_ORE);
+                        entries.add(ModBlocks.BASALT_MAGMA_GEODE_ORE);
+                        entries.add(ModItems.OMNI_GEODE);
+                        entries.add(ModItems.OMNI_GEODE_SHELL);
+                        entries.add(ModBlocks.DEEPSLATE_OMNI_GEODE_ORE);
+                        entries.add(ModBlocks.END_OMNI_GEODE_ORE);
+                        entries.add(ModBlocks.NETHER_OMNI_GEODE_ORE);
+                        entries.add(ModBlocks.BLACKSTONE_OMNI_GEODE_ORE);
+                        entries.add(ModBlocks.BASALT_OMNI_GEODE_ORE);
+
                     }).build());
 
 

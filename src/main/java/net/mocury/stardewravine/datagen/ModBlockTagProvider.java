@@ -174,13 +174,26 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MARBLE_LAPIS_ORE)
                 .add(ModBlocks.LIMESTONE_LAPIS_ORE)
                 .add(ModBlocks.PYRITE_LAPIS_ORE)
+                .add(ModBlocks.GEODE_ORE)
+                .add(ModBlocks.DEEPSLATE_GEODE_ORE)
+                .add(ModBlocks.FROZEN_GEODE_ORE)
+                .add(ModBlocks.DEEPSLATE_FROZEN_GEODE_ORE)
+                .add(ModBlocks.END_FROZEN_GEODE_ORE)
+                .add(ModBlocks.NETHER_MAGMA_GEODE_ORE)
+                .add(ModBlocks.BLACKSTONE_MAGMA_GEODE_ORE)
+                .add(ModBlocks.BASALT_MAGMA_GEODE_ORE)
+                .add(ModBlocks.DEEPSLATE_OMNI_GEODE_ORE)
+                .add(ModBlocks.END_OMNI_GEODE_ORE)
+                .add(ModBlocks.NETHER_OMNI_GEODE_ORE)
+                .add(ModBlocks.BLACKSTONE_OMNI_GEODE_ORE)
+                .add(ModBlocks.BASALT_OMNI_GEODE_ORE)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.MARBLE_LAPIS_ORE)
                 .add(ModBlocks.LIMESTONE_LAPIS_ORE)
                 .add(ModBlocks.PYRITE_LAPIS_ORE)
-                ;
+        ;
 
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)

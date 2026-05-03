@@ -409,6 +409,46 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create().strength(3f).requiresTool()));
 
+    public static final Block GEODE_ORE = registerBlock("geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block DEEPSLATE_GEODE_ORE = registerBlock("deepslate_geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool()));
+    public static final Block FROZEN_GEODE_ORE = registerBlock("frozen_geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block DEEPSLATE_FROZEN_GEODE_ORE = registerBlock("deepslate_frozen_geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block END_FROZEN_GEODE_ORE = registerBlock("end_frozen_geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
+    public static final Block NETHER_MAGMA_GEODE_ORE = registerBlock("nether_magma_geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
+    public static final Block BLACKSTONE_MAGMA_GEODE_ORE = registerBlock("blackstone_magma_geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.GILDED_BLACKSTONE)));
+    public static final Block BASALT_MAGMA_GEODE_ORE = registerBlock("basalt_magma_geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.BASALT)));
+    public static final Block DEEPSLATE_OMNI_GEODE_ORE = registerBlock("deepslate_omni_geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block END_OMNI_GEODE_ORE = registerBlock("end_omni_geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
+    public static final Block NETHER_OMNI_GEODE_ORE = registerBlock("nether_omni_geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
+    public static final Block BLACKSTONE_OMNI_GEODE_ORE = registerBlock("blackstone_omni_geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.GILDED_BLACKSTONE)));
+    public static final Block BASALT_OMNI_GEODE_ORE = registerBlock("basalt_omni_geode_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.BASALT)));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(StardewRavine.MOD_ID, name), block);

@@ -155,6 +155,19 @@
     "stardewravine:deepslate_fire_opal_ore",
     "stardewravine:marble_lapis_ore",
     "stardewravine:limestone_lapis_ore",
-    "stardewravine:pyrite_lapis_ore"
+    "stardewravine:pyrite_lapis_ore",
+    "stardewravine:geode_ore",
+    "stardewravine:deepslate_geode_ore",
+    "stardewravine:frozen_geode_ore",
+    "stardewravine:deepslate_frozen_geode_ore",
+    "stardewravine:end_frozen_geode_ore",
+    "stardewravine:nether_magma_geode_ore",
+    "stardewravine:blackstone_magma_geode_ore",
+    "stardewravine:basalt_magma_geode_ore",
+    "stardewravine:deepslate_omni_geode_ore",
+    "stardewravine:end_omni_geode_ore",
+    "stardewravine:nether_omni_geode_ore",
+    "stardewravine:blackstone_omni_geode_ore",
+    "stardewravine:basalt_omni_geode_ore"
   ]
 }

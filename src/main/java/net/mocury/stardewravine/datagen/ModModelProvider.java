@@ -114,6 +114,19 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MARBLE_LAPIS_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIMESTONE_LAPIS_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PYRITE_LAPIS_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FROZEN_GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_FROZEN_GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_FROZEN_GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_MAGMA_GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACKSTONE_MAGMA_GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BASALT_MAGMA_GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_OMNI_GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_OMNI_GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_OMNI_GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACKSTONE_OMNI_GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BASALT_OMNI_GEODE_ORE);
 
         blockStateModelGenerator.registerSingleton(ModBlocks.POLISHED_MALACHITE, TexturedModel.CUBE_COLUMN);
         blockStateModelGenerator.registerSingleton(ModBlocks.SCROLL_BLOCK, TexturedModel.CUBE_COLUMN);
@@ -203,6 +216,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MALACHITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.OPAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.FIRE_OPAL, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.GEODE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FROZEN_GEODE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAGMA_GEODE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OMNI_GEODE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GEODE_SHELL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FROZEN_GEODE_SHELL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAGMA_GEODE_SHELL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OMNI_GEODE_SHELL, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.FAIRY_BOX, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAGIC_QUIVER, Models.GENERATED);

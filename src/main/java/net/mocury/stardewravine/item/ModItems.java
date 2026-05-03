@@ -44,6 +44,15 @@ public class ModItems {
     public static final Item OPAL = registerItem("opal", new Item(new Item.Settings()));
     public static final Item FIRE_OPAL = registerItem("fire_opal", new Item(new Item.Settings()));
 
+    public static final Item GEODE = registerItem("geode", new Item(new Item.Settings()));
+    public static final Item GEODE_SHELL = registerItem("geode_shell", new Item(new Item.Settings()));
+    public static final Item FROZEN_GEODE = registerItem("frozen_geode", new Item(new Item.Settings()));
+    public static final Item FROZEN_GEODE_SHELL = registerItem("frozen_geode_shell", new Item(new Item.Settings()));
+    public static final Item MAGMA_GEODE = registerItem("magma_geode", new Item(new Item.Settings()));
+    public static final Item MAGMA_GEODE_SHELL = registerItem("magma_geode_shell", new Item(new Item.Settings()));
+    public static final Item OMNI_GEODE = registerItem("omni_geode", new Item(new Item.Settings()));
+    public static final Item OMNI_GEODE_SHELL = registerItem("omni_geode_shell", new Item(new Item.Settings()));
+
     public static final Item FAIRY_BOX = registerItem("fairy_box", new FairyBoxItem(new Item.Settings().maxCount(1)));
     public static final Item MAGIC_QUIVER = registerItem("magic_quiver", new MagicQuiverItem(new Item.Settings().maxCount(1)));
     public static final Item ICE_ROD = registerItem("ice_rod", new IceRodItem(new Item.Settings().maxCount(1)));

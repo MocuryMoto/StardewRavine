@@ -189,6 +189,19 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.NETHER_FIRE_OPAL_ORE, oreDrops(ModBlocks.NETHER_FIRE_OPAL_ORE, ModItems.FIRE_OPAL));
         addDrop(ModBlocks.DEEPSLATE_FIRE_OPAL_ORE, oreDrops(ModBlocks.DEEPSLATE_FIRE_OPAL_ORE, ModItems.FIRE_OPAL));
         addDrop(ModBlocks.END_FIRE_OPAL_ORE, oreDrops(ModBlocks.END_FIRE_OPAL_ORE, ModItems.FIRE_OPAL));
+        addDrop(ModBlocks.GEODE_ORE, oreDrops(ModBlocks.GEODE_ORE, ModItems.GEODE));
+        addDrop(ModBlocks.DEEPSLATE_GEODE_ORE, oreDrops(ModBlocks.DEEPSLATE_GEODE_ORE, ModItems.GEODE));
+        addDrop(ModBlocks.FROZEN_GEODE_ORE, oreDrops(ModBlocks.FROZEN_GEODE_ORE, ModItems.FROZEN_GEODE));
+        addDrop(ModBlocks.DEEPSLATE_FROZEN_GEODE_ORE, oreDrops(ModBlocks.DEEPSLATE_FROZEN_GEODE_ORE, ModItems.FROZEN_GEODE));
+        addDrop(ModBlocks.END_FROZEN_GEODE_ORE, oreDrops(ModBlocks.END_FROZEN_GEODE_ORE, ModItems.FROZEN_GEODE));
+        addDrop(ModBlocks.NETHER_MAGMA_GEODE_ORE, oreDrops(ModBlocks.NETHER_MAGMA_GEODE_ORE, ModItems.MAGMA_GEODE));
+        addDrop(ModBlocks.BLACKSTONE_MAGMA_GEODE_ORE, oreDrops(ModBlocks.BLACKSTONE_MAGMA_GEODE_ORE, ModItems.MAGMA_GEODE));
+        addDrop(ModBlocks.BASALT_MAGMA_GEODE_ORE, oreDrops(ModBlocks.BASALT_MAGMA_GEODE_ORE, ModItems.MAGMA_GEODE));
+        addDrop(ModBlocks.DEEPSLATE_OMNI_GEODE_ORE, oreDrops(ModBlocks.DEEPSLATE_OMNI_GEODE_ORE, ModItems.OMNI_GEODE));
+        addDrop(ModBlocks.END_OMNI_GEODE_ORE, oreDrops(ModBlocks.END_OMNI_GEODE_ORE, ModItems.OMNI_GEODE));
+        addDrop(ModBlocks.NETHER_OMNI_GEODE_ORE, oreDrops(ModBlocks.NETHER_OMNI_GEODE_ORE, ModItems.OMNI_GEODE));
+        addDrop(ModBlocks.BLACKSTONE_OMNI_GEODE_ORE, oreDrops(ModBlocks.BLACKSTONE_OMNI_GEODE_ORE, ModItems.OMNI_GEODE));
+        addDrop(ModBlocks.BASALT_OMNI_GEODE_ORE, oreDrops(ModBlocks.BASALT_OMNI_GEODE_ORE, ModItems.OMNI_GEODE));
 
         addDrop(ModBlocks.CINDER_SHARD_ORE, multipleOreDrops(ModBlocks.CINDER_SHARD_ORE, ModItems.CINDER_SHARD, 2,5));
         addDrop(ModBlocks.CINDER_CLUSTER, multipleOreDrops(ModBlocks.CINDER_CLUSTER, ModItems.CINDER_SHARD, 1,4));
