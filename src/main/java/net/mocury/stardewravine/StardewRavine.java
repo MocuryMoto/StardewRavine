@@ -2,6 +2,7 @@ package net.mocury.stardewravine;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.component.ModDataComponentTypes;
 import net.mocury.stardewravine.item.ModItemGroups;
@@ -21,5 +22,8 @@ public class StardewRavine implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModDataComponentTypes.registerDataComponentTypes();
+
+		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC, 0.33f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC_SEEDS, 0.2f);
 	}
 }

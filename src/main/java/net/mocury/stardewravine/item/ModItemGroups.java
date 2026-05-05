@@ -299,6 +299,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FAIRY_STONE_BLOCK);
                         entries.add(ModBlocks.END_FAIRY_ORE);
 
+                        entries.add(ModItems.GARLIC);
+                        entries.add(ModItems.GARLIC_SEEDS);
+
                     }).build());
 
 

@@ -8,14 +8,17 @@ import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LeafEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.predicate.StatePredicate;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.mocury.stardewravine.block.ModBlocks;
+import net.mocury.stardewravine.block.custom.GarlicCropBlock;
 import net.mocury.stardewravine.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
@@ -231,6 +234,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.FAIRY_STONE_BLOCK);
         addDrop(ModBlocks.END_FAIRY_ORE, oreDrops(ModBlocks.END_FAIRY_ORE, ModItems.FAIRY_STONE));
+
+        BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.GARLIC_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(GarlicCropBlock.AGE, 4));
+        this.addDrop(ModBlocks.GARLIC_CROP, this.cropDrops(ModBlocks.GARLIC_CROP, ModItems.GARLIC, ModItems.GARLIC_SEEDS, builder2));
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

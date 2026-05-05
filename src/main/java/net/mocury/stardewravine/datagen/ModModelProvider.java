@@ -10,6 +10,7 @@ import net.minecraft.data.client.TexturedModel;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 import net.mocury.stardewravine.block.ModBlocks;
+import net.mocury.stardewravine.block.custom.GarlicCropBlock;
 import net.mocury.stardewravine.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -190,6 +191,8 @@ public class ModModelProvider extends FabricModelProvider {
         polishedLimestonePool.wall(ModBlocks.POLISHED_LIMESTONE_WALL);
         fireQuartzPool.stairs(ModBlocks.FIRE_QUARTZ_STAIRS);
         fireQuartzPool.slab(ModBlocks.FIRE_QUARTZ_SLAB);
+
+        blockStateModelGenerator.registerCrop(ModBlocks.GARLIC_CROP, GarlicCropBlock.AGE, 0, 1, 2, 3, 4);
     }
 
     @Override
@@ -254,6 +257,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.STARDROP, Models.GENERATED);
         itemModelGenerator.register(ModItems.ANCIENT_FRUIT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GARLIC, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.IRIDIUM_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRIDIUM_PICKAXE, Models.HANDHELD);

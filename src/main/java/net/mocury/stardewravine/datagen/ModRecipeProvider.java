@@ -614,10 +614,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('O', ModTags.Items.CRYSTALARIUM_ITEMS)
                 .criterion(hasItem(ModItems.FAIRY_DUST), conditionsFromItem(ModItems.FAIRY_DUST))
                 .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "fairy_stone_from_fairy_dust"));
-
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.FAIRY_STONE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FAIRY_STONE_BLOCK);
         List<ItemConvertible> FAIRY_STONE_SMELTABLES = List.of(ModBlocks.END_FAIRY_ORE);
         offerSmelting(exporter, FAIRY_STONE_SMELTABLES, RecipeCategory.MISC, ModItems.FAIRY_STONE, 1f, 200, "stardew_ravine");
         offerBlasting(exporter, FAIRY_STONE_SMELTABLES, RecipeCategory.MISC, ModItems.FAIRY_STONE, 1f, 100, "stardew_ravine");
+
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GARLIC_SEEDS, 1)
+                .input(ModItems.GARLIC)
+                .criterion(hasItem(ModItems.GARLIC), conditionsFromItem(ModItems.GARLIC))
+                .offerTo(exporter);
     }
 }

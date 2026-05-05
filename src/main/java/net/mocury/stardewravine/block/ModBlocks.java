@@ -16,6 +16,7 @@ import net.mocury.stardewravine.StardewRavine;
 import net.mocury.stardewravine.block.custom.BuddingCinderShardBlock;
 import net.mocury.stardewravine.block.custom.CinderClusterBlock;
 import net.mocury.stardewravine.block.custom.CinderShardBlock;
+import net.mocury.stardewravine.block.custom.GarlicCropBlock;
 
 import static net.minecraft.block.Blocks.createFlowerPotBlock;
 
@@ -495,8 +496,16 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(4, 6),
                     AbstractBlock.Settings.create().strength(4f).requiresTool()));
 
+    public static final Block GARLIC_CROP = registerBlockWithoutBlockItem("garlic_crop",
+            new GarlicCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, Identifier.of(StardewRavine.MOD_ID, name), block);
+    }
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block){
         return Registry.register(Registries.BLOCK, Identifier.of(StardewRavine.MOD_ID, name), block);
     }
 
