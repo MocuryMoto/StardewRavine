@@ -24,6 +24,7 @@ public class StardewRavine implements ModInitializer {
 		ModDataComponentTypes.registerDataComponentTypes();
 
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC, 0.33f);
-		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC_SEEDS, 0.2f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.BLUEBERRIES, 0.2f);
 	}
 }

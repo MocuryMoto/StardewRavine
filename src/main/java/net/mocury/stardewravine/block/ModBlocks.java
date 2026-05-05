@@ -13,10 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.mocury.stardewravine.StardewRavine;
-import net.mocury.stardewravine.block.custom.BuddingCinderShardBlock;
-import net.mocury.stardewravine.block.custom.CinderClusterBlock;
-import net.mocury.stardewravine.block.custom.CinderShardBlock;
-import net.mocury.stardewravine.block.custom.GarlicCropBlock;
+import net.mocury.stardewravine.block.custom.*;
 
 import static net.minecraft.block.Blocks.createFlowerPotBlock;
 
@@ -499,6 +496,9 @@ public class ModBlocks {
     public static final Block GARLIC_CROP = registerBlockWithoutBlockItem("garlic_crop",
             new GarlicCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
                     .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block BLUEBERRY_BUSH = registerBlockWithoutBlockItem("blueberry_bush",
+            new BlueberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

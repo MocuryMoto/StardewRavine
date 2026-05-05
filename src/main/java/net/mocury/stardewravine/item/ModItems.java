@@ -122,6 +122,9 @@ public class ModItems {
     public static final Item GARLIC_SEEDS = registerItem("garlic_seeds",
             new AliasedBlockItem(ModBlocks.GARLIC_CROP, new Item.Settings()));
 
+    public static final Item BLUEBERRIES = registerItem("blueberries",
+            new AliasedBlockItem(ModBlocks.BLUEBERRY_BUSH, new Item.Settings().food(ModFoodComponents.BLUEBERRIES)));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(StardewRavine.MOD_ID, name), item);
     }

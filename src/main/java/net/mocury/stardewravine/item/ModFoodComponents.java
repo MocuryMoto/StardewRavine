@@ -15,6 +15,7 @@ public class ModFoodComponents {
             .alwaysEdible()
             .build();
     public static final FoodComponent ANCIENT_FRUIT = new FoodComponent.Builder().nutrition(5).saturationModifier(1.0F).build();
-    public static final FoodComponent GARLIC = new FoodComponent.Builder().nutrition(2).saturationModifier(1.0F).build();
+    public static final FoodComponent GARLIC = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
+    public static final FoodComponent BLUEBERRIES = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();
 
 }

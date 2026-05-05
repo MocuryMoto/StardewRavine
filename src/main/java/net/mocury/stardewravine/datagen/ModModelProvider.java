@@ -10,6 +10,7 @@ import net.minecraft.data.client.TexturedModel;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 import net.mocury.stardewravine.block.ModBlocks;
+import net.mocury.stardewravine.block.custom.BlueberryBushBlock;
 import net.mocury.stardewravine.block.custom.GarlicCropBlock;
 import net.mocury.stardewravine.item.ModItems;
 
@@ -193,6 +194,8 @@ public class ModModelProvider extends FabricModelProvider {
         fireQuartzPool.slab(ModBlocks.FIRE_QUARTZ_SLAB);
 
         blockStateModelGenerator.registerCrop(ModBlocks.GARLIC_CROP, GarlicCropBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLUEBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                BlueberryBushBlock.AGE, 0, 1, 2, 3);
     }
 
     @Override
