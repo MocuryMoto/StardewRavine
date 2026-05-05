@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stardewravine:fairy_rose"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:fairy_dust"
+  }
+}

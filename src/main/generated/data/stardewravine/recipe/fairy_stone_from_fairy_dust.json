@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "tag": "stardewravine:crystalarium_items"
+    },
+    "X": {
+      "item": "stardewravine:fairy_dust"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XOX",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:fairy_stone"
+  }
+}

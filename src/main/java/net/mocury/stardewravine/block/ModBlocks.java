@@ -3,6 +3,7 @@ package net.mocury.stardewravine.block;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -15,6 +16,8 @@ import net.mocury.stardewravine.StardewRavine;
 import net.mocury.stardewravine.block.custom.BuddingCinderShardBlock;
 import net.mocury.stardewravine.block.custom.CinderClusterBlock;
 import net.mocury.stardewravine.block.custom.CinderShardBlock;
+
+import static net.minecraft.block.Blocks.createFlowerPotBlock;
 
 public class ModBlocks {
     public static final Block AQUAMARINE_BLOCK = registerBlock("aquamarine_block",
@@ -448,6 +451,49 @@ public class ModBlocks {
     public static final Block BASALT_OMNI_GEODE_ORE = registerBlock("basalt_omni_geode_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.BASALT)));
+
+    public static final Block FAIRY_ROSE = registerBlock("fairy_rose",
+            new FlowerBlock(StatusEffects.SLOW_FALLING, 10.0F,
+                    AbstractBlock.Settings.create().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block POTTED_FAIRY_ROSE = registerBlock("potted_fairy_rose", createFlowerPotBlock(FAIRY_ROSE));
+    public static final Block BLUE_JAZZ = registerBlock("blue_jazz",
+            new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 5.0F,
+                    AbstractBlock.Settings.create().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block POTTED_BLUE_JAZZ = registerBlock("potted_blue_jazz", createFlowerPotBlock(BLUE_JAZZ));
+    public static final Block DAFFODIL = registerBlock("daffodil",
+            new FlowerBlock(StatusEffects.NAUSEA, 7.0F,
+                    AbstractBlock.Settings.create().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block POTTED_DAFFODIL = registerBlock("potted_daffodil", createFlowerPotBlock(DAFFODIL));
+    public static final Block SWEET_PEA = registerBlock("sweet_pea",
+            new FlowerBlock(StatusEffects.MINING_FATIGUE, 10.0F,
+                    AbstractBlock.Settings.create().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block POTTED_SWEET_PEA = registerBlock("potted_sweet_pea", createFlowerPotBlock(SWEET_PEA));
+    public static final Block SUMMER_SPANGLE = registerBlock("summer_spangle",
+            new FlowerBlock(StatusEffects.HASTE, 10.0F,
+                    AbstractBlock.Settings.create().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block POTTED_SUMMER_SPANGLE = registerBlock("potted_summer_spangle", createFlowerPotBlock(SUMMER_SPANGLE));
+    public static final Block CROCUS = registerBlock("crocus",
+            new FlowerBlock(StatusEffects.RESISTANCE, 5.0F,
+                    AbstractBlock.Settings.create().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block POTTED_CROCUS = registerBlock("potted_crocus", createFlowerPotBlock(CROCUS));
+    public static final Block AMARANTH = registerBlock("amaranth",
+            new TallFlowerBlock(AbstractBlock.Settings.create().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ).burnable().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block FAIRY_ROSE_BUSH = registerBlock("fairy_rose_bush",
+            new TallFlowerBlock(AbstractBlock.Settings.create().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ).pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block FAIRY_STONE_BLOCK = registerBlock("fairy_stone_block",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block END_FAIRY_ORE = registerBlock("end_fairy_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 6),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

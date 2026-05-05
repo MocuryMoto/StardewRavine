@@ -187,6 +187,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.NETHER_OMNI_GEODE_ORE)
                 .add(ModBlocks.BLACKSTONE_OMNI_GEODE_ORE)
                 .add(ModBlocks.BASALT_OMNI_GEODE_ORE)
+                .add(ModBlocks.FAIRY_STONE_BLOCK)
+                .add(ModBlocks.END_FAIRY_ORE)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
@@ -236,6 +238,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.IRIDIUM_DEEPSLATE_ORE)
                 .add(ModBlocks.NETHER_IRIDIUM_ORE)
                 .add(ModBlocks.END_LUNARITE_ORE)
+                .add(ModBlocks.FAIRY_STONE_BLOCK)
+                .add(ModBlocks.END_FAIRY_ORE)
         ;
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -247,6 +251,31 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_SOAPSTONE_WALL)
                 .add(ModBlocks.LIMESTONE_WALL)
                 .add(ModBlocks.POLISHED_LIMESTONE_WALL)
+        ;
+
+        getOrCreateTagBuilder(BlockTags.FLOWERS)
+                .add(ModBlocks.FAIRY_ROSE)
+                .add(ModBlocks.BLUE_JAZZ)
+                .add(ModBlocks.SUMMER_SPANGLE)
+                .add(ModBlocks.DAFFODIL)
+                .add(ModBlocks.SWEET_PEA)
+                .add(ModBlocks.CROCUS)
+                .add(ModBlocks.AMARANTH)
+                .add(ModBlocks.FAIRY_ROSE_BUSH)
+        ;
+
+        getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
+                .add(ModBlocks.FAIRY_ROSE)
+                .add(ModBlocks.BLUE_JAZZ)
+                .add(ModBlocks.SUMMER_SPANGLE)
+                .add(ModBlocks.DAFFODIL)
+                .add(ModBlocks.SWEET_PEA)
+                .add(ModBlocks.CROCUS)
+        ;
+
+        getOrCreateTagBuilder(BlockTags.TALL_FLOWERS)
+                .add(ModBlocks.AMARANTH)
+                .add(ModBlocks.FAIRY_ROSE_BUSH)
         ;
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_IRIDIUM_TOOL)

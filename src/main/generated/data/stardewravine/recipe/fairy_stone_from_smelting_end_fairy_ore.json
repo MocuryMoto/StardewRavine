@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "stardew_ravine",
+  "ingredient": {
+    "item": "stardewravine:end_fairy_ore"
+  },
+  "result": {
+    "id": "stardewravine:fairy_stone"
+  }
+}

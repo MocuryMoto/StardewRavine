@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fairy_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:fairy_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stardewravine:fairy_dust_from_fairy_stone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fairy_stone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stardewravine:fairy_dust_from_fairy_stone"
+    ]
+  }
+}

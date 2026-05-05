@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_end_fairy_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:end_fairy_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:fairy_stone_from_blasting_end_fairy_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_end_fairy_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:fairy_stone_from_blasting_end_fairy_ore"
+    ]
+  }
+}

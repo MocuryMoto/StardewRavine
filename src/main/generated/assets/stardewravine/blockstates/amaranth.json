@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "stardewravine:block/amaranth_bottom"
+    },
+    "half=upper": {
+      "model": "stardewravine:block/amaranth_top"
+    }
+  }
+}

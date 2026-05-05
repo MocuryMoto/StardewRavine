@@ -2,6 +2,7 @@ package net.mocury.stardewravine.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
@@ -127,6 +128,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_OMNI_GEODE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACKSTONE_OMNI_GEODE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BASALT_OMNI_GEODE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FAIRY_STONE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_FAIRY_ORE);
 
         blockStateModelGenerator.registerSingleton(ModBlocks.POLISHED_MALACHITE, TexturedModel.CUBE_COLUMN);
         blockStateModelGenerator.registerSingleton(ModBlocks.SCROLL_BLOCK, TexturedModel.CUBE_COLUMN);
@@ -151,6 +154,15 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerAmethyst(ModBlocks.LARGE_CINDER_BUD);
         blockStateModelGenerator.registerAmethyst(ModBlocks.MEDIUM_CINDER_BUD);
         blockStateModelGenerator.registerAmethyst(ModBlocks.SMALL_CINDER_BUD);
+
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.FAIRY_ROSE, ModBlocks.POTTED_FAIRY_ROSE, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.BLUE_JAZZ, ModBlocks.POTTED_BLUE_JAZZ, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CROCUS, ModBlocks.POTTED_CROCUS, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.SWEET_PEA, ModBlocks.POTTED_SWEET_PEA, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DAFFODIL, ModBlocks.POTTED_DAFFODIL, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.SUMMER_SPANGLE, ModBlocks.POTTED_SUMMER_SPANGLE, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(ModBlocks.AMARANTH, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(ModBlocks.FAIRY_ROSE_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         esperitePool.stairs(ModBlocks.ESPERITE_STAIRS);
         esperitePool.slab(ModBlocks.ESPERITE_SLAB);
@@ -216,6 +228,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MALACHITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.OPAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.FIRE_OPAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FAIRY_STONE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FAIRY_DUST, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.GEODE, Models.GENERATED);
         itemModelGenerator.register(ModItems.FROZEN_GEODE, Models.GENERATED);

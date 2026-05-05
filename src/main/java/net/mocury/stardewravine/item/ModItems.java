@@ -53,6 +53,9 @@ public class ModItems {
     public static final Item OMNI_GEODE = registerItem("omni_geode", new Item(new Item.Settings()));
     public static final Item OMNI_GEODE_SHELL = registerItem("omni_geode_shell", new Item(new Item.Settings()));
 
+    public static final Item FAIRY_STONE = registerItem("fairy_stone", new Item(new Item.Settings()));
+    public static final Item FAIRY_DUST = registerItem("fairy_dust", new Item(new Item.Settings()));
+
     public static final Item FAIRY_BOX = registerItem("fairy_box", new FairyBoxItem(new Item.Settings().maxCount(1)));
     public static final Item MAGIC_QUIVER = registerItem("magic_quiver", new MagicQuiverItem(new Item.Settings().maxCount(1)));
     public static final Item ICE_ROD = registerItem("ice_rod", new IceRodItem(new Item.Settings().maxCount(1)));

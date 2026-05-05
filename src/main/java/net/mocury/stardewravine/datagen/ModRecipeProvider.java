@@ -9,8 +9,12 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
+import net.minecraft.util.Identifier;
+import net.mocury.stardewravine.StardewRavine;
 import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.item.ModItems;
+import net.mocury.stardewravine.util.ModTags;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -566,5 +570,54 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.SCROLL_BLOCK), conditionsFromItem(ModBlocks.SCROLL_BLOCK))
                 .offerTo(exporter);
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.PURPLE_DYE, 1)
+                .input(ModBlocks.CROCUS)
+                .criterion(hasItem(ModBlocks.CROCUS), conditionsFromItem(ModBlocks.CROCUS))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.PURPLE_DYE, 1)
+                .input(ModBlocks.SWEET_PEA)
+                .criterion(hasItem(ModBlocks.SWEET_PEA), conditionsFromItem(ModBlocks.SWEET_PEA))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "purple_dye_from_sweet_pea"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.ORANGE_DYE, 1)
+                .input(ModBlocks.SUMMER_SPANGLE)
+                .criterion(hasItem(ModBlocks.SUMMER_SPANGLE), conditionsFromItem(ModBlocks.SUMMER_SPANGLE))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.YELLOW_DYE, 1)
+                .input(ModBlocks.DAFFODIL)
+                .criterion(hasItem(ModBlocks.DAFFODIL), conditionsFromItem(ModBlocks.DAFFODIL))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.BLUE_DYE, 1)
+                .input(ModBlocks.BLUE_JAZZ)
+                .criterion(hasItem(ModBlocks.BLUE_JAZZ), conditionsFromItem(ModBlocks.BLUE_JAZZ))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.PURPLE_DYE, 2)
+                .input(ModBlocks.AMARANTH)
+                .criterion(hasItem(ModBlocks.AMARANTH), conditionsFromItem(ModBlocks.AMARANTH))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "purple_dye_from_amaranth"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FAIRY_DUST, 1)
+                .input(ModBlocks.FAIRY_ROSE)
+                .criterion(hasItem(ModBlocks.FAIRY_ROSE), conditionsFromItem(ModBlocks.FAIRY_ROSE))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FAIRY_DUST, 2)
+                .input(ModBlocks.FAIRY_ROSE_BUSH)
+                .criterion(hasItem(ModBlocks.FAIRY_ROSE_BUSH), conditionsFromItem(ModBlocks.FAIRY_ROSE_BUSH))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "fairy_dust_from_fairy_rose_bush"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FAIRY_DUST, 4)
+                .input(ModItems.FAIRY_STONE)
+                .criterion(hasItem(ModItems.FAIRY_STONE), conditionsFromItem(ModItems.FAIRY_STONE))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "fairy_dust_from_fairy_stone"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FAIRY_STONE, 1)
+                .pattern(" X ")
+                .pattern("XOX")
+                .pattern(" X ")
+                .input('X', ModItems.FAIRY_DUST)
+                .input('O', ModTags.Items.CRYSTALARIUM_ITEMS)
+                .criterion(hasItem(ModItems.FAIRY_DUST), conditionsFromItem(ModItems.FAIRY_DUST))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "fairy_stone_from_fairy_dust"));
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.FAIRY_STONE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FAIRY_STONE_BLOCK);
+        List<ItemConvertible> FAIRY_STONE_SMELTABLES = List.of(ModBlocks.END_FAIRY_ORE);
+        offerSmelting(exporter, FAIRY_STONE_SMELTABLES, RecipeCategory.MISC, ModItems.FAIRY_STONE, 1f, 200, "stardew_ravine");
+        offerBlasting(exporter, FAIRY_STONE_SMELTABLES, RecipeCategory.MISC, ModItems.FAIRY_STONE, 1f, 100, "stardew_ravine");
     }
 }

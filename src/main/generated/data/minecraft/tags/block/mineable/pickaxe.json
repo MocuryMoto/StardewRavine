@@ -168,6 +168,8 @@
     "stardewravine:end_omni_geode_ore",
     "stardewravine:nether_omni_geode_ore",
     "stardewravine:blackstone_omni_geode_ore",
-    "stardewravine:basalt_omni_geode_ore"
+    "stardewravine:basalt_omni_geode_ore",
+    "stardewravine:fairy_stone_block",
+    "stardewravine:end_fairy_ore"
   ]
 }

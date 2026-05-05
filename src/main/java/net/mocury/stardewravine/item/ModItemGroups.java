@@ -286,6 +286,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLACKSTONE_OMNI_GEODE_ORE);
                         entries.add(ModBlocks.BASALT_OMNI_GEODE_ORE);
 
+                        entries.add(ModBlocks.BLUE_JAZZ);
+                        entries.add(ModBlocks.SUMMER_SPANGLE);
+                        entries.add(ModBlocks.DAFFODIL);
+                        entries.add(ModBlocks.SWEET_PEA);
+                        entries.add(ModBlocks.CROCUS);
+                        entries.add(ModBlocks.AMARANTH);
+                        entries.add(ModBlocks.FAIRY_ROSE);
+                        entries.add(ModBlocks.FAIRY_ROSE_BUSH);
+                        entries.add(ModItems.FAIRY_DUST);
+                        entries.add(ModItems.FAIRY_STONE);
+                        entries.add(ModBlocks.FAIRY_STONE_BLOCK);
+                        entries.add(ModBlocks.END_FAIRY_ORE);
+
                     }).build());
 
 

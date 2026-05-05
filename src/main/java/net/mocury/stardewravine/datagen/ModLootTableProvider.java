@@ -213,6 +213,24 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDropWithSilkTouch(ModBlocks.LARGE_CINDER_BUD);
         addDropWithSilkTouch(ModBlocks.MEDIUM_CINDER_BUD);
         addDropWithSilkTouch(ModBlocks.SMALL_CINDER_BUD);
+
+        addDrop(ModBlocks.FAIRY_ROSE);
+        addPottedPlantDrops(ModBlocks.POTTED_FAIRY_ROSE);
+        addDrop(ModBlocks.BLUE_JAZZ);
+        addPottedPlantDrops(ModBlocks.POTTED_BLUE_JAZZ);
+        addDrop(ModBlocks.CROCUS);
+        addPottedPlantDrops(ModBlocks.POTTED_CROCUS);
+        addDrop(ModBlocks.DAFFODIL);
+        addPottedPlantDrops(ModBlocks.POTTED_DAFFODIL);
+        addDrop(ModBlocks.SUMMER_SPANGLE);
+        addPottedPlantDrops(ModBlocks.POTTED_SUMMER_SPANGLE);
+        addDrop(ModBlocks.SWEET_PEA);
+        addPottedPlantDrops(ModBlocks.POTTED_SWEET_PEA);
+        addDrop(ModBlocks.AMARANTH);
+        addDrop(ModBlocks.FAIRY_ROSE_BUSH);
+
+        addDrop(ModBlocks.FAIRY_STONE_BLOCK);
+        addDrop(ModBlocks.END_FAIRY_ORE, oreDrops(ModBlocks.END_FAIRY_ORE, ModItems.FAIRY_STONE));
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
