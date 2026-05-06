@@ -11,6 +11,9 @@
     },
     "age=3": {
       "model": "stardewravine:block/blueberry_bush_stage3"
+    },
+    "age=4": {
+      "model": "stardewravine:block/blueberry_bush_stage4"
     }
   }
 }

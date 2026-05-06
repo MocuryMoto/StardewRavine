@@ -664,6 +664,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.FAIRY_DUST), conditionsFromItem(ModItems.FAIRY_DUST))
                 .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "oxidized_cut_copper_slab_from_fairy_dust"));
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.BLUE_DYE, 1)
+                .input(ModItems.BLUEBERRIES)
+                .criterion(hasItem(ModItems.BLUEBERRIES), conditionsFromItem(ModItems.BLUEBERRIES))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "blue_dye_from_blueberries"));
+
         offer2x2CompactingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BIXITE, ModItems.BIXITE_CHUNK);
         offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_BIXITE, ModBlocks.BIXITE);
         offer2x2CompactingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TERRASINE_BLOCK, ModItems.TERRASINE);

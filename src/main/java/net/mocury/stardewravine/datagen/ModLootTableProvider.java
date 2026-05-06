@@ -254,7 +254,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                 block -> this.applyExplosionDecay(block, LootTable.builder()
                                 .pool(LootPool.builder().conditionally(
                                                         BlockStatePropertyLootCondition.builder(ModBlocks.BLUEBERRY_BUSH)
-                                                                .properties(StatePredicate.Builder.create().exactMatch(BlueberryBushBlock.AGE, 3)))
+                                                                .properties(StatePredicate.Builder.create().exactMatch(BlueberryBushBlock.AGE, 4)))
                                                 .with(ItemEntry.builder(ModItems.BLUEBERRIES))
                                                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 3.0F)))
                                                 .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE)))
