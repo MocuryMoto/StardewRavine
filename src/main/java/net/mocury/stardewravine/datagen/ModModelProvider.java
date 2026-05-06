@@ -132,6 +132,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BASALT_OMNI_GEODE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FAIRY_STONE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_FAIRY_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TERRASINE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_TERRASINE);
 
         blockStateModelGenerator.registerSingleton(ModBlocks.POLISHED_MALACHITE, TexturedModel.CUBE_COLUMN);
         blockStateModelGenerator.registerSingleton(ModBlocks.SCROLL_BLOCK, TexturedModel.CUBE_COLUMN);
@@ -151,6 +153,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSingleton(ModBlocks.GRAY_SCROLL, TexturedModel.CUBE_COLUMN);
         blockStateModelGenerator.registerSingleton(ModBlocks.BLACK_SCROLL, TexturedModel.CUBE_COLUMN);
         blockStateModelGenerator.registerSingleton(ModBlocks.BROWN_SCROLL, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.BIXITE, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.POLISHED_BIXITE, TexturedModel.CUBE_COLUMN);
 
         blockStateModelGenerator.registerAmethyst(ModBlocks.CINDER_CLUSTER);
         blockStateModelGenerator.registerAmethyst(ModBlocks.LARGE_CINDER_BUD);
@@ -258,6 +262,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SILVER_SPOON, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DRIED_STARFISH, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.BIXITE_CHUNK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TERRASINE, Models.GENERATED);
         itemModelGenerator.register(ModItems.STARDROP, Models.GENERATED);
         itemModelGenerator.register(ModItems.ANCIENT_FRUIT, Models.GENERATED);
         itemModelGenerator.register(ModItems.GARLIC, Models.GENERATED);

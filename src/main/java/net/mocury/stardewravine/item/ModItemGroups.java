@@ -246,6 +246,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_FIRE_OPAL_ORE);
                         entries.add(ModBlocks.END_FIRE_OPAL_ORE);
 
+                        entries.add(ModItems.BIXITE_CHUNK);
+                        entries.add(ModBlocks.BIXITE);
+                        entries.add(ModBlocks.POLISHED_BIXITE);
+                        entries.add(ModItems.TERRASINE);
+                        entries.add(ModBlocks.TERRASINE_BLOCK);
+                        entries.add(ModBlocks.POLISHED_TERRASINE);
+
                         entries.add(ModBlocks.SCROLL_BLOCK);
                         entries.add(ModBlocks.RED_SCROLL);
                         entries.add(ModBlocks.ORANGE_SCROLL);

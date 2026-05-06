@@ -493,12 +493,25 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(4, 6),
                     AbstractBlock.Settings.create().strength(4f).requiresTool()));
 
+    public static final Block BIXITE = registerBlock("bixite",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BASALT)));
+    public static final Block POLISHED_BIXITE = registerBlock("polished_bixite",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.METAL)));
+    public static final Block TERRASINE_BLOCK = registerBlock("terrasine_block",
+            new Block(AbstractBlock.Settings.create().strength(1.5f)));
+    public static final Block POLISHED_TERRASINE = registerBlock("polished_terrasine",
+            new Block(AbstractBlock.Settings.create().strength(1.5f)));
+
+
     public static final Block GARLIC_CROP = registerBlockWithoutBlockItem("garlic_crop",
             new GarlicCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
                     .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block BLUEBERRY_BUSH = registerBlockWithoutBlockItem("blueberry_bush",
-            new BlueberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
+            new BlueberryBushBlock(AbstractBlock.Settings.create()
+                    .ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY)));
+
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

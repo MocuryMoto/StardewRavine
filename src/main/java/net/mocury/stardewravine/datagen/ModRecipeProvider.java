@@ -618,6 +618,56 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         List<ItemConvertible> FAIRY_STONE_SMELTABLES = List.of(ModBlocks.END_FAIRY_ORE);
         offerSmelting(exporter, FAIRY_STONE_SMELTABLES, RecipeCategory.MISC, ModItems.FAIRY_STONE, 1f, 200, "stardew_ravine");
         offerBlasting(exporter, FAIRY_STONE_SMELTABLES, RecipeCategory.MISC, ModItems.FAIRY_STONE, 1f, 100, "stardew_ravine");
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.OXIDIZED_COPPER, 1)
+                .input(Items.COPPER_BLOCK)
+                .input(ModItems.FAIRY_DUST)
+                .criterion(hasItem(ModItems.FAIRY_DUST), conditionsFromItem(ModItems.FAIRY_DUST))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "oxidized_copper_from_fairy_dust"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.OXIDIZED_CHISELED_COPPER, 1)
+                .input(Items.CHISELED_COPPER)
+                .input(ModItems.FAIRY_DUST)
+                .criterion(hasItem(ModItems.FAIRY_DUST), conditionsFromItem(ModItems.FAIRY_DUST))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "oxidized_chiseled_copper_from_fairy_dust"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.OXIDIZED_COPPER_BULB, 1)
+                .input(Items.COPPER_BULB)
+                .input(ModItems.FAIRY_DUST)
+                .criterion(hasItem(ModItems.FAIRY_DUST), conditionsFromItem(ModItems.FAIRY_DUST))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "oxidized_copper_bulb_from_fairy_dust"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.OXIDIZED_COPPER_DOOR, 1)
+                .input(Items.COPPER_DOOR)
+                .input(ModItems.FAIRY_DUST)
+                .criterion(hasItem(ModItems.FAIRY_DUST), conditionsFromItem(ModItems.FAIRY_DUST))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "oxidized_copper_door_from_fairy_dust"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.OXIDIZED_COPPER_GRATE, 1)
+                .input(Items.COPPER_GRATE)
+                .input(ModItems.FAIRY_DUST)
+                .criterion(hasItem(ModItems.FAIRY_DUST), conditionsFromItem(ModItems.FAIRY_DUST))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "oxidized_copper_grate_from_fairy_dust"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.OXIDIZED_COPPER_TRAPDOOR, 1)
+                .input(Items.COPPER_TRAPDOOR)
+                .input(ModItems.FAIRY_DUST)
+                .criterion(hasItem(ModItems.FAIRY_DUST), conditionsFromItem(ModItems.FAIRY_DUST))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "oxidized_copper_trapdoor_from_fairy_dust"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.OXIDIZED_CUT_COPPER, 1)
+                .input(Items.CUT_COPPER)
+                .input(ModItems.FAIRY_DUST)
+                .criterion(hasItem(ModItems.FAIRY_DUST), conditionsFromItem(ModItems.FAIRY_DUST))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "oxidized_cut_copper_from_fairy_dust"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.OXIDIZED_CUT_COPPER_STAIRS, 1)
+                .input(Items.CUT_COPPER_STAIRS)
+                .input(ModItems.FAIRY_DUST)
+                .criterion(hasItem(ModItems.FAIRY_DUST), conditionsFromItem(ModItems.FAIRY_DUST))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "oxidized_cut_copper_stairs_from_fairy_dust"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.OXIDIZED_CUT_COPPER_SLAB, 1)
+                .input(Items.CUT_COPPER_SLAB)
+                .input(ModItems.FAIRY_DUST)
+                .criterion(hasItem(ModItems.FAIRY_DUST), conditionsFromItem(ModItems.FAIRY_DUST))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "oxidized_cut_copper_slab_from_fairy_dust"));
+
+        offer2x2CompactingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BIXITE, ModItems.BIXITE_CHUNK);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_BIXITE, ModBlocks.BIXITE);
+        offer2x2CompactingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TERRASINE_BLOCK, ModItems.TERRASINE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_TERRASINE, ModBlocks.TERRASINE_BLOCK);
 
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GARLIC_SEEDS, 1)

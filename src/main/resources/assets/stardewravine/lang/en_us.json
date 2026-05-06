@@ -76,6 +76,8 @@
   "item.stardewravine.garlic": "Garlic",
   "item.stardewravine.garlic_seeds": "Garlic Seeds",
   "item.stardewravine.blueberries": "Blueberries",
+  "item.stardewravine.bixite_chunk": "Bixite Chunk",
+  "item.stardewravine.terrasine": "Terrasine Chunk",
 
   "block.stardewravine.aquamarine_block": "Block of Aquamarine",
   "block.stardewravine.aquamarine_ore": "Aquamarine Ore",
@@ -274,6 +276,10 @@
   "block.stardewravine.fairy_rose_bush": "Fairy Rose Bush",
   "block.stardewravine.fairy_stone_block": "Fairy Stone Block",
   "block.stardewravine.end_fairy_ore": "Fairy Stone Ore",
+  "block.stardewravine.bixite": "Rough Bixite",
+  "block.stardewravine.polished_bixite": "Polished Bixite",
+  "block.stardewravine.terrasine_block": "Terrasine",
+  "block.stardewravine.polished_terrasine": "Polished Terrasine",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine",
 

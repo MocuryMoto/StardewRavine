@@ -189,6 +189,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BASALT_OMNI_GEODE_ORE)
                 .add(ModBlocks.FAIRY_STONE_BLOCK)
                 .add(ModBlocks.END_FAIRY_ORE)
+                .add(ModBlocks.BIXITE)
+                .add(ModBlocks.POLISHED_BIXITE)
+                .add(ModBlocks.TERRASINE_BLOCK)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)

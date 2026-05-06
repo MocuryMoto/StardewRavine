@@ -43,6 +43,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.MALACHITE)
                 .add(ModItems.OPAL)
                 .add(ModItems.FIRE_OPAL)
+                .add(ModItems.BIXITE_CHUNK)
+                .add(ModItems.TERRASINE)
                 .add(Items.EMERALD)
                 .add(Items.DIAMOND)
                 .add(Items.LAPIS_LAZULI)

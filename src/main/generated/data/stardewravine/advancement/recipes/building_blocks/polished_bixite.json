@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bixite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:bixite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stardewravine:polished_bixite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bixite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stardewravine:polished_bixite"
+    ]
+  }
+}

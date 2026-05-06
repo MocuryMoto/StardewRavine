@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:chiseled_copper"
+    },
+    {
+      "item": "stardewravine:fairy_dust"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:oxidized_chiseled_copper"
+  }
+}
