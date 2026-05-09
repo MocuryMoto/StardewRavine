@@ -668,6 +668,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModItems.BLUEBERRIES)
                 .criterion(hasItem(ModItems.BLUEBERRIES), conditionsFromItem(ModItems.BLUEBERRIES))
                 .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "blue_dye_from_blueberries"));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.ORANGE_DYE, 1)
+                .input(ModItems.SALMONBERRY)
+                .criterion(hasItem(ModItems.SALMONBERRY), conditionsFromItem(ModItems.SALMONBERRY))
+                .offerTo(exporter, Identifier.of(StardewRavine.MOD_ID, "orange_dye_from_salmonberry"));
 
         offer2x2CompactingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BIXITE, ModItems.BIXITE_CHUNK);
         offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_BIXITE, ModBlocks.BIXITE);
@@ -678,6 +682,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GARLIC_SEEDS, 1)
                 .input(ModItems.GARLIC)
                 .criterion(hasItem(ModItems.GARLIC), conditionsFromItem(ModItems.GARLIC))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LEEK_SEEDS, 1)
+                .input(ModItems.LEEK)
+                .criterion(hasItem(ModItems.LEEK), conditionsFromItem(ModItems.LEEK))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SPRING_ONION_SEEDS, 1)
+                .input(ModItems.SPRING_ONION)
+                .criterion(hasItem(ModItems.SPRING_ONION), conditionsFromItem(ModItems.SPRING_ONION))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PARSNIP_SEEDS, 1)
+                .input(ModItems.PARSNIP)
+                .criterion(hasItem(ModItems.PARSNIP), conditionsFromItem(ModItems.PARSNIP))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HORSERADISH_SEEDS, 1)
+                .input(ModItems.HORSERADISH)
+                .criterion(hasItem(ModItems.HORSERADISH), conditionsFromItem(ModItems.HORSERADISH))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RHUBARB_SEEDS, 1)
+                .input(ModItems.RHUBARB)
+                .criterion(hasItem(ModItems.RHUBARB), conditionsFromItem(ModItems.RHUBARB))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KALE_SEEDS, 1)
+                .input(ModItems.KALE)
+                .criterion(hasItem(ModItems.KALE), conditionsFromItem(ModItems.KALE))
                 .offerTo(exporter);
     }
 }

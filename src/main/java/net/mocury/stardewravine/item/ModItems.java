@@ -120,13 +120,28 @@ public class ModItems {
 
     public static final Item STARDROP = registerItem("stardrop", new Item(new Item.Settings().food(ModFoodComponents.STARDROP)));
     public static final Item ANCIENT_FRUIT = registerItem("ancient_fruit", new Item(new Item.Settings().food(ModFoodComponents.ANCIENT_FRUIT)));
-    public static final Item GARLIC = registerItem("garlic", new Item(new Item.Settings().food(ModFoodComponents.GARLIC)));
 
-    public static final Item GARLIC_SEEDS = registerItem("garlic_seeds",
-            new AliasedBlockItem(ModBlocks.GARLIC_CROP, new Item.Settings()));
+    public static final Item GARLIC = registerItem("garlic", new Item(new Item.Settings().food(ModFoodComponents.GARLIC)));
+    public static final Item GARLIC_SEEDS = registerItem("garlic_seeds", new AliasedBlockItem(ModBlocks.GARLIC_CROP, new Item.Settings()));
+    public static final Item LEEK = registerItem("leek", new Item(new Item.Settings().food(ModFoodComponents.LEEK)));
+    public static final Item LEEK_SEEDS = registerItem("leek_seeds", new AliasedBlockItem(ModBlocks.LEEK_CROP, new Item.Settings()));
+    public static final Item SPRING_ONION = registerItem("spring_onion", new Item(new Item.Settings().food(ModFoodComponents.SPRING_ONION)));
+    public static final Item SPRING_ONION_SEEDS = registerItem("spring_onion_seeds", new AliasedBlockItem(ModBlocks.SPRING_ONION_CROP, new Item.Settings()));
+    public static final Item PARSNIP = registerItem("parsnip", new Item(new Item.Settings().food(ModFoodComponents.PARSNIP)));
+    public static final Item PARSNIP_SEEDS = registerItem("parsnip_seeds", new AliasedBlockItem(ModBlocks.PARSNIP_CROP, new Item.Settings()));
+    public static final Item HORSERADISH = registerItem("horseradish", new Item(new Item.Settings().food(ModFoodComponents.HORSERADISH)));
+    public static final Item HORSERADISH_SEEDS = registerItem("horseradish_seeds", new AliasedBlockItem(ModBlocks.HORSERADISH_CROP, new Item.Settings()));
+    public static final Item RHUBARB = registerItem("rhubarb", new Item(new Item.Settings().food(ModFoodComponents.RHUBARB)));
+    public static final Item RHUBARB_SEEDS = registerItem("rhubarb_seeds", new AliasedBlockItem(ModBlocks.RHUBARB_CROP, new Item.Settings()));
+    public static final Item KALE = registerItem("kale", new Item(new Item.Settings().food(ModFoodComponents.KALE)));
+    public static final Item KALE_SEEDS = registerItem("kale_seeds", new AliasedBlockItem(ModBlocks.KALE_CROP, new Item.Settings()));
 
     public static final Item BLUEBERRIES = registerItem("blueberries",
             new AliasedBlockItem(ModBlocks.BLUEBERRY_BUSH, new Item.Settings().food(ModFoodComponents.BLUEBERRIES)));
+    public static final Item SALMONBERRY = registerItem("salmonberry",
+            new AliasedBlockItem(ModBlocks.SALMONBERRY_BUSH, new Item.Settings().food(ModFoodComponents.SALMONBERRY)));
+    public static final Item STRAWBERRY = registerItem("strawberry",
+            new AliasedBlockItem(ModBlocks.STRAWBERRY_BUSH, new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(StardewRavine.MOD_ID, name), item);

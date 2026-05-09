@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stardewravine:leek"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:leek_seeds"
+  }
+}

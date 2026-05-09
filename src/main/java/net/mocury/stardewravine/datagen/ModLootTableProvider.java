@@ -3,8 +3,6 @@ package net.mocury.stardewravine.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.SweetBerryBushBlock;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
@@ -21,8 +19,7 @@ import net.minecraft.predicate.StatePredicate;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.mocury.stardewravine.block.ModBlocks;
-import net.mocury.stardewravine.block.custom.BlueberryBushBlock;
-import net.mocury.stardewravine.block.custom.GarlicCropBlock;
+import net.mocury.stardewravine.block.custom.*;
 import net.mocury.stardewravine.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
@@ -249,6 +246,24 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.GARLIC_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(GarlicCropBlock.AGE, 4));
         this.addDrop(ModBlocks.GARLIC_CROP, this.cropDrops(ModBlocks.GARLIC_CROP, ModItems.GARLIC, ModItems.GARLIC_SEEDS, builder2));
+        BlockStatePropertyLootCondition.Builder builder3 = BlockStatePropertyLootCondition.builder(ModBlocks.LEEK_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(LeekCropBlock.AGE, 3));
+        this.addDrop(ModBlocks.LEEK_CROP, this.cropDrops(ModBlocks.LEEK_CROP, ModItems.LEEK, ModItems.LEEK_SEEDS, builder3));
+        BlockStatePropertyLootCondition.Builder builder4 = BlockStatePropertyLootCondition.builder(ModBlocks.SPRING_ONION_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(SpringOnionCropBlock.AGE, 3));
+        this.addDrop(ModBlocks.SPRING_ONION_CROP, this.cropDrops(ModBlocks.SPRING_ONION_CROP, ModItems.SPRING_ONION, ModItems.SPRING_ONION_SEEDS, builder4));
+        BlockStatePropertyLootCondition.Builder builder5 = BlockStatePropertyLootCondition.builder(ModBlocks.PARSNIP_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(ParsnipCropBlock.AGE, 5));
+        this.addDrop(ModBlocks.PARSNIP_CROP, this.cropDrops(ModBlocks.PARSNIP_CROP, ModItems.PARSNIP, ModItems.PARSNIP_SEEDS, builder5));
+        BlockStatePropertyLootCondition.Builder builder6 = BlockStatePropertyLootCondition.builder(ModBlocks.HORSERADISH_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(HorseradishCropBlock.AGE, 3));
+        this.addDrop(ModBlocks.HORSERADISH_CROP, this.cropDrops(ModBlocks.HORSERADISH_CROP, ModItems.HORSERADISH, ModItems.HORSERADISH_SEEDS, builder6));
+        BlockStatePropertyLootCondition.Builder builder7 = BlockStatePropertyLootCondition.builder(ModBlocks.RHUBARB_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(RhubarbCropBlock.AGE, 5));
+        this.addDrop(ModBlocks.RHUBARB_CROP, this.cropDrops(ModBlocks.RHUBARB_CROP, ModItems.RHUBARB, ModItems.RHUBARB_SEEDS, builder7));
+        BlockStatePropertyLootCondition.Builder builder8 = BlockStatePropertyLootCondition.builder(ModBlocks.KALE_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(KaleCropBlock.AGE, 4));
+        this.addDrop(ModBlocks.KALE_CROP, this.cropDrops(ModBlocks.KALE_CROP, ModItems.KALE, ModItems.KALE_SEEDS, builder8));
 
         this.addDrop(ModBlocks.BLUEBERRY_BUSH,
                 block -> this.applyExplosionDecay(block, LootTable.builder()
@@ -257,10 +272,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                                                 .properties(StatePredicate.Builder.create().exactMatch(BlueberryBushBlock.AGE, 4)))
                                                 .with(ItemEntry.builder(ModItems.BLUEBERRIES))
                                                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 3.0F)))
-                                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE)))
-                                )
-                )
-        );
+                                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
+        this.addDrop(ModBlocks.SALMONBERRY_BUSH,
+                block -> this.applyExplosionDecay(block, LootTable.builder()
+                                .pool(LootPool.builder().conditionally(
+                                                        BlockStatePropertyLootCondition.builder(ModBlocks.SALMONBERRY_BUSH)
+                                                                .properties(StatePredicate.Builder.create().exactMatch(SalmonberryBushBlock.AGE, 3)))
+                                                .with(ItemEntry.builder(ModItems.SALMONBERRY))
+                                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(3.0F, 5.0F))) //how many items drop
+                                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
+        this.addDrop(ModBlocks.STRAWBERRY_BUSH,
+                block -> this.applyExplosionDecay(block, LootTable.builder()
+                                .pool(LootPool.builder().conditionally(
+                                                        BlockStatePropertyLootCondition.builder(ModBlocks.STRAWBERRY_BUSH)
+                                                                .properties(StatePredicate.Builder.create().exactMatch(StrawberryBushBlock.AGE, 5)))
+                                                .with(ItemEntry.builder(ModItems.STRAWBERRY))
+                                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(3.0F, 4.0F))) //how many items drop
+                                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

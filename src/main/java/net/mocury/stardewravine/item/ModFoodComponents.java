@@ -16,6 +16,15 @@ public class ModFoodComponents {
             .build();
     public static final FoodComponent ANCIENT_FRUIT = new FoodComponent.Builder().nutrition(5).saturationModifier(1.0F).build();
     public static final FoodComponent GARLIC = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
+    public static final FoodComponent LEEK = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
+    public static final FoodComponent SPRING_ONION = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
+    public static final FoodComponent PARSNIP = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
+    public static final FoodComponent HORSERADISH = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
+    public static final FoodComponent RHUBARB = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
+    public static final FoodComponent KALE = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
+
     public static final FoodComponent BLUEBERRIES = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();
+    public static final FoodComponent SALMONBERRY = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();
+    public static final FoodComponent STRAWBERRY = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();
 
 }

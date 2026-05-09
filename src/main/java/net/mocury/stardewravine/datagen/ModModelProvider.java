@@ -10,8 +10,7 @@ import net.minecraft.data.client.TexturedModel;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 import net.mocury.stardewravine.block.ModBlocks;
-import net.mocury.stardewravine.block.custom.BlueberryBushBlock;
-import net.mocury.stardewravine.block.custom.GarlicCropBlock;
+import net.mocury.stardewravine.block.custom.*;
 import net.mocury.stardewravine.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -198,9 +197,19 @@ public class ModModelProvider extends FabricModelProvider {
         fireQuartzPool.slab(ModBlocks.FIRE_QUARTZ_SLAB);
 
         blockStateModelGenerator.registerCrop(ModBlocks.GARLIC_CROP, GarlicCropBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.LEEK_CROP, LeekCropBlock.AGE, 0, 1, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.SPRING_ONION_CROP, SpringOnionCropBlock.AGE, 0, 1, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.PARSNIP_CROP, ParsnipCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.HORSERADISH_CROP, HorseradishCropBlock.AGE, 0, 1, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.RHUBARB_CROP, RhubarbCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.KALE_CROP, KaleCropBlock.AGE, 0, 1, 2, 3, 4);
 
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLUEBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
                 BlueberryBushBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.SALMONBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                SalmonberryBushBlock.AGE, 0, 1, 2, 3);
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.STRAWBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                StrawberryBushBlock.AGE, 0, 1, 2, 3, 4, 5);
     }
 
     @Override
@@ -265,9 +274,16 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.BIXITE_CHUNK, Models.GENERATED);
         itemModelGenerator.register(ModItems.TERRASINE, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.STARDROP, Models.GENERATED);
         itemModelGenerator.register(ModItems.ANCIENT_FRUIT, Models.GENERATED);
         itemModelGenerator.register(ModItems.GARLIC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEEK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SPRING_ONION, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PARSNIP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HORSERADISH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RHUBARB, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KALE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.IRIDIUM_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRIDIUM_PICKAXE, Models.HANDHELD);

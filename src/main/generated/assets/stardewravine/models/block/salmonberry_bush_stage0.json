@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "stardewravine:block/salmonberry_bush_stage0"
+  }
+}

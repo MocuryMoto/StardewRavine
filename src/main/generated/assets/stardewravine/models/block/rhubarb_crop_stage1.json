@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "stardewravine:block/rhubarb_crop_stage1"
+  }
+}

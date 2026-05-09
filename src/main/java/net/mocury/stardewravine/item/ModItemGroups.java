@@ -306,9 +306,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FAIRY_STONE_BLOCK);
                         entries.add(ModBlocks.END_FAIRY_ORE);
 
-                        entries.add(ModItems.BLUEBERRIES);
                         entries.add(ModItems.GARLIC);
                         entries.add(ModItems.GARLIC_SEEDS);
+                        entries.add(ModItems.LEEK);
+                        entries.add(ModItems.LEEK_SEEDS);
+                        entries.add(ModItems.SPRING_ONION);
+                        entries.add(ModItems.SPRING_ONION_SEEDS);
+                        entries.add(ModItems.PARSNIP);
+                        entries.add(ModItems.PARSNIP_SEEDS);
+                        entries.add(ModItems.HORSERADISH);
+                        entries.add(ModItems.HORSERADISH_SEEDS);
+                        entries.add(ModItems.RHUBARB);
+                        entries.add(ModItems.RHUBARB_SEEDS);
+                        entries.add(ModItems.KALE);
+                        entries.add(ModItems.KALE_SEEDS);
+                        entries.add(ModItems.SALMONBERRY);
+                        entries.add(ModItems.STRAWBERRY);
+                        entries.add(ModItems.BLUEBERRIES);
 
                     }).build());
 
