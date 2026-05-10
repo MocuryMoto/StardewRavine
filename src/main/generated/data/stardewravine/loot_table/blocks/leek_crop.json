@@ -27,7 +27,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "stardewravine:leek_seeds"
+              "name": "stardewravine:leek"
             }
           ]
         }
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "stardewravine:leek_seeds"
+          "name": "stardewravine:leek"
         }
       ],
       "rolls": 1.0

@@ -27,7 +27,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "stardewravine:horseradish_seeds"
+              "name": "stardewravine:horseradish"
             }
           ]
         }
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "stardewravine:horseradish_seeds"
+          "name": "stardewravine:horseradish"
         }
       ],
       "rolls": 1.0

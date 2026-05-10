@@ -248,16 +248,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         this.addDrop(ModBlocks.GARLIC_CROP, this.cropDrops(ModBlocks.GARLIC_CROP, ModItems.GARLIC, ModItems.GARLIC_SEEDS, builder2));
         BlockStatePropertyLootCondition.Builder builder3 = BlockStatePropertyLootCondition.builder(ModBlocks.LEEK_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(LeekCropBlock.AGE, 3));
-        this.addDrop(ModBlocks.LEEK_CROP, this.cropDrops(ModBlocks.LEEK_CROP, ModItems.LEEK, ModItems.LEEK_SEEDS, builder3));
+        this.addDrop(ModBlocks.LEEK_CROP, this.cropDrops(ModBlocks.LEEK_CROP, ModItems.LEEK, ModItems.LEEK, builder3));
         BlockStatePropertyLootCondition.Builder builder4 = BlockStatePropertyLootCondition.builder(ModBlocks.SPRING_ONION_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(SpringOnionCropBlock.AGE, 3));
-        this.addDrop(ModBlocks.SPRING_ONION_CROP, this.cropDrops(ModBlocks.SPRING_ONION_CROP, ModItems.SPRING_ONION, ModItems.SPRING_ONION_SEEDS, builder4));
+        this.addDrop(ModBlocks.SPRING_ONION_CROP, this.cropDrops(ModBlocks.SPRING_ONION_CROP, ModItems.SPRING_ONION, ModItems.SPRING_ONION, builder4));
         BlockStatePropertyLootCondition.Builder builder5 = BlockStatePropertyLootCondition.builder(ModBlocks.PARSNIP_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(ParsnipCropBlock.AGE, 5));
         this.addDrop(ModBlocks.PARSNIP_CROP, this.cropDrops(ModBlocks.PARSNIP_CROP, ModItems.PARSNIP, ModItems.PARSNIP_SEEDS, builder5));
         BlockStatePropertyLootCondition.Builder builder6 = BlockStatePropertyLootCondition.builder(ModBlocks.HORSERADISH_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(HorseradishCropBlock.AGE, 3));
-        this.addDrop(ModBlocks.HORSERADISH_CROP, this.cropDrops(ModBlocks.HORSERADISH_CROP, ModItems.HORSERADISH, ModItems.HORSERADISH_SEEDS, builder6));
+        this.addDrop(ModBlocks.HORSERADISH_CROP, this.cropDrops(ModBlocks.HORSERADISH_CROP, ModItems.HORSERADISH, ModItems.HORSERADISH, builder6));
         BlockStatePropertyLootCondition.Builder builder7 = BlockStatePropertyLootCondition.builder(ModBlocks.RHUBARB_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(RhubarbCropBlock.AGE, 5));
         this.addDrop(ModBlocks.RHUBARB_CROP, this.cropDrops(ModBlocks.RHUBARB_CROP, ModItems.RHUBARB, ModItems.RHUBARB_SEEDS, builder7));

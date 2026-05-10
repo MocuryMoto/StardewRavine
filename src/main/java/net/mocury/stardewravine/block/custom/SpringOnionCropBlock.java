@@ -18,7 +18,7 @@ public class SpringOnionCropBlock extends CropBlock {
 
     @Override
     protected ItemConvertible getSeedsItem() {
-        return ModItems.SPRING_ONION_SEEDS;
+        return ModItems.SPRING_ONION;
     }
 
     @Override

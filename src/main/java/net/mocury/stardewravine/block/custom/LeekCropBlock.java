@@ -18,7 +18,7 @@ public class LeekCropBlock extends CropBlock {
 
     @Override
     protected ItemConvertible getSeedsItem() {
-        return ModItems.LEEK_SEEDS;
+        return ModItems.LEEK;
     }
 
     @Override

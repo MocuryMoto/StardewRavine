@@ -27,7 +27,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "stardewravine:spring_onion_seeds"
+              "name": "stardewravine:spring_onion"
             }
           ]
         }
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "stardewravine:spring_onion_seeds"
+          "name": "stardewravine:spring_onion"
         }
       ],
       "rolls": 1.0

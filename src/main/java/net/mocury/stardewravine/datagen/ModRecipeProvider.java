@@ -683,21 +683,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModItems.GARLIC)
                 .criterion(hasItem(ModItems.GARLIC), conditionsFromItem(ModItems.GARLIC))
                 .offerTo(exporter);
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LEEK_SEEDS, 1)
-                .input(ModItems.LEEK)
-                .criterion(hasItem(ModItems.LEEK), conditionsFromItem(ModItems.LEEK))
-                .offerTo(exporter);
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SPRING_ONION_SEEDS, 1)
-                .input(ModItems.SPRING_ONION)
-                .criterion(hasItem(ModItems.SPRING_ONION), conditionsFromItem(ModItems.SPRING_ONION))
-                .offerTo(exporter);
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PARSNIP_SEEDS, 1)
                 .input(ModItems.PARSNIP)
                 .criterion(hasItem(ModItems.PARSNIP), conditionsFromItem(ModItems.PARSNIP))
-                .offerTo(exporter);
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HORSERADISH_SEEDS, 1)
-                .input(ModItems.HORSERADISH)
-                .criterion(hasItem(ModItems.HORSERADISH), conditionsFromItem(ModItems.HORSERADISH))
                 .offerTo(exporter);
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RHUBARB_SEEDS, 1)
                 .input(ModItems.RHUBARB)

@@ -309,13 +309,10 @@ public class ModItemGroups {
                         entries.add(ModItems.GARLIC);
                         entries.add(ModItems.GARLIC_SEEDS);
                         entries.add(ModItems.LEEK);
-                        entries.add(ModItems.LEEK_SEEDS);
                         entries.add(ModItems.SPRING_ONION);
-                        entries.add(ModItems.SPRING_ONION_SEEDS);
                         entries.add(ModItems.PARSNIP);
                         entries.add(ModItems.PARSNIP_SEEDS);
                         entries.add(ModItems.HORSERADISH);
-                        entries.add(ModItems.HORSERADISH_SEEDS);
                         entries.add(ModItems.RHUBARB);
                         entries.add(ModItems.RHUBARB_SEEDS);
                         entries.add(ModItems.KALE);

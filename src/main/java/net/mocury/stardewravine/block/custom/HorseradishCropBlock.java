@@ -18,7 +18,7 @@ public class HorseradishCropBlock extends CropBlock {
 
     @Override
     protected ItemConvertible getSeedsItem() {
-        return ModItems.HORSERADISH_SEEDS;
+        return ModItems.HORSERADISH;
     }
 
     @Override

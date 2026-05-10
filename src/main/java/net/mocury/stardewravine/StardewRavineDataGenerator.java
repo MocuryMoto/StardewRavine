@@ -6,6 +6,8 @@ import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 import net.mocury.stardewravine.datagen.*;
 import net.mocury.stardewravine.trim.ModTrimMaterials;
+import net.mocury.stardewravine.world.ModConfiguredFeatures;
+import net.mocury.stardewravine.world.ModPlacedFeatures;
 
 public class StardewRavineDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -23,5 +25,8 @@ public class StardewRavineDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
+
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 	}
 }

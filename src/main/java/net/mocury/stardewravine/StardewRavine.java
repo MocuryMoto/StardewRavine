@@ -7,6 +7,7 @@ import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.component.ModDataComponentTypes;
 import net.mocury.stardewravine.item.ModItemGroups;
 import net.mocury.stardewravine.item.ModItems;
+import net.mocury.stardewravine.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,16 +24,15 @@ public class StardewRavine implements ModInitializer {
 
 		ModDataComponentTypes.registerDataComponentTypes();
 
+		ModWorldGeneration.generateModWorldGen();
+
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC, 0.33f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC_SEEDS, 0.1f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.LEEK, 0.33f);
-		CompostingChanceRegistry.INSTANCE.add(ModItems.LEEK_SEEDS, 0.1f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.SPRING_ONION, 0.33f);
-		CompostingChanceRegistry.INSTANCE.add(ModItems.SPRING_ONION_SEEDS, 0.1f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.PARSNIP, 0.33f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.PARSNIP_SEEDS, 0.1f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.HORSERADISH, 0.33f);
-		CompostingChanceRegistry.INSTANCE.add(ModItems.HORSERADISH_SEEDS, 0.1f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.RHUBARB, 0.33f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.RHUBARB_SEEDS, 0.1f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.KALE, 0.33f);
