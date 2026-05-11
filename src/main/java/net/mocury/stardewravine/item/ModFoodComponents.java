@@ -22,6 +22,7 @@ public class ModFoodComponents {
     public static final FoodComponent HORSERADISH = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
     public static final FoodComponent RHUBARB = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
     public static final FoodComponent KALE = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
+    public static final FoodComponent CAULIFLOWER = new FoodComponent.Builder().nutrition(4).saturationModifier(0.5F).build();
 
     public static final FoodComponent BLUEBERRIES = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();
     public static final FoodComponent SALMONBERRY = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();

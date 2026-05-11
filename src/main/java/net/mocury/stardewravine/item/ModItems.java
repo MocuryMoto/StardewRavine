@@ -132,6 +132,8 @@ public class ModItems {
     public static final Item RHUBARB_SEEDS = registerItem("rhubarb_seeds", new AliasedBlockItem(ModBlocks.RHUBARB_CROP, new Item.Settings()));
     public static final Item KALE = registerItem("kale", new Item(new Item.Settings().food(ModFoodComponents.KALE)));
     public static final Item KALE_SEEDS = registerItem("kale_seeds", new AliasedBlockItem(ModBlocks.KALE_CROP, new Item.Settings()));
+    public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
+    public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds", new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new Item.Settings()));
 
     public static final Item BLUEBERRIES = registerItem("blueberries",
             new AliasedBlockItem(ModBlocks.BLUEBERRY_BUSH, new Item.Settings().food(ModFoodComponents.BLUEBERRIES)));

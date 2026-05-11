@@ -1,4 +1,4 @@
-// 1.21	2026-05-10T13:18:44.1378905	Stardew Ravine/Block Loot Tables
+// 1.21	2026-05-11T19:01:44.5729445	Stardew Ravine/Block Loot Tables
 1acbe19e3b96ff62305d2b164bc7b0749dc8f29b data\stardewravine\loot_table\blocks\end_frozen_geode_ore.json
 cd7d5bdc2052b37a91425ad463d43c8ae7c9a188 data\stardewravine\loot_table\blocks\polished_limestone.json
 e018a9a984b3c9fced5bc2b460670663bca358d3 data\stardewravine\loot_table\blocks\marble_esper_tiles.json
@@ -166,6 +166,7 @@ a1786ef79aa486abacc4919cf317ee7a06ed56f8 data\stardewravine\loot_table\blocks\ci
 46b2bffa199f3b3f4325733d5dd87a68721b285a data\stardewravine\loot_table\blocks\polished_marble_slab.json
 30c9797ddab9c0a6f92fade89fe29962855e1e6b data\stardewravine\loot_table\blocks\esper_soap_tiles.json
 1ff530b85dc155c918a49d9961ca0dc8a89b338c data\stardewravine\loot_table\blocks\opal_ore.json
+af876f68e59dbc3e69c3ba732f7ced31eaf9e4b7 data\stardewravine\loot_table\blocks\cauliflower_crop.json
 afa39c74a9acd423a2ab584306b741b367644a20 data\stardewravine\loot_table\blocks\terrasine_block.json
 1e2167cc9be626db7e30400f0a41cad046d8e528 data\stardewravine\loot_table\blocks\fairy_rose.json
 c1756eb67b9e6c693ce13264fb710b7e8051f600 data\stardewravine\loot_table\blocks\marble_lime_tiles.json

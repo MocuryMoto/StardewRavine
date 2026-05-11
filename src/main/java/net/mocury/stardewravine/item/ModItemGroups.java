@@ -317,6 +317,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RHUBARB_SEEDS);
                         entries.add(ModItems.KALE);
                         entries.add(ModItems.KALE_SEEDS);
+                        entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModItems.CAULIFLOWER_SEEDS);
                         entries.add(ModItems.SALMONBERRY);
                         entries.add(ModItems.STRAWBERRY);
                         entries.add(ModItems.BLUEBERRIES);

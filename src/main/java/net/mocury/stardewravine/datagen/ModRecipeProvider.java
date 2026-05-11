@@ -695,5 +695,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModItems.KALE)
                 .criterion(hasItem(ModItems.KALE), conditionsFromItem(ModItems.KALE))
                 .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CAULIFLOWER_SEEDS, 2)
+                .input(ModItems.CAULIFLOWER)
+                .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER))
+                .offerTo(exporter);
     }
 }
