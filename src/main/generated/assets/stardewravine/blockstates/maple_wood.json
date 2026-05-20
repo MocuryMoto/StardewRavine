@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "stardewravine:block/maple_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "stardewravine:block/maple_wood"
+    },
+    "axis=z": {
+      "model": "stardewravine:block/maple_wood",
+      "x": 90
+    }
+  }
+}

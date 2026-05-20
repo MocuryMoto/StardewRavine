@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardewravine:block/peach_slab"
+    },
+    "type=double": {
+      "model": "stardewravine:block/peach_planks"
+    },
+    "type=top": {
+      "model": "stardewravine:block/peach_slab_top"
+    }
+  }
+}

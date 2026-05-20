@@ -2,13 +2,11 @@ package net.mocury.stardewravine.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.data.client.TexturedModel;
 import net.minecraft.item.ArmorItem;
-import net.minecraft.util.Identifier;
 import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.block.custom.*;
 import net.mocury.stardewravine.item.ModItems;
@@ -211,6 +209,120 @@ public class ModModelProvider extends FabricModelProvider {
                 SalmonberryBushBlock.AGE, 0, 1, 2, 3);
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.STRAWBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
                 StrawberryBushBlock.AGE, 0, 1, 2, 3, 4, 5);
+
+
+        blockStateModelGenerator.registerLog(ModBlocks.MAPLE_LOG).log(ModBlocks.MAPLE_LOG).wood(ModBlocks.MAPLE_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_MAPLE_LOG).log(ModBlocks.STRIPPED_MAPLE_LOG).wood(ModBlocks.STRIPPED_MAPLE_WOOD);
+        BlockStateModelGenerator.BlockTexturePool maplePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAPLE_PLANKS);
+        blockStateModelGenerator.registerSingleton(ModBlocks.MAPLE_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.MAPLE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        maplePool.stairs(ModBlocks.MAPLE_STAIRS);
+        maplePool.slab(ModBlocks.MAPLE_SLAB);
+        maplePool.pressurePlate(ModBlocks.MAPLE_PRESSURE_PLATE);
+        maplePool.button(ModBlocks.MAPLE_BUTTON);
+        maplePool.fence(ModBlocks.MAPLE_FENCE);
+        maplePool.fenceGate(ModBlocks.MAPLE_FENCE_GATE);
+        blockStateModelGenerator.registerDoor(ModBlocks.MAPLE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.MAPLE_TRAPDOOR);
+
+        blockStateModelGenerator.registerLog(ModBlocks.MYSTIC_LOG).log(ModBlocks.MYSTIC_LOG).wood(ModBlocks.MYSTIC_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_MYSTIC_LOG).log(ModBlocks.STRIPPED_MYSTIC_LOG).wood(ModBlocks.STRIPPED_MYSTIC_WOOD);
+        BlockStateModelGenerator.BlockTexturePool mysticPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MYSTIC_PLANKS);
+        blockStateModelGenerator.registerSingleton(ModBlocks.MYSTIC_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.MYSTIC_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        mysticPool.stairs(ModBlocks.MYSTIC_STAIRS);
+        mysticPool.slab(ModBlocks.MYSTIC_SLAB);
+        mysticPool.pressurePlate(ModBlocks.MYSTIC_PRESSURE_PLATE);
+        mysticPool.button(ModBlocks.MYSTIC_BUTTON);
+        mysticPool.fence(ModBlocks.MYSTIC_FENCE);
+        mysticPool.fenceGate(ModBlocks.MYSTIC_FENCE_GATE);
+        blockStateModelGenerator.registerDoor(ModBlocks.MYSTIC_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.MYSTIC_TRAPDOOR);
+
+        blockStateModelGenerator.registerLog(ModBlocks.APRICOT_LOG).log(ModBlocks.APRICOT_LOG).wood(ModBlocks.APRICOT_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_APRICOT_LOG).log(ModBlocks.STRIPPED_APRICOT_LOG).wood(ModBlocks.STRIPPED_APRICOT_WOOD);
+        BlockStateModelGenerator.BlockTexturePool apricotPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.APRICOT_PLANKS);
+        blockStateModelGenerator.registerSingleton(ModBlocks.APRICOT_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.APRICOT_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        apricotPool.stairs(ModBlocks.APRICOT_STAIRS);
+        apricotPool.slab(ModBlocks.APRICOT_SLAB);
+        apricotPool.pressurePlate(ModBlocks.APRICOT_PRESSURE_PLATE);
+        apricotPool.button(ModBlocks.APRICOT_BUTTON);
+        apricotPool.fence(ModBlocks.APRICOT_FENCE);
+        apricotPool.fenceGate(ModBlocks.APRICOT_FENCE_GATE);
+        blockStateModelGenerator.registerDoor(ModBlocks.APRICOT_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.APRICOT_TRAPDOOR);
+
+        blockStateModelGenerator.registerLog(ModBlocks.ORANGE_LOG).log(ModBlocks.ORANGE_LOG).wood(ModBlocks.ORANGE_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_ORANGE_LOG).log(ModBlocks.STRIPPED_ORANGE_LOG).wood(ModBlocks.STRIPPED_ORANGE_WOOD);
+        BlockStateModelGenerator.BlockTexturePool orangePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ORANGE_PLANKS);
+        blockStateModelGenerator.registerSingleton(ModBlocks.ORANGE_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.ORANGE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        orangePool.stairs(ModBlocks.ORANGE_STAIRS);
+        orangePool.slab(ModBlocks.ORANGE_SLAB);
+        orangePool.pressurePlate(ModBlocks.ORANGE_PRESSURE_PLATE);
+        orangePool.button(ModBlocks.ORANGE_BUTTON);
+        orangePool.fence(ModBlocks.ORANGE_FENCE);
+        orangePool.fenceGate(ModBlocks.ORANGE_FENCE_GATE);
+        blockStateModelGenerator.registerDoor(ModBlocks.ORANGE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.ORANGE_TRAPDOOR);
+
+        blockStateModelGenerator.registerLog(ModBlocks.POMEGRANATE_LOG).log(ModBlocks.POMEGRANATE_LOG).wood(ModBlocks.POMEGRANATE_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_POMEGRANATE_LOG).log(ModBlocks.STRIPPED_POMEGRANATE_LOG).wood(ModBlocks.STRIPPED_POMEGRANATE_WOOD);
+        BlockStateModelGenerator.BlockTexturePool pomegranatePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POMEGRANATE_PLANKS);
+        blockStateModelGenerator.registerSingleton(ModBlocks.POMEGRANATE_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.POMEGRANATE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        pomegranatePool.stairs(ModBlocks.POMEGRANATE_STAIRS);
+        pomegranatePool.slab(ModBlocks.POMEGRANATE_SLAB);
+        pomegranatePool.pressurePlate(ModBlocks.POMEGRANATE_PRESSURE_PLATE);
+        pomegranatePool.button(ModBlocks.POMEGRANATE_BUTTON);
+        pomegranatePool.fence(ModBlocks.POMEGRANATE_FENCE);
+        pomegranatePool.fenceGate(ModBlocks.POMEGRANATE_FENCE_GATE);
+        blockStateModelGenerator.registerDoor(ModBlocks.POMEGRANATE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.POMEGRANATE_TRAPDOOR);
+
+        blockStateModelGenerator.registerLog(ModBlocks.MANGO_LOG).log(ModBlocks.MANGO_LOG).wood(ModBlocks.MANGO_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_MANGO_LOG).log(ModBlocks.STRIPPED_MANGO_LOG).wood(ModBlocks.STRIPPED_MANGO_WOOD);
+        BlockStateModelGenerator.BlockTexturePool mangoPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MANGO_PLANKS);
+        blockStateModelGenerator.registerSingleton(ModBlocks.MANGO_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.MANGO_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        mangoPool.stairs(ModBlocks.MANGO_STAIRS);
+        mangoPool.slab(ModBlocks.MANGO_SLAB);
+        mangoPool.pressurePlate(ModBlocks.MANGO_PRESSURE_PLATE);
+        mangoPool.button(ModBlocks.MANGO_BUTTON);
+        mangoPool.fence(ModBlocks.MANGO_FENCE);
+        mangoPool.fenceGate(ModBlocks.MANGO_FENCE_GATE);
+        blockStateModelGenerator.registerDoor(ModBlocks.MANGO_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.MANGO_TRAPDOOR);
+
+        blockStateModelGenerator.registerLog(ModBlocks.BANANA_LOG).log(ModBlocks.BANANA_LOG).wood(ModBlocks.BANANA_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BANANA_LOG).log(ModBlocks.STRIPPED_BANANA_LOG).wood(ModBlocks.STRIPPED_BANANA_WOOD);
+        BlockStateModelGenerator.BlockTexturePool bananaPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BANANA_PLANKS);
+        blockStateModelGenerator.registerSingleton(ModBlocks.BANANA_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.BANANA_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        bananaPool.stairs(ModBlocks.BANANA_STAIRS);
+        bananaPool.slab(ModBlocks.BANANA_SLAB);
+        bananaPool.pressurePlate(ModBlocks.BANANA_PRESSURE_PLATE);
+        bananaPool.button(ModBlocks.BANANA_BUTTON);
+        bananaPool.fence(ModBlocks.BANANA_FENCE);
+        bananaPool.fenceGate(ModBlocks.BANANA_FENCE_GATE);
+        blockStateModelGenerator.registerDoor(ModBlocks.BANANA_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.BANANA_TRAPDOOR);
+
+        blockStateModelGenerator.registerLog(ModBlocks.PEACH_LOG).log(ModBlocks.PEACH_LOG).wood(ModBlocks.PEACH_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_PEACH_LOG).log(ModBlocks.STRIPPED_PEACH_LOG).wood(ModBlocks.STRIPPED_PEACH_WOOD);
+        BlockStateModelGenerator.BlockTexturePool peachPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PEACH_PLANKS);
+        blockStateModelGenerator.registerSingleton(ModBlocks.PEACH_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.PEACH_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        peachPool.stairs(ModBlocks.PEACH_STAIRS);
+        peachPool.slab(ModBlocks.PEACH_SLAB);
+        peachPool.pressurePlate(ModBlocks.PEACH_PRESSURE_PLATE);
+        peachPool.button(ModBlocks.PEACH_BUTTON);
+        peachPool.fence(ModBlocks.PEACH_FENCE);
+        peachPool.fenceGate(ModBlocks.PEACH_FENCE_GATE);
+        blockStateModelGenerator.registerDoor(ModBlocks.PEACH_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.PEACH_TRAPDOOR);
+
     }
 
     @Override
@@ -303,5 +415,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.NETHER_IRIDIUM_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.NETHER_IRIDIUM_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.NETHER_IRIDIUM_BOOTS));
+
+        itemModelGenerator.register(ModBlocks.MAPLE_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.MYSTIC_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.APRICOT_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.ORANGE_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.POMEGRANATE_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.MANGO_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.BANANA_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.PEACH_SAPLING.asItem(), Models.GENERATED);
     }
 }

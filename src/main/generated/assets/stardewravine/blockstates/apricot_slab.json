@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardewravine:block/apricot_slab"
+    },
+    "type=double": {
+      "model": "stardewravine:block/apricot_planks"
+    },
+    "type=top": {
+      "model": "stardewravine:block/apricot_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardewravine:block/pomegranate_slab"
+    },
+    "type=double": {
+      "model": "stardewravine:block/pomegranate_planks"
+    },
+    "type=top": {
+      "model": "stardewravine:block/pomegranate_slab_top"
+    }
+  }
+}

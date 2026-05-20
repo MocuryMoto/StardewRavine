@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "stardewravine:block/pomegranate_log",
+    "side": "stardewravine:block/pomegranate_log"
+  }
+}

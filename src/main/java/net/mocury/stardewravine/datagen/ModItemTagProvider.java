@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
+import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.item.ModItems;
 import net.mocury.stardewravine.util.ModTags;
 
@@ -109,6 +110,101 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.MALACHITE)
                 .add(ModItems.OPAL)
                 .add(ModItems.FIRE_OPAL)
+        ;
+
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.MAPLE_LOG.asItem())
+                .add(ModBlocks.STRIPPED_MAPLE_LOG.asItem())
+                .add(ModBlocks.MAPLE_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_MAPLE_WOOD.asItem())
+                .add(ModBlocks.MYSTIC_LOG.asItem())
+                .add(ModBlocks.STRIPPED_MYSTIC_LOG.asItem())
+                .add(ModBlocks.MYSTIC_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_MYSTIC_WOOD.asItem())
+                .add(ModBlocks.APRICOT_LOG.asItem())
+                .add(ModBlocks.STRIPPED_APRICOT_LOG.asItem())
+                .add(ModBlocks.APRICOT_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_APRICOT_WOOD.asItem())
+                .add(ModBlocks.ORANGE_LOG.asItem())
+                .add(ModBlocks.STRIPPED_ORANGE_LOG.asItem())
+                .add(ModBlocks.ORANGE_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_ORANGE_WOOD.asItem())
+                .add(ModBlocks.POMEGRANATE_LOG.asItem())
+                .add(ModBlocks.STRIPPED_POMEGRANATE_LOG.asItem())
+                .add(ModBlocks.POMEGRANATE_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_POMEGRANATE_WOOD.asItem())
+                .add(ModBlocks.MANGO_LOG.asItem())
+                .add(ModBlocks.STRIPPED_MANGO_LOG.asItem())
+                .add(ModBlocks.MANGO_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_MANGO_WOOD.asItem())
+                .add(ModBlocks.BANANA_LOG.asItem())
+                .add(ModBlocks.STRIPPED_BANANA_LOG.asItem())
+                .add(ModBlocks.BANANA_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_BANANA_WOOD.asItem())
+                .add(ModBlocks.PEACH_LOG.asItem())
+                .add(ModBlocks.STRIPPED_PEACH_LOG.asItem())
+                .add(ModBlocks.PEACH_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_PEACH_WOOD.asItem())
+        ;
+
+        getOrCreateTagBuilder(ModTags.Items.MAPLE_LOGS)
+                .add(ModBlocks.MAPLE_LOG.asItem())
+                .add(ModBlocks.STRIPPED_MAPLE_LOG.asItem())
+                .add(ModBlocks.MAPLE_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_MAPLE_WOOD.asItem())
+        ;
+        getOrCreateTagBuilder(ModTags.Items.MYSTIC_LOGS)
+                .add(ModBlocks.MYSTIC_LOG.asItem())
+                .add(ModBlocks.STRIPPED_MYSTIC_LOG.asItem())
+                .add(ModBlocks.MYSTIC_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_MYSTIC_WOOD.asItem())
+        ;
+        getOrCreateTagBuilder(ModTags.Items.APRICOT_LOGS)
+                .add(ModBlocks.APRICOT_LOG.asItem())
+                .add(ModBlocks.STRIPPED_APRICOT_LOG.asItem())
+                .add(ModBlocks.APRICOT_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_APRICOT_WOOD.asItem())
+        ;
+        getOrCreateTagBuilder(ModTags.Items.ORANGE_LOGS)
+                .add(ModBlocks.ORANGE_LOG.asItem())
+                .add(ModBlocks.STRIPPED_ORANGE_LOG.asItem())
+                .add(ModBlocks.ORANGE_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_ORANGE_WOOD.asItem())
+        ;
+        getOrCreateTagBuilder(ModTags.Items.POMEGRANATE_LOGS)
+                .add(ModBlocks.POMEGRANATE_LOG.asItem())
+                .add(ModBlocks.STRIPPED_POMEGRANATE_LOG.asItem())
+                .add(ModBlocks.POMEGRANATE_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_POMEGRANATE_WOOD.asItem())
+        ;
+        getOrCreateTagBuilder(ModTags.Items.MANGO_LOGS)
+                .add(ModBlocks.MANGO_LOG.asItem())
+                .add(ModBlocks.STRIPPED_MANGO_LOG.asItem())
+                .add(ModBlocks.MANGO_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_MANGO_WOOD.asItem())
+        ;
+        getOrCreateTagBuilder(ModTags.Items.BANANA_LOGS)
+                .add(ModBlocks.BANANA_LOG.asItem())
+                .add(ModBlocks.STRIPPED_BANANA_LOG.asItem())
+                .add(ModBlocks.BANANA_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_BANANA_WOOD.asItem())
+        ;
+        getOrCreateTagBuilder(ModTags.Items.PEACH_LOGS)
+                .add(ModBlocks.PEACH_LOG.asItem())
+                .add(ModBlocks.STRIPPED_PEACH_LOG.asItem())
+                .add(ModBlocks.PEACH_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_PEACH_WOOD.asItem())
+        ;
+
+        getOrCreateTagBuilder(ItemTags.PLANKS)
+                .add(ModBlocks.MAPLE_PLANKS.asItem())
+                .add(ModBlocks.MYSTIC_PLANKS.asItem())
+                .add(ModBlocks.APRICOT_PLANKS.asItem())
+                .add(ModBlocks.ORANGE_PLANKS.asItem())
+                .add(ModBlocks.POMEGRANATE_PLANKS.asItem())
+                .add(ModBlocks.MANGO_PLANKS.asItem())
+                .add(ModBlocks.BANANA_PLANKS.asItem())
+                .add(ModBlocks.PEACH_PLANKS.asItem())
         ;
     }
 }

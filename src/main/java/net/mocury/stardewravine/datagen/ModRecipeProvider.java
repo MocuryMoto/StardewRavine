@@ -2,6 +2,7 @@ package net.mocury.stardewravine.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
@@ -699,5 +700,360 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModItems.CAULIFLOWER)
                 .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER))
                 .offerTo(exporter);
+
+
+        offerPlanksRecipe(exporter, ModBlocks.MAPLE_PLANKS, ModTags.Items.MAPLE_LOGS, 4);
+        offerBarkBlockRecipe(exporter, ModBlocks.MAPLE_WOOD, ModBlocks.MAPLE_LOG);
+        offerBarkBlockRecipe(exporter, ModBlocks.STRIPPED_MAPLE_WOOD, ModBlocks.STRIPPED_MAPLE_LOG);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAPLE_STAIRS, 4)
+                .pattern("P  ")
+                .pattern("PP ")
+                .pattern("PPP")
+                .input('P', ModBlocks.MAPLE_PLANKS)
+                .criterion(hasItem(ModBlocks.MAPLE_PLANKS), conditionsFromItem(ModBlocks.MAPLE_PLANKS))
+                .offerTo(exporter);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAPLE_SLAB, ModBlocks.MAPLE_PLANKS);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.MAPLE_BUTTON, 1)
+                .input(ModBlocks.MAPLE_PLANKS)
+                .criterion(hasItem(ModBlocks.MAPLE_PLANKS), conditionsFromItem(ModBlocks.MAPLE_PLANKS))
+                .offerTo(exporter);
+        offerPressurePlateRecipe(exporter, ModBlocks.MAPLE_PRESSURE_PLATE, ModBlocks.MAPLE_PLANKS);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MAPLE_FENCE, 3)
+                .pattern("PSP")
+                .pattern("PSP")
+                .input('P', ModBlocks.MAPLE_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.MAPLE_PLANKS), conditionsFromItem(ModBlocks.MAPLE_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MAPLE_FENCE_GATE, 1)
+                .pattern("SPS")
+                .pattern("SPS")
+                .input('P', ModBlocks.MAPLE_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.MAPLE_PLANKS), conditionsFromItem(ModBlocks.MAPLE_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MAPLE_DOOR, 3)
+                .pattern("PP")
+                .pattern("PP")
+                .pattern("PP")
+                .input('P', ModBlocks.MAPLE_PLANKS)
+                .criterion(hasItem(ModBlocks.MAPLE_PLANKS), conditionsFromItem(ModBlocks.MAPLE_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MAPLE_TRAPDOOR, 2)
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModBlocks.MAPLE_PLANKS)
+                .criterion(hasItem(ModBlocks.MAPLE_PLANKS), conditionsFromItem(ModBlocks.MAPLE_PLANKS))
+                .offerTo(exporter);
+
+        offerPlanksRecipe(exporter, ModBlocks.MYSTIC_PLANKS, ModTags.Items.MYSTIC_LOGS, 4);
+        offerBarkBlockRecipe(exporter, ModBlocks.MYSTIC_WOOD, ModBlocks.MYSTIC_LOG);
+        offerBarkBlockRecipe(exporter, ModBlocks.STRIPPED_MYSTIC_WOOD, ModBlocks.STRIPPED_MYSTIC_LOG);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MYSTIC_STAIRS, 4)
+                .pattern("P  ")
+                .pattern("PP ")
+                .pattern("PPP")
+                .input('P', ModBlocks.MYSTIC_PLANKS)
+                .criterion(hasItem(ModBlocks.MYSTIC_PLANKS), conditionsFromItem(ModBlocks.MYSTIC_PLANKS))
+                .offerTo(exporter);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MYSTIC_SLAB, ModBlocks.MYSTIC_PLANKS);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.MYSTIC_BUTTON, 1)
+                .input(ModBlocks.MYSTIC_PLANKS)
+                .criterion(hasItem(ModBlocks.MYSTIC_PLANKS), conditionsFromItem(ModBlocks.MYSTIC_PLANKS))
+                .offerTo(exporter);
+        offerPressurePlateRecipe(exporter, ModBlocks.MYSTIC_PRESSURE_PLATE, ModBlocks.MYSTIC_PLANKS);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MYSTIC_FENCE, 3)
+                .pattern("PSP")
+                .pattern("PSP")
+                .input('P', ModBlocks.MYSTIC_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.MYSTIC_PLANKS), conditionsFromItem(ModBlocks.MYSTIC_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MYSTIC_FENCE_GATE, 1)
+                .pattern("SPS")
+                .pattern("SPS")
+                .input('P', ModBlocks.MYSTIC_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.MYSTIC_PLANKS), conditionsFromItem(ModBlocks.MYSTIC_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MYSTIC_DOOR, 3)
+                .pattern("PP")
+                .pattern("PP")
+                .pattern("PP")
+                .input('P', ModBlocks.MYSTIC_PLANKS)
+                .criterion(hasItem(ModBlocks.MYSTIC_PLANKS), conditionsFromItem(ModBlocks.MYSTIC_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MYSTIC_TRAPDOOR, 2)
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModBlocks.MYSTIC_PLANKS)
+                .criterion(hasItem(ModBlocks.MYSTIC_PLANKS), conditionsFromItem(ModBlocks.MYSTIC_PLANKS))
+                .offerTo(exporter);
+
+        offerPlanksRecipe(exporter, ModBlocks.APRICOT_PLANKS, ModTags.Items.APRICOT_LOGS, 4);
+        offerBarkBlockRecipe(exporter, ModBlocks.APRICOT_WOOD, ModBlocks.APRICOT_LOG);
+        offerBarkBlockRecipe(exporter, ModBlocks.STRIPPED_APRICOT_WOOD, ModBlocks.STRIPPED_APRICOT_LOG);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.APRICOT_STAIRS, 4)
+                .pattern("P  ")
+                .pattern("PP ")
+                .pattern("PPP")
+                .input('P', ModBlocks.APRICOT_PLANKS)
+                .criterion(hasItem(ModBlocks.APRICOT_PLANKS), conditionsFromItem(ModBlocks.APRICOT_PLANKS))
+                .offerTo(exporter);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.APRICOT_SLAB, ModBlocks.APRICOT_PLANKS);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.APRICOT_BUTTON, 1)
+                .input(ModBlocks.APRICOT_PLANKS)
+                .criterion(hasItem(ModBlocks.APRICOT_PLANKS), conditionsFromItem(ModBlocks.APRICOT_PLANKS))
+                .offerTo(exporter);
+        offerPressurePlateRecipe(exporter, ModBlocks.APRICOT_PRESSURE_PLATE, ModBlocks.APRICOT_PLANKS);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.APRICOT_FENCE, 3)
+                .pattern("PSP")
+                .pattern("PSP")
+                .input('P', ModBlocks.APRICOT_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.APRICOT_PLANKS), conditionsFromItem(ModBlocks.APRICOT_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.APRICOT_FENCE_GATE, 1)
+                .pattern("SPS")
+                .pattern("SPS")
+                .input('P', ModBlocks.APRICOT_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.APRICOT_PLANKS), conditionsFromItem(ModBlocks.APRICOT_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.APRICOT_DOOR, 3)
+                .pattern("PP")
+                .pattern("PP")
+                .pattern("PP")
+                .input('P', ModBlocks.APRICOT_PLANKS)
+                .criterion(hasItem(ModBlocks.APRICOT_PLANKS), conditionsFromItem(ModBlocks.APRICOT_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.APRICOT_TRAPDOOR, 2)
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModBlocks.APRICOT_PLANKS)
+                .criterion(hasItem(ModBlocks.APRICOT_PLANKS), conditionsFromItem(ModBlocks.APRICOT_PLANKS))
+                .offerTo(exporter);
+
+        offerPlanksRecipe(exporter, ModBlocks.ORANGE_PLANKS, ModTags.Items.ORANGE_LOGS, 4);
+        offerBarkBlockRecipe(exporter, ModBlocks.ORANGE_WOOD, ModBlocks.ORANGE_LOG);
+        offerBarkBlockRecipe(exporter, ModBlocks.STRIPPED_ORANGE_WOOD, ModBlocks.STRIPPED_ORANGE_LOG);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_STAIRS, 4)
+                .pattern("P  ")
+                .pattern("PP ")
+                .pattern("PPP")
+                .input('P', ModBlocks.ORANGE_PLANKS)
+                .criterion(hasItem(ModBlocks.ORANGE_PLANKS), conditionsFromItem(ModBlocks.ORANGE_PLANKS))
+                .offerTo(exporter);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_SLAB, ModBlocks.ORANGE_PLANKS);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.ORANGE_BUTTON, 1)
+                .input(ModBlocks.ORANGE_PLANKS)
+                .criterion(hasItem(ModBlocks.ORANGE_PLANKS), conditionsFromItem(ModBlocks.ORANGE_PLANKS))
+                .offerTo(exporter);
+        offerPressurePlateRecipe(exporter, ModBlocks.ORANGE_PRESSURE_PLATE, ModBlocks.ORANGE_PLANKS);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.ORANGE_FENCE, 3)
+                .pattern("PSP")
+                .pattern("PSP")
+                .input('P', ModBlocks.ORANGE_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.ORANGE_PLANKS), conditionsFromItem(ModBlocks.ORANGE_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.ORANGE_FENCE_GATE, 1)
+                .pattern("SPS")
+                .pattern("SPS")
+                .input('P', ModBlocks.ORANGE_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.ORANGE_PLANKS), conditionsFromItem(ModBlocks.ORANGE_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.ORANGE_DOOR, 3)
+                .pattern("PP")
+                .pattern("PP")
+                .pattern("PP")
+                .input('P', ModBlocks.ORANGE_PLANKS)
+                .criterion(hasItem(ModBlocks.ORANGE_PLANKS), conditionsFromItem(ModBlocks.ORANGE_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.ORANGE_TRAPDOOR, 2)
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModBlocks.ORANGE_PLANKS)
+                .criterion(hasItem(ModBlocks.ORANGE_PLANKS), conditionsFromItem(ModBlocks.ORANGE_PLANKS))
+                .offerTo(exporter);
+
+        offerPlanksRecipe(exporter, ModBlocks.POMEGRANATE_PLANKS, ModTags.Items.POMEGRANATE_LOGS, 4);
+        offerBarkBlockRecipe(exporter, ModBlocks.POMEGRANATE_WOOD, ModBlocks.POMEGRANATE_LOG);
+        offerBarkBlockRecipe(exporter, ModBlocks.STRIPPED_POMEGRANATE_WOOD, ModBlocks.STRIPPED_POMEGRANATE_LOG);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POMEGRANATE_STAIRS, 4)
+                .pattern("P  ")
+                .pattern("PP ")
+                .pattern("PPP")
+                .input('P', ModBlocks.POMEGRANATE_PLANKS)
+                .criterion(hasItem(ModBlocks.POMEGRANATE_PLANKS), conditionsFromItem(ModBlocks.POMEGRANATE_PLANKS))
+                .offerTo(exporter);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POMEGRANATE_SLAB, ModBlocks.POMEGRANATE_PLANKS);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.POMEGRANATE_BUTTON, 1)
+                .input(ModBlocks.POMEGRANATE_PLANKS)
+                .criterion(hasItem(ModBlocks.POMEGRANATE_PLANKS), conditionsFromItem(ModBlocks.POMEGRANATE_PLANKS))
+                .offerTo(exporter);
+        offerPressurePlateRecipe(exporter, ModBlocks.POMEGRANATE_PRESSURE_PLATE, ModBlocks.POMEGRANATE_PLANKS);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.POMEGRANATE_FENCE, 3)
+                .pattern("PSP")
+                .pattern("PSP")
+                .input('P', ModBlocks.POMEGRANATE_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.POMEGRANATE_PLANKS), conditionsFromItem(ModBlocks.POMEGRANATE_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.POMEGRANATE_FENCE_GATE, 1)
+                .pattern("SPS")
+                .pattern("SPS")
+                .input('P', ModBlocks.POMEGRANATE_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.POMEGRANATE_PLANKS), conditionsFromItem(ModBlocks.POMEGRANATE_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.POMEGRANATE_DOOR, 3)
+                .pattern("PP")
+                .pattern("PP")
+                .pattern("PP")
+                .input('P', ModBlocks.POMEGRANATE_PLANKS)
+                .criterion(hasItem(ModBlocks.POMEGRANATE_PLANKS), conditionsFromItem(ModBlocks.POMEGRANATE_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.POMEGRANATE_TRAPDOOR, 2)
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModBlocks.POMEGRANATE_PLANKS)
+                .criterion(hasItem(ModBlocks.POMEGRANATE_PLANKS), conditionsFromItem(ModBlocks.POMEGRANATE_PLANKS))
+                .offerTo(exporter);
+
+        offerPlanksRecipe(exporter, ModBlocks.MANGO_PLANKS, ModTags.Items.MANGO_LOGS, 4);
+        offerBarkBlockRecipe(exporter, ModBlocks.MANGO_WOOD, ModBlocks.MANGO_LOG);
+        offerBarkBlockRecipe(exporter, ModBlocks.STRIPPED_MANGO_WOOD, ModBlocks.STRIPPED_MANGO_LOG);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MANGO_STAIRS, 4)
+                .pattern("P  ")
+                .pattern("PP ")
+                .pattern("PPP")
+                .input('P', ModBlocks.MANGO_PLANKS)
+                .criterion(hasItem(ModBlocks.MANGO_PLANKS), conditionsFromItem(ModBlocks.MANGO_PLANKS))
+                .offerTo(exporter);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MANGO_SLAB, ModBlocks.MANGO_PLANKS);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.MANGO_BUTTON, 1)
+                .input(ModBlocks.MANGO_PLANKS)
+                .criterion(hasItem(ModBlocks.MANGO_PLANKS), conditionsFromItem(ModBlocks.MANGO_PLANKS))
+                .offerTo(exporter);
+        offerPressurePlateRecipe(exporter, ModBlocks.MANGO_PRESSURE_PLATE, ModBlocks.MANGO_PLANKS);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MANGO_FENCE, 3)
+                .pattern("PSP")
+                .pattern("PSP")
+                .input('P', ModBlocks.MANGO_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.MANGO_PLANKS), conditionsFromItem(ModBlocks.MANGO_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MANGO_FENCE_GATE, 1)
+                .pattern("SPS")
+                .pattern("SPS")
+                .input('P', ModBlocks.MANGO_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.MANGO_PLANKS), conditionsFromItem(ModBlocks.MANGO_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MANGO_DOOR, 3)
+                .pattern("PP")
+                .pattern("PP")
+                .pattern("PP")
+                .input('P', ModBlocks.MANGO_PLANKS)
+                .criterion(hasItem(ModBlocks.MANGO_PLANKS), conditionsFromItem(ModBlocks.MANGO_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MANGO_TRAPDOOR, 2)
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModBlocks.MANGO_PLANKS)
+                .criterion(hasItem(ModBlocks.MANGO_PLANKS), conditionsFromItem(ModBlocks.MANGO_PLANKS))
+                .offerTo(exporter);
+
+        offerPlanksRecipe(exporter, ModBlocks.BANANA_PLANKS, ModTags.Items.BANANA_LOGS, 4);
+        offerBarkBlockRecipe(exporter, ModBlocks.BANANA_WOOD, ModBlocks.BANANA_LOG);
+        offerBarkBlockRecipe(exporter, ModBlocks.STRIPPED_BANANA_WOOD, ModBlocks.STRIPPED_BANANA_LOG);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BANANA_STAIRS, 4)
+                .pattern("P  ")
+                .pattern("PP ")
+                .pattern("PPP")
+                .input('P', ModBlocks.BANANA_PLANKS)
+                .criterion(hasItem(ModBlocks.BANANA_PLANKS), conditionsFromItem(ModBlocks.BANANA_PLANKS))
+                .offerTo(exporter);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BANANA_SLAB, ModBlocks.BANANA_PLANKS);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.BANANA_BUTTON, 1)
+                .input(ModBlocks.BANANA_PLANKS)
+                .criterion(hasItem(ModBlocks.BANANA_PLANKS), conditionsFromItem(ModBlocks.BANANA_PLANKS))
+                .offerTo(exporter);
+        offerPressurePlateRecipe(exporter, ModBlocks.BANANA_PRESSURE_PLATE, ModBlocks.BANANA_PLANKS);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.BANANA_FENCE, 3)
+                .pattern("PSP")
+                .pattern("PSP")
+                .input('P', ModBlocks.BANANA_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.BANANA_PLANKS), conditionsFromItem(ModBlocks.BANANA_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.BANANA_FENCE_GATE, 1)
+                .pattern("SPS")
+                .pattern("SPS")
+                .input('P', ModBlocks.BANANA_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.BANANA_PLANKS), conditionsFromItem(ModBlocks.BANANA_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.BANANA_DOOR, 3)
+                .pattern("PP")
+                .pattern("PP")
+                .pattern("PP")
+                .input('P', ModBlocks.BANANA_PLANKS)
+                .criterion(hasItem(ModBlocks.BANANA_PLANKS), conditionsFromItem(ModBlocks.BANANA_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.BANANA_TRAPDOOR, 2)
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModBlocks.BANANA_PLANKS)
+                .criterion(hasItem(ModBlocks.BANANA_PLANKS), conditionsFromItem(ModBlocks.BANANA_PLANKS))
+                .offerTo(exporter);
+
+        offerPlanksRecipe(exporter, ModBlocks.PEACH_PLANKS, ModTags.Items.PEACH_LOGS, 4);
+        offerBarkBlockRecipe(exporter, ModBlocks.PEACH_WOOD, ModBlocks.PEACH_LOG);
+        offerBarkBlockRecipe(exporter, ModBlocks.STRIPPED_PEACH_WOOD, ModBlocks.STRIPPED_PEACH_LOG);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEACH_STAIRS, 4)
+                .pattern("P  ")
+                .pattern("PP ")
+                .pattern("PPP")
+                .input('P', ModBlocks.PEACH_PLANKS)
+                .criterion(hasItem(ModBlocks.PEACH_PLANKS), conditionsFromItem(ModBlocks.PEACH_PLANKS))
+                .offerTo(exporter);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEACH_SLAB, ModBlocks.PEACH_PLANKS);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.PEACH_BUTTON, 1)
+                .input(ModBlocks.PEACH_PLANKS)
+                .criterion(hasItem(ModBlocks.PEACH_PLANKS), conditionsFromItem(ModBlocks.PEACH_PLANKS))
+                .offerTo(exporter);
+        offerPressurePlateRecipe(exporter, ModBlocks.PEACH_PRESSURE_PLATE, ModBlocks.PEACH_PLANKS);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.PEACH_FENCE, 3)
+                .pattern("PSP")
+                .pattern("PSP")
+                .input('P', ModBlocks.PEACH_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.PEACH_PLANKS), conditionsFromItem(ModBlocks.PEACH_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.PEACH_FENCE_GATE, 1)
+                .pattern("SPS")
+                .pattern("SPS")
+                .input('P', ModBlocks.PEACH_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.PEACH_PLANKS), conditionsFromItem(ModBlocks.PEACH_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.PEACH_DOOR, 3)
+                .pattern("PP")
+                .pattern("PP")
+                .pattern("PP")
+                .input('P', ModBlocks.PEACH_PLANKS)
+                .criterion(hasItem(ModBlocks.PEACH_PLANKS), conditionsFromItem(ModBlocks.PEACH_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.PEACH_TRAPDOOR, 2)
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModBlocks.PEACH_PLANKS)
+                .criterion(hasItem(ModBlocks.PEACH_PLANKS), conditionsFromItem(ModBlocks.PEACH_PLANKS))
+                .offerTo(exporter);
+
+
     }
 }

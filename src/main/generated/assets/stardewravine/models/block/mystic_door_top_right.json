@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "stardewravine:block/mystic_door_bottom",
+    "top": "stardewravine:block/mystic_door_top"
+  }
+}

@@ -9,10 +9,19 @@ import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.structure.rule.RuleTest;
 import net.minecraft.structure.rule.TagMatchRuleTest;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.FeatureConfig;
-import net.minecraft.world.gen.feature.OreFeatureConfig;
+import net.minecraft.util.collection.DataPool;
+import net.minecraft.util.math.intprovider.ConstantIntProvider;
+import net.minecraft.util.math.intprovider.IntProvider;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
+import net.minecraft.util.math.intprovider.WeightedListIntProvider;
+import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
+import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
+import net.minecraft.world.gen.foliage.CherryFoliagePlacer;
+import net.minecraft.world.gen.stateprovider.BlockStateProvider;
+import net.minecraft.world.gen.trunk.CherryTrunkPlacer;
+import net.minecraft.world.gen.trunk.ForkingTrunkPlacer;
+import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 import net.mocury.stardewravine.StardewRavine;
 import net.mocury.stardewravine.block.ModBlocks;
 
@@ -22,6 +31,14 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> IRIDIUM_ORE_KEY = registerKey("iridium_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> NETHER_IRIDIUM_ORE_KEY = registerKey("nether_iridium_ore");
 
+    public static final RegistryKey<ConfiguredFeature<?, ?>> MAPLE_KEY = registerKey("maple");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> MYSTIC_KEY = registerKey("mystic");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> APRICOT_KEY = registerKey("apricot");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ORANGE_KEY = registerKey("orange");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> POMEGRANATE_KEY = registerKey("pomegranate");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> MANGO_KEY = registerKey("mango");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> BANANA_KEY = registerKey("banana");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> PEACH_KEY = registerKey("peach");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -38,6 +55,83 @@ public class ModConfiguredFeatures {
 
         register(context, IRIDIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldIridiumOres, 3));
         register(context, NETHER_IRIDIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherIridiumOres, 3));
+
+
+        register(context, MAPLE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.MAPLE_LOG),
+                new StraightTrunkPlacer(5, 2, 2), //base height, random height, random height
+                BlockStateProvider.of(ModBlocks.MAPLE_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3), //radius, ?, height
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+
+        register(context, MYSTIC_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.MYSTIC_LOG),
+                new StraightTrunkPlacer(6, 3, 3), //base height, random height, random height
+                BlockStateProvider.of(ModBlocks.MYSTIC_LEAVES),
+                new CherryFoliagePlacer(ConstantIntProvider.create(4), ConstantIntProvider.create(0), ConstantIntProvider.create(7), 0.25F, 0.5F, 0.16666667F, 0.33333334F),
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+
+        register(context, APRICOT_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.APRICOT_LOG),
+                new StraightTrunkPlacer(5, 2, 0), //base height, random height, random height
+                BlockStateProvider.of(ModBlocks.APRICOT_LEAVES),
+                new CherryFoliagePlacer(ConstantIntProvider.create(3), ConstantIntProvider.create(0), ConstantIntProvider.create(5), 0.25F, 0.5F, 0.16666667F, 0.33333334F),
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+
+        register(context, ORANGE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.ORANGE_LOG),
+                new CherryTrunkPlacer(
+                        4,
+                        2,
+                        1,
+                        new WeightedListIntProvider(
+                                DataPool.<IntProvider>builder().add(ConstantIntProvider.create(1), 1).add(ConstantIntProvider.create(2), 1).add(ConstantIntProvider.create(3), 1).build()
+                        ),
+                        UniformIntProvider.create(2, 4),
+                        UniformIntProvider.create(-4, -3),
+                        UniformIntProvider.create(-1, 0)
+                ),                BlockStateProvider.of(ModBlocks.ORANGE_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 3), //radius, ?, height
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+
+        register(context, POMEGRANATE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.POMEGRANATE_LOG),
+                new StraightTrunkPlacer(2, 2, 2), //base height, random height, random height
+                BlockStateProvider.of(ModBlocks.POMEGRANATE_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3), //radius, ?, height
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+
+        register(context, MANGO_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.MANGO_LOG),
+                new ForkingTrunkPlacer(5, 2, 2), //base height, random height, random height
+                BlockStateProvider.of(ModBlocks.MANGO_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3), //radius, ?, height
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+
+        register(context, BANANA_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.BANANA_LOG),
+                new StraightTrunkPlacer(3, 1, 1), //base height, random height, random height
+                BlockStateProvider.of(ModBlocks.BANANA_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(2), 3), //radius, offset?, height
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+
+        register(context, PEACH_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.PEACH_LOG),
+                new CherryTrunkPlacer(
+                        6,
+                        2,
+                        0,
+                        new WeightedListIntProvider(
+                                DataPool.<IntProvider>builder().add(ConstantIntProvider.create(1), 1).add(ConstantIntProvider.create(2), 1).add(ConstantIntProvider.create(3), 1).build()
+                        ),
+                        UniformIntProvider.create(2, 4),
+                        UniformIntProvider.create(-4, -3),
+                        UniformIntProvider.create(-1, 0)
+                ),
+                BlockStateProvider.of(ModBlocks.PEACH_LEAVES),
+                new CherryFoliagePlacer(ConstantIntProvider.create(4), ConstantIntProvider.create(0), ConstantIntProvider.create(5), 0.25F, 0.5F, 0.16666667F, 0.33333334F),
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+
     }
 
 

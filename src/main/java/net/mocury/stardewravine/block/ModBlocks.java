@@ -14,8 +14,9 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.mocury.stardewravine.StardewRavine;
 import net.mocury.stardewravine.block.custom.*;
+import net.mocury.stardewravine.world.tree.ModSaplingGenerators;
 
-import static net.minecraft.block.Blocks.createFlowerPotBlock;
+import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
     public static final Block AQUAMARINE_BLOCK = registerBlock("aquamarine_block",
@@ -539,6 +540,261 @@ public class ModBlocks {
                     .ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY)));
 
 
+    public static final Block MAPLE_LOG = registerBlock("maple_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
+    public static final Block MAPLE_WOOD = registerBlock("maple_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
+    public static final Block STRIPPED_MAPLE_LOG = registerBlock("stripped_maple_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG)));
+    public static final Block STRIPPED_MAPLE_WOOD = registerBlock("stripped_maple_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
+    public static final Block MAPLE_PLANKS = registerBlock("maple_planks",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+    public static final Block MAPLE_LEAVES = registerBlock("maple_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
+    public static final Block MAPLE_SAPLING = registerBlock("maple_sapling",
+            new SaplingBlock(ModSaplingGenerators.MAPLE, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
+    public static final Block MAPLE_STAIRS = registerBlock("maple_stairs",
+            new StairsBlock(ModBlocks.MAPLE_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+    public static final Block MAPLE_SLAB = registerBlock("maple_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+    public static final Block MAPLE_BUTTON = registerBlock("maple_button",
+            new ButtonBlock(BlockSetType.OAK, 30, AbstractBlock.Settings.copy(OAK_BUTTON)));
+    public static final Block MAPLE_PRESSURE_PLATE = registerBlock("maple_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_PRESSURE_PLATE)));
+    public static final Block MAPLE_FENCE = registerBlock("maple_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(OAK_FENCE)));
+    public static final Block MAPLE_FENCE_GATE = registerBlock("maple_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.copy(OAK_FENCE_GATE)));
+    public static final Block MAPLE_DOOR = registerBlock("maple_door",
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_DOOR)));
+    public static final Block MAPLE_TRAPDOOR = registerBlock("maple_trapdoor",
+            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_TRAPDOOR)));
+
+    public static final Block MYSTIC_LOG = registerBlock("mystic_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
+    public static final Block MYSTIC_WOOD = registerBlock("mystic_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
+    public static final Block STRIPPED_MYSTIC_LOG = registerBlock("stripped_mystic_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG)));
+    public static final Block STRIPPED_MYSTIC_WOOD = registerBlock("stripped_mystic_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
+    public static final Block MYSTIC_PLANKS = registerBlock("mystic_planks",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+    public static final Block MYSTIC_LEAVES = registerBlock("mystic_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
+    public static final Block MYSTIC_SAPLING = registerBlock("mystic_sapling",
+            new SaplingBlock(ModSaplingGenerators.MYSTIC, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
+    public static final Block MYSTIC_STAIRS = registerBlock("mystic_stairs",
+            new StairsBlock(ModBlocks.MYSTIC_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+    public static final Block MYSTIC_SLAB = registerBlock("mystic_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+    public static final Block MYSTIC_BUTTON = registerBlock("mystic_button",
+            new ButtonBlock(BlockSetType.OAK, 30, AbstractBlock.Settings.copy(OAK_BUTTON)));
+    public static final Block MYSTIC_PRESSURE_PLATE = registerBlock("mystic_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_PRESSURE_PLATE)));
+    public static final Block MYSTIC_FENCE = registerBlock("mystic_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(OAK_FENCE)));
+    public static final Block MYSTIC_FENCE_GATE = registerBlock("mystic_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.copy(OAK_FENCE_GATE)));
+    public static final Block MYSTIC_DOOR = registerBlock("mystic_door",
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_DOOR)));
+    public static final Block MYSTIC_TRAPDOOR = registerBlock("mystic_trapdoor",
+            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_TRAPDOOR)));
+
+    public static final Block APRICOT_LOG = registerBlock("apricot_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
+    public static final Block APRICOT_WOOD = registerBlock("apricot_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
+    public static final Block STRIPPED_APRICOT_LOG = registerBlock("stripped_apricot_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG)));
+    public static final Block STRIPPED_APRICOT_WOOD = registerBlock("stripped_apricot_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
+    public static final Block APRICOT_PLANKS = registerBlock("apricot_planks",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+    public static final Block APRICOT_LEAVES = registerBlock("apricot_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
+    public static final Block APRICOT_SAPLING = registerBlock("apricot_sapling",
+            new SaplingBlock(ModSaplingGenerators.APRICOT, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
+    public static final Block APRICOT_STAIRS = registerBlock("apricot_stairs",
+            new StairsBlock(ModBlocks.APRICOT_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+    public static final Block APRICOT_SLAB = registerBlock("apricot_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+    public static final Block APRICOT_BUTTON = registerBlock("apricot_button",
+            new ButtonBlock(BlockSetType.OAK, 30, AbstractBlock.Settings.copy(OAK_BUTTON)));
+    public static final Block APRICOT_PRESSURE_PLATE = registerBlock("apricot_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_PRESSURE_PLATE)));
+    public static final Block APRICOT_FENCE = registerBlock("apricot_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(OAK_FENCE)));
+    public static final Block APRICOT_FENCE_GATE = registerBlock("apricot_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.copy(OAK_FENCE_GATE)));
+    public static final Block APRICOT_DOOR = registerBlock("apricot_door",
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_DOOR)));
+    public static final Block APRICOT_TRAPDOOR = registerBlock("apricot_trapdoor",
+            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_TRAPDOOR)));
+
+    public static final Block ORANGE_LOG = registerBlock("orange_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LOG)));
+    public static final Block ORANGE_WOOD = registerBlock("orange_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD)));
+    public static final Block STRIPPED_ORANGE_LOG = registerBlock("stripped_orange_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_LOG)));
+    public static final Block STRIPPED_ORANGE_WOOD = registerBlock("stripped_orange_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_WOOD)));
+    public static final Block ORANGE_PLANKS = registerBlock("orange_planks",
+            new Block(AbstractBlock.Settings.copy(Blocks.CHERRY_PLANKS)));
+    public static final Block ORANGE_LEAVES = registerBlock("orange_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LEAVES)));
+    public static final Block ORANGE_SAPLING = registerBlock("orange_sapling",
+            new SaplingBlock(ModSaplingGenerators.ORANGE, AbstractBlock.Settings.copy(Blocks.CHERRY_SAPLING)));
+    public static final Block ORANGE_STAIRS = registerBlock("orange_stairs",
+            new StairsBlock(ModBlocks.ORANGE_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block ORANGE_SLAB = registerBlock("orange_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block ORANGE_BUTTON = registerBlock("orange_button",
+            new ButtonBlock(BlockSetType.CHERRY, 30, AbstractBlock.Settings.copy(OAK_BUTTON)));
+    public static final Block ORANGE_PRESSURE_PLATE = registerBlock("orange_pressure_plate",
+            new PressurePlateBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_PRESSURE_PLATE)));
+    public static final Block ORANGE_FENCE = registerBlock("orange_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(CHERRY_FENCE)));
+    public static final Block ORANGE_FENCE_GATE = registerBlock("orange_fence_gate",
+            new FenceGateBlock(WoodType.CHERRY, AbstractBlock.Settings.copy(CHERRY_FENCE_GATE)));
+    public static final Block ORANGE_DOOR = registerBlock("orange_door",
+            new DoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_DOOR)));
+    public static final Block ORANGE_TRAPDOOR = registerBlock("orange_trapdoor",
+            new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_TRAPDOOR)));
+
+    public static final Block POMEGRANATE_LOG = registerBlock("pomegranate_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
+    public static final Block POMEGRANATE_WOOD = registerBlock("pomegranate_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
+    public static final Block STRIPPED_POMEGRANATE_LOG = registerBlock("stripped_pomegranate_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG)));
+    public static final Block STRIPPED_POMEGRANATE_WOOD = registerBlock("stripped_pomegranate_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
+    public static final Block POMEGRANATE_PLANKS = registerBlock("pomegranate_planks",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+    public static final Block POMEGRANATE_LEAVES = registerBlock("pomegranate_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
+    public static final Block POMEGRANATE_SAPLING = registerBlock("pomegranate_sapling",
+            new SaplingBlock(ModSaplingGenerators.POMEGRANATE, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
+    public static final Block POMEGRANATE_STAIRS = registerBlock("pomegranate_stairs",
+            new StairsBlock(ModBlocks.POMEGRANATE_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+    public static final Block POMEGRANATE_SLAB = registerBlock("pomegranate_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+    public static final Block POMEGRANATE_BUTTON = registerBlock("pomegranate_button",
+            new ButtonBlock(BlockSetType.OAK, 30, AbstractBlock.Settings.copy(OAK_BUTTON)));
+    public static final Block POMEGRANATE_PRESSURE_PLATE = registerBlock("pomegranate_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_PRESSURE_PLATE)));
+    public static final Block POMEGRANATE_FENCE = registerBlock("pomegranate_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(OAK_FENCE)));
+    public static final Block POMEGRANATE_FENCE_GATE = registerBlock("pomegranate_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.copy(OAK_FENCE_GATE)));
+    public static final Block POMEGRANATE_DOOR = registerBlock("pomegranate_door",
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_DOOR)));
+    public static final Block POMEGRANATE_TRAPDOOR = registerBlock("pomegranate_trapdoor",
+            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_TRAPDOOR)));
+
+    public static final Block MANGO_LOG = registerBlock("mango_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
+    public static final Block MANGO_WOOD = registerBlock("mango_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
+    public static final Block STRIPPED_MANGO_LOG = registerBlock("stripped_mango_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG)));
+    public static final Block STRIPPED_MANGO_WOOD = registerBlock("stripped_mango_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
+    public static final Block MANGO_PLANKS = registerBlock("mango_planks",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+    public static final Block MANGO_LEAVES = registerBlock("mango_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
+    public static final Block MANGO_SAPLING = registerBlock("mango_sapling",
+            new SaplingBlock(ModSaplingGenerators.MANGO, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
+    public static final Block MANGO_STAIRS = registerBlock("mango_stairs",
+            new StairsBlock(ModBlocks.MANGO_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+    public static final Block MANGO_SLAB = registerBlock("mango_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+    public static final Block MANGO_BUTTON = registerBlock("mango_button",
+            new ButtonBlock(BlockSetType.OAK, 30, AbstractBlock.Settings.copy(OAK_BUTTON)));
+    public static final Block MANGO_PRESSURE_PLATE = registerBlock("mango_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_PRESSURE_PLATE)));
+    public static final Block MANGO_FENCE = registerBlock("mango_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(OAK_FENCE)));
+    public static final Block MANGO_FENCE_GATE = registerBlock("mango_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.copy(OAK_FENCE_GATE)));
+    public static final Block MANGO_DOOR = registerBlock("mango_door",
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_DOOR)));
+    public static final Block MANGO_TRAPDOOR = registerBlock("mango_trapdoor",
+            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_TRAPDOOR)));
+
+    public static final Block BANANA_LOG = registerBlock("banana_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
+    public static final Block BANANA_WOOD = registerBlock("banana_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
+    public static final Block STRIPPED_BANANA_LOG = registerBlock("stripped_banana_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG)));
+    public static final Block STRIPPED_BANANA_WOOD = registerBlock("stripped_banana_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
+    public static final Block BANANA_PLANKS = registerBlock("banana_planks",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+    public static final Block BANANA_LEAVES = registerBlock("banana_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
+    public static final Block BANANA_SAPLING = registerBlock("banana_sapling",
+            new SaplingBlock(ModSaplingGenerators.BANANA, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
+    public static final Block BANANA_STAIRS = registerBlock("banana_stairs",
+            new StairsBlock(ModBlocks.BANANA_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+    public static final Block BANANA_SLAB = registerBlock("banana_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+    public static final Block BANANA_BUTTON = registerBlock("banana_button",
+            new ButtonBlock(BlockSetType.OAK, 30, AbstractBlock.Settings.copy(OAK_BUTTON)));
+    public static final Block BANANA_PRESSURE_PLATE = registerBlock("banana_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_PRESSURE_PLATE)));
+    public static final Block BANANA_FENCE = registerBlock("banana_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(OAK_FENCE)));
+    public static final Block BANANA_FENCE_GATE = registerBlock("banana_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.copy(OAK_FENCE_GATE)));
+    public static final Block BANANA_DOOR = registerBlock("banana_door",
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_DOOR)));
+    public static final Block BANANA_TRAPDOOR = registerBlock("banana_trapdoor",
+            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_TRAPDOOR)));
+
+    public static final Block PEACH_LOG = registerBlock("peach_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LOG)));
+    public static final Block PEACH_WOOD = registerBlock("peach_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD)));
+    public static final Block STRIPPED_PEACH_LOG = registerBlock("stripped_peach_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_LOG)));
+    public static final Block STRIPPED_PEACH_WOOD = registerBlock("stripped_peach_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_WOOD)));
+    public static final Block PEACH_PLANKS = registerBlock("peach_planks",
+            new Block(AbstractBlock.Settings.copy(Blocks.CHERRY_PLANKS)));
+    public static final Block PEACH_LEAVES = registerBlock("peach_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LEAVES)));
+    public static final Block PEACH_SAPLING = registerBlock("peach_sapling",
+            new SaplingBlock(ModSaplingGenerators.PEACH, AbstractBlock.Settings.copy(Blocks.CHERRY_SAPLING)));
+    public static final Block PEACH_STAIRS = registerBlock("peach_stairs",
+            new StairsBlock(ModBlocks.PEACH_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block PEACH_SLAB = registerBlock("peach_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block PEACH_BUTTON = registerBlock("peach_button",
+            new ButtonBlock(BlockSetType.CHERRY, 30, AbstractBlock.Settings.copy(CHERRY_BUTTON)));
+    public static final Block PEACH_PRESSURE_PLATE = registerBlock("peach_pressure_plate",
+            new PressurePlateBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_PRESSURE_PLATE)));
+    public static final Block PEACH_FENCE = registerBlock("peach_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(CHERRY_FENCE)));
+    public static final Block PEACH_FENCE_GATE = registerBlock("peach_fence_gate",
+            new FenceGateBlock(WoodType.CHERRY, AbstractBlock.Settings.copy(CHERRY_FENCE_GATE)));
+    public static final Block PEACH_DOOR = registerBlock("peach_door",
+            new DoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_DOOR)));
+    public static final Block PEACH_TRAPDOOR = registerBlock("peach_trapdoor",
+            new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_TRAPDOOR)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

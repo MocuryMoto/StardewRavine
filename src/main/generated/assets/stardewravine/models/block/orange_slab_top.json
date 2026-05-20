@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "stardewravine:block/orange_planks",
+    "side": "stardewravine:block/orange_planks",
+    "top": "stardewravine:block/orange_planks"
+  }
+}

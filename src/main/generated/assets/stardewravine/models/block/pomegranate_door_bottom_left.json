@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "stardewravine:block/pomegranate_door_bottom",
+    "top": "stardewravine:block/pomegranate_door_top"
+  }
+}

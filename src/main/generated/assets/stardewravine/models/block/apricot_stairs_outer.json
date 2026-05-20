@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "stardewravine:block/apricot_planks",
+    "side": "stardewravine:block/apricot_planks",
+    "top": "stardewravine:block/apricot_planks"
+  }
+}

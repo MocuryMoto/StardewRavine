@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pomegranate_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:pomegranate_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stardewravine:pomegranate_door"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pomegranate_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stardewravine:pomegranate_door"
+    ]
+  }
+}
