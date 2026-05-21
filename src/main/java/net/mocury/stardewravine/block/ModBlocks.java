@@ -796,6 +796,22 @@ public class ModBlocks {
     public static final Block PEACH_TRAPDOOR = registerBlock("peach_trapdoor",
             new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_TRAPDOOR)));
 
+    public static final Block FRUITING_APRICOT_LEAVES = registerBlock("fruiting_apricot_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(OAK_LEAVES)));
+    public static final Block FRUITING_ORANGE_LEAVES = registerBlock("fruiting_orange_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(CHERRY_LEAVES)));
+    public static final Block FRUITING_POMEGRANATE_LEAVES = registerBlock("fruiting_pomegranate_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(OAK_LEAVES)));
+    public static final Block FRUITING_MANGO_LEAVES = registerBlock("fruiting_mango_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(OAK_LEAVES)));
+    public static final Block FRUITING_BANANA_LEAVES = registerBlock("fruiting_banana_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(OAK_LEAVES)));
+    public static final Block FRUITING_PEACH_LEAVES = registerBlock("fruiting_peach_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(CHERRY_LEAVES)));
+    public static final Block FRUITING_CHERRY_LEAVES = registerBlock("fruiting_cherry_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(CHERRY_LEAVES)));
+
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(StardewRavine.MOD_ID, name), block);

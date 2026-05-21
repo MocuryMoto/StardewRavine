@@ -1,6 +1,7 @@
 package net.mocury.stardewravine.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.component.type.FoodComponents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -72,6 +73,11 @@ public class ModItems {
     public static final Item SILVER_SPOON = registerItem("silver_spoon", new SilverSpoonItem(new Item.Settings().maxCount(1)));
     public static final Item DRIED_STARFISH = registerItem("dried_starfish", new DriedStarfishItem(new Item.Settings().maxCount(1)));
 
+    public static final Item SAP = registerItem("sap", new SapItem(new Item.Settings()));
+    public static final Item MYSTIC_SYRUP = registerItem("mystic_syrup", new MysticSyrupItem(new Item.Settings()));
+    public static final Item OAK_RESIN = registerItem("oak_resin", new Item(new Item.Settings()));
+    public static final Item PINE_TAR = registerItem("pine_tar", new Item(new Item.Settings()));
+
     public static final Item IRIDIUM_SWORD = registerItem("iridium_sword", new SwordItem(ModToolMaterials.IRIDIUM, new Item.Settings()
             .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.IRIDIUM, 3, -2.4f))));
     public static final Item IRIDIUM_PICKAXE = registerItem("iridium_pickaxe", new PickaxeItem(ModToolMaterials.IRIDIUM, new Item.Settings()
@@ -142,6 +148,19 @@ public class ModItems {
     public static final Item STRAWBERRY = registerItem("strawberry",
             new AliasedBlockItem(ModBlocks.STRAWBERRY_BUSH, new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
 
+    public static final Item CHERRIES = registerItem("cherries", new Item(new Item.Settings().food(ModFoodComponents.CHERRIES)));
+    public static final Item APRICOT = registerItem("apricot", new Item(new Item.Settings().food(ModFoodComponents.APRICOT)));
+    public static final Item ORANGE = registerItem("orange", new Item(new Item.Settings().food(ModFoodComponents.ORANGE)));
+    public static final Item POMEGRANATE = registerItem("pomegranate", new Item(new Item.Settings().food(ModFoodComponents.POMEGRANATE)));
+    public static final Item MANGO = registerItem("mango", new Item(new Item.Settings().food(ModFoodComponents.MANGO)));
+    public static final Item BANANA = registerItem("banana", new Item(new Item.Settings().food(ModFoodComponents.BANANA)));
+    public static final Item PEACH = registerItem("peach", new Item(new Item.Settings().food(ModFoodComponents.PEACH)));
+
+
+    public static final Item MAPLE_SYRUP = registerItem(
+            "maple_syrup", new MapleSyrupItem(new Item.Settings().food(ModFoodComponents.MAPLE_SYRUP).maxCount(16))
+    );
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(StardewRavine.MOD_ID, name), item);
     }
@@ -161,9 +180,17 @@ public class ModItems {
            entries.add(IRIDIUM_INGOT);
            entries.add(RAW_IRIDIUM);
 
-        });ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
            entries.add(STARDROP);
            entries.add(ANCIENT_FRUIT);
+           entries.add(CHERRIES);
+           entries.add(APRICOT);
+           entries.add(ORANGE);
+           entries.add(POMEGRANATE);
+           entries.add(MANGO);
+           entries.add(BANANA);
+           entries.add(PEACH);
         });
     }
 }

@@ -323,6 +323,14 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.PEACH_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PEACH_TRAPDOOR);
 
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_POMEGRANATE_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_ORANGE_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_APRICOT_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_CHERRY_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_MANGO_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_BANANA_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_PEACH_LEAVES, TexturedModel.LEAVES);
+
     }
 
     @Override
@@ -424,5 +432,17 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModBlocks.MANGO_SAPLING.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModBlocks.BANANA_SAPLING.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModBlocks.PEACH_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModItems.APRICOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORANGE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.POMEGRANATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MANGO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BANANA, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PEACH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHERRIES, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SAP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYSTIC_SYRUP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OAK_RESIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PINE_TAR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAPLE_SYRUP, Models.GENERATED);
     }
 }

@@ -94,6 +94,18 @@
   "item.stardewravine.terrasine": "Earth Crystal Chunk",
   "item.stardewravine.salmonberry": "Salmonberry",
   "item.stardewravine.strawberry": "Strawberry",
+  "item.stardewravine.cherries": "Cherries",
+  "item.stardewravine.apricot": "Apricot",
+  "item.stardewravine.orange": "Orange",
+  "item.stardewravine.pomegranate": "Pomegranate",
+  "item.stardewravine.mango": "Mango",
+  "item.stardewravine.banana": "Banana",
+  "item.stardewravine.peach": "Peach",
+  "item.stardewravine.sap": "Sap",
+  "item.stardewravine.mystic_syrup": "Mystic Syrup",
+  "item.stardewravine.oak_resin": "Oak Resin",
+  "item.stardewravine.pine_tar": "Pine Tar",
+  "item.stardewravine.maple_syrup": "Maple Syrup",
 
 
 
@@ -429,6 +441,13 @@
   "block.stardewravine.peach_trapdoor": "Peach Trapdoor",
   "block.stardewravine.peach_fence": "Peach Fence",
   "block.stardewravine.peach_fence_gate": "Peach Fence Gate",
+  "block.stardewravine.fruiting_cherry_leaves": "Fruiting Cherry Leaves",
+  "block.stardewravine.fruiting_apricot_leaves": "Fruiting Apricot Leaves",
+  "block.stardewravine.fruiting_orange_leaves": "Fruiting Orange Leaves",
+  "block.stardewravine.fruiting_pomegranate_leaves": "Fruiting Pomegranate Leaves",
+  "block.stardewravine.fruiting_mango_leaves": "Fruiting Mango Leaves",
+  "block.stardewravine.fruiting_banana_leaves": "Fruiting Banana Leaves",
+  "block.stardewravine.fruiting_peach_leaves": "Fruiting Peach Leaves",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine",
   "itemgroup.stardewravine.stardew_ravine_minerals": "Stardew Ravine Minerals",

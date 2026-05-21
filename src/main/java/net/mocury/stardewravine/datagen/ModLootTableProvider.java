@@ -212,6 +212,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.APRICOT_DOOR, doorDrops(ModBlocks.APRICOT_DOOR));
         addDrop(ModBlocks.APRICOT_TRAPDOOR);
         addDrop(ModBlocks.APRICOT_LEAVES, leavesDrops(ModBlocks.APRICOT_LEAVES, ModBlocks.APRICOT_SAPLING, 0.0625f));
+        addDrop(ModBlocks.FRUITING_APRICOT_LEAVES, multipleOreDrops(ModBlocks.FRUITING_APRICOT_LEAVES, ModItems.APRICOT, 2, 4));
 
         addDrop(ModBlocks.ORANGE_LOG);
         addDrop(ModBlocks.ORANGE_WOOD);
@@ -228,6 +229,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ORANGE_DOOR, doorDrops(ModBlocks.ORANGE_DOOR));
         addDrop(ModBlocks.ORANGE_TRAPDOOR);
         addDrop(ModBlocks.ORANGE_LEAVES, leavesDrops(ModBlocks.ORANGE_LEAVES, ModBlocks.ORANGE_SAPLING, 0.0625f));
+        addDrop(ModBlocks.FRUITING_ORANGE_LEAVES, multipleOreDrops(ModBlocks.FRUITING_ORANGE_LEAVES, ModItems.ORANGE, 1, 3));
 
         addDrop(ModBlocks.POMEGRANATE_LOG);
         addDrop(ModBlocks.POMEGRANATE_WOOD);
@@ -244,6 +246,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POMEGRANATE_DOOR, doorDrops(ModBlocks.POMEGRANATE_DOOR));
         addDrop(ModBlocks.POMEGRANATE_TRAPDOOR);
         addDrop(ModBlocks.POMEGRANATE_LEAVES, leavesDrops(ModBlocks.POMEGRANATE_LEAVES, ModBlocks.POMEGRANATE_SAPLING, 0.0625f));
+        addDrop(ModBlocks.FRUITING_POMEGRANATE_LEAVES, multipleOreDrops(ModBlocks.FRUITING_POMEGRANATE_LEAVES, ModItems.POMEGRANATE, 2, 4));
 
         addDrop(ModBlocks.MANGO_LOG);
         addDrop(ModBlocks.MANGO_WOOD);
@@ -260,6 +263,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MANGO_DOOR, doorDrops(ModBlocks.MANGO_DOOR));
         addDrop(ModBlocks.MANGO_TRAPDOOR);
         addDrop(ModBlocks.MANGO_LEAVES, leavesDrops(ModBlocks.MANGO_LEAVES, ModBlocks.MANGO_SAPLING, 0.0625f));
+        addDrop(ModBlocks.FRUITING_MANGO_LEAVES, multipleOreDrops(ModBlocks.FRUITING_MANGO_LEAVES, ModItems.MANGO, 1, 4));
 
         addDrop(ModBlocks.BANANA_LOG);
         addDrop(ModBlocks.BANANA_WOOD);
@@ -276,6 +280,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BANANA_DOOR, doorDrops(ModBlocks.BANANA_DOOR));
         addDrop(ModBlocks.BANANA_TRAPDOOR);
         addDrop(ModBlocks.BANANA_LEAVES, leavesDrops(ModBlocks.BANANA_LEAVES, ModBlocks.BANANA_SAPLING, 0.125f));
+        addDrop(ModBlocks.FRUITING_BANANA_LEAVES, multipleOreDrops(ModBlocks.FRUITING_BANANA_LEAVES, ModItems.BANANA, 2, 3));
 
         addDrop(ModBlocks.PEACH_LOG);
         addDrop(ModBlocks.PEACH_WOOD);
@@ -292,6 +297,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PEACH_DOOR, doorDrops(ModBlocks.PEACH_DOOR));
         addDrop(ModBlocks.PEACH_TRAPDOOR);
         addDrop(ModBlocks.PEACH_LEAVES, leavesDrops(ModBlocks.PEACH_LEAVES, ModBlocks.PEACH_SAPLING, 0.0625f));
+        addDrop(ModBlocks.FRUITING_PEACH_LEAVES, multipleOreDrops(ModBlocks.FRUITING_PEACH_LEAVES, ModItems.PEACH, 2, 3));
+
+        addDrop(ModBlocks.FRUITING_CHERRY_LEAVES, multipleOreDrops(ModBlocks.FRUITING_CHERRY_LEAVES, ModItems.CHERRIES, 2, 5));
 
 
         addDrop(ModBlocks.ESPERITE_SLAB, slabDrops(ModBlocks.ESPERITE_SLAB));

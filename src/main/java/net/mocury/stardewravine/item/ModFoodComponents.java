@@ -15,6 +15,7 @@ public class ModFoodComponents {
             .alwaysEdible()
             .build();
     public static final FoodComponent ANCIENT_FRUIT = new FoodComponent.Builder().nutrition(5).saturationModifier(1.0F).build();
+
     public static final FoodComponent GARLIC = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
     public static final FoodComponent LEEK = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
     public static final FoodComponent SPRING_ONION = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
@@ -27,5 +28,15 @@ public class ModFoodComponents {
     public static final FoodComponent BLUEBERRIES = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();
     public static final FoodComponent SALMONBERRY = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();
     public static final FoodComponent STRAWBERRY = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();
+
+    public static final FoodComponent APRICOT = new FoodComponent.Builder().nutrition(3).saturationModifier(0.3F).build();
+    public static final FoodComponent ORANGE = new FoodComponent.Builder().nutrition(5).saturationModifier(0.3F).build();
+    public static final FoodComponent POMEGRANATE = new FoodComponent.Builder().nutrition(5).saturationModifier(0.3F).build();
+    public static final FoodComponent MANGO = new FoodComponent.Builder().nutrition(4).saturationModifier(0.3F).build();
+    public static final FoodComponent BANANA = new FoodComponent.Builder().nutrition(3).saturationModifier(0.3F).build();
+    public static final FoodComponent PEACH = new FoodComponent.Builder().nutrition(4).saturationModifier(0.3F).build();
+    public static final FoodComponent CHERRIES = new FoodComponent.Builder().nutrition(2).saturationModifier(0.3F).snack().build();
+
+    public static final FoodComponent MAPLE_SYRUP = new FoodComponent.Builder().nutrition(6).saturationModifier(0.1F).build();
 
 }

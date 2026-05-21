@@ -323,7 +323,7 @@ public class ModItemGroups {
                         entries.add(ModItems.STRAWBERRY);
                         entries.add(ModItems.BLUEBERRIES);
 
-
+                        entries.add(ModItems.MAPLE_SYRUP);
                         entries.add(ModBlocks.MAPLE_SAPLING);
                         entries.add(ModBlocks.MAPLE_LOG);
                         entries.add(ModBlocks.MAPLE_WOOD);
@@ -340,6 +340,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAPLE_DOOR);
                         entries.add(ModBlocks.MAPLE_TRAPDOOR);
 
+                        entries.add(ModItems.MYSTIC_SYRUP);
                         entries.add(ModBlocks.MYSTIC_SAPLING);
                         entries.add(ModBlocks.MYSTIC_LOG);
                         entries.add(ModBlocks.MYSTIC_WOOD);
@@ -356,6 +357,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MYSTIC_DOOR);
                         entries.add(ModBlocks.MYSTIC_TRAPDOOR);
 
+                        entries.add(ModItems.APRICOT);
                         entries.add(ModBlocks.APRICOT_SAPLING);
                         entries.add(ModBlocks.APRICOT_LOG);
                         entries.add(ModBlocks.APRICOT_WOOD);
@@ -363,6 +365,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_APRICOT_WOOD);
                         entries.add(ModBlocks.APRICOT_PLANKS);
                         entries.add(ModBlocks.APRICOT_LEAVES);
+                        entries.add(ModBlocks.FRUITING_APRICOT_LEAVES);
                         entries.add(ModBlocks.APRICOT_STAIRS);
                         entries.add(ModBlocks.APRICOT_SLAB);
                         entries.add(ModBlocks.APRICOT_FENCE);
@@ -372,6 +375,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.APRICOT_DOOR);
                         entries.add(ModBlocks.APRICOT_TRAPDOOR);
 
+                        entries.add(ModItems.ORANGE);
                         entries.add(ModBlocks.ORANGE_SAPLING);
                         entries.add(ModBlocks.ORANGE_LOG);
                         entries.add(ModBlocks.ORANGE_WOOD);
@@ -379,6 +383,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_ORANGE_WOOD);
                         entries.add(ModBlocks.ORANGE_PLANKS);
                         entries.add(ModBlocks.ORANGE_LEAVES);
+                        entries.add(ModBlocks.FRUITING_ORANGE_LEAVES);
                         entries.add(ModBlocks.ORANGE_STAIRS);
                         entries.add(ModBlocks.ORANGE_SLAB);
                         entries.add(ModBlocks.ORANGE_FENCE);
@@ -388,6 +393,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ORANGE_DOOR);
                         entries.add(ModBlocks.ORANGE_TRAPDOOR);
 
+                        entries.add(ModItems.POMEGRANATE);
                         entries.add(ModBlocks.POMEGRANATE_SAPLING);
                         entries.add(ModBlocks.POMEGRANATE_LOG);
                         entries.add(ModBlocks.POMEGRANATE_WOOD);
@@ -395,6 +401,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_POMEGRANATE_WOOD);
                         entries.add(ModBlocks.POMEGRANATE_PLANKS);
                         entries.add(ModBlocks.POMEGRANATE_LEAVES);
+                        entries.add(ModBlocks.FRUITING_POMEGRANATE_LEAVES);
                         entries.add(ModBlocks.POMEGRANATE_STAIRS);
                         entries.add(ModBlocks.POMEGRANATE_SLAB);
                         entries.add(ModBlocks.POMEGRANATE_FENCE);
@@ -404,6 +411,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POMEGRANATE_DOOR);
                         entries.add(ModBlocks.POMEGRANATE_TRAPDOOR);
 
+                        entries.add(ModItems.MANGO);
                         entries.add(ModBlocks.MANGO_SAPLING);
                         entries.add(ModBlocks.MANGO_LOG);
                         entries.add(ModBlocks.MANGO_WOOD);
@@ -411,6 +419,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_MANGO_WOOD);
                         entries.add(ModBlocks.MANGO_PLANKS);
                         entries.add(ModBlocks.MANGO_LEAVES);
+                        entries.add(ModBlocks.FRUITING_MANGO_LEAVES);
                         entries.add(ModBlocks.MANGO_STAIRS);
                         entries.add(ModBlocks.MANGO_SLAB);
                         entries.add(ModBlocks.MANGO_FENCE);
@@ -420,6 +429,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MANGO_DOOR);
                         entries.add(ModBlocks.MANGO_TRAPDOOR);
 
+                        entries.add(ModItems.BANANA);
                         entries.add(ModBlocks.BANANA_SAPLING);
                         entries.add(ModBlocks.BANANA_LOG);
                         entries.add(ModBlocks.BANANA_WOOD);
@@ -427,6 +437,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_BANANA_WOOD);
                         entries.add(ModBlocks.BANANA_PLANKS);
                         entries.add(ModBlocks.BANANA_LEAVES);
+                        entries.add(ModBlocks.FRUITING_BANANA_LEAVES);
                         entries.add(ModBlocks.BANANA_STAIRS);
                         entries.add(ModBlocks.BANANA_SLAB);
                         entries.add(ModBlocks.BANANA_FENCE);
@@ -436,6 +447,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BANANA_DOOR);
                         entries.add(ModBlocks.BANANA_TRAPDOOR);
 
+                        entries.add(ModItems.PEACH);
                         entries.add(ModBlocks.PEACH_SAPLING);
                         entries.add(ModBlocks.PEACH_LOG);
                         entries.add(ModBlocks.PEACH_WOOD);
@@ -443,6 +455,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_PEACH_WOOD);
                         entries.add(ModBlocks.PEACH_PLANKS);
                         entries.add(ModBlocks.PEACH_LEAVES);
+                        entries.add(ModBlocks.FRUITING_PEACH_LEAVES);
                         entries.add(ModBlocks.PEACH_STAIRS);
                         entries.add(ModBlocks.PEACH_SLAB);
                         entries.add(ModBlocks.PEACH_FENCE);
@@ -451,6 +464,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PEACH_PRESSURE_PLATE);
                         entries.add(ModBlocks.PEACH_DOOR);
                         entries.add(ModBlocks.PEACH_TRAPDOOR);
+
+                        entries.add(ModItems.CHERRIES);
+                        entries.add(ModBlocks.FRUITING_CHERRY_LEAVES);
+                        entries.add(ModItems.SAP);
+                        entries.add(ModItems.OAK_RESIN);
+                        entries.add(ModItems.PINE_TAR);
 
                     }).build());
 
@@ -722,7 +741,7 @@ public class ModItemGroups {
                         entries.add(ModItems.STRAWBERRY);
                         entries.add(ModItems.BLUEBERRIES);
 
-
+                        entries.add(ModItems.MAPLE_SYRUP);
                         entries.add(ModBlocks.MAPLE_SAPLING);
                         entries.add(ModBlocks.MAPLE_LOG);
                         entries.add(ModBlocks.MAPLE_WOOD);
@@ -739,6 +758,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAPLE_DOOR);
                         entries.add(ModBlocks.MAPLE_TRAPDOOR);
 
+                        entries.add(ModItems.MYSTIC_SYRUP);
                         entries.add(ModBlocks.MYSTIC_SAPLING);
                         entries.add(ModBlocks.MYSTIC_LOG);
                         entries.add(ModBlocks.MYSTIC_WOOD);
@@ -755,6 +775,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MYSTIC_DOOR);
                         entries.add(ModBlocks.MYSTIC_TRAPDOOR);
 
+                        entries.add(ModItems.APRICOT);
                         entries.add(ModBlocks.APRICOT_SAPLING);
                         entries.add(ModBlocks.APRICOT_LOG);
                         entries.add(ModBlocks.APRICOT_WOOD);
@@ -762,6 +783,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_APRICOT_WOOD);
                         entries.add(ModBlocks.APRICOT_PLANKS);
                         entries.add(ModBlocks.APRICOT_LEAVES);
+                        entries.add(ModBlocks.FRUITING_APRICOT_LEAVES);
                         entries.add(ModBlocks.APRICOT_STAIRS);
                         entries.add(ModBlocks.APRICOT_SLAB);
                         entries.add(ModBlocks.APRICOT_FENCE);
@@ -771,6 +793,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.APRICOT_DOOR);
                         entries.add(ModBlocks.APRICOT_TRAPDOOR);
 
+                        entries.add(ModItems.ORANGE);
                         entries.add(ModBlocks.ORANGE_SAPLING);
                         entries.add(ModBlocks.ORANGE_LOG);
                         entries.add(ModBlocks.ORANGE_WOOD);
@@ -778,6 +801,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_ORANGE_WOOD);
                         entries.add(ModBlocks.ORANGE_PLANKS);
                         entries.add(ModBlocks.ORANGE_LEAVES);
+                        entries.add(ModBlocks.FRUITING_ORANGE_LEAVES);
                         entries.add(ModBlocks.ORANGE_STAIRS);
                         entries.add(ModBlocks.ORANGE_SLAB);
                         entries.add(ModBlocks.ORANGE_FENCE);
@@ -787,6 +811,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ORANGE_DOOR);
                         entries.add(ModBlocks.ORANGE_TRAPDOOR);
 
+                        entries.add(ModItems.POMEGRANATE);
                         entries.add(ModBlocks.POMEGRANATE_SAPLING);
                         entries.add(ModBlocks.POMEGRANATE_LOG);
                         entries.add(ModBlocks.POMEGRANATE_WOOD);
@@ -794,6 +819,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_POMEGRANATE_WOOD);
                         entries.add(ModBlocks.POMEGRANATE_PLANKS);
                         entries.add(ModBlocks.POMEGRANATE_LEAVES);
+                        entries.add(ModBlocks.FRUITING_POMEGRANATE_LEAVES);
                         entries.add(ModBlocks.POMEGRANATE_STAIRS);
                         entries.add(ModBlocks.POMEGRANATE_SLAB);
                         entries.add(ModBlocks.POMEGRANATE_FENCE);
@@ -803,6 +829,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POMEGRANATE_DOOR);
                         entries.add(ModBlocks.POMEGRANATE_TRAPDOOR);
 
+                        entries.add(ModItems.MANGO);
                         entries.add(ModBlocks.MANGO_SAPLING);
                         entries.add(ModBlocks.MANGO_LOG);
                         entries.add(ModBlocks.MANGO_WOOD);
@@ -810,6 +837,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_MANGO_WOOD);
                         entries.add(ModBlocks.MANGO_PLANKS);
                         entries.add(ModBlocks.MANGO_LEAVES);
+                        entries.add(ModBlocks.FRUITING_MANGO_LEAVES);
                         entries.add(ModBlocks.MANGO_STAIRS);
                         entries.add(ModBlocks.MANGO_SLAB);
                         entries.add(ModBlocks.MANGO_FENCE);
@@ -819,6 +847,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MANGO_DOOR);
                         entries.add(ModBlocks.MANGO_TRAPDOOR);
 
+                        entries.add(ModItems.BANANA);
                         entries.add(ModBlocks.BANANA_SAPLING);
                         entries.add(ModBlocks.BANANA_LOG);
                         entries.add(ModBlocks.BANANA_WOOD);
@@ -826,6 +855,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_BANANA_WOOD);
                         entries.add(ModBlocks.BANANA_PLANKS);
                         entries.add(ModBlocks.BANANA_LEAVES);
+                        entries.add(ModBlocks.FRUITING_BANANA_LEAVES);
                         entries.add(ModBlocks.BANANA_STAIRS);
                         entries.add(ModBlocks.BANANA_SLAB);
                         entries.add(ModBlocks.BANANA_FENCE);
@@ -835,6 +865,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BANANA_DOOR);
                         entries.add(ModBlocks.BANANA_TRAPDOOR);
 
+                        entries.add(ModItems.PEACH);
                         entries.add(ModBlocks.PEACH_SAPLING);
                         entries.add(ModBlocks.PEACH_LOG);
                         entries.add(ModBlocks.PEACH_WOOD);
@@ -842,6 +873,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_PEACH_WOOD);
                         entries.add(ModBlocks.PEACH_PLANKS);
                         entries.add(ModBlocks.PEACH_LEAVES);
+                        entries.add(ModBlocks.FRUITING_PEACH_LEAVES);
                         entries.add(ModBlocks.PEACH_STAIRS);
                         entries.add(ModBlocks.PEACH_SLAB);
                         entries.add(ModBlocks.PEACH_FENCE);
@@ -850,6 +882,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PEACH_PRESSURE_PLATE);
                         entries.add(ModBlocks.PEACH_DOOR);
                         entries.add(ModBlocks.PEACH_TRAPDOOR);
+
+                        entries.add(ModItems.CHERRIES);
+                        entries.add(ModBlocks.FRUITING_CHERRY_LEAVES);
+                        entries.add(ModItems.SAP);
+                        entries.add(ModItems.OAK_RESIN);
+                        entries.add(ModItems.PINE_TAR);
 
                     }).build());
 
