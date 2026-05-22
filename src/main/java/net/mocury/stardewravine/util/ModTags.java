@@ -21,6 +21,7 @@ public class ModTags {
         public static final TagKey<Block> MANGO_LOGS = createTag("mango_logs");
         public static final TagKey<Block> BANANA_LOGS = createTag("banana_logs");
         public static final TagKey<Block> PEACH_LOGS = createTag("peach_logs");
+        public static final TagKey<Block> FIDDLEHEAD_LOGS = createTag("fiddlehead_logs");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(StardewRavine.MOD_ID, name));
@@ -37,6 +38,7 @@ public class ModTags {
         public static final TagKey<Item> MANGO_LOGS = createTag("mango_logs");
         public static final TagKey<Item> BANANA_LOGS = createTag("banana_logs");
         public static final TagKey<Item> PEACH_LOGS = createTag("peach_logs");
+        public static final TagKey<Item> FIDDLEHEAD_LOGS = createTag("fiddlehead_logs");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(StardewRavine.MOD_ID, name));

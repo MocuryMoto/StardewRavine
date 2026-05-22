@@ -796,6 +796,38 @@ public class ModBlocks {
     public static final Block PEACH_TRAPDOOR = registerBlock("peach_trapdoor",
             new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_TRAPDOOR)));
 
+    public static final Block FIDDLEHEAD_LOG = registerBlock("fiddlehead_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LOG)));
+    public static final Block FIDDLEHEAD_WOOD = registerBlock("fiddlehead_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD)));
+    public static final Block STRIPPED_FIDDLEHEAD_LOG = registerBlock("stripped_fiddlehead_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_LOG)));
+    public static final Block STRIPPED_FIDDLEHEAD_WOOD = registerBlock("stripped_fiddlehead_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_WOOD)));
+    public static final Block FIDDLEHEAD_PLANKS = registerBlock("fiddlehead_planks",
+            new Block(AbstractBlock.Settings.copy(Blocks.CHERRY_PLANKS)));
+    public static final Block FIDDLEHEAD_LEAVES = registerBlock("fiddlehead_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LEAVES)));
+    public static final Block FIDDLEHEAD_SAPLING = registerBlock("fiddlehead_sapling",
+            new SaplingBlock(ModSaplingGenerators.FIDDLEHEAD, AbstractBlock.Settings.copy(CHERRY_SAPLING)));
+    public static final Block FIDDLEHEAD_STAIRS = registerBlock("fiddlehead_stairs",
+            new StairsBlock(ModBlocks.FIDDLEHEAD_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block FIDDLEHEAD_SLAB = registerBlock("fiddlehead_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.CHERRY_WOOD)));
+    public static final Block FIDDLEHEAD_BUTTON = registerBlock("fiddlehead_button",
+            new ButtonBlock(BlockSetType.CHERRY, 30, AbstractBlock.Settings.copy(CHERRY_BUTTON)));
+    public static final Block FIDDLEHEAD_PRESSURE_PLATE = registerBlock("fiddlehead_pressure_plate",
+            new PressurePlateBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_PRESSURE_PLATE)));
+    public static final Block FIDDLEHEAD_FENCE = registerBlock("fiddlehead_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(CHERRY_FENCE)));
+    public static final Block FIDDLEHEAD_FENCE_GATE = registerBlock("fiddlehead_fence_gate",
+            new FenceGateBlock(WoodType.CHERRY, AbstractBlock.Settings.copy(CHERRY_FENCE_GATE)));
+    public static final Block FIDDLEHEAD_DOOR = registerBlock("fiddlehead_door",
+            new DoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_DOOR)));
+    public static final Block FIDDLEHEAD_TRAPDOOR = registerBlock("fiddlehead_trapdoor",
+            new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_TRAPDOOR)));
+
     public static final Block FRUITING_APRICOT_LEAVES = registerBlock("fruiting_apricot_leaves",
             new LeavesBlock(AbstractBlock.Settings.copy(OAK_LEAVES)));
     public static final Block FRUITING_ORANGE_LEAVES = registerBlock("fruiting_orange_leaves",
@@ -810,6 +842,10 @@ public class ModBlocks {
             new LeavesBlock(AbstractBlock.Settings.copy(CHERRY_LEAVES)));
     public static final Block FRUITING_CHERRY_LEAVES = registerBlock("fruiting_cherry_leaves",
             new LeavesBlock(AbstractBlock.Settings.copy(CHERRY_LEAVES)));
+
+
+    public static final Block PETRIFIED_SLIME_BLOCK = registerBlock("petrified_slime_block",
+            new Block(AbstractBlock.Settings.create().strength(3f).nonOpaque()));
 
 
     private static Block registerBlock(String name, Block block){

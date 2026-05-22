@@ -195,6 +195,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.PEACH_WOOD.asItem())
                 .add(ModBlocks.STRIPPED_PEACH_WOOD.asItem())
         ;
+        getOrCreateTagBuilder(ModTags.Items.FIDDLEHEAD_LOGS)
+                .add(ModBlocks.FIDDLEHEAD_LOG.asItem())
+                .add(ModBlocks.STRIPPED_FIDDLEHEAD_LOG.asItem())
+                .add(ModBlocks.FIDDLEHEAD_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_FIDDLEHEAD_WOOD.asItem())
+        ;
 
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(ModBlocks.MAPLE_PLANKS.asItem())
@@ -205,6 +211,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.MANGO_PLANKS.asItem())
                 .add(ModBlocks.BANANA_PLANKS.asItem())
                 .add(ModBlocks.PEACH_PLANKS.asItem())
+                .add(ModBlocks.FIDDLEHEAD_PLANKS.asItem())
         ;
     }
 }

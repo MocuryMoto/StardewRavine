@@ -369,6 +369,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PEACH_WOOD)
                 .add(ModBlocks.STRIPPED_PEACH_WOOD)
         ;
+        getOrCreateTagBuilder(ModTags.Blocks.FIDDLEHEAD_LOGS)
+                .add(ModBlocks.FIDDLEHEAD_LOG)
+                .add(ModBlocks.STRIPPED_FIDDLEHEAD_LOG)
+                .add(ModBlocks.FIDDLEHEAD_WOOD)
+                .add(ModBlocks.STRIPPED_FIDDLEHEAD_WOOD)
+        ;
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.MAPLE_FENCE)
@@ -379,6 +385,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MANGO_FENCE)
                 .add(ModBlocks.BANANA_FENCE)
                 .add(ModBlocks.PEACH_FENCE)
+                .add(ModBlocks.FIDDLEHEAD_FENCE)
         ;
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.MAPLE_FENCE_GATE)
@@ -389,6 +396,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MANGO_FENCE_GATE)
                 .add(ModBlocks.BANANA_FENCE_GATE)
                 .add(ModBlocks.PEACH_FENCE_GATE)
+                .add(ModBlocks.FIDDLEHEAD_FENCE_GATE)
         ;
 
     }

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fiddlehead_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:fiddlehead_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stardewravine:fiddlehead_door"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fiddlehead_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stardewravine:fiddlehead_door"
+    ]
+  }
+}

@@ -301,6 +301,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.FRUITING_CHERRY_LEAVES, multipleOreDrops(ModBlocks.FRUITING_CHERRY_LEAVES, ModItems.CHERRIES, 2, 5));
 
+        addDrop(ModBlocks.FIDDLEHEAD_LOG);
+        addDrop(ModBlocks.FIDDLEHEAD_WOOD);
+        addDrop(ModBlocks.STRIPPED_FIDDLEHEAD_LOG);
+        addDrop(ModBlocks.STRIPPED_FIDDLEHEAD_WOOD);
+        addDrop(ModBlocks.FIDDLEHEAD_PLANKS);
+        addDrop(ModBlocks.FIDDLEHEAD_SAPLING);
+        addDrop(ModBlocks.FIDDLEHEAD_STAIRS);
+        addDrop(ModBlocks.FIDDLEHEAD_SLAB, slabDrops(ModBlocks.FIDDLEHEAD_SLAB));
+        addDrop(ModBlocks.FIDDLEHEAD_BUTTON);
+        addDrop(ModBlocks.FIDDLEHEAD_PRESSURE_PLATE);
+        addDrop(ModBlocks.FIDDLEHEAD_FENCE);
+        addDrop(ModBlocks.FIDDLEHEAD_FENCE_GATE);
+        addDrop(ModBlocks.FIDDLEHEAD_DOOR, doorDrops(ModBlocks.FIDDLEHEAD_DOOR));
+        addDrop(ModBlocks.FIDDLEHEAD_TRAPDOOR);
+        addDrop(ModBlocks.FIDDLEHEAD_LEAVES, leavesDrops(ModBlocks.FIDDLEHEAD_LEAVES, ModBlocks.FIDDLEHEAD_SAPLING, 0.33f));
+
 
         addDrop(ModBlocks.ESPERITE_SLAB, slabDrops(ModBlocks.ESPERITE_SLAB));
         addDrop(ModBlocks.MARBLE_SLAB, slabDrops(ModBlocks.MARBLE_SLAB));
@@ -430,6 +446,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                                 .with(ItemEntry.builder(ModItems.STRAWBERRY))
                                                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(3.0F, 4.0F))) //how many items drop
                                                 .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
+
+        addDrop(ModBlocks.PETRIFIED_SLIME_BLOCK);
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

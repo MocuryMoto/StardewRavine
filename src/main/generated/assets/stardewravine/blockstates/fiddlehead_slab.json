@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardewravine:block/fiddlehead_slab"
+    },
+    "type=double": {
+      "model": "stardewravine:block/fiddlehead_planks"
+    },
+    "type=top": {
+      "model": "stardewravine:block/fiddlehead_slab_top"
+    }
+  }
+}

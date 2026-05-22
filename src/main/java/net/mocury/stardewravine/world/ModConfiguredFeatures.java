@@ -39,6 +39,7 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> MANGO_KEY = registerKey("mango");
     public static final RegistryKey<ConfiguredFeature<?, ?>> BANANA_KEY = registerKey("banana");
     public static final RegistryKey<ConfiguredFeature<?, ?>> PEACH_KEY = registerKey("peach");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> FIDDLEHEAD_KEY = registerKey("fiddlehead");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -130,6 +131,13 @@ public class ModConfiguredFeatures {
                 ),
                 BlockStateProvider.of(ModBlocks.PEACH_LEAVES),
                 new CherryFoliagePlacer(ConstantIntProvider.create(4), ConstantIntProvider.create(0), ConstantIntProvider.create(5), 0.25F, 0.5F, 0.16666667F, 0.33333334F),
+                new TwoLayersFeatureSize(1, 0, 2)).build());
+
+        register(context, FIDDLEHEAD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.FIDDLEHEAD_LOG),
+                new StraightTrunkPlacer(5, 3, 2), //base height, random height, random height
+                BlockStateProvider.of(ModBlocks.FIDDLEHEAD_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(3), 3), //radius, offset?, height
                 new TwoLayersFeatureSize(1, 0, 2)).build());
 
     }

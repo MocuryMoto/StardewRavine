@@ -23,4 +23,6 @@ public class ModSaplingGenerators {
             Optional.empty(), Optional.of(ModConfiguredFeatures.BANANA_KEY), Optional.empty());
     public static final SaplingGenerator PEACH = new SaplingGenerator(StardewRavine.MOD_ID + ":peach",
             Optional.empty(), Optional.of(ModConfiguredFeatures.PEACH_KEY), Optional.empty());
+    public static final SaplingGenerator FIDDLEHEAD = new SaplingGenerator(StardewRavine.MOD_ID + ":fiddlehead",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.FIDDLEHEAD_KEY), Optional.empty());
 }

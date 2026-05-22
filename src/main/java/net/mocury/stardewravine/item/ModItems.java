@@ -156,10 +156,10 @@ public class ModItems {
     public static final Item BANANA = registerItem("banana", new Item(new Item.Settings().food(ModFoodComponents.BANANA)));
     public static final Item PEACH = registerItem("peach", new Item(new Item.Settings().food(ModFoodComponents.PEACH)));
 
-
     public static final Item MAPLE_SYRUP = registerItem(
-            "maple_syrup", new MapleSyrupItem(new Item.Settings().food(ModFoodComponents.MAPLE_SYRUP).maxCount(16))
-    );
+            "maple_syrup", new MapleSyrupItem(new Item.Settings().food(ModFoodComponents.MAPLE_SYRUP).maxCount(16)));
+
+    public static final Item PETRIFIED_SLIME = registerItem("petrified_slime", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(StardewRavine.MOD_ID, name), item);

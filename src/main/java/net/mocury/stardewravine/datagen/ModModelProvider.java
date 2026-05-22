@@ -331,6 +331,22 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_BANANA_LEAVES, TexturedModel.LEAVES);
         blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_PEACH_LEAVES, TexturedModel.LEAVES);
 
+        blockStateModelGenerator.registerLog(ModBlocks.FIDDLEHEAD_LOG).log(ModBlocks.FIDDLEHEAD_LOG).wood(ModBlocks.FIDDLEHEAD_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_FIDDLEHEAD_LOG).log(ModBlocks.STRIPPED_FIDDLEHEAD_LOG).wood(ModBlocks.STRIPPED_FIDDLEHEAD_WOOD);
+        BlockStateModelGenerator.BlockTexturePool fiddleheadPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FIDDLEHEAD_PLANKS);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FIDDLEHEAD_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.FIDDLEHEAD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        fiddleheadPool.stairs(ModBlocks.FIDDLEHEAD_STAIRS);
+        fiddleheadPool.slab(ModBlocks.FIDDLEHEAD_SLAB);
+        fiddleheadPool.pressurePlate(ModBlocks.FIDDLEHEAD_PRESSURE_PLATE);
+        fiddleheadPool.button(ModBlocks.FIDDLEHEAD_BUTTON);
+        fiddleheadPool.fence(ModBlocks.FIDDLEHEAD_FENCE);
+        fiddleheadPool.fenceGate(ModBlocks.FIDDLEHEAD_FENCE_GATE);
+        blockStateModelGenerator.registerDoor(ModBlocks.FIDDLEHEAD_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.FIDDLEHEAD_TRAPDOOR);
+
+        blockStateModelGenerator.registerSingleton(ModBlocks.PETRIFIED_SLIME_BLOCK, TexturedModel.CUBE_COLUMN);
+
     }
 
     @Override
@@ -432,6 +448,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModBlocks.MANGO_SAPLING.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModBlocks.BANANA_SAPLING.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModBlocks.PEACH_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.FIDDLEHEAD_SAPLING.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModItems.APRICOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ORANGE, Models.GENERATED);
         itemModelGenerator.register(ModItems.POMEGRANATE, Models.GENERATED);
@@ -444,5 +461,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.OAK_RESIN, Models.GENERATED);
         itemModelGenerator.register(ModItems.PINE_TAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAPLE_SYRUP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PETRIFIED_SLIME, Models.GENERATED);
     }
 }

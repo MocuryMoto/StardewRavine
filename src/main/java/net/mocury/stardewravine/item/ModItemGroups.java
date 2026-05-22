@@ -465,11 +465,29 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PEACH_DOOR);
                         entries.add(ModBlocks.PEACH_TRAPDOOR);
 
+                        entries.add(ModBlocks.FIDDLEHEAD_SAPLING);
+                        entries.add(ModBlocks.FIDDLEHEAD_LOG);
+                        entries.add(ModBlocks.FIDDLEHEAD_WOOD);
+                        entries.add(ModBlocks.STRIPPED_FIDDLEHEAD_LOG);
+                        entries.add(ModBlocks.STRIPPED_FIDDLEHEAD_WOOD);
+                        entries.add(ModBlocks.FIDDLEHEAD_PLANKS);
+                        entries.add(ModBlocks.FIDDLEHEAD_LEAVES);
+                        entries.add(ModBlocks.FIDDLEHEAD_STAIRS);
+                        entries.add(ModBlocks.FIDDLEHEAD_SLAB);
+                        entries.add(ModBlocks.FIDDLEHEAD_FENCE);
+                        entries.add(ModBlocks.FIDDLEHEAD_FENCE_GATE);
+                        entries.add(ModBlocks.FIDDLEHEAD_BUTTON);
+                        entries.add(ModBlocks.FIDDLEHEAD_PRESSURE_PLATE);
+                        entries.add(ModBlocks.FIDDLEHEAD_DOOR);
+                        entries.add(ModBlocks.FIDDLEHEAD_TRAPDOOR);
+
                         entries.add(ModItems.CHERRIES);
                         entries.add(ModBlocks.FRUITING_CHERRY_LEAVES);
                         entries.add(ModItems.SAP);
                         entries.add(ModItems.OAK_RESIN);
                         entries.add(ModItems.PINE_TAR);
+                        entries.add(ModItems.PETRIFIED_SLIME);
+                        entries.add(ModBlocks.PETRIFIED_SLIME_BLOCK);
 
                     }).build());
 
@@ -705,6 +723,8 @@ public class ModItemGroups {
                         entries.add(ModItems.FAIRY_STONE);
                         entries.add(ModBlocks.FAIRY_STONE_BLOCK);
                         entries.add(ModBlocks.END_FAIRY_ORE);
+                        entries.add(ModItems.PETRIFIED_SLIME);
+                        entries.add(ModBlocks.PETRIFIED_SLIME_BLOCK);
                     }).build());
 
     public static final ItemGroup STARDEW_RAVINE_PLANTS = Registry.register(Registries.ITEM_GROUP,
@@ -882,6 +902,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PEACH_PRESSURE_PLATE);
                         entries.add(ModBlocks.PEACH_DOOR);
                         entries.add(ModBlocks.PEACH_TRAPDOOR);
+
+                        entries.add(ModBlocks.FIDDLEHEAD_SAPLING);
+                        entries.add(ModBlocks.FIDDLEHEAD_LOG);
+                        entries.add(ModBlocks.FIDDLEHEAD_WOOD);
+                        entries.add(ModBlocks.STRIPPED_FIDDLEHEAD_LOG);
+                        entries.add(ModBlocks.STRIPPED_FIDDLEHEAD_WOOD);
+                        entries.add(ModBlocks.FIDDLEHEAD_PLANKS);
+                        entries.add(ModBlocks.FIDDLEHEAD_LEAVES);
+                        entries.add(ModBlocks.FIDDLEHEAD_STAIRS);
+                        entries.add(ModBlocks.FIDDLEHEAD_SLAB);
+                        entries.add(ModBlocks.FIDDLEHEAD_FENCE);
+                        entries.add(ModBlocks.FIDDLEHEAD_FENCE_GATE);
+                        entries.add(ModBlocks.FIDDLEHEAD_BUTTON);
+                        entries.add(ModBlocks.FIDDLEHEAD_PRESSURE_PLATE);
+                        entries.add(ModBlocks.FIDDLEHEAD_DOOR);
+                        entries.add(ModBlocks.FIDDLEHEAD_TRAPDOOR);
 
                         entries.add(ModItems.CHERRIES);
                         entries.add(ModBlocks.FRUITING_CHERRY_LEAVES);

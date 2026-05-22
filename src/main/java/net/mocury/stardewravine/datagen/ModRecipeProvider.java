@@ -1054,6 +1054,53 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.PEACH_PLANKS), conditionsFromItem(ModBlocks.PEACH_PLANKS))
                 .offerTo(exporter);
 
+        offerPlanksRecipe(exporter, ModBlocks.FIDDLEHEAD_PLANKS, ModTags.Items.FIDDLEHEAD_LOGS, 4);
+        offerBarkBlockRecipe(exporter, ModBlocks.FIDDLEHEAD_WOOD, ModBlocks.FIDDLEHEAD_LOG);
+        offerBarkBlockRecipe(exporter, ModBlocks.STRIPPED_FIDDLEHEAD_WOOD, ModBlocks.STRIPPED_FIDDLEHEAD_LOG);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIDDLEHEAD_STAIRS, 4)
+                .pattern("P  ")
+                .pattern("PP ")
+                .pattern("PPP")
+                .input('P', ModBlocks.FIDDLEHEAD_PLANKS)
+                .criterion(hasItem(ModBlocks.FIDDLEHEAD_PLANKS), conditionsFromItem(ModBlocks.FIDDLEHEAD_PLANKS))
+                .offerTo(exporter);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIDDLEHEAD_SLAB, ModBlocks.FIDDLEHEAD_PLANKS);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.FIDDLEHEAD_BUTTON, 1)
+                .input(ModBlocks.FIDDLEHEAD_PLANKS)
+                .criterion(hasItem(ModBlocks.FIDDLEHEAD_PLANKS), conditionsFromItem(ModBlocks.FIDDLEHEAD_PLANKS))
+                .offerTo(exporter);
+        offerPressurePlateRecipe(exporter, ModBlocks.FIDDLEHEAD_PRESSURE_PLATE, ModBlocks.FIDDLEHEAD_PLANKS);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.FIDDLEHEAD_FENCE, 3)
+                .pattern("PSP")
+                .pattern("PSP")
+                .input('P', ModBlocks.FIDDLEHEAD_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.FIDDLEHEAD_PLANKS), conditionsFromItem(ModBlocks.FIDDLEHEAD_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.FIDDLEHEAD_FENCE_GATE, 1)
+                .pattern("SPS")
+                .pattern("SPS")
+                .input('P', ModBlocks.FIDDLEHEAD_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.FIDDLEHEAD_PLANKS), conditionsFromItem(ModBlocks.FIDDLEHEAD_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.FIDDLEHEAD_DOOR, 3)
+                .pattern("PP")
+                .pattern("PP")
+                .pattern("PP")
+                .input('P', ModBlocks.FIDDLEHEAD_PLANKS)
+                .criterion(hasItem(ModBlocks.FIDDLEHEAD_PLANKS), conditionsFromItem(ModBlocks.FIDDLEHEAD_PLANKS))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.FIDDLEHEAD_TRAPDOOR, 2)
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModBlocks.FIDDLEHEAD_PLANKS)
+                .criterion(hasItem(ModBlocks.FIDDLEHEAD_PLANKS), conditionsFromItem(ModBlocks.FIDDLEHEAD_PLANKS))
+                .offerTo(exporter);
+
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PETRIFIED_SLIME, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PETRIFIED_SLIME_BLOCK);
+
 
     }
 }

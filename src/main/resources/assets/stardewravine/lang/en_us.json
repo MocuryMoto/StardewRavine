@@ -106,6 +106,7 @@
   "item.stardewravine.oak_resin": "Oak Resin",
   "item.stardewravine.pine_tar": "Pine Tar",
   "item.stardewravine.maple_syrup": "Maple Syrup",
+  "item.stardewravine.petrified_slime": "Petrified Slime",
 
 
 
@@ -448,6 +449,22 @@
   "block.stardewravine.fruiting_mango_leaves": "Fruiting Mango Leaves",
   "block.stardewravine.fruiting_banana_leaves": "Fruiting Banana Leaves",
   "block.stardewravine.fruiting_peach_leaves": "Fruiting Peach Leaves",
+  "block.stardewravine.fiddlehead_log": "Fiddlehead Log",
+  "block.stardewravine.fiddlehead_wood": "Fiddlehead Wood",
+  "block.stardewravine.stripped_fiddlehead_log": "Stripped Fiddlehead Log",
+  "block.stardewravine.stripped_fiddlehead_wood": "Stripped Fiddlehead Wood",
+  "block.stardewravine.fiddlehead_planks": "Fiddlehead Planks",
+  "block.stardewravine.fiddlehead_sapling": "Fiddlehead Fern",
+  "block.stardewravine.fiddlehead_leaves": "Fiddlehead Leaves",
+  "block.stardewravine.fiddlehead_stairs": "Fiddlehead Stairs",
+  "block.stardewravine.fiddlehead_slab": "Fiddlehead Slab",
+  "block.stardewravine.fiddlehead_button": "Fiddlehead Button",
+  "block.stardewravine.fiddlehead_pressure_plate": "Fiddlehead Pressure Plate",
+  "block.stardewravine.fiddlehead_door": "Fiddlehead Door",
+  "block.stardewravine.fiddlehead_trapdoor": "Fiddlehead Trapdoor",
+  "block.stardewravine.fiddlehead_fence": "Fiddlehead Fence",
+  "block.stardewravine.fiddlehead_fence_gate": "Fiddlehead Fence Gate",
+  "block.stardewravine.petrified_slime_block": "Petrified Slime Block",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine",
   "itemgroup.stardewravine.stardew_ravine_minerals": "Stardew Ravine Minerals",

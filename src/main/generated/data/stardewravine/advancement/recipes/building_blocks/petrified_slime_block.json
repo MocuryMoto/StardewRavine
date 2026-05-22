@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_petrified_slime": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:petrified_slime"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:petrified_slime_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_petrified_slime"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:petrified_slime_block"
+    ]
+  }
+}

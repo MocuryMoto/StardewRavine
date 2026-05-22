@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "stardewravine:block/fiddlehead_door_bottom",
+    "top": "stardewravine:block/fiddlehead_door_top"
+  }
+}
