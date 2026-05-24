@@ -488,6 +488,9 @@ public class ModItemGroups {
                         entries.add(ModItems.PINE_TAR);
                         entries.add(ModItems.PETRIFIED_SLIME);
                         entries.add(ModBlocks.PETRIFIED_SLIME_BLOCK);
+                        entries.add(ModItems.GHOST_CRYSTAL);
+                        entries.add(ModBlocks.GHOST_CRYSTAL_BLOCK);
+                        entries.add(ModBlocks.GHOST_GLASS);
 
                     }).build());
 
@@ -725,6 +728,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_FAIRY_ORE);
                         entries.add(ModItems.PETRIFIED_SLIME);
                         entries.add(ModBlocks.PETRIFIED_SLIME_BLOCK);
+                        entries.add(ModItems.GHOST_CRYSTAL);
+                        entries.add(ModBlocks.GHOST_CRYSTAL_BLOCK);
+                        entries.add(ModBlocks.GHOST_GLASS);
                     }).build());
 
     public static final ItemGroup STARDEW_RAVINE_PLANTS = Registry.register(Registries.ITEM_GROUP,

@@ -809,7 +809,12 @@ public class ModBlocks {
     public static final Block FIDDLEHEAD_LEAVES = registerBlock("fiddlehead_leaves",
             new LeavesBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LEAVES)));
     public static final Block FIDDLEHEAD_SAPLING = registerBlock("fiddlehead_sapling",
-            new SaplingBlock(ModSaplingGenerators.FIDDLEHEAD, AbstractBlock.Settings.copy(CHERRY_SAPLING)));
+            new SaplingBlock(ModSaplingGenerators.FIDDLEHEAD, AbstractBlock.Settings.create()
+                    .mapColor(MapColor.GREEN)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block FIDDLEHEAD_STAIRS = registerBlock("fiddlehead_stairs",
             new StairsBlock(ModBlocks.FIDDLEHEAD_PLANKS.getDefaultState(),
                     AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.CHERRY_WOOD)));
@@ -845,7 +850,11 @@ public class ModBlocks {
 
 
     public static final Block PETRIFIED_SLIME_BLOCK = registerBlock("petrified_slime_block",
-            new Block(AbstractBlock.Settings.create().strength(3f).nonOpaque()));
+            new TranslucentBlock(AbstractBlock.Settings.create().strength(3f).nonOpaque()));
+    public static final Block GHOST_CRYSTAL_BLOCK = registerBlock("ghost_crystal_block",
+            new TranslucentBlock(AbstractBlock.Settings.create().strength(1f).nonOpaque().sounds(BlockSoundGroup.GLASS)));
+    public static final Block GHOST_GLASS = registerBlock("ghost_glass",
+            new GhostGlassBlock(AbstractBlock.Settings.create().strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)));
 
 
     private static Block registerBlock(String name, Block block){

@@ -10,7 +10,6 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Identifier;
 import net.mocury.stardewravine.StardewRavine;
 import net.mocury.stardewravine.block.ModBlocks;
@@ -1100,6 +1099,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PETRIFIED_SLIME, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PETRIFIED_SLIME_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.GHOST_CRYSTAL, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GHOST_CRYSTAL_BLOCK);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.GHOST_GLASS, 2)
+                .pattern(" C ")
+                .pattern("CGC")
+                .pattern(" C ")
+                .input('C', ModItems.GHOST_CRYSTAL)
+                .input('G', Blocks.GLASS)
+                .criterion(hasItem(ModItems.GHOST_CRYSTAL), conditionsFromItem(ModItems.GHOST_CRYSTAL))
+                .offerTo(exporter);
 
 
     }

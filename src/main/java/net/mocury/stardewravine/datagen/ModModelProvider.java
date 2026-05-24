@@ -346,6 +346,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTrapdoor(ModBlocks.FIDDLEHEAD_TRAPDOOR);
 
         blockStateModelGenerator.registerSingleton(ModBlocks.PETRIFIED_SLIME_BLOCK, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GHOST_CRYSTAL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GHOST_GLASS);
 
     }
 
@@ -462,5 +464,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINE_TAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAPLE_SYRUP, Models.GENERATED);
         itemModelGenerator.register(ModItems.PETRIFIED_SLIME, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GHOST_CRYSTAL, Models.GENERATED);
     }
 }

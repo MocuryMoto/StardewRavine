@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "stardewravine:ghost_crystal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "stardewravine:ghost_crystal"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ghost_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:ghost_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stardewravine:ghost_glass"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ghost_crystal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stardewravine:ghost_glass"
+    ]
+  }
+}

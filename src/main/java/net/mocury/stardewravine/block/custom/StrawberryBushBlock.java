@@ -116,4 +116,9 @@ public class StrawberryBushBlock extends PlantBlock implements Fertilizable {
         int i = Math.min(5, (Integer)state.get(AGE) + 1);
         world.setBlockState(pos, state.with(AGE, i), Block.NOTIFY_LISTENERS);
     }
+
+    @Override
+    protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
+        return floor.isOf(Blocks.FARMLAND);
+    }
 }
