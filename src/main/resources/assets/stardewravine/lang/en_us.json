@@ -108,6 +108,11 @@
   "item.stardewravine.maple_syrup": "Maple Syrup",
   "item.stardewravine.petrified_slime": "Petrified Slime",
   "item.stardewravine.ghost_crystal": "Ghost Crystal",
+  "item.stardewravine.green_bean": "Green Bean",
+  "item.stardewravine.green_bean_seeds": "Green Bean Seeds",
+  "item.stardewravine.rice": "Rice",
+  "item.stardewravine.rice_seeds": "Rice Seeds",
+  "item.stardewravine.coffee_beans": "Coffee Beans",
 
 
 
@@ -312,6 +317,7 @@
   "block.stardewravine.polished_bixite": "Polished Bixite",
   "block.stardewravine.terrasine_block": "Earth Crystal Block",
   "block.stardewravine.polished_terrasine": "Polished Earth Crystal",
+
   "block.stardewravine.garlic_crop": "Garlic Crop",
   "block.stardewravine.leek_crop": "Leek Crop",
   "block.stardewravine.spring_onion_crop": "Spring Onion Crop",
@@ -320,9 +326,13 @@
   "block.stardewravine.horseradish_crop": "Horseradish Crop",
   "block.stardewravine.kale_crop": "Kale Crop",
   "block.stardewravine.cauliflower_crop": "Cauliflower Crop",
+  "block.stardewravine.green_bean_crop": "Green Bean Crop",
+  "block.stardewravine.rice_crop": "Rice Crop",
   "block.stardewravine.blueberry_bush": "Blueberry Bush",
   "block.stardewravine.strawberry_bush": "Strawberry Bush",
   "block.stardewravine.salmonberry_bush": "Salmonberry Bush",
+  "block.stardewravine.coffee_bush": "Coffee Bush",
+
   "block.stardewravine.maple_log": "Maple Log",
   "block.stardewravine.maple_wood": "Maple Wood",
   "block.stardewravine.stripped_maple_log": "Stripped Maple Log",
@@ -465,6 +475,7 @@
   "block.stardewravine.fiddlehead_trapdoor": "Fiddlehead Trapdoor",
   "block.stardewravine.fiddlehead_fence": "Fiddlehead Fence",
   "block.stardewravine.fiddlehead_fence_gate": "Fiddlehead Fence Gate",
+
   "block.stardewravine.petrified_slime_block": "Petrified Slime Block",
   "block.stardewravine.ghost_crystal_block": "Ghost Crystal Block",
   "block.stardewravine.ghost_glass": "Ghost Glass",

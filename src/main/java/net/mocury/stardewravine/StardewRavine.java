@@ -44,6 +44,11 @@ public class StardewRavine implements ModInitializer {
 		CompostingChanceRegistry.INSTANCE.add(ModItems.BLUEBERRIES, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.SALMONBERRY, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.STRAWBERRY, 0.2f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.GREEN_BEAN, 0.2f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.GREEN_BEAN_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.RICE, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.RICE_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.COFFEE_BEANS, 0.3f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.CHERRIES, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.APRICOT, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.ORANGE, 0.2f);

@@ -421,6 +421,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         BlockStatePropertyLootCondition.Builder builder9 = BlockStatePropertyLootCondition.builder(ModBlocks.CAULIFLOWER_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(CauliflowerCropBlock.AGE, 5));
         this.addDrop(ModBlocks.CAULIFLOWER_CROP, this.cropDrops(ModBlocks.CAULIFLOWER_CROP, ModItems.CAULIFLOWER, ModItems.CAULIFLOWER_SEEDS, builder9));
+        BlockStatePropertyLootCondition.Builder builder10 = BlockStatePropertyLootCondition.builder(ModBlocks.GREEN_BEAN_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(GreenBeanCropBlock.AGE, 5));
+        this.addDrop(ModBlocks.GREEN_BEAN_CROP, this.cropDrops(ModBlocks.GREEN_BEAN_CROP, ModItems.GREEN_BEAN, ModItems.GREEN_BEAN_SEEDS, builder10));
+        BlockStatePropertyLootCondition.Builder builder11 = BlockStatePropertyLootCondition.builder(ModBlocks.RICE_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(RiceCropBlock.AGE, 4));
+        this.addDrop(ModBlocks.RICE_CROP, this.cropDrops(ModBlocks.RICE_CROP, ModItems.RICE, ModItems.RICE_SEEDS, builder11));
 
         this.addDrop(ModBlocks.BLUEBERRY_BUSH,
                 block -> this.applyExplosionDecay(block, LootTable.builder()
@@ -445,6 +451,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                                                 .properties(StatePredicate.Builder.create().exactMatch(StrawberryBushBlock.AGE, 5)))
                                                 .with(ItemEntry.builder(ModItems.STRAWBERRY))
                                                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(3.0F, 4.0F))) //how many items drop
+                                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
+        this.addDrop(ModBlocks.COFFEE_BUSH,
+                block -> this.applyExplosionDecay(block, LootTable.builder()
+                                .pool(LootPool.builder().conditionally(
+                                                        BlockStatePropertyLootCondition.builder(ModBlocks.COFFEE_BUSH)
+                                                                .properties(StatePredicate.Builder.create().exactMatch(CoffeeBushBlock.AGE, 5)))
+                                                .with(ItemEntry.builder(ModItems.COFFEE_BEANS))
+                                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(3.0F, 6.0F))) //how many items drop
                                                 .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
 
         addDrop(ModBlocks.PETRIFIED_SLIME_BLOCK);

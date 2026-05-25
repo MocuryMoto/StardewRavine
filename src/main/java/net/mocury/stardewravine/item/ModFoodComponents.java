@@ -24,10 +24,13 @@ public class ModFoodComponents {
     public static final FoodComponent RHUBARB = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
     public static final FoodComponent KALE = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
     public static final FoodComponent CAULIFLOWER = new FoodComponent.Builder().nutrition(4).saturationModifier(0.5F).build();
+    public static final FoodComponent GREEN_BEAN = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
+    public static final FoodComponent RICE = new FoodComponent.Builder().nutrition(1).saturationModifier(0.1F).build();
 
     public static final FoodComponent BLUEBERRIES = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();
     public static final FoodComponent SALMONBERRY = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();
     public static final FoodComponent STRAWBERRY = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();
+    public static final FoodComponent COFFEE_BEANS = new FoodComponent.Builder().nutrition(1).saturationModifier(0.1F).snack().build();
 
     public static final FoodComponent APRICOT = new FoodComponent.Builder().nutrition(3).saturationModifier(0.3F).build();
     public static final FoodComponent ORANGE = new FoodComponent.Builder().nutrition(5).saturationModifier(0.3F).build();

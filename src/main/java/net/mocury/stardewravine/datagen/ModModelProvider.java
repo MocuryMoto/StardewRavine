@@ -202,6 +202,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCrop(ModBlocks.RHUBARB_CROP, RhubarbCropBlock.AGE, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerCrop(ModBlocks.KALE_CROP, KaleCropBlock.AGE, 0, 1, 2, 3, 4);
         blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.GREEN_BEAN_CROP, GreenBeanCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.RICE_CROP, RiceCropBlock.AGE, 0, 1, 2, 3, 4);
 
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLUEBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
                 BlueberryBushBlock.AGE, 0, 1, 2, 3, 4);
@@ -209,6 +211,8 @@ public class ModModelProvider extends FabricModelProvider {
                 SalmonberryBushBlock.AGE, 0, 1, 2, 3);
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.STRAWBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
                 StrawberryBushBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.COFFEE_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                CoffeeBushBlock.AGE, 0, 1, 2, 3, 4, 5);
 
 
         blockStateModelGenerator.registerLog(ModBlocks.MAPLE_LOG).log(ModBlocks.MAPLE_LOG).wood(ModBlocks.MAPLE_WOOD);
@@ -421,6 +425,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RHUBARB, Models.GENERATED);
         itemModelGenerator.register(ModItems.KALE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GREEN_BEAN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RICE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.IRIDIUM_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRIDIUM_PICKAXE, Models.HANDHELD);

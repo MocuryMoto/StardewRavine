@@ -139,6 +139,10 @@ public class ModItems {
     public static final Item KALE_SEEDS = registerItem("kale_seeds", new AliasedBlockItem(ModBlocks.KALE_CROP, new Item.Settings()));
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
     public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds", new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new Item.Settings()));
+    public static final Item GREEN_BEAN = registerItem("green_bean", new Item(new Item.Settings().food(ModFoodComponents.GREEN_BEAN)));
+    public static final Item GREEN_BEAN_SEEDS = registerItem("green_bean_seeds", new AliasedBlockItem(ModBlocks.GREEN_BEAN_CROP, new Item.Settings()));
+    public static final Item RICE = registerItem("rice", new Item(new Item.Settings().food(ModFoodComponents.RICE)));
+    public static final Item RICE_SEEDS = registerItem("rice_seeds", new AliasedBlockItem(ModBlocks.RICE_CROP, new Item.Settings()));
 
     public static final Item BLUEBERRIES = registerItem("blueberries",
             new AliasedBlockItem(ModBlocks.BLUEBERRY_BUSH, new Item.Settings().food(ModFoodComponents.BLUEBERRIES)));
@@ -146,6 +150,8 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.SALMONBERRY_BUSH, new Item.Settings().food(ModFoodComponents.SALMONBERRY)));
     public static final Item STRAWBERRY = registerItem("strawberry",
             new AliasedBlockItem(ModBlocks.STRAWBERRY_BUSH, new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
+    public static final Item COFFEE_BEANS = registerItem("coffee_beans",
+            new AliasedBlockItem(ModBlocks.COFFEE_BUSH, new Item.Settings().food(ModFoodComponents.COFFEE_BEANS)));
 
     public static final Item CHERRIES = registerItem("cherries", new Item(new Item.Settings().food(ModFoodComponents.CHERRIES)));
     public static final Item APRICOT = registerItem("apricot", new Item(new Item.Settings().food(ModFoodComponents.APRICOT)));

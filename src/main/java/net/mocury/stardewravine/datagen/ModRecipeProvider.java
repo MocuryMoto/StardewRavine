@@ -699,6 +699,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModItems.CAULIFLOWER)
                 .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER))
                 .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GREEN_BEAN_SEEDS, 1)
+                .input(ModItems.GREEN_BEAN)
+                .criterion(hasItem(ModItems.GREEN_BEAN), conditionsFromItem(ModItems.GREEN_BEAN))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RICE_SEEDS, 1)
+                .input(ModItems.RICE)
+                .criterion(hasItem(ModItems.RICE), conditionsFromItem(ModItems.RICE))
+                .offerTo(exporter);
 
 
         offerPlanksRecipe(exporter, ModBlocks.MAPLE_PLANKS, ModTags.Items.MAPLE_LOGS, 4);

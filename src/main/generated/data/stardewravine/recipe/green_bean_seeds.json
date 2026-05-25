@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stardewravine:green_bean"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:green_bean_seeds"
+  }
+}

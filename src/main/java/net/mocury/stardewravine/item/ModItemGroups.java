@@ -319,8 +319,13 @@ public class ModItemGroups {
                         entries.add(ModItems.KALE_SEEDS);
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.CAULIFLOWER_SEEDS);
+                        entries.add(ModItems.GREEN_BEAN);
+                        entries.add(ModItems.GREEN_BEAN_SEEDS);
+                        entries.add(ModItems.RICE);
+                        entries.add(ModItems.RICE_SEEDS);
                         entries.add(ModItems.SALMONBERRY);
                         entries.add(ModItems.STRAWBERRY);
+                        entries.add(ModItems.COFFEE_BEANS);
                         entries.add(ModItems.BLUEBERRIES);
 
                         entries.add(ModItems.MAPLE_SYRUP);
@@ -763,8 +768,13 @@ public class ModItemGroups {
                         entries.add(ModItems.KALE_SEEDS);
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.CAULIFLOWER_SEEDS);
+                        entries.add(ModItems.GREEN_BEAN);
+                        entries.add(ModItems.GREEN_BEAN_SEEDS);
+                        entries.add(ModItems.RICE);
+                        entries.add(ModItems.RICE_SEEDS);
                         entries.add(ModItems.SALMONBERRY);
                         entries.add(ModItems.STRAWBERRY);
+                        entries.add(ModItems.COFFEE_BEANS);
                         entries.add(ModItems.BLUEBERRIES);
 
                         entries.add(ModItems.MAPLE_SYRUP);
