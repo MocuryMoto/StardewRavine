@@ -1,6 +1,7 @@
 package net.mocury.stardewravine.world;
 
 import net.minecraft.block.Blocks;
+import net.minecraft.block.SweetBerryBushBlock;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -24,12 +25,17 @@ import net.minecraft.world.gen.trunk.ForkingTrunkPlacer;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 import net.mocury.stardewravine.StardewRavine;
 import net.mocury.stardewravine.block.ModBlocks;
+import net.mocury.stardewravine.block.custom.BlueberryBushBlock;
+import net.mocury.stardewravine.block.custom.CoffeeBushBlock;
+import net.mocury.stardewravine.block.custom.SalmonberryBushBlock;
+import net.mocury.stardewravine.block.custom.StrawberryBushBlock;
 
 import java.util.List;
 
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> IRIDIUM_ORE_KEY = registerKey("iridium_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> NETHER_IRIDIUM_ORE_KEY = registerKey("nether_iridium_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> NETHER_RADIONITE_ORE_KEY = registerKey("nether_radionite_ore");
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> MAPLE_KEY = registerKey("maple");
     public static final RegistryKey<ConfiguredFeature<?, ?>> MYSTIC_KEY = registerKey("mystic");
@@ -40,6 +46,12 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> BANANA_KEY = registerKey("banana");
     public static final RegistryKey<ConfiguredFeature<?, ?>> PEACH_KEY = registerKey("peach");
     public static final RegistryKey<ConfiguredFeature<?, ?>> FIDDLEHEAD_KEY = registerKey("fiddlehead");
+
+    public static final RegistryKey<ConfiguredFeature<?, ?>> SALMONBERRY_BUSH_KEY = registerKey("salmonberry_bush");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> STRAWBERRY_BUSH_KEY = registerKey("strawberry_bush");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> COFFEE_BUSH_KEY = registerKey("coffee_bush");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> BLUEBERRY_BUSH_KEY = registerKey("blueberry_bush");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> FIDDLEHEAD_SAPLING_KEY = registerKey("fiddlehead_sapling");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -52,10 +64,13 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.IRIDIUM_DEEPSLATE_ORE.getDefaultState()));
         List<OreFeatureConfig.Target> netherIridiumOres =
                 List.of(OreFeatureConfig.createTarget(netherReplaceables, ModBlocks.NETHER_IRIDIUM_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> netherRadioniteOres =
+                List.of(OreFeatureConfig.createTarget(netherReplaceables, ModBlocks.NETHER_RADIONITE_ORE.getDefaultState()));
 
 
         register(context, IRIDIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldIridiumOres, 3));
         register(context, NETHER_IRIDIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherIridiumOres, 3));
+        register(context, NETHER_RADIONITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherRadioniteOres, 3));
 
 
         register(context, MAPLE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
@@ -140,6 +155,26 @@ public class ModConfiguredFeatures {
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(3), 3), //radius, offset?, height
                 new TwoLayersFeatureSize(1, 0, 2)).build());
 
+        register(context, SALMONBERRY_BUSH_KEY, Feature.RANDOM_PATCH,
+                ConfiguredFeatures.createRandomPatchFeatureConfig(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.SALMONBERRY_BUSH.getDefaultState().with(SalmonberryBushBlock.AGE, 3))),
+                        List.of(Blocks.GRASS_BLOCK)));
+        register(context, STRAWBERRY_BUSH_KEY, Feature.RANDOM_PATCH,
+                ConfiguredFeatures.createRandomPatchFeatureConfig(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.STRAWBERRY_BUSH.getDefaultState().with(StrawberryBushBlock.AGE, 5))),
+                        List.of(Blocks.GRASS_BLOCK)));
+        register(context, COFFEE_BUSH_KEY, Feature.RANDOM_PATCH,
+                ConfiguredFeatures.createRandomPatchFeatureConfig(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.COFFEE_BUSH.getDefaultState().with(CoffeeBushBlock.AGE, 5))),
+                        List.of(Blocks.GRASS_BLOCK)));
+        register(context, BLUEBERRY_BUSH_KEY, Feature.RANDOM_PATCH,
+                ConfiguredFeatures.createRandomPatchFeatureConfig(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.BLUEBERRY_BUSH.getDefaultState().with(BlueberryBushBlock.AGE, 4))),
+                        List.of(Blocks.GRASS_BLOCK)));
+        register(context, FIDDLEHEAD_SAPLING_KEY, Feature.RANDOM_PATCH,
+                ConfiguredFeatures.createRandomPatchFeatureConfig(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.FIDDLEHEAD_SAPLING.getDefaultState())),
+                        List.of(Blocks.GRASS_BLOCK)));
     }
 
 

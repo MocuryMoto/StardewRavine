@@ -117,8 +117,8 @@ public class CoffeeBushBlock extends PlantBlock implements Fertilizable {
         world.setBlockState(pos, state.with(AGE, i), Block.NOTIFY_LISTENERS);
     }
 
-    @Override
-    protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
-        return floor.isOf(Blocks.FARMLAND);
-    }
+//    @Override
+//    protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
+//        return floor.isOf(Blocks.FARMLAND);
+//    }
 }
