@@ -73,6 +73,7 @@
   "item.stardewravine.omni_geode_shell": "Omni-Geode Shell",
   "item.stardewravine.fairy_stone": "Fairy Stone",
   "item.stardewravine.fairy_dust": "Fairy Dust",
+  "item.stardewravine.mixed_seeds": "Mixed Seeds",
   "item.stardewravine.garlic": "Garlic",
   "item.stardewravine.garlic_seeds": "Garlic Seeds",
   "item.stardewravine.leek": "Leek",
@@ -318,6 +319,7 @@
   "block.stardewravine.terrasine_block": "Earth Crystal Block",
   "block.stardewravine.polished_terrasine": "Polished Earth Crystal",
 
+  "block.stardewravine.mixed_crop": "Mixed Crop",
   "block.stardewravine.garlic_crop": "Garlic Crop",
   "block.stardewravine.leek_crop": "Leek Crop",
   "block.stardewravine.spring_onion_crop": "Spring Onion Crop",

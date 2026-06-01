@@ -306,6 +306,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FAIRY_STONE_BLOCK);
                         entries.add(ModBlocks.END_FAIRY_ORE);
 
+                        entries.add(ModItems.MIXED_SEEDS);
                         entries.add(ModItems.LEEK);
                         entries.add(ModItems.SPRING_ONION);
                         entries.add(ModItems.HORSERADISH);
@@ -755,6 +756,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FAIRY_ROSE);
                         entries.add(ModBlocks.FAIRY_ROSE_BUSH);
 
+                        entries.add(ModItems.MIXED_SEEDS);
                         entries.add(ModItems.LEEK);
                         entries.add(ModItems.SPRING_ONION);
                         entries.add(ModItems.HORSERADISH);

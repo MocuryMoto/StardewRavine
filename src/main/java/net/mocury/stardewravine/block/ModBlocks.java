@@ -504,6 +504,9 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1.5f)));
 
 
+    public static final Block MIXED_CROP = registerBlockWithoutBlockItem("mixed_crop",
+            new MixedCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block GARLIC_CROP = registerBlockWithoutBlockItem("garlic_crop",
             new GarlicCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
                     .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));

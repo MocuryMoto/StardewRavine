@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "stardewravine:block/mixed_crop_stage3"
+  }
+}

@@ -126,6 +126,7 @@ public class ModItems {
     public static final Item STARDROP = registerItem("stardrop", new Item(new Item.Settings().food(ModFoodComponents.STARDROP)));
     public static final Item ANCIENT_FRUIT = registerItem("ancient_fruit", new Item(new Item.Settings().food(ModFoodComponents.ANCIENT_FRUIT)));
 
+    public static final Item MIXED_SEEDS = registerItem("mixed_seeds", new AliasedBlockItem(ModBlocks.MIXED_CROP, new Item.Settings()));
     public static final Item GARLIC = registerItem("garlic", new Item(new Item.Settings().food(ModFoodComponents.GARLIC)));
     public static final Item GARLIC_SEEDS = registerItem("garlic_seeds", new AliasedBlockItem(ModBlocks.GARLIC_CROP, new Item.Settings()));
     public static final Item LEEK = registerItem("leek", new AliasedBlockItem(ModBlocks.LEEK_CROP, new Item.Settings().food(ModFoodComponents.LEEK)));

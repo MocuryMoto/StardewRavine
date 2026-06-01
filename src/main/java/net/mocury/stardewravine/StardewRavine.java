@@ -9,6 +9,8 @@ import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.component.ModDataComponentTypes;
 import net.mocury.stardewravine.item.ModItemGroups;
 import net.mocury.stardewravine.item.ModItems;
+import net.mocury.stardewravine.util.ModLootTableModifiers;
+import net.mocury.stardewravine.villager.ModVillagers;
 import net.mocury.stardewravine.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,9 +26,12 @@ public class StardewRavine implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+		ModVillagers.registerVillagers();
+
 		ModDataComponentTypes.registerDataComponentTypes();
 
 		ModWorldGeneration.generateModWorldGen();
+		ModLootTableModifiers.modifyLootTables();
 
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC, 0.33f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC_SEEDS, 0.1f);
@@ -56,6 +61,7 @@ public class StardewRavine implements ModInitializer {
 		CompostingChanceRegistry.INSTANCE.add(ModItems.MANGO, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.BANANA, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.PEACH, 0.2f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.MIXED_SEEDS, 0.2f);
 
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_LOG, ModBlocks.STRIPPED_MAPLE_LOG);
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_WOOD, ModBlocks.STRIPPED_MAPLE_WOOD);

@@ -194,6 +194,7 @@ public class ModModelProvider extends FabricModelProvider {
         fireQuartzPool.stairs(ModBlocks.FIRE_QUARTZ_STAIRS);
         fireQuartzPool.slab(ModBlocks.FIRE_QUARTZ_SLAB);
 
+        blockStateModelGenerator.registerCrop(ModBlocks.MIXED_CROP, MixedCropBlock.AGE, 0, 1, 2, 3);
         blockStateModelGenerator.registerCrop(ModBlocks.GARLIC_CROP, GarlicCropBlock.AGE, 0, 1, 2, 3, 4);
         blockStateModelGenerator.registerCrop(ModBlocks.LEEK_CROP, LeekCropBlock.AGE, 0, 1, 2, 3);
         blockStateModelGenerator.registerCrop(ModBlocks.SPRING_ONION_CROP, SpringOnionCropBlock.AGE, 0, 1, 2, 3);
