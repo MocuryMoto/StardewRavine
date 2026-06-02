@@ -866,7 +866,8 @@ public class ModBlocks {
     public static final Block GHOST_CRYSTAL_BLOCK = registerBlock("ghost_crystal_block",
             new TranslucentBlock(AbstractBlock.Settings.create().strength(1f).nonOpaque().sounds(BlockSoundGroup.GLASS)));
     public static final Block GHOST_GLASS = registerBlock("ghost_glass",
-            new GhostGlassBlock(AbstractBlock.Settings.create().strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)));
+            new GhostGlassBlock(AbstractBlock.Settings.create().strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+                    .blockVision((state,world,pos)->false).suffocates((state, world, pos)->false)));
 
 
     private static Block registerBlock(String name, Block block){
