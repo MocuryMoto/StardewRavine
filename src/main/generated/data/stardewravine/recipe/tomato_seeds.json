@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stardewravine:tomato"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:tomato_seeds"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stardewravine:chili_pepper"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:chili_pepper_seeds"
+  }
+}

@@ -4,6 +4,9 @@
   "ingredients": [
     {
       "item": "stardewravine:green_bean"
+    },
+    {
+      "item": "stardewravine:trellis"
     }
   ],
   "result": {

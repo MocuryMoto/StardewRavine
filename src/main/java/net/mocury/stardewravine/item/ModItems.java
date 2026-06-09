@@ -1,6 +1,7 @@
 package net.mocury.stardewravine.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -8,6 +9,8 @@ import net.minecraft.util.Identifier;
 import net.mocury.stardewravine.StardewRavine;
 import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.item.custom.*;
+
+import static net.minecraft.item.Items.register;
 
 public class ModItems {
     public static final Item AQUAMARINE = registerItem("aquamarine", new Item(new Item.Settings()));
@@ -144,6 +147,20 @@ public class ModItems {
     public static final Item GREEN_BEAN_SEEDS = registerItem("green_bean_seeds", new AliasedBlockItem(ModBlocks.GREEN_BEAN_CROP, new Item.Settings()));
     public static final Item RICE = registerItem("rice", new Item(new Item.Settings().food(ModFoodComponents.RICE)));
     public static final Item RICE_SEEDS = registerItem("rice_seeds", new AliasedBlockItem(ModBlocks.RICE_CROP, new Item.Settings()));
+    public static final Item RED_CABBAGE = registerItem("red_cabbage", new Item(new Item.Settings().food(ModFoodComponents.RED_CABBAGE)));
+    public static final Item RED_CABBAGE_SEEDS = registerItem("red_cabbage_seeds", new AliasedBlockItem(ModBlocks.RED_CABBAGE_CROP, new Item.Settings()));
+    public static final Item STARFRUIT = registerItem("starfruit", new Item(new Item.Settings().food(ModFoodComponents.STARFRUIT)));
+    public static final Item STARFRUIT_SEEDS = registerItem("starfruit_seeds", new AliasedBlockItem(ModBlocks.STARFRUIT_CROP, new Item.Settings()));
+    public static final Item HOPS = registerItem("hops", new Item(new Item.Settings().food(ModFoodComponents.HOPS)));
+    public static final Item HOPS_SEEDS = registerItem("hops_seeds", new AliasedBlockItem(ModBlocks.HOPS_CROP, new Item.Settings()));
+    public static final Item RADISHES = registerItem("radishes", new Item(new Item.Settings().food(ModFoodComponents.RADISHES)));
+    public static final Item RADISH_SEEDS = registerItem("radish_seeds", new AliasedBlockItem(ModBlocks.RADISH_CROP, new Item.Settings()));
+    public static final Item CHILI_PEPPER = registerItem("chili_pepper", new Item(new Item.Settings().food(ModFoodComponents.CHILI_PEPPER)));
+    public static final Item CHILI_PEPPER_SEEDS = registerItem("chili_pepper_seeds", new AliasedBlockItem(ModBlocks.CHILI_PEPPER_CROP, new Item.Settings()));
+    public static final Item TOMATO = registerItem("tomato", new Item(new Item.Settings().food(ModFoodComponents.TOMATO)));
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new AliasedBlockItem(ModBlocks.TOMATO_CROP, new Item.Settings()));
+    public static final Item SUMMER_SQUASH = registerItem("summer_squash", new Item(new Item.Settings().food(ModFoodComponents.SUMMER_SQUASH)));
+    public static final Item SUMMER_SQUASH_SEEDS = registerItem("summer_squash_seeds", new AliasedBlockItem(ModBlocks.SUMMER_SQUASH_CROP, new Item.Settings()));
 
     public static final Item BLUEBERRIES = registerItem("blueberries",
             new AliasedBlockItem(ModBlocks.BLUEBERRY_BUSH, new Item.Settings().food(ModFoodComponents.BLUEBERRIES)));
@@ -153,6 +170,8 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.STRAWBERRY_BUSH, new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
     public static final Item COFFEE_BEANS = registerItem("coffee_beans",
             new AliasedBlockItem(ModBlocks.COFFEE_BUSH, new Item.Settings().food(ModFoodComponents.COFFEE_BEANS)));
+    public static final Item SPICE_BERRY = registerItem("spice_berry",
+            new AliasedBlockItem(ModBlocks.SPICE_BERRY_BUSH, new Item.Settings().food(ModFoodComponents.SPICE_BERRY)));
 
     public static final Item CHERRIES = registerItem("cherries", new Item(new Item.Settings().food(ModFoodComponents.CHERRIES)));
     public static final Item APRICOT = registerItem("apricot", new Item(new Item.Settings().food(ModFoodComponents.APRICOT)));
@@ -167,6 +186,8 @@ public class ModItems {
 
     public static final Item PETRIFIED_SLIME = registerItem("petrified_slime", new Item(new Item.Settings()));
     public static final Item GHOST_CRYSTAL = registerItem("ghost_crystal", new Item(new Item.Settings()));
+
+    public static final Item TRELLIS = registerItem("trellis", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(StardewRavine.MOD_ID, name), item);

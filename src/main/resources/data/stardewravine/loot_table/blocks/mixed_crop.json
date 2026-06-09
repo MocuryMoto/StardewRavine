@@ -57,6 +57,34 @@
         {
           "type": "minecraft:item",
           "name": "stardewravine:rice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:red_cabbage"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:starfruit"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:hops"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:radishes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:chili_pepper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:tomato"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:summer_squash"
         }
       ],
       "rolls": 1.0
@@ -100,6 +128,30 @@
         {
           "type": "minecraft:item",
           "name": "stardewravine:rice_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:red_cabbage_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:starfruit_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:radish_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:chili_pepper_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:tomato_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:summer_squash_seeds"
         }
       ],
       "rolls": 1.0

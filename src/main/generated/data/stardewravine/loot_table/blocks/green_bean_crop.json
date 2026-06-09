@@ -27,7 +27,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "stardewravine:green_bean_seeds"
+              "name": "stardewravine:green_bean"
             }
           ]
         }
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "stardewravine:green_bean_seeds"
+          "name": "stardewravine:green_bean"
         }
       ],
       "rolls": 1.0

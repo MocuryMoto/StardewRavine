@@ -701,11 +701,41 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GREEN_BEAN_SEEDS, 1)
                 .input(ModItems.GREEN_BEAN)
+                .input(ModItems.TRELLIS)
                 .criterion(hasItem(ModItems.GREEN_BEAN), conditionsFromItem(ModItems.GREEN_BEAN))
                 .offerTo(exporter);
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RICE_SEEDS, 1)
                 .input(ModItems.RICE)
                 .criterion(hasItem(ModItems.RICE), conditionsFromItem(ModItems.RICE))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RED_CABBAGE_SEEDS, 2)
+                .input(ModItems.RED_CABBAGE)
+                .criterion(hasItem(ModItems.RED_CABBAGE), conditionsFromItem(ModItems.RED_CABBAGE))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STARFRUIT_SEEDS, 3)
+                .input(ModItems.STARFRUIT)
+                .criterion(hasItem(ModItems.STARFRUIT), conditionsFromItem(ModItems.STARFRUIT))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HOPS_SEEDS, 1)
+                .input(ModItems.HOPS)
+                .input(ModItems.TRELLIS)
+                .criterion(hasItem(ModItems.HOPS), conditionsFromItem(ModItems.HOPS))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RADISH_SEEDS, 3)
+                .input(ModItems.RADISHES)
+                .criterion(hasItem(ModItems.RADISHES), conditionsFromItem(ModItems.RADISHES))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CHILI_PEPPER_SEEDS, 1)
+                .input(ModItems.CHILI_PEPPER)
+                .criterion(hasItem(ModItems.CHILI_PEPPER), conditionsFromItem(ModItems.CHILI_PEPPER))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TOMATO_SEEDS, 1)
+                .input(ModItems.TOMATO)
+                .criterion(hasItem(ModItems.TOMATO), conditionsFromItem(ModItems.TOMATO))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SUMMER_SQUASH_SEEDS, 2)
+                .input(ModItems.SUMMER_SQUASH)
+                .criterion(hasItem(ModItems.SUMMER_SQUASH), conditionsFromItem(ModItems.SUMMER_SQUASH))
                 .offerTo(exporter);
 
 
@@ -1116,7 +1146,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('G', Blocks.GLASS)
                 .criterion(hasItem(ModItems.GHOST_CRYSTAL), conditionsFromItem(ModItems.GHOST_CRYSTAL))
                 .offerTo(exporter);
-
+            ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TRELLIS, 2)
+                .pattern("CGC")
+                .pattern("CGC")
+                .input('C', Items.STICK)
+                .input('G', Items.STRING)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
 
     }
 }

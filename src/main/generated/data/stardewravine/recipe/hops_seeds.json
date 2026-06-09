@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stardewravine:hops"
+    },
+    {
+      "item": "stardewravine:trellis"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:hops_seeds"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "stardewravine:block/summer_squash_crop_stage1"
+  }
+}

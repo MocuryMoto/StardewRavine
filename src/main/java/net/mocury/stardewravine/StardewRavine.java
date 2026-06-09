@@ -51,8 +51,22 @@ public class StardewRavine implements ModInitializer {
 		CompostingChanceRegistry.INSTANCE.add(ModItems.STRAWBERRY, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GREEN_BEAN, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GREEN_BEAN_SEEDS, 0.1f);
-		CompostingChanceRegistry.INSTANCE.add(ModItems.RICE, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.RICE, 0.15f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.RICE_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.RED_CABBAGE, 0.5f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.RED_CABBAGE_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.STARFRUIT, 0.5f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.STARFRUIT_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.HOPS, 0.2f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.HOPS_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.RADISHES, 0.33f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.RADISH_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.CHILI_PEPPER, 0.2f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.CHILI_PEPPER_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.TOMATO, 0.2f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.TOMATO_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.SUMMER_SQUASH, 0.4f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.SUMMER_SQUASH_SEEDS, 0.1f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.COFFEE_BEANS, 0.3f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.CHERRIES, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.APRICOT, 0.2f);
@@ -62,6 +76,7 @@ public class StardewRavine implements ModInitializer {
 		CompostingChanceRegistry.INSTANCE.add(ModItems.BANANA, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.PEACH, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.MIXED_SEEDS, 0.2f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.SPICE_BERRY, 0.2f);
 
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_LOG, ModBlocks.STRIPPED_MAPLE_LOG);
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_WOOD, ModBlocks.STRIPPED_MAPLE_WOOD);

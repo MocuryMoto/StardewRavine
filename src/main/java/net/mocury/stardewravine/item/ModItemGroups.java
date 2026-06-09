@@ -306,6 +306,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FAIRY_STONE_BLOCK);
                         entries.add(ModBlocks.END_FAIRY_ORE);
 
+                        entries.add(ModItems.TRELLIS);
                         entries.add(ModItems.MIXED_SEEDS);
                         entries.add(ModItems.LEEK);
                         entries.add(ModItems.SPRING_ONION);
@@ -324,10 +325,25 @@ public class ModItemGroups {
                         entries.add(ModItems.GREEN_BEAN_SEEDS);
                         entries.add(ModItems.RICE);
                         entries.add(ModItems.RICE_SEEDS);
+                        entries.add(ModItems.RED_CABBAGE);
+                        entries.add(ModItems.RED_CABBAGE_SEEDS);
+                        entries.add(ModItems.STARFRUIT);
+                        entries.add(ModItems.STARFRUIT_SEEDS);
+                        entries.add(ModItems.HOPS);
+                        entries.add(ModItems.HOPS_SEEDS);
+                        entries.add(ModItems.RADISHES);
+                        entries.add(ModItems.RADISH_SEEDS);
+                        entries.add(ModItems.CHILI_PEPPER);
+                        entries.add(ModItems.CHILI_PEPPER_SEEDS);
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.TOMATO_SEEDS);
+                        entries.add(ModItems.SUMMER_SQUASH);
+                        entries.add(ModItems.SUMMER_SQUASH_SEEDS);
                         entries.add(ModItems.SALMONBERRY);
                         entries.add(ModItems.STRAWBERRY);
                         entries.add(ModItems.COFFEE_BEANS);
                         entries.add(ModItems.BLUEBERRIES);
+                        entries.add(ModItems.SPICE_BERRY);
 
                         entries.add(ModItems.MAPLE_SYRUP);
                         entries.add(ModBlocks.MAPLE_SAPLING);
@@ -774,10 +790,25 @@ public class ModItemGroups {
                         entries.add(ModItems.GREEN_BEAN_SEEDS);
                         entries.add(ModItems.RICE);
                         entries.add(ModItems.RICE_SEEDS);
+                        entries.add(ModItems.RED_CABBAGE);
+                        entries.add(ModItems.RED_CABBAGE_SEEDS);
+                        entries.add(ModItems.STARFRUIT);
+                        entries.add(ModItems.STARFRUIT_SEEDS);
+                        entries.add(ModItems.HOPS);
+                        entries.add(ModItems.HOPS_SEEDS);
+                        entries.add(ModItems.RADISHES);
+                        entries.add(ModItems.RADISH_SEEDS);
+                        entries.add(ModItems.CHILI_PEPPER);
+                        entries.add(ModItems.CHILI_PEPPER_SEEDS);
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.TOMATO_SEEDS);
+                        entries.add(ModItems.SUMMER_SQUASH);
+                        entries.add(ModItems.SUMMER_SQUASH_SEEDS);
                         entries.add(ModItems.SALMONBERRY);
                         entries.add(ModItems.STRAWBERRY);
                         entries.add(ModItems.COFFEE_BEANS);
                         entries.add(ModItems.BLUEBERRIES);
+                        entries.add(ModItems.SPICE_BERRY);
 
                         entries.add(ModItems.MAPLE_SYRUP);
                         entries.add(ModBlocks.MAPLE_SAPLING);
