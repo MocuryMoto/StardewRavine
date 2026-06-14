@@ -2,14 +2,14 @@
   "type": "minecraft:ore",
   "config": {
     "discard_chance_on_air_exposure": 0.0,
-    "size": 3,
+    "size": 6,
     "targets": [
       {
         "state": {
-          "Name": "stardewravine:iridium_deepslate_ore"
+          "Name": "stardewravine:end_omni_geode_ore"
         },
         "target": {
-          "block": "minecraft:deepslate",
+          "block": "minecraft:end_stone",
           "predicate_type": "minecraft:block_match"
         }
       }

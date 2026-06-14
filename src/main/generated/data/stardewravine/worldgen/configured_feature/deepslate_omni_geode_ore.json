@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "stardewravine:iridium_deepslate_ore"
+          "Name": "stardewravine:deepslate_omni_geode_ore"
         },
         "target": {
           "block": "minecraft:deepslate",
