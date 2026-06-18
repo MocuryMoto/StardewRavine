@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_quartz": {
+    "has_fire_quartz": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:quartz"
+            "items": "stardewravine:fire_quartz"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:refined_quartz_from_blasting_quartz"
+        "recipe": "stardewravine:refinery"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_quartz"
+      "has_fire_quartz"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:refined_quartz_from_blasting_quartz"
+      "stardewravine:refinery"
     ]
   }
 }

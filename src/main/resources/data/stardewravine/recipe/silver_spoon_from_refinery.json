@@ -1,0 +1,10 @@
+{
+  "type": "stardewravine:refinery",
+  "ingredient": {
+    "item": "stardewravine:rusty_spoon"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:silver_spoon"
+  }
+}

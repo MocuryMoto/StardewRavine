@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "stardewravine:block/refinery_bottom",
+    "front": "stardewravine:block/refinery_front",
+    "side": "stardewravine:block/refinery_side",
+    "top": "stardewravine:block/refinery_top"
+  }
+}

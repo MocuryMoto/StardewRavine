@@ -44,9 +44,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         List<ItemConvertible> RADIONITE_SMELTABLES = List.of(ModBlocks.NETHER_RADIONITE_ORE, ModItems.RAW_RADIONITE);
         offerSmelting(exporter, RADIONITE_SMELTABLES, RecipeCategory.MISC, ModItems.RADIONITE_INGOT, 1f, 200, "stardew_ravine");
         offerBlasting(exporter, RADIONITE_SMELTABLES, RecipeCategory.MISC, ModItems.RADIONITE_INGOT, 1f, 100, "stardew_ravine");
-        List<ItemConvertible> REFINED_QUARTZ_SMELTABLES = List.of(ModItems.FIRE_QUARTZ, Items.QUARTZ);
-        offerSmelting(exporter, REFINED_QUARTZ_SMELTABLES, RecipeCategory.MISC, ModItems.REFINED_QUARTZ, 0.1f, 200, "stardew_ravine");
-        offerBlasting(exporter, REFINED_QUARTZ_SMELTABLES, RecipeCategory.MISC, ModItems.REFINED_QUARTZ, 0.1f, 100, "stardew_ravine");
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.AQUAMARINE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AQUAMARINE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.JADE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JADE_BLOCK);
@@ -1146,12 +1143,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('G', Blocks.GLASS)
                 .criterion(hasItem(ModItems.GHOST_CRYSTAL), conditionsFromItem(ModItems.GHOST_CRYSTAL))
                 .offerTo(exporter);
-            ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TRELLIS, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TRELLIS, 2)
                 .pattern("CGC")
                 .pattern("CGC")
                 .input('C', Items.STICK)
                 .input('G', Items.STRING)
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.REFINERY, 1)
+                .pattern("IFI")
+                .pattern("F F")
+                .pattern("IRI")
+                .input('I', Items.IRON_INGOT)
+                .input('F', ModItems.FIRE_QUARTZ)
+                .input('R', Blocks.REDSTONE_BLOCK)
+                .criterion(hasItem(ModItems.FIRE_QUARTZ), conditionsFromItem(ModItems.FIRE_QUARTZ))
                 .offerTo(exporter);
 
     }

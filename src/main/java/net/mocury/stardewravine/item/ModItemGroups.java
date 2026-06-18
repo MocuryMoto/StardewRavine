@@ -252,6 +252,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TERRASINE);
                         entries.add(ModBlocks.TERRASINE_BLOCK);
                         entries.add(ModBlocks.POLISHED_TERRASINE);
+                        entries.add(ModItems.EARTH_CRYSTAL);
 
                         entries.add(ModBlocks.SCROLL_BLOCK);
                         entries.add(ModBlocks.RED_SCROLL);
@@ -514,6 +515,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GHOST_CRYSTAL_BLOCK);
                         entries.add(ModBlocks.GHOST_GLASS);
 
+                        entries.add(ModBlocks.REFINERY);
+
                     }).build());
 
     public static final ItemGroup STARDEW_RAVINE_MINERALS = Registry.register(Registries.ITEM_GROUP,
@@ -722,6 +725,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TERRASINE);
                         entries.add(ModBlocks.TERRASINE_BLOCK);
                         entries.add(ModBlocks.POLISHED_TERRASINE);
+                        entries.add(ModItems.EARTH_CRYSTAL);
 
                         entries.add(ModItems.GEODE);
                         entries.add(ModItems.GEODE_SHELL);

@@ -6,9 +6,11 @@ import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.mocury.stardewravine.block.ModBlocks;
+import net.mocury.stardewravine.block.entity.ModBlockEntities;
 import net.mocury.stardewravine.component.ModDataComponentTypes;
 import net.mocury.stardewravine.item.ModItemGroups;
 import net.mocury.stardewravine.item.ModItems;
+import net.mocury.stardewravine.recipe.ModRecipes;
 import net.mocury.stardewravine.util.ModLootTableModifiers;
 import net.mocury.stardewravine.villager.ModVillagers;
 import net.mocury.stardewravine.world.gen.ModWorldGeneration;
@@ -32,6 +34,9 @@ public class StardewRavine implements ModInitializer {
 
 		ModWorldGeneration.generateModWorldGen();
 		ModLootTableModifiers.modifyLootTables();
+
+		ModBlockEntities.registerBlockEntities();
+		ModRecipes.registerRecipes();
 
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC, 0.33f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC_SEEDS, 0.1f);

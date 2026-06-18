@@ -1,0 +1,10 @@
+{
+  "type": "stardewravine:refinery",
+  "ingredient": {
+    "item": "minecraft:quartz"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:refined_quartz"
+  }
+}

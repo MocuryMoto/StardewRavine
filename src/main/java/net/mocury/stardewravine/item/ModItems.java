@@ -188,6 +188,7 @@ public class ModItems {
     public static final Item GHOST_CRYSTAL = registerItem("ghost_crystal", new Item(new Item.Settings()));
 
     public static final Item TRELLIS = registerItem("trellis", new Item(new Item.Settings()));
+    public static final Item EARTH_CRYSTAL = registerItem("earth_crystal", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(StardewRavine.MOD_ID, name), item);

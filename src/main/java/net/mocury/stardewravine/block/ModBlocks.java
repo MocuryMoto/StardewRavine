@@ -893,6 +893,9 @@ public class ModBlocks {
             new GhostGlassBlock(AbstractBlock.Settings.create().strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
                     .blockVision((state,world,pos)->false).suffocates((state, world, pos)->false)));
 
+    public static final Block REFINERY = registerBlock("refinery",
+            new RefineryBlock(AbstractBlock.Settings.create()));
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

@@ -1,0 +1,10 @@
+{
+  "type": "stardewravine:refinery",
+  "ingredient": {
+    "item": "stardewravine:rusty_spur"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:golden_spur"
+  }
+}

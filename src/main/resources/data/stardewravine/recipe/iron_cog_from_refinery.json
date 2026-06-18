@@ -1,0 +1,10 @@
+{
+  "type": "stardewravine:refinery",
+  "ingredient": {
+    "item": "stardewravine:rusty_cog"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:iron_cog"
+  }
+}

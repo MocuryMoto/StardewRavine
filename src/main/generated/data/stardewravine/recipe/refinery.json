@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "stardewravine:fire_quartz"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "IFI",
+    "F F",
+    "IRI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:refinery"
+  }
+}

@@ -93,6 +93,7 @@
   "item.stardewravine.blueberries": "Blueberries",
   "item.stardewravine.bixite_chunk": "Bixite Chunk",
   "item.stardewravine.terrasine": "Terrasine Chunk",
+  "item.stardewravine.earth_crystal": "Earth Crystal",
   "item.stardewravine.salmonberry": "Salmonberry",
   "item.stardewravine.strawberry": "Strawberry",
   "item.stardewravine.cherries": "Cherries",
@@ -498,6 +499,8 @@
   "block.stardewravine.petrified_slime_block": "Petrified Slime Block",
   "block.stardewravine.ghost_crystal_block": "Ghost Crystal Block",
   "block.stardewravine.ghost_glass": "Ghost Glass",
+
+  "block.stardewravine.refinery": "Refinery",
 
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine",
   "itemgroup.stardewravine.stardew_ravine_minerals": "Stardew Ravine Minerals",

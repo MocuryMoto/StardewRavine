@@ -45,7 +45,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.OPAL)
                 .add(ModItems.FIRE_OPAL)
                 .add(ModItems.BIXITE_CHUNK)
-                .add(ModItems.TERRASINE)
+                .add(ModItems.EARTH_CRYSTAL)
                 .add(Items.EMERALD)
                 .add(Items.DIAMOND)
                 .add(Items.LAPIS_LAZULI)
@@ -201,7 +201,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.FIDDLEHEAD_WOOD.asItem())
                 .add(ModBlocks.STRIPPED_FIDDLEHEAD_WOOD.asItem())
         ;
-
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(ModBlocks.MAPLE_PLANKS.asItem())
                 .add(ModBlocks.MYSTIC_PLANKS.asItem())
@@ -212,6 +211,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.BANANA_PLANKS.asItem())
                 .add(ModBlocks.PEACH_PLANKS.asItem())
                 .add(ModBlocks.FIDDLEHEAD_PLANKS.asItem())
+        ;
+        getOrCreateTagBuilder(ItemTags.PIGLIN_LOVED)
+                .add(ModItems.TOPAZ)
+                .add(ModBlocks.TOPAZ_BLOCK.asItem())
         ;
     }
 }

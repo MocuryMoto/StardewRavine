@@ -489,5 +489,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PETRIFIED_SLIME, Models.GENERATED);
         itemModelGenerator.register(ModItems.GHOST_CRYSTAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.TRELLIS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EARTH_CRYSTAL, Models.GENERATED);
     }
 }

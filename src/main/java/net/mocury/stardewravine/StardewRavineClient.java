@@ -2,8 +2,11 @@ package net.mocury.stardewravine;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 import net.mocury.stardewravine.block.ModBlocks;
+import net.mocury.stardewravine.screen.ModScreenHandlers;
+import net.mocury.stardewravine.screen.custom.RefineryScreen;
 
 public class StardewRavineClient implements ClientModInitializer {
     @Override
@@ -90,6 +93,8 @@ public class StardewRavineClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PETRIFIED_SLIME_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GHOST_CRYSTAL_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GHOST_GLASS, RenderLayer.getCutout());
+
+        HandledScreens.register(ModScreenHandlers.REFINERY_SCREEN_HANDLER, RefineryScreen::new);
 
     }
 }

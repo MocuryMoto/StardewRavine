@@ -1,0 +1,10 @@
+{
+  "type": "stardewravine:refinery",
+  "ingredient": {
+    "item": "stardewravine:raw_hematite"
+  },
+  "result": {
+    "count": 2,
+    "id": "stardewravine:refined_hematite"
+  }
+}
