@@ -516,6 +516,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GHOST_GLASS);
 
                         entries.add(ModBlocks.REFINERY);
+                        entries.add(ModBlocks.CRYSTALARIUM);
 
                     }).build());
 

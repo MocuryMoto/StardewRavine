@@ -493,6 +493,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PETRIFIED_SLIME_BLOCK);
         addDrop(ModBlocks.GHOST_CRYSTAL_BLOCK, multipleOreDrops(ModBlocks.GHOST_CRYSTAL_BLOCK, ModItems.GHOST_CRYSTAL, 2, 5));
         addDropWithSilkTouch(ModBlocks.GHOST_GLASS);
+
+        addDrop(ModBlocks.REFINERY);
+        addDrop(ModBlocks.CRYSTALARIUM);
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

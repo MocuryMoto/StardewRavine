@@ -1,0 +1,10 @@
+{
+  "type": "stardewravine:crystalarium",
+  "ingredient": {
+    "item": "stardewravine:lemon_stone"
+  },
+  "result": {
+    "count": 2,
+    "id": "stardewravine:lemon_stone"
+  }
+}

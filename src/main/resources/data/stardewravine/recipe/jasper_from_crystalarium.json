@@ -1,0 +1,10 @@
+{
+  "type": "stardewravine:crystalarium",
+  "ingredient": {
+    "item": "stardewravine:jasper"
+  },
+  "result": {
+    "count": 2,
+    "id": "stardewravine:jasper"
+  }
+}

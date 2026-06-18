@@ -1151,7 +1151,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.REFINERY, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.REFINERY, 1)
                 .pattern("IFI")
                 .pattern("F F")
                 .pattern("IRI")
@@ -1159,6 +1159,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('F', ModItems.FIRE_QUARTZ)
                 .input('R', Blocks.REDSTONE_BLOCK)
                 .criterion(hasItem(ModItems.FIRE_QUARTZ), conditionsFromItem(ModItems.FIRE_QUARTZ))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.CRYSTALARIUM, 1)
+                .pattern("IQI")
+                .pattern("QOQ")
+                .pattern("IRI")
+                .input('I', ModItems.IRIDIUM_INGOT)
+                .input('Q', ModBlocks.REFINED_QUARTZ_BLOCK)
+                .input('R', ModBlocks.RADIONITE_BLOCK)
+                .input('O', ModBlocks.REFINERY)
+                .criterion(hasItem(ModBlocks.REFINERY), conditionsFromItem(ModBlocks.REFINERY))
                 .offerTo(exporter);
 
     }

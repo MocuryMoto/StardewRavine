@@ -6,6 +6,7 @@ import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.screen.ModScreenHandlers;
+import net.mocury.stardewravine.screen.custom.CrystalariumScreen;
 import net.mocury.stardewravine.screen.custom.RefineryScreen;
 
 public class StardewRavineClient implements ClientModInitializer {
@@ -95,6 +96,7 @@ public class StardewRavineClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GHOST_GLASS, RenderLayer.getCutout());
 
         HandledScreens.register(ModScreenHandlers.REFINERY_SCREEN_HANDLER, RefineryScreen::new);
+        HandledScreens.register(ModScreenHandlers.CRYSTALARIUM_SCREEN_HANDLER, CrystalariumScreen::new);
 
     }
 }

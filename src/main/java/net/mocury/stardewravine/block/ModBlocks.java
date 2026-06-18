@@ -895,6 +895,8 @@ public class ModBlocks {
 
     public static final Block REFINERY = registerBlock("refinery",
             new RefineryBlock(AbstractBlock.Settings.create()));
+    public static final Block CRYSTALARIUM = registerBlock("crystalarium",
+            new CrystalariumBlock(AbstractBlock.Settings.create()));
 
 
     private static Block registerBlock(String name, Block block){

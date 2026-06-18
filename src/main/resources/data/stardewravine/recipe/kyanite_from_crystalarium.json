@@ -1,0 +1,10 @@
+{
+  "type": "stardewravine:crystalarium",
+  "ingredient": {
+    "item": "stardewravine:kyanite"
+  },
+  "result": {
+    "count": 2,
+    "id": "stardewravine:kyanite"
+  }
+}

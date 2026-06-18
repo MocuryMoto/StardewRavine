@@ -1,0 +1,10 @@
+{
+  "type": "stardewravine:crystalarium",
+  "ingredient": {
+    "item": "stardewravine:fluorapatite"
+  },
+  "result": {
+    "count": 2,
+    "id": "stardewravine:fluorapatite"
+  }
+}

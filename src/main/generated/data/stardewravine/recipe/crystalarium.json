@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "I": {
+      "item": "stardewravine:iridium_ingot"
+    },
+    "O": {
+      "item": "stardewravine:refinery"
+    },
+    "Q": {
+      "item": "stardewravine:refined_quartz_block"
+    },
+    "R": {
+      "item": "stardewravine:radionite_block"
+    }
+  },
+  "pattern": [
+    "IQI",
+    "QOQ",
+    "IRI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:crystalarium"
+  }
+}

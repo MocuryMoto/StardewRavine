@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "stardewravine:block/crystalarium_bottom",
+    "front": "stardewravine:block/crystalarium_front",
+    "side": "stardewravine:block/crystalarium_side",
+    "top": "stardewravine:block/crystalarium_top"
+  }
+}
