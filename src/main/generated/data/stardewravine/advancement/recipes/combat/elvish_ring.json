@@ -1,21 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_limestone": {
+    "has_aquamarine": {
       "conditions": {
         "items": [
           {
-            "items": "stardewravine:limestone"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_marble": {
-      "conditions": {
-        "items": [
-          {
-            "items": "stardewravine:marble"
+            "items": "stardewravine:aquamarine"
           }
         ]
       },
@@ -23,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "stardewravine:lime_marble_tiles"
+        "recipe": "stardewravine:elvish_ring"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -31,13 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_limestone",
-      "has_marble"
+      "has_aquamarine"
     ]
   ],
   "rewards": {
     "recipes": [
-      "stardewravine:lime_marble_tiles"
+      "stardewravine:elvish_ring"
     ]
   }
 }

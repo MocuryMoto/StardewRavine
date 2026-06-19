@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_hematite": {
+    "has_prismatic_shard": {
       "conditions": {
         "items": [
           {
-            "items": "stardewravine:raw_hematite"
+            "items": "stardewravine:prismatic_shard"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:refined_hematite_from_blasting_raw_hematite"
+        "recipe": "stardewravine:galaxy_soul"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_hematite"
+      "has_prismatic_shard"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:refined_hematite_from_blasting_raw_hematite"
+      "stardewravine:galaxy_soul"
     ]
   }
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "T": {
+      "item": "stardewravine:topaz"
+    }
+  },
+  "pattern": [
+    " GT",
+    "G G",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:gilded_bracelet"
+  }
+}

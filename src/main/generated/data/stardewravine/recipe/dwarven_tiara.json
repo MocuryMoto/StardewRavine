@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "R": {
+      "item": "stardewravine:ruby"
+    }
+  },
+  "pattern": [
+    " G ",
+    "G G",
+    " GR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:dwarven_tiara"
+  }
+}

@@ -1,4 +1,4 @@
-// 1.21	2026-06-18T11:26:01.8560886	Stardew Ravine/Tags for minecraft:item
+// 1.21	2026-06-19T13:55:50.8570776	Stardew Ravine/Tags for minecraft:item
 41f2826ab3ecbcbc40d003062c391795efb5ca51 data\minecraft\tags\item\shovels.json
 71ca3fb7cc504f9988871fb613cf3a1bec7fd5da data\stardewravine\tags\item\peach_logs.json
 8ce5b5ac2314d46cdebdeb9d99c156de800a24bc data\stardewravine\tags\item\apricot_logs.json
@@ -9,7 +9,7 @@ adbbaabe408c1652d84f350825e124451516ca72 data\minecraft\tags\item\trimmable_armo
 bae13ac24686f20353c346ec6624502c5de9ead8 data\minecraft\tags\item\pickaxes.json
 c79fefb45000bf0cfa40343890f800abccef4275 data\stardewravine\tags\item\mystic_logs.json
 782c65b5d25a0597f5f510cab96a807b6924e1a4 data\stardewravine\tags\item\mango_logs.json
-b0b5d45c77e038b647ed2add0f84a66dfb7b0eb4 data\minecraft\tags\item\piglin_loved.json
+4d0d8eaf12524d9a246dae1b0c35b2ee0e52677c data\minecraft\tags\item\piglin_loved.json
 40f4dfa166efbbb695e8dd6a80cc1cafaaa0921e data\minecraft\tags\item\logs_that_burn.json
 c166ae55ab6e1b9a641de597568373420d89df43 data\stardewravine\tags\item\maple_logs.json
 1668c67313790e6c365fe886e014bfd546658271 data\stardewravine\tags\item\orange_logs.json

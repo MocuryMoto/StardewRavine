@@ -1,7 +1,6 @@
 package net.mocury.stardewravine.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -74,6 +73,11 @@ public class ModItems {
     public static final Item RUSTY_SPOON = registerItem("rusty_spoon", new RustySpoonItem(new Item.Settings().maxCount(1)));
     public static final Item SILVER_SPOON = registerItem("silver_spoon", new SilverSpoonItem(new Item.Settings().maxCount(1)));
     public static final Item DRIED_STARFISH = registerItem("dried_starfish", new DriedStarfishItem(new Item.Settings().maxCount(1)));
+    public static final Item IRIDIUM_BAND = registerItem("iridium_band", new IridiumBandItem(new Item.Settings().maxCount(1)));
+    public static final Item ELVISH_RING = registerItem("elvish_ring", new ElvishRingItem(new Item.Settings().maxCount(1)));
+    public static final Item ORNATE_NECKLACE = registerItem("ornate_necklace", new OrnateNecklaceItem(new Item.Settings().maxCount(1)));
+    public static final Item GILDED_BRACELET = registerItem("gilded_bracelet", new GildedBraceletItem(new Item.Settings().maxCount(1)));
+    public static final Item DWARVEN_TIARA = registerItem("dwarven_tiara", new DwarvenTiaraItem(new Item.Settings().maxCount(1)));
 
     public static final Item SAP = registerItem("sap", new SapItem(new Item.Settings()));
     public static final Item MYSTIC_SYRUP = registerItem("mystic_syrup", new MysticSyrupItem(new Item.Settings()));
@@ -189,6 +193,7 @@ public class ModItems {
 
     public static final Item TRELLIS = registerItem("trellis", new Item(new Item.Settings()));
     public static final Item EARTH_CRYSTAL = registerItem("earth_crystal", new Item(new Item.Settings()));
+    public static final Item GALAXY_SOUL = registerItem("galaxy_soul", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(StardewRavine.MOD_ID, name), item);

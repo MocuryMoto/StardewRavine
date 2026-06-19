@@ -378,27 +378,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.SOAPSTONE), conditionsFromItem(ModBlocks.SOAPSTONE))
                 .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
                 .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_SOAP_TILES, 4)
-                .pattern("XO")
-                .pattern("OX")
-                .input('X', ModBlocks.LIMESTONE)
-                .input('O', ModBlocks.SOAPSTONE)
-                .criterion(hasItem(ModBlocks.SOAPSTONE), conditionsFromItem(ModBlocks.SOAPSTONE))
-                .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
-                .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SOAP_ESPER_TILES, 4)
                 .pattern("XO")
                 .pattern("OX")
                 .input('X', ModBlocks.SOAPSTONE)
                 .input('O', ModBlocks.ESPERITE)
-                .criterion(hasItem(ModBlocks.SOAPSTONE), conditionsFromItem(ModBlocks.SOAPSTONE))
-                .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
-                .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ESPER_SOAP_TILES, 4)
-                .pattern("XO")
-                .pattern("OX")
-                .input('X', ModBlocks.ESPERITE)
-                .input('O', ModBlocks.SOAPSTONE)
                 .criterion(hasItem(ModBlocks.SOAPSTONE), conditionsFromItem(ModBlocks.SOAPSTONE))
                 .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
                 .offerTo(exporter);
@@ -410,27 +394,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.SOAPSTONE), conditionsFromItem(ModBlocks.SOAPSTONE))
                 .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
                 .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MARBLE_SOAP_TILES, 4)
-                .pattern("XO")
-                .pattern("OX")
-                .input('X', ModBlocks.MARBLE)
-                .input('O', ModBlocks.SOAPSTONE)
-                .criterion(hasItem(ModBlocks.SOAPSTONE), conditionsFromItem(ModBlocks.SOAPSTONE))
-                .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
-                .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MARBLE_LIME_TILES, 4)
                 .pattern("XO")
                 .pattern("OX")
                 .input('X', ModBlocks.MARBLE)
                 .input('O', ModBlocks.LIMESTONE)
-                .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
-                .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
-                .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_MARBLE_TILES, 4)
-                .pattern("XO")
-                .pattern("OX")
-                .input('X', ModBlocks.LIMESTONE)
-                .input('O', ModBlocks.MARBLE)
                 .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
                 .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
                 .offerTo(exporter);
@@ -442,14 +410,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
                 .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
                 .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ESPER_MARBLE_TILES, 4)
-                .pattern("XO")
-                .pattern("OX")
-                .input('X', ModBlocks.ESPERITE)
-                .input('O', ModBlocks.MARBLE)
-                .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
-                .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
-                .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_ESPER_TILES, 4)
                 .pattern("XO")
                 .pattern("OX")
@@ -458,18 +418,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
                 .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
                 .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ESPER_LIME_TILES, 4)
-                .pattern("XO")
-                .pattern("OX")
-                .input('X', ModBlocks.ESPERITE)
-                .input('O', ModBlocks.LIMESTONE)
-                .criterion(hasItem(ModBlocks.ESPERITE), conditionsFromItem(ModBlocks.ESPERITE))
-                .criterion(hasItem(ModBlocks.LIMESTONE), conditionsFromItem(ModBlocks.LIMESTONE))
-                .offerTo(exporter);
 
-        List<ItemConvertible> HEMATITE_SMELTABLES = List.of(ModBlocks.RAW_HEMATITE);
-        offerSmelting(exporter, HEMATITE_SMELTABLES, RecipeCategory.MISC, ModBlocks.REFINED_HEMATITE, 0.25f, 200, "stardew_ravine");
-        offerBlasting(exporter, HEMATITE_SMELTABLES, RecipeCategory.MISC, ModBlocks.REFINED_HEMATITE, 0.25f, 100, "stardew_ravine");
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HEMATITE_ROSE, 4)
                 .pattern(" X ")
                 .pattern("X X")
@@ -1171,5 +1120,59 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.REFINERY), conditionsFromItem(ModBlocks.REFINERY))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ELVISH_RING, 1)
+                .pattern("AG ")
+                .pattern("G G")
+                .pattern(" G ")
+                .input('G', Items.GOLD_INGOT)
+                .input('A', ModItems.AQUAMARINE)
+                .criterion(hasItem(ModItems.AQUAMARINE), conditionsFromItem(ModItems.AQUAMARINE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ORNATE_NECKLACE, 1)
+                .pattern(" G ")
+                .pattern("G G")
+                .pattern("JG ")
+                .input('G', Items.GOLD_INGOT)
+                .input('J', ModItems.JADE)
+                .criterion(hasItem(ModItems.JADE), conditionsFromItem(ModItems.JADE))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GILDED_BRACELET, 1)
+                .pattern(" GT")
+                .pattern("G G")
+                .pattern(" G ")
+                .input('G', Items.GOLD_INGOT)
+                .input('T', ModItems.TOPAZ)
+                .criterion(hasItem(ModItems.TOPAZ), conditionsFromItem(ModItems.TOPAZ))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.DWARVEN_TIARA, 1)
+                .pattern(" G ")
+                .pattern("G G")
+                .pattern(" GR")
+                .input('G', Items.GOLD_INGOT)
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.IRIDIUM_BAND, 1)
+                .pattern("AIT")
+                .pattern("IPI")
+                .pattern("JIR")
+                .input('I', ModItems.IRIDIUM_INGOT)
+                .input('A', ModItems.ELVISH_RING)
+                .input('T', ModItems.GILDED_BRACELET)
+                .input('J', ModItems.ORNATE_NECKLACE)
+                .input('R', ModItems.DWARVEN_TIARA)
+                .input('P', ModItems.PRISMATIC_SHARD)
+                .criterion(hasItem(ModItems.AQUAMARINE), conditionsFromItem(ModItems.AQUAMARINE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GALAXY_SOUL, 1)
+                .pattern("RPR")
+                .pattern("PNP")
+                .pattern("RPR")
+                .input('N', Items.NETHER_STAR)
+                .input('P', ModItems.PRISMATIC_SHARD)
+                .input('R', ModItems.RADIONITE_INGOT)
+                .criterion(hasItem(ModItems.PRISMATIC_SHARD), conditionsFromItem(ModItems.PRISMATIC_SHARD))
+                .offerTo(exporter);
     }
 }

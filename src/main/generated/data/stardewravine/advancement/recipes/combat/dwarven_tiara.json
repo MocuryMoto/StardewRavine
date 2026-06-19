@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_hematite": {
+    "has_ruby": {
       "conditions": {
         "items": [
           {
-            "items": "stardewravine:raw_hematite"
+            "items": "stardewravine:ruby"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:refined_hematite_from_smelting_raw_hematite"
+        "recipe": "stardewravine:dwarven_tiara"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_hematite"
+      "has_ruby"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:refined_hematite_from_smelting_raw_hematite"
+      "stardewravine:dwarven_tiara"
     ]
   }
 }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "P": {
+      "item": "stardewravine:prismatic_shard"
+    },
+    "R": {
+      "item": "stardewravine:radionite_ingot"
+    }
+  },
+  "pattern": [
+    "RPR",
+    "PNP",
+    "RPR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:galaxy_soul"
+  }
+}

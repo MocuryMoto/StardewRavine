@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "J": {
+      "item": "stardewravine:jade"
+    }
+  },
+  "pattern": [
+    " G ",
+    "G G",
+    "JG "
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:ornate_necklace"
+  }
+}

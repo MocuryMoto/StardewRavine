@@ -212,9 +212,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.PEACH_PLANKS.asItem())
                 .add(ModBlocks.FIDDLEHEAD_PLANKS.asItem())
         ;
+
         getOrCreateTagBuilder(ItemTags.PIGLIN_LOVED)
                 .add(ModItems.TOPAZ)
                 .add(ModBlocks.TOPAZ_BLOCK.asItem())
+                .add(ModItems.GILDED_BRACELET)
+                .add(ModItems.ORNATE_NECKLACE)
+                .add(ModItems.ELVISH_RING)
+                .add(ModItems.DWARVEN_TIARA)
         ;
     }
 }

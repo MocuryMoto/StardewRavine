@@ -29,12 +29,12 @@ public class ModArmorMaterials {
 
     public static final RegistryEntry<ArmorMaterial> NETHER_IRIDIUM_ARMOR_MATERIAL = registerArmorMaterial("nether_iridium",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-                map.put(ArmorItem.Type.BOOTS, 4);
-                map.put(ArmorItem.Type.LEGGINGS, 7);
-                map.put(ArmorItem.Type.CHESTPLATE, 9);
-                map.put(ArmorItem.Type.HELMET, 4);
-                map.put(ArmorItem.Type.BODY, 13);
-            }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(Items.NETHERITE_INGOT),
+                map.put(ArmorItem.Type.BOOTS, 5);
+                map.put(ArmorItem.Type.LEGGINGS, 8);
+                map.put(ArmorItem.Type.CHESTPLATE, 10);
+                map.put(ArmorItem.Type.HELMET, 5);
+                map.put(ArmorItem.Type.BODY, 15);
+            }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(ModItems.GALAXY_SOUL),
             List.of(new ArmorMaterial.Layer(Identifier.of(StardewRavine.MOD_ID, "nether_iridium"))), 2.5f, 0));
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material){

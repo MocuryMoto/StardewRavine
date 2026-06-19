@@ -20,7 +20,7 @@ public class SilverSpoonItem extends Item {
         user.getItemCooldownManager().set(this, 250);
 
         if (!world.isClient) {
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 250, 2));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 250, 1));
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 250, 1));
         }
 

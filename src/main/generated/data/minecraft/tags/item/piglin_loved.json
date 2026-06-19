@@ -1,6 +1,10 @@
 {
   "values": [
     "stardewravine:topaz",
-    "stardewravine:topaz_block"
+    "stardewravine:topaz_block",
+    "stardewravine:gilded_bracelet",
+    "stardewravine:ornate_necklace",
+    "stardewravine:elvish_ring",
+    "stardewravine:dwarven_tiara"
   ]
 }

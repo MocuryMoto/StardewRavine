@@ -1,4 +1,4 @@
-// 1.21	2026-06-18T11:26:01.857089	Stardew Ravine/Block Loot Tables
+// 1.21	2026-06-19T13:55:50.8570776	Stardew Ravine/Block Loot Tables
 1acbe19e3b96ff62305d2b164bc7b0749dc8f29b data\stardewravine\loot_table\blocks\end_frozen_geode_ore.json
 cd7d5bdc2052b37a91425ad463d43c8ae7c9a188 data\stardewravine\loot_table\blocks\polished_limestone.json
 e018a9a984b3c9fced5bc2b460670663bca358d3 data\stardewravine\loot_table\blocks\marble_esper_tiles.json
@@ -252,8 +252,8 @@ f4c305fc33cb15eb0a9cfd7edc9bd0bb155ac0f0 data\stardewravine\loot_table\blocks\ma
 506b79a745aa4a9718d8b516f5e395afc3d83c18 data\stardewravine\loot_table\blocks\refinery.json
 8998b73206e2903261d70379b46f21950059eb66 data\stardewravine\loot_table\blocks\jade_ore.json
 036de1af9c05a67d374d120c17e1631b54481d9a data\stardewravine\loot_table\blocks\apricot_stairs.json
-21a26faa71cca5aa232cc26d5df3fa84bff62146 data\stardewravine\loot_table\blocks\gray_scroll.json
 cd6b71319b46de4ecd8e3d4c315046cffb91201e data\stardewravine\loot_table\blocks\nether_iridium_ore.json
+21a26faa71cca5aa232cc26d5df3fa84bff62146 data\stardewravine\loot_table\blocks\gray_scroll.json
 87a83c94c6a035e7ab5cf5d904add35f98ca5945 data\stardewravine\loot_table\blocks\marble_pillar.json
 7324ed75a05514d8e18b3ca47acce521918bde45 data\stardewravine\loot_table\blocks\polished_malachite.json
 2586c533ef9b394dc24418eed43bdd6a4fc886ba data\stardewravine\loot_table\blocks\polished_fluorapatite.json

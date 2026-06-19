@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "minecraft:netherite_ingot"
+    "item": "stardewravine:galaxy_soul"
   },
   "base": {
     "item": "stardewravine:iridium_shovel"

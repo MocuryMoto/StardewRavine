@@ -9,18 +9,18 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
-public class GoldenSpurItem extends Item {
-    public GoldenSpurItem(Settings settings) {
+public class DwarvenTiaraItem extends Item {
+    public DwarvenTiaraItem(Settings settings) {
         super(settings);
     }
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack itemStack = user.getStackInHand(hand);
-        user.getItemCooldownManager().set(this, 250);
+        user.getItemCooldownManager().set(this, 300);
 
         if (!world.isClient) {
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 150, 1));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 100, 4));
         }
 
         return TypedActionResult.success(itemStack, world.isClient());

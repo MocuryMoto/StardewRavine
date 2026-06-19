@@ -1,4 +1,4 @@
-// 1.21	2026-06-18T11:26:01.8750883	Stardew Ravine/Tags for minecraft:block
+// 1.21	2026-06-19T13:55:50.8740768	Stardew Ravine/Tags for minecraft:block
 1668c67313790e6c365fe886e014bfd546658271 data\stardewravine\tags\block\orange_logs.json
 909b443791bf487532fbb22d2748496c0564ed23 data\minecraft\tags\block\fence_gates.json
 530105b8f4bc3147ab999739cb1e0d01bf8c5e27 data\minecraft\tags\block\flowers.json
@@ -14,8 +14,8 @@ c79fefb45000bf0cfa40343890f800abccef4275 data\stardewravine\tags\block\mystic_lo
 eaf27d420064eb387b7ca4d2d2fb95c386d667da data\minecraft\tags\block\wooden_fences.json
 8ce5b5ac2314d46cdebdeb9d99c156de800a24bc data\stardewravine\tags\block\apricot_logs.json
 ab1317b7949358f4ed9f2a59ba7c69b467b23415 data\minecraft\tags\block\wooden_doors.json
-40f4dfa166efbbb695e8dd6a80cc1cafaaa0921e data\minecraft\tags\block\logs_that_burn.json
 663f2715fe3fec98353c0556fdca62e1b45fbd7c data\minecraft\tags\block\wooden_slabs.json
+40f4dfa166efbbb695e8dd6a80cc1cafaaa0921e data\minecraft\tags\block\logs_that_burn.json
 db7ff6a88cc4f10ed58e067e1689cdce6ea641b0 data\minecraft\tags\block\wooden_trapdoors.json
 71ca3fb7cc504f9988871fb613cf3a1bec7fd5da data\stardewravine\tags\block\peach_logs.json
 06d9200e9602b0c31a4e7e5055fc7821c98a1643 data\stardewravine\tags\block\pomegranate_logs.json

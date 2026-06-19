@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "stardewravine:aquamarine"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "AG ",
+    "G G",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:elvish_ring"
+  }
+}

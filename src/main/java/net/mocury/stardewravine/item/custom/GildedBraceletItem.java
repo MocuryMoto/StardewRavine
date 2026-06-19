@@ -9,8 +9,8 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
-public class GoldenSpurItem extends Item {
-    public GoldenSpurItem(Settings settings) {
+public class GildedBraceletItem extends Item {
+    public GildedBraceletItem(Settings settings) {
         super(settings);
     }
 
@@ -20,7 +20,7 @@ public class GoldenSpurItem extends Item {
         user.getItemCooldownManager().set(this, 250);
 
         if (!world.isClient) {
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 150, 1));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 200, 0));
         }
 
         return TypedActionResult.success(itemStack, world.isClient());

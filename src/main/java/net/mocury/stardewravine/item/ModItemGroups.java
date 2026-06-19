@@ -92,6 +92,11 @@ public class ModItemGroups {
                         entries.add(ModItems.RUSTY_SPOON);
                         entries.add(ModItems.SILVER_SPOON);
                         entries.add(ModItems.DRIED_STARFISH);
+                        entries.add(ModItems.ELVISH_RING);
+                        entries.add(ModItems.ORNATE_NECKLACE);
+                        entries.add(ModItems.GILDED_BRACELET);
+                        entries.add(ModItems.DWARVEN_TIARA);
+                        entries.add(ModItems.IRIDIUM_BAND);
 
                         entries.add(ModBlocks.ESPERITE);
                         entries.add(ModBlocks.ESPERITE_SLAB);
@@ -142,17 +147,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LIMESTONE_PILLAR);
                         entries.add(ModBlocks.CHISELED_LIMESTONE);
                         entries.add(ModBlocks.SOAP_LIME_TILES);
-                        entries.add(ModBlocks.LIME_SOAP_TILES);
                         entries.add(ModBlocks.SOAP_ESPER_TILES);
-                        entries.add(ModBlocks.ESPER_SOAP_TILES);
                         entries.add(ModBlocks.SOAP_MARBLE_TILES);
-                        entries.add(ModBlocks.MARBLE_SOAP_TILES);
                         entries.add(ModBlocks.MARBLE_LIME_TILES);
-                        entries.add(ModBlocks.LIME_MARBLE_TILES);
                         entries.add(ModBlocks.MARBLE_ESPER_TILES);
-                        entries.add(ModBlocks.ESPER_MARBLE_TILES);
                         entries.add(ModBlocks.LIME_ESPER_TILES);
-                        entries.add(ModBlocks.ESPER_LIME_TILES);
 
                         entries.add(ModItems.CINDER_SHARD);
                         entries.add(ModBlocks.CINDER_SHARD_BLOCK);
@@ -517,6 +516,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.REFINERY);
                         entries.add(ModBlocks.CRYSTALARIUM);
+                        entries.add(ModItems.GALAXY_SOUL);
 
                     }).build());
 
@@ -618,17 +618,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LIMESTONE_PILLAR);
                         entries.add(ModBlocks.CHISELED_LIMESTONE);
                         entries.add(ModBlocks.SOAP_LIME_TILES);
-                        entries.add(ModBlocks.LIME_SOAP_TILES);
                         entries.add(ModBlocks.SOAP_ESPER_TILES);
-                        entries.add(ModBlocks.ESPER_SOAP_TILES);
                         entries.add(ModBlocks.SOAP_MARBLE_TILES);
-                        entries.add(ModBlocks.MARBLE_SOAP_TILES);
                         entries.add(ModBlocks.MARBLE_LIME_TILES);
-                        entries.add(ModBlocks.LIME_MARBLE_TILES);
                         entries.add(ModBlocks.MARBLE_ESPER_TILES);
-                        entries.add(ModBlocks.ESPER_MARBLE_TILES);
                         entries.add(ModBlocks.LIME_ESPER_TILES);
-                        entries.add(ModBlocks.ESPER_LIME_TILES);
 
                         entries.add(ModItems.CINDER_SHARD);
                         entries.add(ModBlocks.CINDER_SHARD_BLOCK);

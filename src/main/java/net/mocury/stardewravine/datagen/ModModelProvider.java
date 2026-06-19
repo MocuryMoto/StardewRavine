@@ -424,6 +424,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUSTY_SPOON, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SILVER_SPOON, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DRIED_STARFISH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ELVISH_RING, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DWARVEN_TIARA, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORNATE_NECKLACE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GILDED_BRACELET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.IRIDIUM_BAND, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.BIXITE_CHUNK, Models.GENERATED);
         itemModelGenerator.register(ModItems.TERRASINE, Models.GENERATED);
@@ -490,5 +495,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GHOST_CRYSTAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.TRELLIS, Models.GENERATED);
         itemModelGenerator.register(ModItems.EARTH_CRYSTAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GALAXY_SOUL, Models.GENERATED);
     }
 }

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "stardewravine:elvish_ring"
+    },
+    "I": {
+      "item": "stardewravine:iridium_ingot"
+    },
+    "J": {
+      "item": "stardewravine:ornate_necklace"
+    },
+    "P": {
+      "item": "stardewravine:prismatic_shard"
+    },
+    "R": {
+      "item": "stardewravine:dwarven_tiara"
+    },
+    "T": {
+      "item": "stardewravine:gilded_bracelet"
+    }
+  },
+  "pattern": [
+    "AIT",
+    "IPI",
+    "JIR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:iridium_band"
+  }
+}
