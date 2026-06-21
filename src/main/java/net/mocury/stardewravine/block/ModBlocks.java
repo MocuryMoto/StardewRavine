@@ -309,27 +309,15 @@ public class ModBlocks {
 
     public static final Block SOAP_LIME_TILES = registerBlock("soap_lime_tiles",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
-    public static final Block LIME_SOAP_TILES = registerBlock("lime_soap_tiles",
-            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block SOAP_ESPER_TILES = registerBlock("soap_esper_tiles",
-            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
-    public static final Block ESPER_SOAP_TILES = registerBlock("esper_soap_tiles",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block SOAP_MARBLE_TILES = registerBlock("soap_marble_tiles",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
-    public static final Block MARBLE_SOAP_TILES = registerBlock("marble_soap_tiles",
-            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block MARBLE_LIME_TILES = registerBlock("marble_lime_tiles",
-            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
-    public static final Block LIME_MARBLE_TILES = registerBlock("lime_marble_tiles",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block MARBLE_ESPER_TILES = registerBlock("marble_esper_tiles",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
-    public static final Block ESPER_MARBLE_TILES = registerBlock("esper_marble_tiles",
-            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
     public static final Block LIME_ESPER_TILES = registerBlock("lime_esper_tiles",
-            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
-    public static final Block ESPER_LIME_TILES = registerBlock("esper_lime_tiles",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool()));
 
     public static final Block FIRE_QUARTZ_BLOCK = registerBlock("fire_quartz_block",
@@ -400,16 +388,6 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
     public static final Block BROWN_SCROLL = registerBlock("brown_scroll",
             new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.BIG_DRIPLEAF)));
-
-    public static final Block MARBLE_LAPIS_ORE = registerBlock("marble_lapis_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
-                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
-    public static final Block LIMESTONE_LAPIS_ORE = registerBlock("limestone_lapis_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
-                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
-    public static final Block PYRITE_LAPIS_ORE = registerBlock("pyrite_lapis_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
-                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
 
     public static final Block GEODE_ORE = registerBlock("geode_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(0, 2),

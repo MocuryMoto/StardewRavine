@@ -137,17 +137,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.NEPTUNITE_BLOCK)
                 .add(ModBlocks.POLISHED_NEPTUNITE)
                 .add(ModBlocks.SOAP_LIME_TILES)
-                .add(ModBlocks.LIME_SOAP_TILES)
                 .add(ModBlocks.SOAP_ESPER_TILES)
-                .add(ModBlocks.ESPER_SOAP_TILES)
                 .add(ModBlocks.SOAP_MARBLE_TILES)
-                .add(ModBlocks.MARBLE_SOAP_TILES)
                 .add(ModBlocks.MARBLE_LIME_TILES)
-                .add(ModBlocks.LIME_MARBLE_TILES)
                 .add(ModBlocks.MARBLE_ESPER_TILES)
-                .add(ModBlocks.ESPER_MARBLE_TILES)
                 .add(ModBlocks.LIME_ESPER_TILES)
-                .add(ModBlocks.ESPER_LIME_TILES)
                 .add(ModBlocks.LUNARITE_BLOCK)
                 .add(ModBlocks.POLISHED_LUNARITE)
                 .add(ModBlocks.END_LUNARITE_ORE)
@@ -171,9 +165,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.NETHER_FIRE_OPAL_ORE)
                 .add(ModBlocks.END_FIRE_OPAL_ORE)
                 .add(ModBlocks.DEEPSLATE_FIRE_OPAL_ORE)
-                .add(ModBlocks.MARBLE_LAPIS_ORE)
-                .add(ModBlocks.LIMESTONE_LAPIS_ORE)
-                .add(ModBlocks.PYRITE_LAPIS_ORE)
                 .add(ModBlocks.GEODE_ORE)
                 .add(ModBlocks.DEEPSLATE_GEODE_ORE)
                 .add(ModBlocks.FROZEN_GEODE_ORE)
@@ -192,12 +183,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BIXITE)
                 .add(ModBlocks.POLISHED_BIXITE)
                 .add(ModBlocks.TERRASINE_BLOCK)
-        ;
-
-        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.MARBLE_LAPIS_ORE)
-                .add(ModBlocks.LIMESTONE_LAPIS_ORE)
-                .add(ModBlocks.PYRITE_LAPIS_ORE)
         ;
 
 

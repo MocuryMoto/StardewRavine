@@ -146,9 +146,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LIMESTONE_BRICKS);
                         entries.add(ModBlocks.LIMESTONE_PILLAR);
                         entries.add(ModBlocks.CHISELED_LIMESTONE);
+                        entries.add(ModBlocks.SOAP_MARBLE_TILES);
                         entries.add(ModBlocks.SOAP_LIME_TILES);
                         entries.add(ModBlocks.SOAP_ESPER_TILES);
-                        entries.add(ModBlocks.SOAP_MARBLE_TILES);
                         entries.add(ModBlocks.MARBLE_LIME_TILES);
                         entries.add(ModBlocks.MARBLE_ESPER_TILES);
                         entries.add(ModBlocks.LIME_ESPER_TILES);
@@ -225,10 +225,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_MALACHITE);
                         entries.add(ModBlocks.CALCITE_MALACHITE_ORE);
                         entries.add(ModBlocks.LIMESTONE_MALACHITE_ORE);
-
-                        entries.add(ModBlocks.LIMESTONE_LAPIS_ORE);
-                        entries.add(ModBlocks.MARBLE_LAPIS_ORE);
-                        entries.add(ModBlocks.PYRITE_LAPIS_ORE);
 
                         entries.add(ModItems.OPAL);
                         entries.add(ModBlocks.OPAL_BLOCK);
@@ -617,9 +613,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LIMESTONE_BRICKS);
                         entries.add(ModBlocks.LIMESTONE_PILLAR);
                         entries.add(ModBlocks.CHISELED_LIMESTONE);
+                        entries.add(ModBlocks.SOAP_MARBLE_TILES);
                         entries.add(ModBlocks.SOAP_LIME_TILES);
                         entries.add(ModBlocks.SOAP_ESPER_TILES);
-                        entries.add(ModBlocks.SOAP_MARBLE_TILES);
                         entries.add(ModBlocks.MARBLE_LIME_TILES);
                         entries.add(ModBlocks.MARBLE_ESPER_TILES);
                         entries.add(ModBlocks.LIME_ESPER_TILES);
@@ -694,10 +690,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_MALACHITE);
                         entries.add(ModBlocks.CALCITE_MALACHITE_ORE);
                         entries.add(ModBlocks.LIMESTONE_MALACHITE_ORE);
-
-                        entries.add(ModBlocks.LIMESTONE_LAPIS_ORE);
-                        entries.add(ModBlocks.MARBLE_LAPIS_ORE);
-                        entries.add(ModBlocks.PYRITE_LAPIS_ORE);
 
                         entries.add(ModItems.OPAL);
                         entries.add(ModBlocks.OPAL_BLOCK);

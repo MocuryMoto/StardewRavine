@@ -1,4 +1,4 @@
-// 1.21	2026-06-19T13:55:50.8740768	Stardew Ravine/Tags for minecraft:block
+// 1.21	2026-06-21T16:11:51.39064	Stardew Ravine/Tags for minecraft:block
 1668c67313790e6c365fe886e014bfd546658271 data\stardewravine\tags\block\orange_logs.json
 909b443791bf487532fbb22d2748496c0564ed23 data\minecraft\tags\block\fence_gates.json
 530105b8f4bc3147ab999739cb1e0d01bf8c5e27 data\minecraft\tags\block\flowers.json
@@ -7,15 +7,14 @@ a249c46329a41538f49a564e1f14338aaf1be5a0 data\stardewravine\tags\block\needs_net
 782c65b5d25a0597f5f510cab96a807b6924e1a4 data\stardewravine\tags\block\mango_logs.json
 64a3af419bcdab763ac017ca079b053492a1959c data\stardewravine\tags\block\banana_logs.json
 fda72e62e0179bedcdeeb193a5d1c5b750fa84c9 data\minecraft\tags\block\mineable\hoe.json
-6ec21c6bf326ed64652a04d3ec7ec4e5b56a698d data\minecraft\tags\block\needs_stone_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\stardewravine\tags\block\needs_iridium_tool.json
 c79fefb45000bf0cfa40343890f800abccef4275 data\stardewravine\tags\block\mystic_logs.json
 30176be5dd640e06692821cee3dfc5d500321bb6 data\minecraft\tags\block\wooden_stairs.json
 eaf27d420064eb387b7ca4d2d2fb95c386d667da data\minecraft\tags\block\wooden_fences.json
 8ce5b5ac2314d46cdebdeb9d99c156de800a24bc data\stardewravine\tags\block\apricot_logs.json
 ab1317b7949358f4ed9f2a59ba7c69b467b23415 data\minecraft\tags\block\wooden_doors.json
-663f2715fe3fec98353c0556fdca62e1b45fbd7c data\minecraft\tags\block\wooden_slabs.json
 40f4dfa166efbbb695e8dd6a80cc1cafaaa0921e data\minecraft\tags\block\logs_that_burn.json
+663f2715fe3fec98353c0556fdca62e1b45fbd7c data\minecraft\tags\block\wooden_slabs.json
 db7ff6a88cc4f10ed58e067e1689cdce6ea641b0 data\minecraft\tags\block\wooden_trapdoors.json
 71ca3fb7cc504f9988871fb613cf3a1bec7fd5da data\stardewravine\tags\block\peach_logs.json
 06d9200e9602b0c31a4e7e5055fc7821c98a1643 data\stardewravine\tags\block\pomegranate_logs.json
@@ -26,7 +25,7 @@ c166ae55ab6e1b9a641de597568373420d89df43 data\stardewravine\tags\block\maple_log
 4d16f512c4c2718b7700a60ca46d82344980d8ad data\stardewravine\tags\block\fiddlehead_logs.json
 b3333078a28e587a4ed22296449f6a5568eee65e data\minecraft\tags\block\walls.json
 eaf27d420064eb387b7ca4d2d2fb95c386d667da data\minecraft\tags\block\fences.json
-2e87fd28bf2a2f35939bf30b280494291dad1dcb data\minecraft\tags\block\mineable\pickaxe.json
+957d12f246ce72c2347e5b2c5a7a53c5c228758a data\minecraft\tags\block\mineable\pickaxe.json
 94ae81576d769ac40ff2dc344e84cad26e9ba296 data\minecraft\tags\block\needs_iron_tool.json
 bc5f1e5903060a769c410dd6edb68b205bd86c8b data\minecraft\tags\block\tall_flowers.json
 eddef749db93a322ed7058ec5d4ffb70187187c2 data\minecraft\tags\block\planks.json

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "stardewravine:block/pyrite_lapis_ore"
-  }
-}

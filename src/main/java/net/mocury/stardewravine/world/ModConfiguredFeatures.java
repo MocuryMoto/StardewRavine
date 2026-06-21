@@ -60,6 +60,11 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> TERRASINE_ORE_KEY = registerKey("terrasine_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> FAIRY_ORE_KEY = registerKey("fairy_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> LUNARITE_ORE_KEY = registerKey("lunarite_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> OPAL_ORE_KEY = registerKey("opal_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> FIRE_OPAL_ORE_KEY = registerKey("fire_opal_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> END_OPAL_ORE_KEY = registerKey("end_opal_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> NETHER_FIRE_OPAL_ORE_KEY = registerKey("nether_fire_opal_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> END_FIRE_OPAL_ORE_KEY = registerKey("end_fire_opal_ore");
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> MAPLE_KEY = registerKey("maple");
     public static final RegistryKey<ConfiguredFeature<?, ?>> MYSTIC_KEY = registerKey("mystic");
@@ -152,6 +157,18 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(endReplaceables, ModBlocks.END_FAIRY_ORE.getDefaultState()));
         List<OreFeatureConfig.Target> endLunariteOres =
                 List.of(OreFeatureConfig.createTarget(endReplaceables, ModBlocks.END_LUNARITE_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> overworldOpalOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.OPAL_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_OPAL_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> overworldFireOpalOres =
+                List.of(OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_FIRE_OPAL_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> netherFireOpalOres =
+                List.of(OreFeatureConfig.createTarget(netherReplaceables, ModBlocks.NETHER_FIRE_OPAL_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> endOpalOres =
+                List.of(OreFeatureConfig.createTarget(endReplaceables, ModBlocks.END_OPAL_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> endFireOpalOres =
+                List.of(OreFeatureConfig.createTarget(endReplaceables, ModBlocks.END_FIRE_OPAL_ORE.getDefaultState()));
+
 
 
         register(context, IRIDIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldIridiumOres, 3));
@@ -181,6 +198,11 @@ public class ModConfiguredFeatures {
         register(context, TERRASINE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTerrasineOres, 33));
         register(context, FAIRY_ORE_KEY, Feature.ORE, new OreFeatureConfig(endFairyOres, 9));
         register(context, LUNARITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(endLunariteOres, 5));
+        register(context, OPAL_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldOpalOres, 5));
+        register(context, FIRE_OPAL_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldFireOpalOres, 5));
+        register(context, NETHER_FIRE_OPAL_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherFireOpalOres, 6));
+        register(context, END_OPAL_ORE_KEY, Feature.ORE, new OreFeatureConfig(endOpalOres, 6));
+        register(context, END_FIRE_OPAL_ORE_KEY, Feature.ORE, new OreFeatureConfig(endFireOpalOres, 5));
 
 
         register(context, MAPLE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(

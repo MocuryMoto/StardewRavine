@@ -41,6 +41,11 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> TERRASINE_ORE_PLACED_KEY = registerKey("terrasine_ore_placed");
     public static final RegistryKey<PlacedFeature> FAIRY_ORE_PLACED_KEY = registerKey("fairy_ore_placed");
     public static final RegistryKey<PlacedFeature> LUNARITE_ORE_PLACED_KEY = registerKey("lunarite_ore_placed");
+    public static final RegistryKey<PlacedFeature> OPAL_ORE_PLACED_KEY = registerKey("opal_ore_placed");
+    public static final RegistryKey<PlacedFeature> END_OPAL_ORE_PLACED_KEY = registerKey("end_opal_ore_placed");
+    public static final RegistryKey<PlacedFeature> FIRE_OPAL_ORE_PLACED_KEY = registerKey("fire_opal_ore_placed");
+    public static final RegistryKey<PlacedFeature> END_FIRE_OPAL_ORE_PLACED_KEY = registerKey("end_fire_opal_ore_placed");
+    public static final RegistryKey<PlacedFeature> NETHER_FIRE_OPAL_ORE_PLACED_KEY = registerKey("nether_fire_opal_ore_placed");
 
     public static final RegistryKey<PlacedFeature> MAPLE_PLACED_KEY = registerKey("maple_placed");
     public static final RegistryKey<PlacedFeature> APRICOT_PLACED_KEY = registerKey("apricot_placed");
@@ -64,7 +69,7 @@ public class ModPlacedFeatures {
                 ModOrePlacement.modifiersWithCount(7, //veins per chunk
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(-40))));
         register(context, NETHER_IRIDIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_IRIDIUM_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(14, //veins per chunk
+                ModOrePlacement.modifiersWithCount(10, //veins per chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(90), YOffset.fixed(130))));
         register(context, NETHER_RADIONITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_RADIONITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(7, //veins per chunk
@@ -101,7 +106,7 @@ public class ModPlacedFeatures {
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-40), YOffset.fixed(64))));
         register(context, END_FROZEN_GEODE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_FROZEN_GEODE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(5, //veins per chunk
-                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(32), YOffset.fixed(64))));
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(10), YOffset.fixed(64))));
         register(context, NETHER_MAGMA_GEODE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_MAGMA_GEODE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(12, //veins per chunk
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(127))));
@@ -115,7 +120,7 @@ public class ModPlacedFeatures {
                 ModOrePlacement.modifiersWithCount(6, //veins per chunk
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(48))));
         register(context, ESPERITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ESPERITE_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(2, //veins per chunk
+                ModOrePlacement.modifiersWithCount(1, //veins per chunk
                         HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(128))));
         register(context, MARBLE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MARBLE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(2, //veins per chunk
@@ -141,6 +146,21 @@ public class ModPlacedFeatures {
         register(context, LUNARITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LUNARITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(4, //veins per chunk
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(32), YOffset.fixed(56))));
+        register(context, OPAL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OPAL_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(4, //veins per chunk
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-32), YOffset.fixed(56))));
+        register(context, FIRE_OPAL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.FIRE_OPAL_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(4, //veins per chunk
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-56), YOffset.fixed(-32))));
+        register(context, END_OPAL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_OPAL_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(4, //veins per chunk
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(10), YOffset.fixed(56))));
+        register(context, END_FIRE_OPAL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_FIRE_OPAL_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(4, //veins per chunk
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(10), YOffset.fixed(56))));
+        register(context, NETHER_FIRE_OPAL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_FIRE_OPAL_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(4, //veins per chunk
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(32), YOffset.fixed(56))));
 
 
 

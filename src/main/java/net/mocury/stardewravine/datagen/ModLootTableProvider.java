@@ -88,17 +88,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POLISHED_SOAPSTONE_WALL);
         addDrop(ModBlocks.POLISHED_LIMESTONE_WALL);
         addDrop(ModBlocks.SOAP_LIME_TILES);
-        addDrop(ModBlocks.LIME_SOAP_TILES);
         addDrop(ModBlocks.SOAP_ESPER_TILES);
-        addDrop(ModBlocks.ESPER_SOAP_TILES);
         addDrop(ModBlocks.SOAP_MARBLE_TILES);
-        addDrop(ModBlocks.MARBLE_SOAP_TILES);
         addDrop(ModBlocks.MARBLE_LIME_TILES);
-        addDrop(ModBlocks.LIME_MARBLE_TILES);
         addDrop(ModBlocks.MARBLE_ESPER_TILES);
-        addDrop(ModBlocks.ESPER_MARBLE_TILES);
         addDrop(ModBlocks.LIME_ESPER_TILES);
-        addDrop(ModBlocks.ESPER_LIME_TILES);
 
         addDrop(ModBlocks.LEMON_STONE_BLOCK);
         addDrop(ModBlocks.POLISHED_LEMON_STONE);
@@ -371,9 +365,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CINDER_SHARD_ORE, multipleOreDrops(ModBlocks.CINDER_SHARD_ORE, ModItems.CINDER_SHARD, 2,5));
         addDrop(ModBlocks.CINDER_CLUSTER, multipleOreDrops(ModBlocks.CINDER_CLUSTER, ModItems.CINDER_SHARD, 1,4));
         addDrop(ModBlocks.FIRE_QUARTZ_ORE, multipleOreDrops(ModBlocks.FIRE_QUARTZ_ORE, ModItems.FIRE_QUARTZ, 2,4));
-        addDrop(ModBlocks.MARBLE_LAPIS_ORE, multipleOreDrops(ModBlocks.MARBLE_LAPIS_ORE, Items.LAPIS_LAZULI, 4, 9));
-        addDrop(ModBlocks.LIMESTONE_LAPIS_ORE, multipleOreDrops(ModBlocks.LIMESTONE_LAPIS_ORE, Items.LAPIS_LAZULI, 4, 9));
-        addDrop(ModBlocks.PYRITE_LAPIS_ORE, multipleOreDrops(ModBlocks.PYRITE_LAPIS_ORE, Items.LAPIS_LAZULI, 4, 9));
 
         addDropWithSilkTouch(ModBlocks.LARGE_CINDER_BUD);
         addDropWithSilkTouch(ModBlocks.MEDIUM_CINDER_BUD);
