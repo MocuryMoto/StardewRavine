@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stardewravine:kyanite_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:kyanite_tiles"
+  }
+}

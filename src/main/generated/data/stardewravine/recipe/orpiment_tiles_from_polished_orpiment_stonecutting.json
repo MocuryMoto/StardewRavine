@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stardewravine:polished_orpiment"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:orpiment_tiles"
+  }
+}

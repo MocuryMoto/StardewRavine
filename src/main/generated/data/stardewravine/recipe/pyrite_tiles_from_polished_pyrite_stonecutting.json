@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stardewravine:polished_pyrite"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:pyrite_tiles"
+  }
+}

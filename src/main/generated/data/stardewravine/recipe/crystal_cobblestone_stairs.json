@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "stardewravine:crystal_cobblestone"
+    }
+  },
+  "pattern": [
+    "C  ",
+    "CC ",
+    "CCC"
+  ],
+  "result": {
+    "count": 4,
+    "id": "stardewravine:crystal_cobblestone_stairs"
+  }
+}

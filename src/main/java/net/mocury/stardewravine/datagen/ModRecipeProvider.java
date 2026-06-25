@@ -1174,5 +1174,98 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.RADIONITE_INGOT)
                 .criterion(hasItem(ModItems.PRISMATIC_SHARD), conditionsFromItem(ModItems.PRISMATIC_SHARD))
                 .offerTo(exporter);
+
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.HELVINE_TILES, ModBlocks.POLISHED_HELVINE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEMON_STONE_TILES, ModBlocks.POLISHED_LEMON_STONE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TIGERS_EYE_TILES, ModBlocks.POLISHED_TIGERS_EYE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.KYANITE_TILES, ModBlocks.POLISHED_KYANITE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PYRITE_TILES, ModBlocks.POLISHED_PYRITE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORAPATITE_TILES, ModBlocks.POLISHED_FLUORAPATITE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JAGOITE_TILES, ModBlocks.POLISHED_JAGOITE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CELESTINE_TILES, ModBlocks.POLISHED_CELESTINE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GEMINITE_TILES, ModBlocks.POLISHED_GEMINITE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JASPER_TILES, ModBlocks.POLISHED_JASPER);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AERINITE_TILES, ModBlocks.POLISHED_AERINITE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORPIMENT_TILES, ModBlocks.POLISHED_ORPIMENT);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOLOMITE_TILES, ModBlocks.POLISHED_DOLOMITE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JAMBORITE_TILES, ModBlocks.POLISHED_JAMBORITE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEKOITE_TILES, ModBlocks.POLISHED_NEKOITE);
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEPTUNITE_TILES, ModBlocks.POLISHED_NEPTUNITE);
+
+        offerPolishedStoneRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_TILES, ModBlocks.REFINED_QUARTZ_BLOCK);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_COBBLESTONE, 2)
+                .pattern("CQ")
+                .pattern("QC")
+                .input('C', Blocks.COBBLESTONE)
+                .input('Q', ModItems.REFINED_QUARTZ)
+                .criterion(hasItem(ModItems.REFINED_QUARTZ), conditionsFromItem(ModItems.REFINED_QUARTZ))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_COBBLESTONE_STAIRS, 4)
+                .pattern("C  ")
+                .pattern("CC ")
+                .pattern("CCC")
+                .input('C', ModBlocks.CRYSTAL_COBBLESTONE)
+                .criterion(hasItem(ModBlocks.CRYSTAL_COBBLESTONE), conditionsFromItem(ModBlocks.CRYSTAL_COBBLESTONE))
+                .offerTo(exporter);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_COBBLESTONE_SLAB, ModBlocks.CRYSTAL_COBBLESTONE);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_COBBLESTONE_WALL, ModBlocks.CRYSTAL_COBBLESTONE);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_COBBLESTONE_STAIRS, ModBlocks.CRYSTAL_COBBLESTONE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_COBBLESTONE_SLAB, ModBlocks.CRYSTAL_COBBLESTONE, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_COBBLESTONE_WALL, ModBlocks.CRYSTAL_COBBLESTONE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_TILES, ModBlocks.REFINED_QUARTZ_BLOCK);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.HELVINE_TILES, ModBlocks.POLISHED_HELVINE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEMON_STONE_TILES, ModBlocks.POLISHED_LEMON_STONE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TIGERS_EYE_TILES, ModBlocks.POLISHED_TIGERS_EYE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.KYANITE_TILES, ModBlocks.POLISHED_KYANITE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PYRITE_TILES, ModBlocks.POLISHED_PYRITE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORAPATITE_TILES, ModBlocks.POLISHED_FLUORAPATITE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JAGOITE_TILES, ModBlocks.POLISHED_JAGOITE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CELESTINE_TILES, ModBlocks.POLISHED_CELESTINE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GEMINITE_TILES, ModBlocks.POLISHED_GEMINITE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JASPER_TILES, ModBlocks.POLISHED_JASPER);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AERINITE_TILES, ModBlocks.POLISHED_AERINITE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORPIMENT_TILES, ModBlocks.POLISHED_ORPIMENT);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOLOMITE_TILES, ModBlocks.POLISHED_DOLOMITE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JAMBORITE_TILES, ModBlocks.POLISHED_JAMBORITE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEKOITE_TILES, ModBlocks.POLISHED_NEKOITE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEPTUNITE_TILES, ModBlocks.POLISHED_NEPTUNITE);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_HELVINE, ModBlocks.HELVINE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_LEMON_STONE, ModBlocks.LEMON_STONE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_TIGERS_EYE, ModBlocks.TIGERS_EYE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_KYANITE, ModBlocks.KYANITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_PYRITE, ModBlocks.PYRITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_FLUORAPATITE, ModBlocks.FLUORAPATITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_JAGOITE, ModBlocks.JAGOITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_CELESTINE, ModBlocks.CELESTINE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_GEMINITE, ModBlocks.GEMINITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_JASPER, ModBlocks.JASPER_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_AERINITE, ModBlocks.AERINITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_ORPIMENT, ModBlocks.ORPIMENT_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_DOLOMITE, ModBlocks.DOLOMITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_JAMBORITE, ModBlocks.JAMBORITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_NEKOITE, ModBlocks.NEKOITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_NEPTUNITE, ModBlocks.NEPTUNITE_BLOCK);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.HELVINE_TILES, ModBlocks.HELVINE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEMON_STONE_TILES, ModBlocks.LEMON_STONE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TIGERS_EYE_TILES, ModBlocks.TIGERS_EYE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.KYANITE_TILES, ModBlocks.KYANITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PYRITE_TILES, ModBlocks.PYRITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORAPATITE_TILES, ModBlocks.FLUORAPATITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JAGOITE_TILES, ModBlocks.JAGOITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CELESTINE_TILES, ModBlocks.CELESTINE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GEMINITE_TILES, ModBlocks.GEMINITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JASPER_TILES, ModBlocks.JASPER_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AERINITE_TILES, ModBlocks.AERINITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORPIMENT_TILES, ModBlocks.ORPIMENT_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOLOMITE_TILES, ModBlocks.DOLOMITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JAMBORITE_TILES, ModBlocks.JAMBORITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEKOITE_TILES, ModBlocks.NEKOITE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEPTUNITE_TILES, ModBlocks.NEPTUNITE_BLOCK);
+
+
     }
 }

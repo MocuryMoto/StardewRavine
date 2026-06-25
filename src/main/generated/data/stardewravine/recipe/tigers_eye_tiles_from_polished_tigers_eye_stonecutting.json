@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stardewravine:polished_tigers_eye"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:tigers_eye_tiles"
+  }
+}

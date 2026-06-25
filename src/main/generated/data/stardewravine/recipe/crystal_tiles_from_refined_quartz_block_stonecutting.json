@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stardewravine:refined_quartz_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:crystal_tiles"
+  }
+}

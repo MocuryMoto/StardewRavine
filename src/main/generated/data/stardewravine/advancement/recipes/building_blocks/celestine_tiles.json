@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_polished_celestine": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:polished_celestine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stardewravine:celestine_tiles"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_polished_celestine"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stardewravine:celestine_tiles"
+    ]
+  }
+}

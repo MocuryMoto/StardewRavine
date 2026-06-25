@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crystal_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:crystal_cobblestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stardewravine:crystal_cobblestone_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_crystal_cobblestone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stardewravine:crystal_cobblestone_wall"
+    ]
+  }
+}

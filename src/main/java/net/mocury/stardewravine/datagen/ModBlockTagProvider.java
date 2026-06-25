@@ -183,6 +183,29 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BIXITE)
                 .add(ModBlocks.POLISHED_BIXITE)
                 .add(ModBlocks.TERRASINE_BLOCK)
+
+                .add(ModBlocks.HELVINE_TILES)
+                .add(ModBlocks.LEMON_STONE_TILES)
+                .add(ModBlocks.TIGERS_EYE_TILES)
+                .add(ModBlocks.KYANITE_TILES)
+                .add(ModBlocks.PYRITE_TILES)
+                .add(ModBlocks.FLUORAPATITE_TILES)
+                .add(ModBlocks.JAGOITE_TILES)
+                .add(ModBlocks.CELESTINE_TILES)
+                .add(ModBlocks.GEMINITE_TILES)
+                .add(ModBlocks.JASPER_TILES)
+                .add(ModBlocks.AERINITE_TILES)
+                .add(ModBlocks.ORPIMENT_TILES)
+                .add(ModBlocks.DOLOMITE_TILES)
+                .add(ModBlocks.JAMBORITE_TILES)
+                .add(ModBlocks.NEKOITE_TILES)
+                .add(ModBlocks.NEPTUNITE_TILES)
+
+                .add(ModBlocks.CRYSTAL_COBBLESTONE)
+                .add(ModBlocks.CRYSTAL_COBBLESTONE_STAIRS)
+                .add(ModBlocks.CRYSTAL_COBBLESTONE_SLAB)
+                .add(ModBlocks.CRYSTAL_COBBLESTONE_WALL)
+                .add(ModBlocks.CRYSTAL_TILES)
         ;
 
 
@@ -239,6 +262,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_SOAPSTONE_WALL)
                 .add(ModBlocks.LIMESTONE_WALL)
                 .add(ModBlocks.POLISHED_LIMESTONE_WALL)
+                .add(ModBlocks.CRYSTAL_COBBLESTONE_WALL)
         ;
 
         getOrCreateTagBuilder(BlockTags.FLOWERS)

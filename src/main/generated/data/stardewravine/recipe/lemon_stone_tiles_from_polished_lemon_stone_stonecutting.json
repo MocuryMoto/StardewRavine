@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stardewravine:polished_lemon_stone"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:lemon_stone_tiles"
+  }
+}

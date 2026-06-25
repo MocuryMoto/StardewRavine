@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "stardewravine:block/crystal_cobblestone",
+    "side": "stardewravine:block/crystal_cobblestone",
+    "top": "stardewravine:block/crystal_cobblestone"
+  }
+}

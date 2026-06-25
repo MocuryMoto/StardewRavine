@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_polished_tigers_eye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:polished_tigers_eye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "stardewravine:tigers_eye_tiles"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_polished_tigers_eye"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stardewravine:tigers_eye_tiles"
+    ]
+  }
+}

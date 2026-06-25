@@ -485,8 +485,31 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GHOST_CRYSTAL_BLOCK, multipleOreDrops(ModBlocks.GHOST_CRYSTAL_BLOCK, ModItems.GHOST_CRYSTAL, 2, 5));
         addDropWithSilkTouch(ModBlocks.GHOST_GLASS);
 
+        addDrop(ModBlocks.CRYSTAL_COBBLESTONE);
+        addDrop(ModBlocks.CRYSTAL_COBBLESTONE_SLAB, slabDrops(ModBlocks.CRYSTAL_COBBLESTONE_SLAB));
+        addDrop(ModBlocks.CRYSTAL_COBBLESTONE_STAIRS);
+        addDrop(ModBlocks.CRYSTAL_COBBLESTONE_WALL);
+        addDrop(ModBlocks.CRYSTAL_TILES);
+
         addDrop(ModBlocks.REFINERY);
         addDrop(ModBlocks.CRYSTALARIUM);
+
+        addDrop(ModBlocks.HELVINE_TILES);
+        addDrop(ModBlocks.LEMON_STONE_TILES);
+        addDrop(ModBlocks.TIGERS_EYE_TILES);
+        addDrop(ModBlocks.KYANITE_TILES);
+        addDrop(ModBlocks.PYRITE_TILES);
+        addDrop(ModBlocks.FLUORAPATITE_TILES);
+        addDrop(ModBlocks.JAGOITE_TILES);
+        addDrop(ModBlocks.CELESTINE_TILES);
+        addDrop(ModBlocks.GEMINITE_TILES);
+        addDrop(ModBlocks.JASPER_TILES);
+        addDrop(ModBlocks.AERINITE_TILES);
+        addDrop(ModBlocks.ORPIMENT_TILES);
+        addDrop(ModBlocks.DOLOMITE_TILES);
+        addDrop(ModBlocks.JAMBORITE_TILES);
+        addDrop(ModBlocks.NEKOITE_TILES);
+        addDrop(ModBlocks.NEPTUNITE_TILES);
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

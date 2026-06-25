@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stardewravine:polished_celestine"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:celestine_tiles"
+  }
+}

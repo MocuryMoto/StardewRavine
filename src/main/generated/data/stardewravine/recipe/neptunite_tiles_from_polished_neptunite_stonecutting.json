@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "stardewravine:polished_neptunite"
+  },
+  "result": {
+    "count": 1,
+    "id": "stardewravine:neptunite_tiles"
+  }
+}

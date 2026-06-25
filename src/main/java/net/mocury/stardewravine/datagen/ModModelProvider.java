@@ -360,6 +360,30 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GHOST_CRYSTAL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GHOST_GLASS);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HELVINE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LEMON_STONE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIGERS_EYE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.KYANITE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PYRITE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLUORAPATITE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.JAGOITE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CELESTINE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GEMINITE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.JASPER_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AERINITE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORPIMENT_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DOLOMITE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.JAMBORITE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NEKOITE_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NEPTUNITE_TILES);
+
+        BlockStateModelGenerator.BlockTexturePool crystalCobblestonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CRYSTAL_COBBLESTONE);
+        crystalCobblestonePool.stairs(ModBlocks.CRYSTAL_COBBLESTONE_STAIRS);
+        crystalCobblestonePool.slab(ModBlocks.CRYSTAL_COBBLESTONE_SLAB);
+        crystalCobblestonePool.wall(ModBlocks.CRYSTAL_COBBLESTONE_WALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRYSTAL_TILES);
+
+
     }
 
     @Override

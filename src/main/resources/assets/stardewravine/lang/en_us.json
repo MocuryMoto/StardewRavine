@@ -500,6 +500,31 @@
   "block.stardewravine.refinery": "Refinery",
   "block.stardewravine.crystalarium": "Crystalarium",
 
+  "block.stardewravine.helvine_tiles": "Helvine Tiles",
+  "block.stardewravine.lemon_stone_tiles": "Lemon Stone Tiles",
+  "block.stardewravine.tigers_eye_tiles": "Tiger's Eye Tiles",
+  "block.stardewravine.kyanite_tiles": "Kyanite Tiles",
+  "block.stardewravine.pyrite_tiles": "Pyrite Tiles",
+  "block.stardewravine.fluorapatite_tiles": "Fluorapatite Tiles",
+  "block.stardewravine.jagoite_tiles": "Jagoite Tiles",
+  "block.stardewravine.celestine_tiles": "Celestine Tiles",
+  "block.stardewravine.geminite_tiles": "Geminite Tiles",
+  "block.stardewravine.jasper_tiles": "Jasper Tiles",
+  "block.stardewravine.aerinite_tiles": "Aerinite Tiles",
+  "block.stardewravine.orpiment_tiles": "Orpiment Tiles",
+  "block.stardewravine.dolomite_tiles": "Dolomite Tiles",
+  "block.stardewravine.jamborite_tiles": "Jamborite Tiles",
+  "block.stardewravine.nekoite_tiles": "Nekoite Tiles",
+  "block.stardewravine.neptunite_tiles": "Neptunite Tiles",
+
+  "block.stardewravine.crystal_cobblestone": "Crystal Cobblestone",
+  "block.stardewravine.crystal_cobblestone_slab": "Crystal Cobblestone Slab",
+  "block.stardewravine.crystal_cobblestone_stairs": "Crystal Cobblestone Stairs",
+  "block.stardewravine.crystal_cobblestone_wall": "Crystal Cobblestone Wall",
+  "block.stardewravine.crystal_tiles": "Crystal Tiles",
+
+
+
   "itemgroup.stardewravine.stardew_ravine_items": "Stardew Ravine",
   "itemgroup.stardewravine.stardew_ravine_minerals": "Stardew Ravine Minerals",
   "itemgroup.stardewravine.stardew_ravine_plants": "Stardew Ravine Plants",

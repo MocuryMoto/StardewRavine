@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardewravine:block/crystal_cobblestone_slab"
+    },
+    "type=double": {
+      "model": "stardewravine:block/crystal_cobblestone"
+    },
+    "type=top": {
+      "model": "stardewravine:block/crystal_cobblestone_slab_top"
+    }
+  }
+}

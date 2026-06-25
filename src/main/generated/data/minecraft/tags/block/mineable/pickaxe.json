@@ -164,6 +164,27 @@
     "stardewravine:end_fairy_ore",
     "stardewravine:bixite",
     "stardewravine:polished_bixite",
-    "stardewravine:terrasine_block"
+    "stardewravine:terrasine_block",
+    "stardewravine:helvine_tiles",
+    "stardewravine:lemon_stone_tiles",
+    "stardewravine:tigers_eye_tiles",
+    "stardewravine:kyanite_tiles",
+    "stardewravine:pyrite_tiles",
+    "stardewravine:fluorapatite_tiles",
+    "stardewravine:jagoite_tiles",
+    "stardewravine:celestine_tiles",
+    "stardewravine:geminite_tiles",
+    "stardewravine:jasper_tiles",
+    "stardewravine:aerinite_tiles",
+    "stardewravine:orpiment_tiles",
+    "stardewravine:dolomite_tiles",
+    "stardewravine:jamborite_tiles",
+    "stardewravine:nekoite_tiles",
+    "stardewravine:neptunite_tiles",
+    "stardewravine:crystal_cobblestone",
+    "stardewravine:crystal_cobblestone_stairs",
+    "stardewravine:crystal_cobblestone_slab",
+    "stardewravine:crystal_cobblestone_wall",
+    "stardewravine:crystal_tiles"
   ]
 }
