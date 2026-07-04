@@ -209,6 +209,13 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCrop(ModBlocks.CHILI_PEPPER_CROP, ChiliPepperCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
         blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP, TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
         blockStateModelGenerator.registerCrop(ModBlocks.SUMMER_SQUASH_CROP, SummerSquashCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.GRAPE_CROP, GrapeCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.ARTICHOKE_CROP, ArtichokeCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.BOK_CHOY_CROP, BokChoyCropBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.BROCCOLI_CROP, BroccoliCropBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.EGGPLANT_CROP, EggplantCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.YAM_CROP, YamCropBlock.AGE, 0, 1, 2, 3, 4);
+
 
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLUEBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
                 BlueberryBushBlock.AGE, 0, 1, 2, 3, 4);
@@ -220,6 +227,11 @@ public class ModModelProvider extends FabricModelProvider {
                 CoffeeBushBlock.AGE, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.SPICE_BERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
                 SpiceBerryBushBlock.AGE, 0, 1, 2, 3);
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.CRANBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                CranberryBushBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLACKBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                BlackberryBushBlock.AGE, 0, 1, 2, 3);
+
 
 
         blockStateModelGenerator.registerLog(ModBlocks.MAPLE_LOG).log(ModBlocks.MAPLE_LOG).wood(ModBlocks.MAPLE_WOOD);
@@ -470,6 +482,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CHILI_PEPPER, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.SUMMER_SQUASH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GRAPES, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ARTICHOKE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BOK_CHOY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BROCCOLI, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EGGPLANT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.IRIDIUM_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRIDIUM_PICKAXE, Models.HANDHELD);

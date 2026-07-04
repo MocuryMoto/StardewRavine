@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stardewravine:bok_choy"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:bok_choy_seeds"
+  }
+}

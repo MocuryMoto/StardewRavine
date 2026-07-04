@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "stardewravine:block/blackberry_bush_stage0"
+  }
+}

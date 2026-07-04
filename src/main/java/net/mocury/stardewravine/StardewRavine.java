@@ -82,6 +82,20 @@ public class StardewRavine implements ModInitializer {
 		CompostingChanceRegistry.INSTANCE.add(ModItems.PEACH, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.MIXED_SEEDS, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.SPICE_BERRY, 0.2f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.GRAPES, 0.2f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.GRAPE_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.ARTICHOKE, 0.4f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.ARTICHOKE_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.BOK_CHOY, 0.2f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.BOK_CHOY_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.BROCCOLI, 0.4f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.BROCCOLI_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.EGGPLANT, 0.4f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.EGGPLANT_SEEDS, 0.1f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.YAM, 0.3f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.CRANBERRIES, 0.2f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.BLACKBERRY, 0.2f);
+
 
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_LOG, ModBlocks.STRIPPED_MAPLE_LOG);
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_WOOD, ModBlocks.STRIPPED_MAPLE_WOOD);

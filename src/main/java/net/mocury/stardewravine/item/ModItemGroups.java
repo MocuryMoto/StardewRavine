@@ -361,6 +361,20 @@ public class ModItemGroups {
                         entries.add(ModItems.COFFEE_BEANS);
                         entries.add(ModItems.BLUEBERRIES);
                         entries.add(ModItems.SPICE_BERRY);
+                        entries.add(ModItems.GRAPES);
+                        entries.add(ModItems.GRAPE_SEEDS);
+                        entries.add(ModItems.ARTICHOKE);
+                        entries.add(ModItems.ARTICHOKE_SEEDS);
+                        entries.add(ModItems.BOK_CHOY);
+                        entries.add(ModItems.BOK_CHOY_SEEDS);
+                        entries.add(ModItems.BROCCOLI);
+                        entries.add(ModItems.BROCCOLI_SEEDS);
+                        entries.add(ModItems.EGGPLANT);
+                        entries.add(ModItems.EGGPLANT_SEEDS);
+                        entries.add(ModItems.YAM);
+                        entries.add(ModItems.CRANBERRIES);
+                        entries.add(ModItems.BLACKBERRY);
+
 
                         entries.add(ModItems.MAPLE_SYRUP);
                         entries.add(ModBlocks.MAPLE_SAPLING);
@@ -843,6 +857,20 @@ public class ModItemGroups {
                         entries.add(ModItems.COFFEE_BEANS);
                         entries.add(ModItems.BLUEBERRIES);
                         entries.add(ModItems.SPICE_BERRY);
+                        entries.add(ModItems.GRAPES);
+                        entries.add(ModItems.GRAPE_SEEDS);
+                        entries.add(ModItems.ARTICHOKE);
+                        entries.add(ModItems.ARTICHOKE_SEEDS);
+                        entries.add(ModItems.BOK_CHOY);
+                        entries.add(ModItems.BOK_CHOY_SEEDS);
+                        entries.add(ModItems.BROCCOLI);
+                        entries.add(ModItems.BROCCOLI_SEEDS);
+                        entries.add(ModItems.EGGPLANT);
+                        entries.add(ModItems.EGGPLANT_SEEDS);
+                        entries.add(ModItems.YAM);
+                        entries.add(ModItems.CRANBERRIES);
+                        entries.add(ModItems.BLACKBERRY);
+
 
                         entries.add(ModItems.MAPLE_SYRUP);
                         entries.add(ModBlocks.MAPLE_SAPLING);

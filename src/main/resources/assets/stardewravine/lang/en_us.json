@@ -137,6 +137,19 @@
   "item.stardewravine.summer_squash_seeds": "Summer Squash Seeds",
   "item.stardewravine.spice_berry": "Spice Berry",
   "item.stardewravine.galaxy_soul": "Galaxy Soul",
+  "item.stardewravine.grapes": "Grapes",
+  "item.stardewravine.grape_seeds": "Grape Starter",
+  "item.stardewravine.artichoke": "Artichoke",
+  "item.stardewravine.artichoke_seeds": "Artichoke Seeds",
+  "item.stardewravine.bok_choy": "Bok Choy",
+  "item.stardewravine.bok_choy_seeds": "Bok Choy Seeds",
+  "item.stardewravine.broccoli": "Broccoli",
+  "item.stardewravine.broccoli_seeds": "Broccoli Seeds",
+  "item.stardewravine.eggplant": "Eggplant",
+  "item.stardewravine.eggplant_seeds": "Eggplant Seeds",
+  "item.stardewravine.yam": "Yam",
+  "item.stardewravine.cranberries": "Cranberries",
+  "item.stardewravine.blackberry": "Blackberry",
 
 
 
@@ -349,6 +362,15 @@
   "block.stardewravine.salmonberry_bush": "Salmonberry Bush",
   "block.stardewravine.coffee_bush": "Coffee Bush",
   "block.stardewravine.spice_berry_bush": "Spice Berry Bush",
+  "block.stardewravine.grape_crop": "Grape Crop",
+  "block.stardewravine.artichoke_crop": "Artichoke Crop",
+  "block.stardewravine.bok_choy_crop": "Bok Choy Crop",
+  "block.stardewravine.broccoli_crop": "Broccoli Crop",
+  "block.stardewravine.eggplant_crop": "Eggplant Crop",
+  "block.stardewravine.yam_crop": "Yam Crop",
+  "block.stardewravine.cranberry_bush": "Cranberry Bush",
+  "block.stardewravine.blackberry_bush": "Blackberry Bush",
+
 
   "block.stardewravine.maple_log": "Maple Log",
   "block.stardewravine.maple_wood": "Maple Wood",

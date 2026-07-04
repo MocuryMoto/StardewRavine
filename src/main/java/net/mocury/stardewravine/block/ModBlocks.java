@@ -579,6 +579,25 @@ public class ModBlocks {
     public static final Block SUMMER_SQUASH_CROP = registerBlockWithoutBlockItem("summer_squash_crop",
             new SummerSquashCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
                     .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block GRAPE_CROP = registerBlockWithoutBlockItem("grape_crop",
+            new GrapeCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block ARTICHOKE_CROP = registerBlockWithoutBlockItem("artichoke_crop",
+            new ArtichokeCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block BOK_CHOY_CROP = registerBlockWithoutBlockItem("bok_choy_crop",
+            new BokChoyCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block BROCCOLI_CROP = registerBlockWithoutBlockItem("broccoli_crop",
+            new BroccoliCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block EGGPLANT_CROP = registerBlockWithoutBlockItem("eggplant_crop",
+            new EggplantCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block YAM_CROP = registerBlockWithoutBlockItem("yam_crop",
+            new YamCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+
 
     public static final Block BLUEBERRY_BUSH = registerBlockWithoutBlockItem("blueberry_bush",
             new BlueberryBushBlock(AbstractBlock.Settings.create()
@@ -595,6 +614,13 @@ public class ModBlocks {
     public static final Block SPICE_BERRY_BUSH = registerBlockWithoutBlockItem("spice_berry_bush",
             new SpiceBerryBushBlock(AbstractBlock.Settings.create()
                     .ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block CRANBERRY_BUSH = registerBlockWithoutBlockItem("cranberry_bush",
+            new CranberryBushBlock(AbstractBlock.Settings.create()
+                    .ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block BLACKBERRY_BUSH = registerBlockWithoutBlockItem("blackberry_bush",
+            new BlackberryBushBlock(AbstractBlock.Settings.create()
+                    .ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY)));
+
 
 
     public static final Block MAPLE_LOG = registerBlock("maple_log",

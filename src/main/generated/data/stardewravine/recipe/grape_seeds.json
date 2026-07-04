@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stardewravine:grapes"
+    },
+    {
+      "item": "stardewravine:trellis"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "stardewravine:grape_seeds"
+  }
+}

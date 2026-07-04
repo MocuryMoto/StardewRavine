@@ -85,6 +85,30 @@
         {
           "type": "minecraft:item",
           "name": "stardewravine:summer_squash"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:grapes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:artichoke"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:bok_choy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:broccoli"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:eggplant"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:yam"
         }
       ],
       "rolls": 1.0
@@ -123,10 +147,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "stardewravine:green_bean_seeds"
-        },
-        {
-          "type": "minecraft:item",
           "name": "stardewravine:rice_seeds"
         },
         {
@@ -152,6 +172,22 @@
         {
           "type": "minecraft:item",
           "name": "stardewravine:summer_squash_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:artichoke_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:bok_choy_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:broccoli_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:eggplant_seeds"
         }
       ],
       "rolls": 1.0

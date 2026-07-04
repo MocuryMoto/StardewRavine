@@ -683,6 +683,28 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModItems.SUMMER_SQUASH)
                 .criterion(hasItem(ModItems.SUMMER_SQUASH), conditionsFromItem(ModItems.SUMMER_SQUASH))
                 .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GRAPE_SEEDS, 1)
+                .input(ModItems.GRAPES)
+                .input(ModItems.TRELLIS)
+                .criterion(hasItem(ModItems.GRAPES), conditionsFromItem(ModItems.GRAPES))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ARTICHOKE_SEEDS, 2)
+                .input(ModItems.ARTICHOKE)
+                .criterion(hasItem(ModItems.ARTICHOKE), conditionsFromItem(ModItems.ARTICHOKE))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BOK_CHOY_SEEDS, 1)
+                .input(ModItems.BOK_CHOY)
+                .criterion(hasItem(ModItems.BOK_CHOY), conditionsFromItem(ModItems.BOK_CHOY))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BROCCOLI_SEEDS, 2)
+                .input(ModItems.BROCCOLI)
+                .criterion(hasItem(ModItems.BROCCOLI), conditionsFromItem(ModItems.BROCCOLI))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.EGGPLANT_SEEDS, 2)
+                .input(ModItems.EGGPLANT)
+                .criterion(hasItem(ModItems.EGGPLANT), conditionsFromItem(ModItems.EGGPLANT))
+                .offerTo(exporter);
+
 
 
         offerPlanksRecipe(exporter, ModBlocks.MAPLE_PLANKS, ModTags.Items.MAPLE_LOGS, 4);
