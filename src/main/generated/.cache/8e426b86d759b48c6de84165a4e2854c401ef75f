@@ -1,12 +1,14 @@
-// 1.21	2026-07-04T11:50:57.466536	Stardew Ravine/Tags for minecraft:item
-41f2826ab3ecbcbc40d003062c391795efb5ca51 data\minecraft\tags\item\shovels.json
+// 1.21	2026-07-12T14:29:39.6108234	Stardew Ravine/Tags for minecraft:item
 71ca3fb7cc504f9988871fb613cf3a1bec7fd5da data\stardewravine\tags\item\peach_logs.json
+41f2826ab3ecbcbc40d003062c391795efb5ca51 data\minecraft\tags\item\shovels.json
 8ce5b5ac2314d46cdebdeb9d99c156de800a24bc data\stardewravine\tags\item\apricot_logs.json
 c7e5e6dbf88300b9d713f183e1d93f09d4bc55c7 data\stardewravine\tags\item\crystalarium_items.json
+6f51c806d9f0b1a298eae2eccfa69cb78d971d01 data\minecraft\tags\item\signs.json
 64a3af419bcdab763ac017ca079b053492a1959c data\stardewravine\tags\item\banana_logs.json
 7b0f1df1e696937ce02b74451d2c4dffc7da4972 data\minecraft\tags\item\planks.json
 adbbaabe408c1652d84f350825e124451516ca72 data\minecraft\tags\item\trimmable_armor.json
 bae13ac24686f20353c346ec6624502c5de9ead8 data\minecraft\tags\item\pickaxes.json
+6abe81fa4c974ab1ddd7c061111e0fcd271a45d3 data\minecraft\tags\item\hanging_signs.json
 c79fefb45000bf0cfa40343890f800abccef4275 data\stardewravine\tags\item\mystic_logs.json
 782c65b5d25a0597f5f510cab96a807b6924e1a4 data\stardewravine\tags\item\mango_logs.json
 4d0d8eaf12524d9a246dae1b0c35b2ee0e52677c data\minecraft\tags\item\piglin_loved.json

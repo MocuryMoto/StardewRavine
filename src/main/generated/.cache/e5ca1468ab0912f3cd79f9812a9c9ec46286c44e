@@ -1,15 +1,19 @@
-// 1.21	2026-07-04T11:50:57.4815371	Stardew Ravine/Tags for minecraft:block
+// 1.21	2026-07-12T14:29:39.6268647	Stardew Ravine/Tags for minecraft:block
 1668c67313790e6c365fe886e014bfd546658271 data\stardewravine\tags\block\orange_logs.json
 909b443791bf487532fbb22d2748496c0564ed23 data\minecraft\tags\block\fence_gates.json
+5a54d855142575eccff5f0d727175dcac3046632 data\minecraft\tags\block\wall_signs.json
+6abe81fa4c974ab1ddd7c061111e0fcd271a45d3 data\minecraft\tags\block\ceiling_hanging_signs.json
+588db7cfacb282c9ed9149700c50f086f8aca57a data\minecraft\tags\block\wall_hanging_signs.json
 530105b8f4bc3147ab999739cb1e0d01bf8c5e27 data\minecraft\tags\block\flowers.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\stardewravine\tags\block\needs_nether_iridium_tool.json
 74b2ea3fa19e5791b16ff5fdd22790665845613b data\minecraft\tags\block\small_flowers.json
 782c65b5d25a0597f5f510cab96a807b6924e1a4 data\stardewravine\tags\block\mango_logs.json
 64a3af419bcdab763ac017ca079b053492a1959c data\stardewravine\tags\block\banana_logs.json
 fda72e62e0179bedcdeeb193a5d1c5b750fa84c9 data\minecraft\tags\block\mineable\hoe.json
-c79fefb45000bf0cfa40343890f800abccef4275 data\stardewravine\tags\block\mystic_logs.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\stardewravine\tags\block\needs_iridium_tool.json
+c79fefb45000bf0cfa40343890f800abccef4275 data\stardewravine\tags\block\mystic_logs.json
 30176be5dd640e06692821cee3dfc5d500321bb6 data\minecraft\tags\block\wooden_stairs.json
+f572153e92d94b4422805dc1474d937df07654d0 data\minecraft\tags\block\standing_signs.json
 eaf27d420064eb387b7ca4d2d2fb95c386d667da data\minecraft\tags\block\wooden_fences.json
 8ce5b5ac2314d46cdebdeb9d99c156de800a24bc data\stardewravine\tags\block\apricot_logs.json
 ab1317b7949358f4ed9f2a59ba7c69b467b23415 data\minecraft\tags\block\wooden_doors.json

@@ -750,6 +750,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModBlocks.MAPLE_PLANKS)
                 .criterion(hasItem(ModBlocks.MAPLE_PLANKS), conditionsFromItem(ModBlocks.MAPLE_PLANKS))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModItems.MAPLE_SIGN, 3)
+                .pattern("PPP")
+                .pattern("PPP")
+                .pattern(" S ")
+                .input('P', ModBlocks.MAPLE_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.MAPLE_PLANKS), conditionsFromItem(ModBlocks.MAPLE_PLANKS))
+                .offerTo(exporter);
+        offerHangingSignRecipe(exporter, ModItems.HANGING_MAPLE_SIGN, ModBlocks.STRIPPED_MAPLE_LOG);
 
         offerPlanksRecipe(exporter, ModBlocks.MYSTIC_PLANKS, ModTags.Items.MYSTIC_LOGS, 4);
         offerBarkBlockRecipe(exporter, ModBlocks.MYSTIC_WOOD, ModBlocks.MYSTIC_LOG);
@@ -794,6 +803,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModBlocks.MYSTIC_PLANKS)
                 .criterion(hasItem(ModBlocks.MYSTIC_PLANKS), conditionsFromItem(ModBlocks.MYSTIC_PLANKS))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModItems.MYSTIC_SIGN, 3)
+                .pattern("PPP")
+                .pattern("PPP")
+                .pattern(" S ")
+                .input('P', ModBlocks.MYSTIC_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.MYSTIC_PLANKS), conditionsFromItem(ModBlocks.MYSTIC_PLANKS))
+                .offerTo(exporter);
+        offerHangingSignRecipe(exporter, ModItems.HANGING_MYSTIC_SIGN, ModBlocks.STRIPPED_MYSTIC_LOG);
 
         offerPlanksRecipe(exporter, ModBlocks.APRICOT_PLANKS, ModTags.Items.APRICOT_LOGS, 4);
         offerBarkBlockRecipe(exporter, ModBlocks.APRICOT_WOOD, ModBlocks.APRICOT_LOG);
@@ -838,6 +856,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModBlocks.APRICOT_PLANKS)
                 .criterion(hasItem(ModBlocks.APRICOT_PLANKS), conditionsFromItem(ModBlocks.APRICOT_PLANKS))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModItems.APRICOT_SIGN, 3)
+                .pattern("PPP")
+                .pattern("PPP")
+                .pattern(" S ")
+                .input('P', ModBlocks.APRICOT_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.APRICOT_PLANKS), conditionsFromItem(ModBlocks.APRICOT_PLANKS))
+                .offerTo(exporter);
+        offerHangingSignRecipe(exporter, ModItems.HANGING_APRICOT_SIGN, ModBlocks.STRIPPED_APRICOT_LOG);
 
         offerPlanksRecipe(exporter, ModBlocks.ORANGE_PLANKS, ModTags.Items.ORANGE_LOGS, 4);
         offerBarkBlockRecipe(exporter, ModBlocks.ORANGE_WOOD, ModBlocks.ORANGE_LOG);
@@ -882,6 +909,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModBlocks.ORANGE_PLANKS)
                 .criterion(hasItem(ModBlocks.ORANGE_PLANKS), conditionsFromItem(ModBlocks.ORANGE_PLANKS))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModItems.ORANGE_SIGN, 3)
+                .pattern("PPP")
+                .pattern("PPP")
+                .pattern(" S ")
+                .input('P', ModBlocks.ORANGE_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.ORANGE_PLANKS), conditionsFromItem(ModBlocks.ORANGE_PLANKS))
+                .offerTo(exporter);
+        offerHangingSignRecipe(exporter, ModItems.HANGING_ORANGE_SIGN, ModBlocks.STRIPPED_ORANGE_LOG);
 
         offerPlanksRecipe(exporter, ModBlocks.POMEGRANATE_PLANKS, ModTags.Items.POMEGRANATE_LOGS, 4);
         offerBarkBlockRecipe(exporter, ModBlocks.POMEGRANATE_WOOD, ModBlocks.POMEGRANATE_LOG);
@@ -926,6 +962,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModBlocks.POMEGRANATE_PLANKS)
                 .criterion(hasItem(ModBlocks.POMEGRANATE_PLANKS), conditionsFromItem(ModBlocks.POMEGRANATE_PLANKS))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModItems.POMEGRANATE_SIGN, 3)
+                .pattern("PPP")
+                .pattern("PPP")
+                .pattern(" S ")
+                .input('P', ModBlocks.POMEGRANATE_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.POMEGRANATE_PLANKS), conditionsFromItem(ModBlocks.POMEGRANATE_PLANKS))
+                .offerTo(exporter);
+        offerHangingSignRecipe(exporter, ModItems.HANGING_POMEGRANATE_SIGN, ModBlocks.STRIPPED_POMEGRANATE_LOG);
 
         offerPlanksRecipe(exporter, ModBlocks.MANGO_PLANKS, ModTags.Items.MANGO_LOGS, 4);
         offerBarkBlockRecipe(exporter, ModBlocks.MANGO_WOOD, ModBlocks.MANGO_LOG);
@@ -970,6 +1015,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModBlocks.MANGO_PLANKS)
                 .criterion(hasItem(ModBlocks.MANGO_PLANKS), conditionsFromItem(ModBlocks.MANGO_PLANKS))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModItems.MANGO_SIGN, 3)
+                .pattern("PPP")
+                .pattern("PPP")
+                .pattern(" S ")
+                .input('P', ModBlocks.MANGO_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.MANGO_PLANKS), conditionsFromItem(ModBlocks.MANGO_PLANKS))
+                .offerTo(exporter);
+        offerHangingSignRecipe(exporter, ModItems.HANGING_MANGO_SIGN, ModBlocks.STRIPPED_MANGO_LOG);
 
         offerPlanksRecipe(exporter, ModBlocks.BANANA_PLANKS, ModTags.Items.BANANA_LOGS, 4);
         offerBarkBlockRecipe(exporter, ModBlocks.BANANA_WOOD, ModBlocks.BANANA_LOG);
@@ -1014,6 +1068,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModBlocks.BANANA_PLANKS)
                 .criterion(hasItem(ModBlocks.BANANA_PLANKS), conditionsFromItem(ModBlocks.BANANA_PLANKS))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModItems.BANANA_SIGN, 3)
+                .pattern("PPP")
+                .pattern("PPP")
+                .pattern(" S ")
+                .input('P', ModBlocks.BANANA_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.BANANA_PLANKS), conditionsFromItem(ModBlocks.BANANA_PLANKS))
+                .offerTo(exporter);
+        offerHangingSignRecipe(exporter, ModItems.HANGING_BANANA_SIGN, ModBlocks.STRIPPED_BANANA_LOG);
 
         offerPlanksRecipe(exporter, ModBlocks.PEACH_PLANKS, ModTags.Items.PEACH_LOGS, 4);
         offerBarkBlockRecipe(exporter, ModBlocks.PEACH_WOOD, ModBlocks.PEACH_LOG);
@@ -1058,6 +1121,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModBlocks.PEACH_PLANKS)
                 .criterion(hasItem(ModBlocks.PEACH_PLANKS), conditionsFromItem(ModBlocks.PEACH_PLANKS))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModItems.PEACH_SIGN, 3)
+                .pattern("PPP")
+                .pattern("PPP")
+                .pattern(" S ")
+                .input('P', ModBlocks.PEACH_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.PEACH_PLANKS), conditionsFromItem(ModBlocks.PEACH_PLANKS))
+                .offerTo(exporter);
+        offerHangingSignRecipe(exporter, ModItems.HANGING_PEACH_SIGN, ModBlocks.STRIPPED_PEACH_LOG);
 
         offerPlanksRecipe(exporter, ModBlocks.FIDDLEHEAD_PLANKS, ModTags.Items.FIDDLEHEAD_LOGS, 4);
         offerBarkBlockRecipe(exporter, ModBlocks.FIDDLEHEAD_WOOD, ModBlocks.FIDDLEHEAD_LOG);
@@ -1102,6 +1174,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModBlocks.FIDDLEHEAD_PLANKS)
                 .criterion(hasItem(ModBlocks.FIDDLEHEAD_PLANKS), conditionsFromItem(ModBlocks.FIDDLEHEAD_PLANKS))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModItems.FIDDLEHEAD_SIGN, 3)
+                .pattern("PPP")
+                .pattern("PPP")
+                .pattern(" S ")
+                .input('P', ModBlocks.FIDDLEHEAD_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModBlocks.FIDDLEHEAD_PLANKS), conditionsFromItem(ModBlocks.FIDDLEHEAD_PLANKS))
+                .offerTo(exporter);
+        offerHangingSignRecipe(exporter, ModItems.HANGING_FIDDLEHEAD_SIGN, ModBlocks.STRIPPED_FIDDLEHEAD_LOG);
 
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PETRIFIED_SLIME, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PETRIFIED_SLIME_BLOCK);

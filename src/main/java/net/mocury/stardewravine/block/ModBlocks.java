@@ -1,8 +1,14 @@
 package net.mocury.stardewravine.block;
 
+import com.terraformersmc.terraform.sign.api.block.TerraformHangingSignBlock;
+import com.terraformersmc.terraform.sign.api.block.TerraformSignBlock;
+import com.terraformersmc.terraform.sign.api.block.TerraformWallHangingSignBlock;
+import com.terraformersmc.terraform.sign.api.block.TerraformWallSignBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.data.family.BlockFamilies;
+import net.minecraft.data.family.BlockFamily;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -654,6 +660,20 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_DOOR)));
     public static final Block MAPLE_TRAPDOOR = registerBlock("maple_trapdoor",
             new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_TRAPDOOR)));
+    public static final Identifier MAPLE_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/maple");
+    public static final Identifier MAPLE_HANGING_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/hanging/maple");
+    public static final Identifier MAPLE_HANGING_GUI_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "textures/gui/hanging_signs/maple");
+    public static final Block STANDING_MAPLE_SIGN = registerBlockWithoutBlockItem("maple_standing_sign",
+            new TerraformSignBlock(MAPLE_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_SIGN)));
+    public static final Block WALL_MAPLE_SIGN = registerBlockWithoutBlockItem("maple_wall_sign",
+            new TerraformWallSignBlock(MAPLE_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_SIGN).dropsLike(STANDING_MAPLE_SIGN)));
+    public static final Block HANGING_MAPLE_SIGN = registerBlockWithoutBlockItem("maple_hanging_sign",
+            new TerraformHangingSignBlock(MAPLE_HANGING_SIGN_TEXTURE, MAPLE_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_HANGING_SIGN)));
+    public static final Block WALL_HANGING_MAPLE_SIGN = registerBlockWithoutBlockItem("maple_wall_hanging_sign",
+            new TerraformWallHangingSignBlock(MAPLE_HANGING_SIGN_TEXTURE, MAPLE_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_HANGING_SIGN).dropsLike(HANGING_MAPLE_SIGN)));
+    public static final BlockFamily MAPLE_FAMILY = BlockFamilies.register(ModBlocks.MAPLE_PLANKS)
+            .sign(ModBlocks.STANDING_MAPLE_SIGN, ModBlocks.WALL_MAPLE_SIGN)
+            .group("wooden").unlockCriterionName("has_planks").build();
 
     public static final Block MYSTIC_LOG = registerBlock("mystic_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
@@ -686,6 +706,20 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_DOOR)));
     public static final Block MYSTIC_TRAPDOOR = registerBlock("mystic_trapdoor",
             new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_TRAPDOOR)));
+    public static final Identifier MYSTIC_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/mystic");
+    public static final Identifier MYSTIC_HANGING_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/hanging/mystic");
+    public static final Identifier MYSTIC_HANGING_GUI_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "textures/gui/hanging_signs/mystic");
+    public static final Block STANDING_MYSTIC_SIGN = registerBlockWithoutBlockItem("mystic_standing_sign",
+            new TerraformSignBlock(MYSTIC_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_SIGN)));
+    public static final Block WALL_MYSTIC_SIGN = registerBlockWithoutBlockItem("mystic_wall_sign",
+            new TerraformWallSignBlock(MYSTIC_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_SIGN).dropsLike(STANDING_MYSTIC_SIGN)));
+    public static final Block HANGING_MYSTIC_SIGN = registerBlockWithoutBlockItem("mystic_hanging_sign",
+            new TerraformHangingSignBlock(MYSTIC_HANGING_SIGN_TEXTURE, MYSTIC_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_HANGING_SIGN)));
+    public static final Block WALL_HANGING_MYSTIC_SIGN = registerBlockWithoutBlockItem("mystic_wall_hanging_sign",
+            new TerraformWallHangingSignBlock(MYSTIC_HANGING_SIGN_TEXTURE, MYSTIC_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_HANGING_SIGN).dropsLike(HANGING_MYSTIC_SIGN)));
+    public static final BlockFamily MYSTIC_FAMILY = BlockFamilies.register(ModBlocks.MYSTIC_PLANKS)
+            .sign(ModBlocks.STANDING_MYSTIC_SIGN, ModBlocks.WALL_MYSTIC_SIGN)
+            .group("wooden").unlockCriterionName("has_planks").build();
 
     public static final Block APRICOT_LOG = registerBlock("apricot_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
@@ -718,6 +752,20 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_DOOR)));
     public static final Block APRICOT_TRAPDOOR = registerBlock("apricot_trapdoor",
             new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_TRAPDOOR)));
+    public static final Identifier APRICOT_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/apricot");
+    public static final Identifier APRICOT_HANGING_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/hanging/apricot");
+    public static final Identifier APRICOT_HANGING_GUI_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "textures/gui/hanging_signs/apricot");
+    public static final Block STANDING_APRICOT_SIGN = registerBlockWithoutBlockItem("apricot_standing_sign",
+            new TerraformSignBlock(APRICOT_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_SIGN)));
+    public static final Block WALL_APRICOT_SIGN = registerBlockWithoutBlockItem("apricot_wall_sign",
+            new TerraformWallSignBlock(APRICOT_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_SIGN).dropsLike(STANDING_APRICOT_SIGN)));
+    public static final Block HANGING_APRICOT_SIGN = registerBlockWithoutBlockItem("apricot_hanging_sign",
+            new TerraformHangingSignBlock(APRICOT_HANGING_SIGN_TEXTURE, APRICOT_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_HANGING_SIGN)));
+    public static final Block WALL_HANGING_APRICOT_SIGN = registerBlockWithoutBlockItem("apricot_wall_hanging_sign",
+            new TerraformWallHangingSignBlock(APRICOT_HANGING_SIGN_TEXTURE, APRICOT_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_HANGING_SIGN).dropsLike(HANGING_APRICOT_SIGN)));
+    public static final BlockFamily APRICOT_FAMILY = BlockFamilies.register(ModBlocks.APRICOT_PLANKS)
+            .sign(ModBlocks.STANDING_APRICOT_SIGN, ModBlocks.WALL_APRICOT_SIGN)
+            .group("wooden").unlockCriterionName("has_planks").build();
 
     public static final Block ORANGE_LOG = registerBlock("orange_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LOG)));
@@ -750,6 +798,20 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_DOOR)));
     public static final Block ORANGE_TRAPDOOR = registerBlock("orange_trapdoor",
             new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_TRAPDOOR)));
+    public static final Identifier ORANGE_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/orange");
+    public static final Identifier ORANGE_HANGING_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/hanging/orange");
+    public static final Identifier ORANGE_HANGING_GUI_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "textures/gui/hanging_signs/orange");
+    public static final Block STANDING_ORANGE_SIGN = registerBlockWithoutBlockItem("orange_standing_sign",
+            new TerraformSignBlock(ORANGE_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_SIGN)));
+    public static final Block WALL_ORANGE_SIGN = registerBlockWithoutBlockItem("orange_wall_sign",
+            new TerraformWallSignBlock(ORANGE_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_SIGN).dropsLike(STANDING_ORANGE_SIGN)));
+    public static final Block HANGING_ORANGE_SIGN = registerBlockWithoutBlockItem("orange_hanging_sign",
+            new TerraformHangingSignBlock(ORANGE_HANGING_SIGN_TEXTURE, ORANGE_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_HANGING_SIGN)));
+    public static final Block WALL_HANGING_ORANGE_SIGN = registerBlockWithoutBlockItem("orange_wall_hanging_sign",
+            new TerraformWallHangingSignBlock(ORANGE_HANGING_SIGN_TEXTURE, ORANGE_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_HANGING_SIGN).dropsLike(HANGING_ORANGE_SIGN)));
+    public static final BlockFamily ORANGE_FAMILY = BlockFamilies.register(ModBlocks.ORANGE_PLANKS)
+            .sign(ModBlocks.STANDING_ORANGE_SIGN, ModBlocks.WALL_ORANGE_SIGN)
+            .group("wooden").unlockCriterionName("has_planks").build();
 
     public static final Block POMEGRANATE_LOG = registerBlock("pomegranate_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
@@ -782,6 +844,20 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_DOOR)));
     public static final Block POMEGRANATE_TRAPDOOR = registerBlock("pomegranate_trapdoor",
             new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_TRAPDOOR)));
+    public static final Identifier POMEGRANATE_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/pomegranate");
+    public static final Identifier POMEGRANATE_HANGING_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/hanging/pomegranate");
+    public static final Identifier POMEGRANATE_HANGING_GUI_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "textures/gui/hanging_signs/pomegranate");
+    public static final Block STANDING_POMEGRANATE_SIGN = registerBlockWithoutBlockItem("pomegranate_standing_sign",
+            new TerraformSignBlock(POMEGRANATE_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_SIGN)));
+    public static final Block WALL_POMEGRANATE_SIGN = registerBlockWithoutBlockItem("pomegranate_wall_sign",
+            new TerraformWallSignBlock(POMEGRANATE_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_SIGN).dropsLike(STANDING_POMEGRANATE_SIGN)));
+    public static final Block HANGING_POMEGRANATE_SIGN = registerBlockWithoutBlockItem("pomegranate_hanging_sign",
+            new TerraformHangingSignBlock(POMEGRANATE_HANGING_SIGN_TEXTURE, POMEGRANATE_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_HANGING_SIGN)));
+    public static final Block WALL_HANGING_POMEGRANATE_SIGN = registerBlockWithoutBlockItem("pomegranate_wall_hanging_sign",
+            new TerraformWallHangingSignBlock(POMEGRANATE_HANGING_SIGN_TEXTURE, POMEGRANATE_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_HANGING_SIGN).dropsLike(HANGING_POMEGRANATE_SIGN)));
+    public static final BlockFamily POMEGRANATE_FAMILY = BlockFamilies.register(ModBlocks.POMEGRANATE_PLANKS)
+            .sign(ModBlocks.STANDING_POMEGRANATE_SIGN, ModBlocks.WALL_POMEGRANATE_SIGN)
+            .group("wooden").unlockCriterionName("has_planks").build();
 
     public static final Block MANGO_LOG = registerBlock("mango_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
@@ -814,6 +890,20 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_DOOR)));
     public static final Block MANGO_TRAPDOOR = registerBlock("mango_trapdoor",
             new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_TRAPDOOR)));
+    public static final Identifier MANGO_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/mango");
+    public static final Identifier MANGO_HANGING_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/hanging/mango");
+    public static final Identifier MANGO_HANGING_GUI_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "textures/gui/hanging_signs/mango");
+    public static final Block STANDING_MANGO_SIGN = registerBlockWithoutBlockItem("mango_standing_sign",
+            new TerraformSignBlock(MANGO_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_SIGN)));
+    public static final Block WALL_MANGO_SIGN = registerBlockWithoutBlockItem("mango_wall_sign",
+            new TerraformWallSignBlock(MANGO_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_SIGN).dropsLike(STANDING_MANGO_SIGN)));
+    public static final Block HANGING_MANGO_SIGN = registerBlockWithoutBlockItem("mango_hanging_sign",
+            new TerraformHangingSignBlock(MANGO_HANGING_SIGN_TEXTURE, MANGO_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_HANGING_SIGN)));
+    public static final Block WALL_HANGING_MANGO_SIGN = registerBlockWithoutBlockItem("mango_wall_hanging_sign",
+            new TerraformWallHangingSignBlock(MANGO_HANGING_SIGN_TEXTURE, MANGO_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_HANGING_SIGN).dropsLike(HANGING_MANGO_SIGN)));
+    public static final BlockFamily MANGO_FAMILY = BlockFamilies.register(ModBlocks.MANGO_PLANKS)
+            .sign(ModBlocks.STANDING_MANGO_SIGN, ModBlocks.WALL_MANGO_SIGN)
+            .group("wooden").unlockCriterionName("has_planks").build();
 
     public static final Block BANANA_LOG = registerBlock("banana_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
@@ -846,6 +936,20 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_DOOR)));
     public static final Block BANANA_TRAPDOOR = registerBlock("banana_trapdoor",
             new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(OAK_TRAPDOOR)));
+    public static final Identifier BANANA_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/banana");
+    public static final Identifier BANANA_HANGING_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/hanging/banana");
+    public static final Identifier BANANA_HANGING_GUI_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "textures/gui/hanging_signs/banana");
+    public static final Block STANDING_BANANA_SIGN = registerBlockWithoutBlockItem("banana_standing_sign",
+            new TerraformSignBlock(BANANA_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_SIGN)));
+    public static final Block WALL_BANANA_SIGN = registerBlockWithoutBlockItem("banana_wall_sign",
+            new TerraformWallSignBlock(BANANA_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_SIGN).dropsLike(STANDING_BANANA_SIGN)));
+    public static final Block HANGING_BANANA_SIGN = registerBlockWithoutBlockItem("banana_hanging_sign",
+            new TerraformHangingSignBlock(BANANA_HANGING_SIGN_TEXTURE, BANANA_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_HANGING_SIGN)));
+    public static final Block WALL_HANGING_BANANA_SIGN = registerBlockWithoutBlockItem("banana_wall_hanging_sign",
+            new TerraformWallHangingSignBlock(BANANA_HANGING_SIGN_TEXTURE, BANANA_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_HANGING_SIGN).dropsLike(HANGING_BANANA_SIGN)));
+    public static final BlockFamily BANANA_FAMILY = BlockFamilies.register(ModBlocks.BANANA_PLANKS)
+            .sign(ModBlocks.STANDING_BANANA_SIGN, ModBlocks.WALL_BANANA_SIGN)
+            .group("wooden").unlockCriterionName("has_planks").build();
 
     public static final Block PEACH_LOG = registerBlock("peach_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LOG)));
@@ -878,6 +982,20 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_DOOR)));
     public static final Block PEACH_TRAPDOOR = registerBlock("peach_trapdoor",
             new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_TRAPDOOR)));
+    public static final Identifier PEACH_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/peach");
+    public static final Identifier PEACH_HANGING_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/hanging/peach");
+    public static final Identifier PEACH_HANGING_GUI_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "textures/gui/hanging_signs/peach");
+    public static final Block STANDING_PEACH_SIGN = registerBlockWithoutBlockItem("peach_standing_sign",
+            new TerraformSignBlock(PEACH_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_SIGN)));
+    public static final Block WALL_PEACH_SIGN = registerBlockWithoutBlockItem("peach_wall_sign",
+            new TerraformWallSignBlock(PEACH_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_SIGN).dropsLike(STANDING_PEACH_SIGN)));
+    public static final Block HANGING_PEACH_SIGN = registerBlockWithoutBlockItem("peach_hanging_sign",
+            new TerraformHangingSignBlock(PEACH_HANGING_SIGN_TEXTURE, PEACH_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_HANGING_SIGN)));
+    public static final Block WALL_HANGING_PEACH_SIGN = registerBlockWithoutBlockItem("peach_wall_hanging_sign",
+            new TerraformWallHangingSignBlock(PEACH_HANGING_SIGN_TEXTURE, PEACH_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_HANGING_SIGN).dropsLike(HANGING_PEACH_SIGN)));
+    public static final BlockFamily PEACH_FAMILY = BlockFamilies.register(ModBlocks.PEACH_PLANKS)
+            .sign(ModBlocks.STANDING_PEACH_SIGN, ModBlocks.WALL_PEACH_SIGN)
+            .group("wooden").unlockCriterionName("has_planks").build();
 
     public static final Block FIDDLEHEAD_LOG = registerBlock("fiddlehead_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LOG)));
@@ -915,6 +1033,20 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_DOOR)));
     public static final Block FIDDLEHEAD_TRAPDOOR = registerBlock("fiddlehead_trapdoor",
             new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.copy(CHERRY_TRAPDOOR)));
+    public static final Identifier FIDDLEHEAD_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/fiddlehead");
+    public static final Identifier FIDDLEHEAD_HANGING_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "entity/signs/hanging/fiddlehead");
+    public static final Identifier FIDDLEHEAD_HANGING_GUI_SIGN_TEXTURE = Identifier.of(StardewRavine.MOD_ID, "textures/gui/hanging_signs/fiddlehead");
+    public static final Block STANDING_FIDDLEHEAD_SIGN = registerBlockWithoutBlockItem("fiddlehead_standing_sign",
+            new TerraformSignBlock(FIDDLEHEAD_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_SIGN)));
+    public static final Block WALL_FIDDLEHEAD_SIGN = registerBlockWithoutBlockItem("fiddlehead_wall_sign",
+            new TerraformWallSignBlock(FIDDLEHEAD_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_SIGN).dropsLike(STANDING_FIDDLEHEAD_SIGN)));
+    public static final Block HANGING_FIDDLEHEAD_SIGN = registerBlockWithoutBlockItem("fiddlehead_hanging_sign",
+            new TerraformHangingSignBlock(FIDDLEHEAD_HANGING_SIGN_TEXTURE, FIDDLEHEAD_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_HANGING_SIGN)));
+    public static final Block WALL_HANGING_FIDDLEHEAD_SIGN = registerBlockWithoutBlockItem("fiddlehead_wall_hanging_sign",
+            new TerraformWallHangingSignBlock(FIDDLEHEAD_HANGING_SIGN_TEXTURE, FIDDLEHEAD_HANGING_GUI_SIGN_TEXTURE, AbstractBlock.Settings.copy(OAK_WALL_HANGING_SIGN).dropsLike(HANGING_FIDDLEHEAD_SIGN)));
+    public static final BlockFamily FIDDLEHEAD_FAMILY = BlockFamilies.register(ModBlocks.FIDDLEHEAD_PLANKS)
+            .sign(ModBlocks.STANDING_FIDDLEHEAD_SIGN, ModBlocks.WALL_FIDDLEHEAD_SIGN)
+            .group("wooden").unlockCriterionName("has_planks").build();
 
     public static final Block FRUITING_APRICOT_LEAVES = registerBlock("fruiting_apricot_leaves",
             new Block(AbstractBlock.Settings.copy(OAK_LEAVES)));

@@ -392,6 +392,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAPLE_PRESSURE_PLATE);
                         entries.add(ModBlocks.MAPLE_DOOR);
                         entries.add(ModBlocks.MAPLE_TRAPDOOR);
+                        entries.add(ModItems.MAPLE_SIGN);
+                        entries.add(ModItems.HANGING_MAPLE_SIGN);
 
                         entries.add(ModItems.MYSTIC_SYRUP);
                         entries.add(ModBlocks.MYSTIC_SAPLING);
@@ -409,6 +411,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MYSTIC_PRESSURE_PLATE);
                         entries.add(ModBlocks.MYSTIC_DOOR);
                         entries.add(ModBlocks.MYSTIC_TRAPDOOR);
+                        entries.add(ModItems.MYSTIC_SIGN);
+                        entries.add(ModItems.HANGING_MYSTIC_SIGN);
 
                         entries.add(ModItems.APRICOT);
                         entries.add(ModBlocks.APRICOT_SAPLING);
@@ -427,6 +431,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.APRICOT_PRESSURE_PLATE);
                         entries.add(ModBlocks.APRICOT_DOOR);
                         entries.add(ModBlocks.APRICOT_TRAPDOOR);
+                        entries.add(ModItems.APRICOT_SIGN);
+                        entries.add(ModItems.HANGING_APRICOT_SIGN);
 
                         entries.add(ModItems.ORANGE);
                         entries.add(ModBlocks.ORANGE_SAPLING);
@@ -445,6 +451,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ORANGE_PRESSURE_PLATE);
                         entries.add(ModBlocks.ORANGE_DOOR);
                         entries.add(ModBlocks.ORANGE_TRAPDOOR);
+                        entries.add(ModItems.ORANGE_SIGN);
+                        entries.add(ModItems.HANGING_ORANGE_SIGN);
 
                         entries.add(ModItems.POMEGRANATE);
                         entries.add(ModBlocks.POMEGRANATE_SAPLING);
@@ -463,6 +471,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POMEGRANATE_PRESSURE_PLATE);
                         entries.add(ModBlocks.POMEGRANATE_DOOR);
                         entries.add(ModBlocks.POMEGRANATE_TRAPDOOR);
+                        entries.add(ModItems.POMEGRANATE_SIGN);
+                        entries.add(ModItems.HANGING_POMEGRANATE_SIGN);
 
                         entries.add(ModItems.MANGO);
                         entries.add(ModBlocks.MANGO_SAPLING);
@@ -481,6 +491,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MANGO_PRESSURE_PLATE);
                         entries.add(ModBlocks.MANGO_DOOR);
                         entries.add(ModBlocks.MANGO_TRAPDOOR);
+                        entries.add(ModItems.MANGO_SIGN);
+                        entries.add(ModItems.HANGING_MANGO_SIGN);
 
                         entries.add(ModItems.BANANA);
                         entries.add(ModBlocks.BANANA_SAPLING);
@@ -499,6 +511,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BANANA_PRESSURE_PLATE);
                         entries.add(ModBlocks.BANANA_DOOR);
                         entries.add(ModBlocks.BANANA_TRAPDOOR);
+                        entries.add(ModItems.BANANA_SIGN);
+                        entries.add(ModItems.HANGING_BANANA_SIGN);
 
                         entries.add(ModItems.PEACH);
                         entries.add(ModBlocks.PEACH_SAPLING);
@@ -517,6 +531,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PEACH_PRESSURE_PLATE);
                         entries.add(ModBlocks.PEACH_DOOR);
                         entries.add(ModBlocks.PEACH_TRAPDOOR);
+                        entries.add(ModItems.PEACH_SIGN);
+                        entries.add(ModItems.HANGING_PEACH_SIGN);
 
                         entries.add(ModBlocks.FIDDLEHEAD_SAPLING);
                         entries.add(ModBlocks.FIDDLEHEAD_LOG);
@@ -533,6 +549,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FIDDLEHEAD_PRESSURE_PLATE);
                         entries.add(ModBlocks.FIDDLEHEAD_DOOR);
                         entries.add(ModBlocks.FIDDLEHEAD_TRAPDOOR);
+                        entries.add(ModItems.FIDDLEHEAD_SIGN);
+                        entries.add(ModItems.HANGING_FIDDLEHEAD_SIGN);
 
                         entries.add(ModItems.CHERRIES);
                         entries.add(ModBlocks.FRUITING_CHERRY_LEAVES);
@@ -888,6 +906,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAPLE_PRESSURE_PLATE);
                         entries.add(ModBlocks.MAPLE_DOOR);
                         entries.add(ModBlocks.MAPLE_TRAPDOOR);
+                        entries.add(ModItems.MAPLE_SIGN);
+                        entries.add(ModItems.HANGING_MAPLE_SIGN);
 
                         entries.add(ModItems.MYSTIC_SYRUP);
                         entries.add(ModBlocks.MYSTIC_SAPLING);
@@ -905,6 +925,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MYSTIC_PRESSURE_PLATE);
                         entries.add(ModBlocks.MYSTIC_DOOR);
                         entries.add(ModBlocks.MYSTIC_TRAPDOOR);
+                        entries.add(ModItems.MYSTIC_SIGN);
+                        entries.add(ModItems.HANGING_MYSTIC_SIGN);
 
                         entries.add(ModItems.APRICOT);
                         entries.add(ModBlocks.APRICOT_SAPLING);
@@ -923,6 +945,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.APRICOT_PRESSURE_PLATE);
                         entries.add(ModBlocks.APRICOT_DOOR);
                         entries.add(ModBlocks.APRICOT_TRAPDOOR);
+                        entries.add(ModItems.APRICOT_SIGN);
+                        entries.add(ModItems.HANGING_APRICOT_SIGN);
 
                         entries.add(ModItems.ORANGE);
                         entries.add(ModBlocks.ORANGE_SAPLING);
@@ -941,6 +965,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ORANGE_PRESSURE_PLATE);
                         entries.add(ModBlocks.ORANGE_DOOR);
                         entries.add(ModBlocks.ORANGE_TRAPDOOR);
+                        entries.add(ModItems.ORANGE_SIGN);
+                        entries.add(ModItems.HANGING_ORANGE_SIGN);
 
                         entries.add(ModItems.POMEGRANATE);
                         entries.add(ModBlocks.POMEGRANATE_SAPLING);
@@ -959,6 +985,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POMEGRANATE_PRESSURE_PLATE);
                         entries.add(ModBlocks.POMEGRANATE_DOOR);
                         entries.add(ModBlocks.POMEGRANATE_TRAPDOOR);
+                        entries.add(ModItems.POMEGRANATE_SIGN);
+                        entries.add(ModItems.HANGING_POMEGRANATE_SIGN);
 
                         entries.add(ModItems.MANGO);
                         entries.add(ModBlocks.MANGO_SAPLING);
@@ -977,6 +1005,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MANGO_PRESSURE_PLATE);
                         entries.add(ModBlocks.MANGO_DOOR);
                         entries.add(ModBlocks.MANGO_TRAPDOOR);
+                        entries.add(ModItems.MANGO_SIGN);
+                        entries.add(ModItems.HANGING_MANGO_SIGN);
 
                         entries.add(ModItems.BANANA);
                         entries.add(ModBlocks.BANANA_SAPLING);
@@ -995,6 +1025,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BANANA_PRESSURE_PLATE);
                         entries.add(ModBlocks.BANANA_DOOR);
                         entries.add(ModBlocks.BANANA_TRAPDOOR);
+                        entries.add(ModItems.BANANA_SIGN);
+                        entries.add(ModItems.HANGING_BANANA_SIGN);
 
                         entries.add(ModItems.PEACH);
                         entries.add(ModBlocks.PEACH_SAPLING);
@@ -1013,6 +1045,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PEACH_PRESSURE_PLATE);
                         entries.add(ModBlocks.PEACH_DOOR);
                         entries.add(ModBlocks.PEACH_TRAPDOOR);
+                        entries.add(ModItems.PEACH_SIGN);
+                        entries.add(ModItems.HANGING_PEACH_SIGN);
 
                         entries.add(ModBlocks.FIDDLEHEAD_SAPLING);
                         entries.add(ModBlocks.FIDDLEHEAD_LOG);
@@ -1029,6 +1063,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FIDDLEHEAD_PRESSURE_PLATE);
                         entries.add(ModBlocks.FIDDLEHEAD_DOOR);
                         entries.add(ModBlocks.FIDDLEHEAD_TRAPDOOR);
+                        entries.add(ModItems.FIDDLEHEAD_SIGN);
+                        entries.add(ModItems.HANGING_FIDDLEHEAD_SIGN);
 
                         entries.add(ModItems.CHERRIES);
                         entries.add(ModBlocks.FRUITING_CHERRY_LEAVES);

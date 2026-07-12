@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stardewravine:apricot_hanging_sign"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "stardewravine:blocks/apricot_hanging_sign"
+}

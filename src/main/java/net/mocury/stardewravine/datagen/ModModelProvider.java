@@ -247,6 +247,7 @@ public class ModModelProvider extends FabricModelProvider {
         maplePool.fenceGate(ModBlocks.MAPLE_FENCE_GATE);
         blockStateModelGenerator.registerDoor(ModBlocks.MAPLE_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.MAPLE_TRAPDOOR);
+        maplePool.family(ModBlocks.MAPLE_FAMILY);
 
         blockStateModelGenerator.registerLog(ModBlocks.MYSTIC_LOG).log(ModBlocks.MYSTIC_LOG).wood(ModBlocks.MYSTIC_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_MYSTIC_LOG).log(ModBlocks.STRIPPED_MYSTIC_LOG).wood(ModBlocks.STRIPPED_MYSTIC_WOOD);
@@ -261,6 +262,7 @@ public class ModModelProvider extends FabricModelProvider {
         mysticPool.fenceGate(ModBlocks.MYSTIC_FENCE_GATE);
         blockStateModelGenerator.registerDoor(ModBlocks.MYSTIC_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.MYSTIC_TRAPDOOR);
+        mysticPool.family(ModBlocks.MYSTIC_FAMILY);
 
         blockStateModelGenerator.registerLog(ModBlocks.APRICOT_LOG).log(ModBlocks.APRICOT_LOG).wood(ModBlocks.APRICOT_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_APRICOT_LOG).log(ModBlocks.STRIPPED_APRICOT_LOG).wood(ModBlocks.STRIPPED_APRICOT_WOOD);
@@ -275,6 +277,7 @@ public class ModModelProvider extends FabricModelProvider {
         apricotPool.fenceGate(ModBlocks.APRICOT_FENCE_GATE);
         blockStateModelGenerator.registerDoor(ModBlocks.APRICOT_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.APRICOT_TRAPDOOR);
+        apricotPool.family(ModBlocks.APRICOT_FAMILY);
 
         blockStateModelGenerator.registerLog(ModBlocks.ORANGE_LOG).log(ModBlocks.ORANGE_LOG).wood(ModBlocks.ORANGE_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_ORANGE_LOG).log(ModBlocks.STRIPPED_ORANGE_LOG).wood(ModBlocks.STRIPPED_ORANGE_WOOD);
@@ -289,6 +292,7 @@ public class ModModelProvider extends FabricModelProvider {
         orangePool.fenceGate(ModBlocks.ORANGE_FENCE_GATE);
         blockStateModelGenerator.registerDoor(ModBlocks.ORANGE_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.ORANGE_TRAPDOOR);
+        orangePool.family(ModBlocks.ORANGE_FAMILY);
 
         blockStateModelGenerator.registerLog(ModBlocks.POMEGRANATE_LOG).log(ModBlocks.POMEGRANATE_LOG).wood(ModBlocks.POMEGRANATE_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_POMEGRANATE_LOG).log(ModBlocks.STRIPPED_POMEGRANATE_LOG).wood(ModBlocks.STRIPPED_POMEGRANATE_WOOD);
@@ -303,6 +307,7 @@ public class ModModelProvider extends FabricModelProvider {
         pomegranatePool.fenceGate(ModBlocks.POMEGRANATE_FENCE_GATE);
         blockStateModelGenerator.registerDoor(ModBlocks.POMEGRANATE_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.POMEGRANATE_TRAPDOOR);
+        pomegranatePool.family(ModBlocks.POMEGRANATE_FAMILY);
 
         blockStateModelGenerator.registerLog(ModBlocks.MANGO_LOG).log(ModBlocks.MANGO_LOG).wood(ModBlocks.MANGO_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_MANGO_LOG).log(ModBlocks.STRIPPED_MANGO_LOG).wood(ModBlocks.STRIPPED_MANGO_WOOD);
@@ -317,6 +322,7 @@ public class ModModelProvider extends FabricModelProvider {
         mangoPool.fenceGate(ModBlocks.MANGO_FENCE_GATE);
         blockStateModelGenerator.registerDoor(ModBlocks.MANGO_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.MANGO_TRAPDOOR);
+        mangoPool.family(ModBlocks.MANGO_FAMILY);
 
         blockStateModelGenerator.registerLog(ModBlocks.BANANA_LOG).log(ModBlocks.BANANA_LOG).wood(ModBlocks.BANANA_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BANANA_LOG).log(ModBlocks.STRIPPED_BANANA_LOG).wood(ModBlocks.STRIPPED_BANANA_WOOD);
@@ -331,6 +337,7 @@ public class ModModelProvider extends FabricModelProvider {
         bananaPool.fenceGate(ModBlocks.BANANA_FENCE_GATE);
         blockStateModelGenerator.registerDoor(ModBlocks.BANANA_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.BANANA_TRAPDOOR);
+        bananaPool.family(ModBlocks.BANANA_FAMILY);
 
         blockStateModelGenerator.registerLog(ModBlocks.PEACH_LOG).log(ModBlocks.PEACH_LOG).wood(ModBlocks.PEACH_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_PEACH_LOG).log(ModBlocks.STRIPPED_PEACH_LOG).wood(ModBlocks.STRIPPED_PEACH_WOOD);
@@ -345,14 +352,7 @@ public class ModModelProvider extends FabricModelProvider {
         peachPool.fenceGate(ModBlocks.PEACH_FENCE_GATE);
         blockStateModelGenerator.registerDoor(ModBlocks.PEACH_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PEACH_TRAPDOOR);
-
-        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_POMEGRANATE_LEAVES, TexturedModel.LEAVES);
-        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_ORANGE_LEAVES, TexturedModel.LEAVES);
-        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_APRICOT_LEAVES, TexturedModel.LEAVES);
-        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_CHERRY_LEAVES, TexturedModel.LEAVES);
-        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_MANGO_LEAVES, TexturedModel.LEAVES);
-        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_BANANA_LEAVES, TexturedModel.LEAVES);
-        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_PEACH_LEAVES, TexturedModel.LEAVES);
+        peachPool.family(ModBlocks.PEACH_FAMILY);
 
         blockStateModelGenerator.registerLog(ModBlocks.FIDDLEHEAD_LOG).log(ModBlocks.FIDDLEHEAD_LOG).wood(ModBlocks.FIDDLEHEAD_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_FIDDLEHEAD_LOG).log(ModBlocks.STRIPPED_FIDDLEHEAD_LOG).wood(ModBlocks.STRIPPED_FIDDLEHEAD_WOOD);
@@ -367,6 +367,15 @@ public class ModModelProvider extends FabricModelProvider {
         fiddleheadPool.fenceGate(ModBlocks.FIDDLEHEAD_FENCE_GATE);
         blockStateModelGenerator.registerDoor(ModBlocks.FIDDLEHEAD_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.FIDDLEHEAD_TRAPDOOR);
+        fiddleheadPool.family(ModBlocks.FIDDLEHEAD_FAMILY);
+
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_POMEGRANATE_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_ORANGE_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_APRICOT_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_CHERRY_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_MANGO_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_BANANA_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FRUITING_PEACH_LEAVES, TexturedModel.LEAVES);
 
         blockStateModelGenerator.registerSingleton(ModBlocks.PETRIFIED_SLIME_BLOCK, TexturedModel.CUBE_COLUMN);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GHOST_CRYSTAL_BLOCK);
@@ -534,5 +543,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TRELLIS, Models.GENERATED);
         itemModelGenerator.register(ModItems.EARTH_CRYSTAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.GALAXY_SOUL, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.HANGING_MAPLE_SIGN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HANGING_MYSTIC_SIGN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HANGING_APRICOT_SIGN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HANGING_ORANGE_SIGN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HANGING_POMEGRANATE_SIGN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HANGING_MANGO_SIGN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HANGING_BANANA_SIGN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HANGING_PEACH_SIGN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HANGING_FIDDLEHEAD_SIGN, Models.GENERATED);
     }
 }
