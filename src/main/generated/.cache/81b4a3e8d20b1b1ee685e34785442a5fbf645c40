@@ -1,4 +1,4 @@
-// 1.21	2026-07-12T14:29:39.6118233	Stardew Ravine/Block Loot Tables
+// 1.21	2026-07-13T20:02:34.4775205	Stardew Ravine/Block Loot Tables
 4fc74c56e1f6ca154e9f389e621196fd7ff0bd7a data\stardewravine\loot_table\blocks\crystal_cobblestone_stairs.json
 a89686ae1691b613119fd7b6b820d508583600d6 data\stardewravine\loot_table\blocks\nether_magma_geode_ore.json
 fa945d98dcd3f4528fe423c8c33f36d54f942bca data\stardewravine\loot_table\blocks\marble_slab.json
@@ -228,8 +228,8 @@ fdc5366b32ff82f9495409aaa09e937cd91e7cdf data\stardewravine\loot_table\blocks\ci
 eccd214da45eeac698646fed1584ee3fadcac562 data\stardewravine\loot_table\blocks\fiddlehead_fence.json
 29fd4be8fa1b7cc992172c3832428d67e688f3a3 data\stardewravine\loot_table\blocks\aquamarine_ore.json
 80637ee0114aebf2b6a31fa10869863d31b69fe7 data\stardewravine\loot_table\blocks\dolomite_block.json
-900ac865d52c24d6e854fcb3ef6cb9b0409b2ed1 data\stardewravine\loot_table\blocks\polished_soapstone_slab.json
 2c9f6c6997f18029f8bfe7d5ceb3ca21b067c197 data\stardewravine\loot_table\blocks\stripped_maple_wood.json
+900ac865d52c24d6e854fcb3ef6cb9b0409b2ed1 data\stardewravine\loot_table\blocks\polished_soapstone_slab.json
 c340dbf95a3cbdca1302c75af8075d9f58acec01 data\stardewravine\loot_table\blocks\polished_limestone_stairs.json
 c288582683f53e560c665230a45dacb5a8221994 data\stardewravine\loot_table\blocks\spice_berry_bush.json
 f5a1a342d3963aad14fc50280073a93f82ff4ed5 data\stardewravine\loot_table\blocks\dolomite_tiles.json

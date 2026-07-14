@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "stardewravine:item/fiddlehead_chest_boat"
+  }
+}

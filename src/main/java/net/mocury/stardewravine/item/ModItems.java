@@ -1,5 +1,6 @@
 package net.mocury.stardewravine.item;
 
+import com.terraformersmc.terraform.boat.api.item.TerraformBoatItemHelper;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -7,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.mocury.stardewravine.StardewRavine;
 import net.mocury.stardewravine.block.ModBlocks;
+import net.mocury.stardewravine.entity.ModBoats;
 import net.mocury.stardewravine.item.custom.*;
 
 public class ModItems {
@@ -212,30 +214,48 @@ public class ModItems {
 
     public static final Item MAPLE_SIGN = registerItem("maple_sign", new SignItem(new Item.Settings().maxCount(16), ModBlocks.STANDING_MAPLE_SIGN, ModBlocks.WALL_MAPLE_SIGN));
     public static final Item HANGING_MAPLE_SIGN = registerItem("maple_hanging_sign", new HangingSignItem(ModBlocks.HANGING_MAPLE_SIGN, ModBlocks.WALL_HANGING_MAPLE_SIGN, new Item.Settings().maxCount(16)));
+    public static final Item MAPLE_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.MAPLE_BOAT_ID, ModBoats.MAPLE_BOAT_KEY, false);
+    public static final Item MAPLE_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.MAPLE_CHEST_BOAT_ID, ModBoats.MAPLE_BOAT_KEY, true);
 
     public static final Item MYSTIC_SIGN = registerItem("mystic_sign", new SignItem(new Item.Settings().maxCount(16), ModBlocks.STANDING_MYSTIC_SIGN, ModBlocks.WALL_MYSTIC_SIGN));
     public static final Item HANGING_MYSTIC_SIGN = registerItem("mystic_hanging_sign", new HangingSignItem(ModBlocks.HANGING_MYSTIC_SIGN, ModBlocks.WALL_HANGING_MYSTIC_SIGN, new Item.Settings().maxCount(16)));
+    public static final Item MYSTIC_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.MYSTIC_BOAT_ID, ModBoats.MYSTIC_BOAT_KEY, false);
+    public static final Item MYSTIC_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.MYSTIC_CHEST_BOAT_ID, ModBoats.MYSTIC_BOAT_KEY, true);
 
     public static final Item APRICOT_SIGN = registerItem("apricot_sign", new SignItem(new Item.Settings().maxCount(16), ModBlocks.STANDING_APRICOT_SIGN, ModBlocks.WALL_APRICOT_SIGN));
     public static final Item HANGING_APRICOT_SIGN = registerItem("apricot_hanging_sign", new HangingSignItem(ModBlocks.HANGING_APRICOT_SIGN, ModBlocks.WALL_HANGING_APRICOT_SIGN, new Item.Settings().maxCount(16)));
+    public static final Item APRICOT_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.APRICOT_BOAT_ID, ModBoats.APRICOT_BOAT_KEY, false);
+    public static final Item APRICOT_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.APRICOT_CHEST_BOAT_ID, ModBoats.APRICOT_BOAT_KEY, true);
 
     public static final Item ORANGE_SIGN = registerItem("orange_sign", new SignItem(new Item.Settings().maxCount(16), ModBlocks.STANDING_ORANGE_SIGN, ModBlocks.WALL_ORANGE_SIGN));
     public static final Item HANGING_ORANGE_SIGN = registerItem("orange_hanging_sign", new HangingSignItem(ModBlocks.HANGING_ORANGE_SIGN, ModBlocks.WALL_HANGING_ORANGE_SIGN, new Item.Settings().maxCount(16)));
+    public static final Item ORANGE_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.ORANGE_BOAT_ID, ModBoats.ORANGE_BOAT_KEY, false);
+    public static final Item ORANGE_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.ORANGE_CHEST_BOAT_ID, ModBoats.ORANGE_BOAT_KEY, true);
 
     public static final Item POMEGRANATE_SIGN = registerItem("pomegranate_sign", new SignItem(new Item.Settings().maxCount(16), ModBlocks.STANDING_POMEGRANATE_SIGN, ModBlocks.WALL_POMEGRANATE_SIGN));
     public static final Item HANGING_POMEGRANATE_SIGN = registerItem("pomegranate_hanging_sign", new HangingSignItem(ModBlocks.HANGING_POMEGRANATE_SIGN, ModBlocks.WALL_HANGING_POMEGRANATE_SIGN, new Item.Settings().maxCount(16)));
+    public static final Item POMEGRANATE_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.POMEGRANATE_BOAT_ID, ModBoats.POMEGRANATE_BOAT_KEY, false);
+    public static final Item POMEGRANATE_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.POMEGRANATE_CHEST_BOAT_ID, ModBoats.POMEGRANATE_BOAT_KEY, true);
 
     public static final Item MANGO_SIGN = registerItem("mango_sign", new SignItem(new Item.Settings().maxCount(16), ModBlocks.STANDING_MANGO_SIGN, ModBlocks.WALL_MANGO_SIGN));
     public static final Item HANGING_MANGO_SIGN = registerItem("mango_hanging_sign", new HangingSignItem(ModBlocks.HANGING_MANGO_SIGN, ModBlocks.WALL_HANGING_MANGO_SIGN, new Item.Settings().maxCount(16)));
+    public static final Item MANGO_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.MANGO_BOAT_ID, ModBoats.MANGO_BOAT_KEY, false);
+    public static final Item MANGO_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.MANGO_CHEST_BOAT_ID, ModBoats.MANGO_BOAT_KEY, true);
 
     public static final Item BANANA_SIGN = registerItem("banana_sign", new SignItem(new Item.Settings().maxCount(16), ModBlocks.STANDING_BANANA_SIGN, ModBlocks.WALL_BANANA_SIGN));
     public static final Item HANGING_BANANA_SIGN = registerItem("banana_hanging_sign", new HangingSignItem(ModBlocks.HANGING_BANANA_SIGN, ModBlocks.WALL_HANGING_BANANA_SIGN, new Item.Settings().maxCount(16)));
+    public static final Item BANANA_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.BANANA_BOAT_ID, ModBoats.BANANA_BOAT_KEY, false);
+    public static final Item BANANA_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.BANANA_CHEST_BOAT_ID, ModBoats.BANANA_BOAT_KEY, true);
 
     public static final Item PEACH_SIGN = registerItem("peach_sign", new SignItem(new Item.Settings().maxCount(16), ModBlocks.STANDING_PEACH_SIGN, ModBlocks.WALL_PEACH_SIGN));
     public static final Item HANGING_PEACH_SIGN = registerItem("peach_hanging_sign", new HangingSignItem(ModBlocks.HANGING_PEACH_SIGN, ModBlocks.WALL_HANGING_PEACH_SIGN, new Item.Settings().maxCount(16)));
+    public static final Item PEACH_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.PEACH_BOAT_ID, ModBoats.PEACH_BOAT_KEY, false);
+    public static final Item PEACH_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.PEACH_CHEST_BOAT_ID, ModBoats.PEACH_BOAT_KEY, true);
 
     public static final Item FIDDLEHEAD_SIGN = registerItem("fiddlehead_sign", new SignItem(new Item.Settings().maxCount(16), ModBlocks.STANDING_FIDDLEHEAD_SIGN, ModBlocks.WALL_FIDDLEHEAD_SIGN));
     public static final Item HANGING_FIDDLEHEAD_SIGN = registerItem("fiddlehead_hanging_sign", new HangingSignItem(ModBlocks.HANGING_FIDDLEHEAD_SIGN, ModBlocks.WALL_HANGING_FIDDLEHEAD_SIGN, new Item.Settings().maxCount(16)));
+    public static final Item FIDDLEHEAD_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.FIDDLEHEAD_BOAT_ID, ModBoats.FIDDLEHEAD_BOAT_KEY, false);
+    public static final Item FIDDLEHEAD_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.FIDDLEHEAD_CHEST_BOAT_ID, ModBoats.FIDDLEHEAD_BOAT_KEY, true);
 
 
     private static Item registerItem(String name, Item item){

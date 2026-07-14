@@ -553,5 +553,24 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.HANGING_BANANA_SIGN, Models.GENERATED);
         itemModelGenerator.register(ModItems.HANGING_PEACH_SIGN, Models.GENERATED);
         itemModelGenerator.register(ModItems.HANGING_FIDDLEHEAD_SIGN, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.MAPLE_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAPLE_CHEST_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYSTIC_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYSTIC_CHEST_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FIDDLEHEAD_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FIDDLEHEAD_CHEST_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.APRICOT_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.APRICOT_CHEST_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORANGE_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORANGE_CHEST_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.POMEGRANATE_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.POMEGRANATE_CHEST_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MANGO_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MANGO_CHEST_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BANANA_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BANANA_CHEST_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PEACH_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PEACH_CHEST_BOAT, Models.GENERATED);
     }
 }

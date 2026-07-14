@@ -1,10 +1,12 @@
 package net.mocury.stardewravine;
 
+import com.terraformersmc.terraform.boat.api.client.TerraformBoatClientHelper;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 import net.mocury.stardewravine.block.ModBlocks;
+import net.mocury.stardewravine.entity.ModBoats;
 import net.mocury.stardewravine.screen.ModScreenHandlers;
 import net.mocury.stardewravine.screen.custom.CrystalariumScreen;
 import net.mocury.stardewravine.screen.custom.RefineryScreen;
@@ -107,5 +109,14 @@ public class StardewRavineClient implements ClientModInitializer {
         HandledScreens.register(ModScreenHandlers.REFINERY_SCREEN_HANDLER, RefineryScreen::new);
         HandledScreens.register(ModScreenHandlers.CRYSTALARIUM_SCREEN_HANDLER, CrystalariumScreen::new);
 
+        TerraformBoatClientHelper.registerModelLayers(ModBoats.MAPLE_BOAT_ID, false);
+        TerraformBoatClientHelper.registerModelLayers(ModBoats.MYSTIC_BOAT_ID, false);
+        TerraformBoatClientHelper.registerModelLayers(ModBoats.FIDDLEHEAD_BOAT_ID, false);
+        TerraformBoatClientHelper.registerModelLayers(ModBoats.APRICOT_BOAT_ID, false);
+        TerraformBoatClientHelper.registerModelLayers(ModBoats.ORANGE_BOAT_ID, false);
+        TerraformBoatClientHelper.registerModelLayers(ModBoats.POMEGRANATE_BOAT_ID, false);
+        TerraformBoatClientHelper.registerModelLayers(ModBoats.MANGO_BOAT_ID, false);
+        TerraformBoatClientHelper.registerModelLayers(ModBoats.BANANA_BOAT_ID, false);
+        TerraformBoatClientHelper.registerModelLayers(ModBoats.PEACH_BOAT_ID, false);
     }
 }
