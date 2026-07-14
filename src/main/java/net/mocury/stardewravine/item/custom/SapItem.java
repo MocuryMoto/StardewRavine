@@ -2,10 +2,11 @@ package net.mocury.stardewravine.item.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemUsageContext;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.*;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.stat.Stats;
 import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
 import net.mocury.stardewravine.block.ModBlocks;
@@ -32,14 +33,17 @@ public class SapItem extends Item {
     public ActionResult useOnBlock(ItemUsageContext context) {
         World world = context.getWorld();
         Block clickedBlock = world.getBlockState(context.getBlockPos()).getBlock();
+        PlayerEntity playerEntity = context.getPlayer();
+        ItemStack itemStack = context.getStack();
 
         if(SAP_MAP.containsKey(clickedBlock)){
             if(!world.isClient()) {
                 world.setBlockState(context.getBlockPos(), SAP_MAP.get(clickedBlock).getDefaultState());
 
-                context.getStack().decrement(1);
-
                 world.playSound(null, context.getBlockPos(), SoundEvents.ITEM_BONE_MEAL_USE, SoundCategory.BLOCKS);
+                assert playerEntity != null;
+                playerEntity.setStackInHand(context.getHand(), ItemUsage.exchangeStack(itemStack, playerEntity, new ItemStack(Items.GLASS_BOTTLE)));
+                playerEntity.incrementStat(Stats.USED.getOrCreateStat(itemStack.getItem()));
             }
 
         }
