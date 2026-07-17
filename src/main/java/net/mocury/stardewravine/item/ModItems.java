@@ -131,7 +131,11 @@ public class ModItems {
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
 
     public static final Item STARDROP = registerItem("stardrop", new Item(new Item.Settings().food(ModFoodComponents.STARDROP)));
+
     public static final Item ANCIENT_FRUIT = registerItem("ancient_fruit", new Item(new Item.Settings().food(ModFoodComponents.ANCIENT_FRUIT)));
+    public static final Item ANCIENT_FRUIT_SEEDS = registerItem("ancient_fruit_seeds", new AliasedBlockItem(ModBlocks.ANCIENT_FRUIT_CROP, new Item.Settings()));
+    public static final Item SWEET_GEM_BERRY = registerItem("sweet_gem_berry", new Item(new Item.Settings().food(ModFoodComponents.SWEET_GEM_BERRY)));
+    public static final Item RARE_SEED = registerItem("rare_seed", new AliasedBlockItem(ModBlocks.SWEET_GEM_BERRY_CROP, new Item.Settings()));
 
     public static final Item MIXED_SEEDS = registerItem("mixed_seeds", new AliasedBlockItem(ModBlocks.MIXED_CROP, new Item.Settings()));
     public static final Item GARLIC = registerItem("garlic", new Item(new Item.Settings().food(ModFoodComponents.GARLIC)));
@@ -176,6 +180,8 @@ public class ModItems {
     public static final Item EGGPLANT = registerItem("eggplant", new Item(new Item.Settings().food(ModFoodComponents.EGGPLANT)));
     public static final Item EGGPLANT_SEEDS = registerItem("eggplant_seeds", new AliasedBlockItem(ModBlocks.EGGPLANT_CROP, new Item.Settings()));
     public static final Item YAM = registerItem("yam", new AliasedBlockItem(ModBlocks.YAM_CROP, new Item.Settings().food(ModFoodComponents.YAM)));
+    public static final Item CORN = registerItem("corn", new Item(new Item.Settings().food(ModFoodComponents.CORN)));
+    public static final Item CORN_SEEDS = registerItem("corn_seeds", new AliasedBlockItem(ModBlocks.CORN_CROP, new Item.Settings()));
 
 
     public static final Item BLUEBERRIES = registerItem("blueberries",

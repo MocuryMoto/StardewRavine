@@ -604,6 +604,16 @@ public class ModBlocks {
             new YamCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
                     .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
 
+    public static final Block ANCIENT_FRUIT_CROP = registerBlockWithoutBlockItem("ancient_fruit_crop",
+            new AncientFruitCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block CORN_CROP = registerBlockWithoutBlockItem("corn_crop",
+            new CornCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block SWEET_GEM_BERRY_CROP = registerBlockWithoutBlockItem("sweet_gem_berry_crop",
+            new SweetGemBerryCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+
 
     public static final Block BLUEBERRY_BUSH = registerBlockWithoutBlockItem("blueberry_bush",
             new BlueberryBushBlock(AbstractBlock.Settings.create()

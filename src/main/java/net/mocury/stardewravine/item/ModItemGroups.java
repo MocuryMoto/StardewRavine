@@ -17,7 +17,6 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.stardewravine.stardew_ravine_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.STARDROP);
-                        entries.add(ModItems.ANCIENT_FRUIT);
                         entries.add(ModItems.PRISMATIC_SHARD);
                         entries.add(ModBlocks.PRISMATIC_SHARD_BLOCK);
                         entries.add(ModItems.AQUAMARINE);
@@ -371,9 +370,15 @@ public class ModItemGroups {
                         entries.add(ModItems.BROCCOLI_SEEDS);
                         entries.add(ModItems.EGGPLANT);
                         entries.add(ModItems.EGGPLANT_SEEDS);
+                        entries.add(ModItems.CORN);
+                        entries.add(ModItems.CORN_SEEDS);
                         entries.add(ModItems.YAM);
                         entries.add(ModItems.CRANBERRIES);
                         entries.add(ModItems.BLACKBERRY);
+                        entries.add(ModItems.ANCIENT_FRUIT);
+                        entries.add(ModItems.ANCIENT_FRUIT_SEEDS);
+                        entries.add(ModItems.SWEET_GEM_BERRY);
+                        entries.add(ModItems.RARE_SEED);
 
 
                         entries.add(ModItems.MAPLE_SYRUP);
@@ -845,7 +850,6 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.stardewravine.stardew_ravine_plants"))
                     .entries((displayContext, entries) ->{
                         entries.add(ModItems.STARDROP);
-                        entries.add(ModItems.ANCIENT_FRUIT);
 
                         entries.add(ModBlocks.BLUE_JAZZ);
                         entries.add(ModBlocks.SUMMER_SPANGLE);
@@ -903,9 +907,15 @@ public class ModItemGroups {
                         entries.add(ModItems.BROCCOLI_SEEDS);
                         entries.add(ModItems.EGGPLANT);
                         entries.add(ModItems.EGGPLANT_SEEDS);
+                        entries.add(ModItems.CORN);
+                        entries.add(ModItems.CORN_SEEDS);
                         entries.add(ModItems.YAM);
                         entries.add(ModItems.CRANBERRIES);
                         entries.add(ModItems.BLACKBERRY);
+                        entries.add(ModItems.ANCIENT_FRUIT);
+                        entries.add(ModItems.ANCIENT_FRUIT_SEEDS);
+                        entries.add(ModItems.SWEET_GEM_BERRY);
+                        entries.add(ModItems.RARE_SEED);
 
 
                         entries.add(ModItems.MAPLE_SYRUP);

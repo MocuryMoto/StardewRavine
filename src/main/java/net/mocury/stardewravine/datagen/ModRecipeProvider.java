@@ -704,6 +704,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModItems.EGGPLANT)
                 .criterion(hasItem(ModItems.EGGPLANT), conditionsFromItem(ModItems.EGGPLANT))
                 .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CORN_SEEDS, 2)
+                .input(ModItems.CORN)
+                .criterion(hasItem(ModItems.CORN), conditionsFromItem(ModItems.CORN))
+                .offerTo(exporter);
 
 
 

@@ -27,6 +27,9 @@
   "item.stardewravine.iridium_band": "Iridium Band",
   "item.stardewravine.stardrop": "Stardrop",
   "item.stardewravine.ancient_fruit": "Ancient Fruit",
+  "item.stardewravine.ancient_fruit_seeds": "Ancient Seeds",
+  "item.stardewravine.sweet_gem_berry": "Sweet Gem Berry",
+  "item.stardewravine.rare_seed": "Rare Seed",
   "item.stardewravine.cinder_shard": "Cinder Shard",
   "item.stardewravine.pearl": "Pearl",
   "item.stardewravine.helvine": "Helvine",
@@ -148,6 +151,8 @@
   "item.stardewravine.eggplant": "Eggplant",
   "item.stardewravine.eggplant_seeds": "Eggplant Seeds",
   "item.stardewravine.yam": "Yam",
+  "item.stardewravine.corn": "Corn",
+  "item.stardewravine.corn_seeds": "Corn Kernels",
   "item.stardewravine.cranberries": "Cranberries",
   "item.stardewravine.blackberry": "Blackberry",
   "item.stardewravine.maple_boat": "Maple Boat",
@@ -388,6 +393,8 @@
   "block.stardewravine.yam_crop": "Yam Crop",
   "block.stardewravine.cranberry_bush": "Cranberry Bush",
   "block.stardewravine.blackberry_bush": "Blackberry Bush",
+  "block.stardewravine.corn_crop": "Corn Crop",
+  "block.stardewravine.sweet_gem_berry_crop": "Sweet Gem Berry Crop",
 
 
   "block.stardewravine.maple_log": "Maple Log",

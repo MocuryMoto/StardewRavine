@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "stardewravine:block/sweet_gem_berry_crop_stage1"
+  }
+}

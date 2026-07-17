@@ -15,6 +15,7 @@ public class ModFoodComponents {
             .alwaysEdible()
             .build();
     public static final FoodComponent ANCIENT_FRUIT = new FoodComponent.Builder().nutrition(5).saturationModifier(1.0F).build();
+    public static final FoodComponent SWEET_GEM_BERRY = new FoodComponent.Builder().nutrition(5).saturationModifier(1.0F).build();
 
     public static final FoodComponent GARLIC = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
     public static final FoodComponent LEEK = new FoodComponent.Builder().nutrition(2).saturationModifier(0.5F).build();
@@ -39,6 +40,7 @@ public class ModFoodComponents {
     public static final FoodComponent BROCCOLI = new FoodComponent.Builder().nutrition(4).saturationModifier(0.2F).build();
     public static final FoodComponent EGGPLANT = new FoodComponent.Builder().nutrition(4).saturationModifier(0.2F).build();
     public static final FoodComponent YAM = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2F).build();
+    public static final FoodComponent CORN = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2F).build();
 
 
     public static final FoodComponent BLUEBERRIES = new FoodComponent.Builder().nutrition(1).saturationModifier(0.15F).snack().build();

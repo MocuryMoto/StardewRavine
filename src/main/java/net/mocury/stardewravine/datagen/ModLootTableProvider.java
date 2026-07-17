@@ -456,7 +456,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         BlockStatePropertyLootCondition.Builder builder24 = BlockStatePropertyLootCondition.builder(ModBlocks.YAM_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(YamCropBlock.AGE, 4));
         this.addDrop(ModBlocks.YAM_CROP, this.cropDrops(ModBlocks.YAM_CROP, ModItems.YAM, ModItems.YAM, builder24));
-
+        BlockStatePropertyLootCondition.Builder builder25 = BlockStatePropertyLootCondition.builder(ModBlocks.ANCIENT_FRUIT_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(AncientFruitCropBlock.AGE, 8));
+        this.addDrop(ModBlocks.ANCIENT_FRUIT_CROP, this.cropDrops(ModBlocks.ANCIENT_FRUIT_CROP, ModItems.ANCIENT_FRUIT, ModItems.ANCIENT_FRUIT_SEEDS, builder25));
+        BlockStatePropertyLootCondition.Builder builder26 = BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(CornCropBlock.AGE, 8));
+        this.addDrop(ModBlocks.CORN_CROP, this.cropDrops(ModBlocks.CORN_CROP, ModItems.CORN, ModItems.CORN_SEEDS, builder26));
+        BlockStatePropertyLootCondition.Builder builder27 = BlockStatePropertyLootCondition.builder(ModBlocks.SWEET_GEM_BERRY_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(SweetGemBerryCropBlock.AGE, 7));
+        this.addDrop(ModBlocks.SWEET_GEM_BERRY_CROP, this.cropDrops(ModBlocks.SWEET_GEM_BERRY_CROP, ModItems.SWEET_GEM_BERRY, ModItems.RARE_SEED, builder27));
 
         this.addDrop(ModBlocks.BLUEBERRY_BUSH,
                 block -> this.applyExplosionDecay(block, LootTable.builder()

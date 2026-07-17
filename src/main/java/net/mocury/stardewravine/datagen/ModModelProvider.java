@@ -216,6 +216,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCrop(ModBlocks.EGGPLANT_CROP, EggplantCropBlock.AGE, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerCrop(ModBlocks.YAM_CROP, YamCropBlock.AGE, 0, 1, 2, 3, 4);
 
+        blockStateModelGenerator.registerCrop(ModBlocks.ANCIENT_FRUIT_CROP, AncientFruitCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7, 8);
+        blockStateModelGenerator.registerCrop(ModBlocks.CORN_CROP, CornCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7, 8);
+        blockStateModelGenerator.registerCrop(ModBlocks.SWEET_GEM_BERRY_CROP, SweetGemBerryCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7);
 
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLUEBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
                 BlueberryBushBlock.AGE, 0, 1, 2, 3, 4);
@@ -496,6 +499,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BOK_CHOY, Models.GENERATED);
         itemModelGenerator.register(ModItems.BROCCOLI, Models.GENERATED);
         itemModelGenerator.register(ModItems.EGGPLANT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CORN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SWEET_GEM_BERRY, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.IRIDIUM_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRIDIUM_PICKAXE, Models.HANDHELD);
