@@ -3,14 +3,19 @@ package net.mocury.stardewravine;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
+import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
+import net.minecraft.item.Items;
+import net.minecraft.potion.Potions;
 import net.mocury.stardewravine.block.ModBlocks;
 import net.mocury.stardewravine.block.entity.ModBlockEntities;
 import net.mocury.stardewravine.component.ModDataComponentTypes;
+import net.mocury.stardewravine.effect.ModEffects;
 import net.mocury.stardewravine.entity.ModBoats;
 import net.mocury.stardewravine.item.ModItemGroups;
 import net.mocury.stardewravine.item.ModItems;
+import net.mocury.stardewravine.potion.ModPotions;
 import net.mocury.stardewravine.recipe.ModRecipes;
 import net.mocury.stardewravine.util.ModLootTableModifiers;
 import net.mocury.stardewravine.villager.ModVillagers;
@@ -40,6 +45,9 @@ public class StardewRavine implements ModInitializer {
 		ModRecipes.registerRecipes();
 
 		ModBoats.registerBoats();
+
+		ModPotions.registerPotions();
+		ModEffects.registerEffects();
 
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC, 0.33f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC_SEEDS, 0.1f);
@@ -173,5 +181,71 @@ public class StardewRavine implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_FIDDLEHEAD_WOOD, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FIDDLEHEAD_PLANKS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FIDDLEHEAD_LEAVES, 30, 60);
+
+
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.AQUAMARINE, Potions.WATER_BREATHING); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.TOPAZ, Potions.FIRE_RESISTANCE); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.JADE, Potions.LEAPING); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.RUBY, Potions.REGENERATION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.MALACHITE, ModPotions.NAUSEA_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.HELVINE, ModPotions.ABSORPTION_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.LEMON_STONE, Potions.SWIFTNESS); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.TIGERS_EYE, Potions.STRENGTH); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.KYANITE, ModPotions.DOLPHINS_GRACE_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.PYRITE, ModPotions.RESISTANCE_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.FLUORAPATITE, ModPotions.SATURATION_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.JAGOITE, Potions.SLOWNESS); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.CELESTINE, Potions.NIGHT_VISION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.GEMINITE, Potions.OOZING); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.JASPER, ModPotions.HASTE_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.AERINITE, Potions.SLOW_FALLING); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.ORPIMENT, Potions.POISON); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.DOLOMITE, Potions.INVISIBILITY); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.JAMBORITE, Potions.LUCK); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.NEKOITE, Potions.WEAVING); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.NEPTUNITE, ModPotions.DARKNESS_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.LUNARITE, ModPotions.LEVITATION_POTION); });
+
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.NIGHT_VISION, Items.FERMENTED_SPIDER_EYE, ModPotions.BLINDNESS_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(ModPotions.SATURATION_POTION, Items.FERMENTED_SPIDER_EYE, ModPotions.HUNGER_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(ModPotions.HASTE_POTION, Items.FERMENTED_SPIDER_EYE, ModPotions.MINING_FATIGUE_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.LUCK, Items.FERMENTED_SPIDER_EYE, ModPotions.BAD_LUCK_POTION); });
+
+
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.OPAL, ModPotions.OPALESCENT_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.FIRE_OPAL, ModPotions.GILDED_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.EARTH_CRYSTAL, ModPotions.CRUSADER_POTION); });
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.THICK, ModItems.PETRIFIED_SLIME, ModPotions.SLIME_CHARMER_POTION); });
+
 	}
 }
