@@ -1,5 +1,6 @@
 {
   "type": "stardewravine:refinery",
+  "category": "misc",
   "ingredient": {
     "item": "stardewravine:fire_quartz"
   },

@@ -1,5 +1,6 @@
 {
   "type": "stardewravine:crystalarium",
+  "category": "misc",
   "ingredient": {
     "item": "stardewravine:kyanite"
   },

@@ -1,4 +1,4 @@
-// 1.21	2026-07-17T14:51:29.8234202	Stardew Ravine/Block Loot Tables
+// 1.21	2026-07-21T12:15:36.5368849	Stardew Ravine/Block Loot Tables
 4fc74c56e1f6ca154e9f389e621196fd7ff0bd7a data\stardewravine\loot_table\blocks\crystal_cobblestone_stairs.json
 cd7d5bdc2052b37a91425ad463d43c8ae7c9a188 data\stardewravine\loot_table\blocks\polished_limestone.json
 1acbe19e3b96ff62305d2b164bc7b0749dc8f29b data\stardewravine\loot_table\blocks\end_frozen_geode_ore.json
@@ -205,10 +205,10 @@ aa0207db976efd5b857f1d02cc7de1bf21880ce4 data\stardewravine\loot_table\blocks\pe
 360f26ad28962b3aee074ea2c938878299f2935c data\stardewravine\loot_table\blocks\apricot_trapdoor.json
 ecebc2080ad580ec50a99c9f367eb7dbb3c9bee8 data\stardewravine\loot_table\blocks\soapstone_pillar.json
 5755022cf8c5d9942ca8957ab2f38ee95c10c328 data\stardewravine\loot_table\blocks\orange_button.json
-9485c33070ab23bf09a3e402c38aa72c54b16c53 data\stardewravine\loot_table\blocks\limestone_bricks.json
 b735c0908cb12529f257590c52521044d13ef11b data\stardewravine\loot_table\blocks\peach_door.json
-3c4bc2e6da350b6980da41ab8e3706a33cb1ce83 data\stardewravine\loot_table\blocks\soapstone.json
+9485c33070ab23bf09a3e402c38aa72c54b16c53 data\stardewravine\loot_table\blocks\limestone_bricks.json
 7b83285e3cb56eb3878040b27a35500e8e93b042 data\stardewravine\loot_table\blocks\rice_crop.json
+3c4bc2e6da350b6980da41ab8e3706a33cb1ce83 data\stardewravine\loot_table\blocks\soapstone.json
 fb08509409734f3b2406bb60868a023e0a541e40 data\stardewravine\loot_table\blocks\smooth_limestone.json
 9decae0f83ce24e009b4fc6eff72c7c33e3ab915 data\stardewravine\loot_table\blocks\blueberry_bush.json
 5b7766f22394aa1c7c86bd31b00fc0438d164b42 data\stardewravine\loot_table\blocks\polished_tigers_eye.json

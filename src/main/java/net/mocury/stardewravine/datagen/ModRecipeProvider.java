@@ -8,8 +8,11 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Identifier;
 import net.mocury.stardewravine.StardewRavine;
 import net.mocury.stardewravine.block.ModBlocks;
@@ -1373,6 +1376,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEKOITE_TILES, ModBlocks.NEKOITE_BLOCK);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.NEPTUNITE_TILES, ModBlocks.NEPTUNITE_BLOCK);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.SPYGLASS, 1)
+                .pattern("Q")
+                .pattern("C")
+                .pattern("C")
+                .input('C', Items.COPPER_INGOT)
+                .input('Q', ModItems.REFINED_QUARTZ)
+                .criterion(hasItem(ModItems.REFINED_QUARTZ), conditionsFromItem(ModItems.REFINED_QUARTZ))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Blocks.DAYLIGHT_DETECTOR, 1)
+                .pattern("QQQ")
+                .pattern("SSS")
+                .input('Q', ModItems.REFINED_QUARTZ)
+                .input('S', Ingredient.fromTag(ItemTags.WOODEN_SLABS))
+                .criterion(hasItem(ModItems.REFINED_QUARTZ), conditionsFromItem(ModItems.REFINED_QUARTZ))
+                .offerTo(exporter);
 
     }
 }

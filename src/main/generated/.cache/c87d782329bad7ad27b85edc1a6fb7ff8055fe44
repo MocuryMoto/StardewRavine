@@ -1,4 +1,4 @@
-// 1.21	2026-07-17T14:51:29.8124198	Stardew Ravine/Recipes
+// 1.21	2026-07-21T12:15:36.5238858	Stardew Ravine/Recipes
 434839615658d84feea62929f9d61040feee15d6 data\stardewravine\recipe\polished_kyanite.json
 8b9ce35a8c28f62e0f03e554216f0d8f019a0a75 data\stardewravine\advancement\recipes\building_blocks\apricot_stairs.json
 653e8fc242da575096a5de5861c7f99c0d718c17 data\stardewravine\recipe\artichoke_seeds.json
@@ -521,6 +521,7 @@ f059f56ee9555c6a2ac681f0d1c4417236ac1714 data\stardewravine\advancement\recipes\
 e544b7fa423ed28f1532d8c6122cbe9b50f1c8cc data\stardewravine\recipe\soapstone_pillar_from_soapstone_stonecutting.json
 94cec1770903869f4d6ba2a78c4c1131cd99b987 data\stardewravine\recipe\crystal_cobblestone_slab_from_crystal_cobblestone_stonecutting.json
 5dd471db011e22b0d74728a8b0841235237d9097 data\stardewravine\advancement\recipes\decorations\apricot_door.json
+ef3f6950a81c2cab59098f884b34aecd6dd4476d data\stardewravine\advancement\recipes\misc\spyglass.json
 49b9440ccbd1dd96bba22a3326d5397306d593b6 data\stardewravine\recipe\maple_hanging_sign.json
 fdb35546ba8a2ff424d9d520a8e98fc88ca7b87f data\stardewravine\recipe\orange_fence_gate.json
 dd94e319e8a1655264c605f0b4b601c8adae8dc3 data\stardewravine\advancement\recipes\misc\fairy_stone_from_fairy_dust.json
@@ -673,6 +674,7 @@ f99d252dea626b3a144fafd53674aa81d26c8e7d data\stardewravine\advancement\recipes\
 24941012e23a83592aaba08e38eb6be577228b3e data\stardewravine\recipe\orange_hanging_sign.json
 773846c4324e3d6fd46063bca9014f50e1811f34 data\stardewravine\advancement\recipes\misc\fairy_dust.json
 62c49d718b1bdcf75eebbed5bb7943b27cb17fd6 data\stardewravine\advancement\recipes\misc\oxidized_copper_grate_from_fairy_dust.json
+11844dfe16300df2d99645f1ee0f2d73c546eda3 data\stardewravine\recipe\spyglass.json
 da261573733ea4adb9cf4bae097e50119d58f7e4 data\stardewravine\recipe\limestone_pillar.json
 ed9e61e271d86cd4cb964aade554501fcb6f2187 data\stardewravine\recipe\chiseled_esperite.json
 36fa81e9f4ecc6936e5a06c6ed6c2f344339ac34 data\stardewravine\recipe\pomegranate_hanging_sign.json
