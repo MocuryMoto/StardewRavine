@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "stardewravine:refined_quartz"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:daylight_detector"
+  }
+}

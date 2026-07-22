@@ -61,6 +61,12 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> COFFEE_BUSH_PLACED_KEY = registerKey("coffee_bush_placed");
     public static final RegistryKey<PlacedFeature> BLUEBERRY_BUSH_PLACED_KEY = registerKey("blueberry_bush_placed");
     public static final RegistryKey<PlacedFeature> FIDDLEHEAD_SAPLING_PLACED_KEY = registerKey("fiddlehead_sapling_placed");
+    public static final RegistryKey<PlacedFeature> SPICE_BERRY_BUSH_PLACED_KEY = registerKey("spice_berry_bush_placed");
+    public static final RegistryKey<PlacedFeature> BLACKBERRY_BUSH_PLACED_KEY = registerKey("blackberry_bush_placed");
+    public static final RegistryKey<PlacedFeature> CRANBERRY_BUSH_PLACED_KEY = registerKey("cranberry_bush_placed");
+    public static final RegistryKey<PlacedFeature> HAZELNUT_BUSH_PLACED_KEY = registerKey("hazelnut_bush_placed");
+    public static final RegistryKey<PlacedFeature> PLUM_BUSH_PLACED_KEY = registerKey("plum_bush_placed");
+
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -199,6 +205,17 @@ public class ModPlacedFeatures {
                 RarityFilterPlacementModifier.of(32), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
         register(context, FIDDLEHEAD_SAPLING_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.FIDDLEHEAD_SAPLING_KEY),
                 RarityFilterPlacementModifier.of(32), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
+        register(context, SPICE_BERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SPICE_BERRY_BUSH_KEY),
+                RarityFilterPlacementModifier.of(32), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
+        register(context, BLACKBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BLACKBERRY_BUSH_KEY),
+                RarityFilterPlacementModifier.of(32), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
+        register(context, CRANBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CRANBERRY_BUSH_KEY),
+                RarityFilterPlacementModifier.of(32), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
+        register(context, HAZELNUT_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.HAZELNUT_BUSH_KEY),
+                RarityFilterPlacementModifier.of(32), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
+        register(context, PLUM_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PLUM_BUSH_KEY),
+                RarityFilterPlacementModifier.of(32), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
+
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {

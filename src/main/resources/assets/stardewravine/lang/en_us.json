@@ -118,6 +118,7 @@
   "item.stardewravine.maple_syrup": "Maple Syrup",
   "item.stardewravine.petrified_slime": "Petrified Slime",
   "item.stardewravine.ghost_crystal": "Ghost Crystal",
+
   "item.stardewravine.green_bean": "Green Bean",
   "item.stardewravine.green_bean_seeds": "Green Bean Starter",
   "item.stardewravine.rice": "Rice",
@@ -155,6 +156,9 @@
   "item.stardewravine.corn_seeds": "Corn Kernels",
   "item.stardewravine.cranberries": "Cranberries",
   "item.stardewravine.blackberry": "Blackberry",
+  "item.stardewravine.hazelnut": "Hazelnut",
+  "item.stardewravine.plum": "Plum",
+
   "item.stardewravine.maple_boat": "Maple Boat",
   "item.stardewravine.maple_chest_boat": "Maple Chest Boat",
   "item.stardewravine.mystic_boat": "Mystic Boat",
@@ -461,6 +465,9 @@
   "block.stardewravine.blackberry_bush": "Blackberry Bush",
   "block.stardewravine.corn_crop": "Corn Crop",
   "block.stardewravine.sweet_gem_berry_crop": "Sweet Gem Berry Crop",
+  "block.stardewravine.hazelnut_bush": "Hazelnut Bush",
+  "block.stardewravine.plum_bush": "Plum Bush",
+
 
 
   "block.stardewravine.maple_log": "Maple Log",

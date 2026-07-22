@@ -198,6 +198,11 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.CRANBERRY_BUSH, new Item.Settings().food(ModFoodComponents.CRANBERRIES)));
     public static final Item BLACKBERRY = registerItem("blackberry",
             new AliasedBlockItem(ModBlocks.BLACKBERRY_BUSH, new Item.Settings().food(ModFoodComponents.BLACKBERRY)));
+    public static final Item HAZELNUT = registerItem("hazelnut",
+            new AliasedBlockItem(ModBlocks.HAZELNUT_BUSH, new Item.Settings().food(ModFoodComponents.HAZELNUT)));
+    public static final Item PLUM = registerItem("plum",
+            new AliasedBlockItem(ModBlocks.PLUM_BUSH, new Item.Settings().food(ModFoodComponents.PLUM)));
+
 
 
     public static final Item CHERRIES = registerItem("cherries", new Item(new Item.Settings().food(ModFoodComponents.CHERRIES)));

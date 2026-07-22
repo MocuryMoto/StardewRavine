@@ -23,7 +23,7 @@ public class SweetGemBerryCropBlock extends CropBlock {
             Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 8.0, 16.0),
             Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 10.0, 16.0),
             Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 12.0, 16.0),
-            Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 14.0, 16.0),
+            Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 16.0, 16.0),
             Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 16.0, 16.0)};
 
     public static final IntProperty AGE = IntProperty.of("age", 0, 7);

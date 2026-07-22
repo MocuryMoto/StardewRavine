@@ -375,10 +375,12 @@ public class ModItemGroups {
                         entries.add(ModItems.YAM);
                         entries.add(ModItems.CRANBERRIES);
                         entries.add(ModItems.BLACKBERRY);
-                        entries.add(ModItems.ANCIENT_FRUIT);
-                        entries.add(ModItems.ANCIENT_FRUIT_SEEDS);
+                        entries.add(ModItems.HAZELNUT);
+                        entries.add(ModItems.PLUM);
                         entries.add(ModItems.SWEET_GEM_BERRY);
                         entries.add(ModItems.RARE_SEED);
+                        entries.add(ModItems.ANCIENT_FRUIT);
+                        entries.add(ModItems.ANCIENT_FRUIT_SEEDS);
 
 
                         entries.add(ModItems.MAPLE_SYRUP);
@@ -912,10 +914,12 @@ public class ModItemGroups {
                         entries.add(ModItems.YAM);
                         entries.add(ModItems.CRANBERRIES);
                         entries.add(ModItems.BLACKBERRY);
-                        entries.add(ModItems.ANCIENT_FRUIT);
-                        entries.add(ModItems.ANCIENT_FRUIT_SEEDS);
+                        entries.add(ModItems.HAZELNUT);
+                        entries.add(ModItems.PLUM);
                         entries.add(ModItems.SWEET_GEM_BERRY);
                         entries.add(ModItems.RARE_SEED);
+                        entries.add(ModItems.ANCIENT_FRUIT);
+                        entries.add(ModItems.ANCIENT_FRUIT_SEEDS);
 
 
                         entries.add(ModItems.MAPLE_SYRUP);

@@ -522,6 +522,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                 .with(ItemEntry.builder(ModItems.BLACKBERRY))
                                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(3.0F, 5.0F))) //how many items drop
                                 .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
+        this.addDrop(ModBlocks.HAZELNUT_BUSH,
+                block -> this.applyExplosionDecay(block, LootTable.builder()
+                        .pool(LootPool.builder().conditionally(
+                                        BlockStatePropertyLootCondition.builder(ModBlocks.HAZELNUT_BUSH)
+                                                .properties(StatePredicate.Builder.create().exactMatch(HazelnutBushBlock.AGE, 5)))
+                                .with(ItemEntry.builder(ModItems.HAZELNUT))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 3.0F))) //how many items drop
+                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
+        this.addDrop(ModBlocks.PLUM_BUSH,
+                block -> this.applyExplosionDecay(block, LootTable.builder()
+                        .pool(LootPool.builder().conditionally(
+                                        BlockStatePropertyLootCondition.builder(ModBlocks.PLUM_BUSH)
+                                                .properties(StatePredicate.Builder.create().exactMatch(PlumBushBlock.AGE, 4)))
+                                .with(ItemEntry.builder(ModItems.PLUM))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 5.0F))) //how many items drop
+                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
+
 
 
         addDrop(ModBlocks.PETRIFIED_SLIME_BLOCK);

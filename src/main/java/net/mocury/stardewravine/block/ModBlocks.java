@@ -636,6 +636,13 @@ public class ModBlocks {
     public static final Block BLACKBERRY_BUSH = registerBlockWithoutBlockItem("blackberry_bush",
             new BlackberryBushBlock(AbstractBlock.Settings.create()
                     .ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block HAZELNUT_BUSH = registerBlockWithoutBlockItem("hazelnut_bush",
+            new HazelnutBushBlock(AbstractBlock.Settings.create()
+                    .ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block PLUM_BUSH = registerBlockWithoutBlockItem("plum_bush",
+            new PlumBushBlock(AbstractBlock.Settings.create()
+                    .ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY)));
+
 
 
 

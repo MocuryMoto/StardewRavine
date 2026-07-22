@@ -50,6 +50,9 @@ public class ModFoodComponents {
     public static final FoodComponent SPICE_BERRY = new FoodComponent.Builder().nutrition(1).saturationModifier(0.1F).snack().build();
     public static final FoodComponent CRANBERRIES = new FoodComponent.Builder().nutrition(1).saturationModifier(0.15F).snack().build();
     public static final FoodComponent BLACKBERRY = new FoodComponent.Builder().nutrition(1).saturationModifier(0.15F).snack().build();
+    public static final FoodComponent HAZELNUT = new FoodComponent.Builder().nutrition(1).saturationModifier(0.15F).snack().build();
+    public static final FoodComponent PLUM = new FoodComponent.Builder().nutrition(1).saturationModifier(0.15F).snack().build();
+
 
 
     public static final FoodComponent APRICOT = new FoodComponent.Builder().nutrition(3).saturationModifier(0.3F).build();

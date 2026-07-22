@@ -234,6 +234,11 @@ public class ModModelProvider extends FabricModelProvider {
                 CranberryBushBlock.AGE, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLACKBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
                 BlackberryBushBlock.AGE, 0, 1, 2, 3);
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.HAZELNUT_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                HazelnutBushBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.PLUM_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                PlumBushBlock.AGE, 0, 1, 2, 3, 4);
+
 
 
 
