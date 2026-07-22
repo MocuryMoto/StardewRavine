@@ -591,6 +591,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.REFINERY);
                         entries.add(ModBlocks.CRYSTALARIUM);
                         entries.add(ModItems.GALAXY_SOUL);
+                        entries.add(ModItems.BAT_WING);
 
                     }).build());
 

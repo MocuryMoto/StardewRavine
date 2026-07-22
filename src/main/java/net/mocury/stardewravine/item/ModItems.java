@@ -218,7 +218,7 @@ public class ModItems {
 
     public static final Item PETRIFIED_SLIME = registerItem("petrified_slime", new Item(new Item.Settings()));
     public static final Item GHOST_CRYSTAL = registerItem("ghost_crystal", new Item(new Item.Settings()));
-
+    public static final Item BAT_WING = registerItem("bat_wing", new Item(new Item.Settings()));
     public static final Item TRELLIS = registerItem("trellis", new Item(new Item.Settings()));
     public static final Item EARTH_CRYSTAL = registerItem("earth_crystal", new Item(new Item.Settings()));
     public static final Item GALAXY_SOUL = registerItem("galaxy_soul", new Item(new Item.Settings()));
