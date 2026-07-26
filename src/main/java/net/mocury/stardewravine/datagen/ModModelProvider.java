@@ -413,6 +413,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRYSTAL_TILES);
 
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotated(ModBlocks.CRYSTALARIUM, TexturedModel.ORIENTABLE_WITH_BOTTOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotated(ModBlocks.REFINERY, TexturedModel.ORIENTABLE_WITH_BOTTOM);
     }
 
     @Override
