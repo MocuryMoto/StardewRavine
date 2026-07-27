@@ -711,6 +711,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModItems.CORN)
                 .criterion(hasItem(ModItems.CORN), conditionsFromItem(ModItems.CORN))
                 .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STARDEW_MELON_SEEDS, 1)
+                .input(ModItems.STARDEW_MELON_SLICE)
+                .criterion(hasItem(ModItems.STARDEW_MELON_SLICE), conditionsFromItem(ModItems.STARDEW_MELON_SLICE))
+                .offerTo(exporter);
 
 
 
@@ -1392,5 +1396,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.REFINED_QUARTZ), conditionsFromItem(ModItems.REFINED_QUARTZ))
                 .offerTo(exporter);
 
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.FOOD, ModItems.STARDEW_MELON_SLICE, RecipeCategory.FOOD, ModBlocks.STARDEW_MELON);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.FOOD, ModItems.POWDERMELON_SLICE, RecipeCategory.FOOD, ModBlocks.POWDERMELON);
     }
 }

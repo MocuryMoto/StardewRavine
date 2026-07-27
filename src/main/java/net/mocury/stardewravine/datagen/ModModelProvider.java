@@ -412,6 +412,10 @@ public class ModModelProvider extends FabricModelProvider {
         crystalCobblestonePool.wall(ModBlocks.CRYSTAL_COBBLESTONE_WALL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRYSTAL_TILES);
 
+        blockStateModelGenerator.registerSingleton(ModBlocks.STARDEW_MELON, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerGourd(ModBlocks.STARDEW_MELON_STEM, ModBlocks.ATTACHED_STARDEW_MELON_STEM);
+        blockStateModelGenerator.registerSingleton(ModBlocks.POWDERMELON, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerGourd(ModBlocks.POWDERMELON_STEM, ModBlocks.ATTACHED_POWDERMELON_STEM);
 
         blockStateModelGenerator.registerNorthDefaultHorizontalRotated(ModBlocks.CRYSTALARIUM, TexturedModel.ORIENTABLE_WITH_BOTTOM);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotated(ModBlocks.REFINERY, TexturedModel.ORIENTABLE_WITH_BOTTOM);
@@ -508,6 +512,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EGGPLANT, Models.GENERATED);
         itemModelGenerator.register(ModItems.CORN, Models.GENERATED);
         itemModelGenerator.register(ModItems.SWEET_GEM_BERRY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STARDEW_MELON_SLICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.POWDERMELON_SLICE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.BAT_WING, Models.GENERATED);
 

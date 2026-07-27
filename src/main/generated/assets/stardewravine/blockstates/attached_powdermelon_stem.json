@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "stardewravine:block/attached_powdermelon_stem",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "stardewravine:block/attached_powdermelon_stem",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "stardewravine:block/attached_powdermelon_stem",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "stardewravine:block/attached_powdermelon_stem"
+    }
+  }
+}

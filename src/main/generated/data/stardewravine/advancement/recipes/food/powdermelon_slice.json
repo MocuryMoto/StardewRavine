@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_powdermelon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stardewravine:powdermelon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:powdermelon_slice"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_powdermelon"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:powdermelon_slice"
+    ]
+  }
+}

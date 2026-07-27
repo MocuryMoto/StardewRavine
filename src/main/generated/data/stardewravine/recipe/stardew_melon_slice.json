@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stardewravine:stardew_melon"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "stardewravine:stardew_melon_slice"
+  }
+}

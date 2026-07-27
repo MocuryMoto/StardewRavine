@@ -183,6 +183,11 @@ public class ModItems {
     public static final Item CORN = registerItem("corn", new Item(new Item.Settings().food(ModFoodComponents.CORN)));
     public static final Item CORN_SEEDS = registerItem("corn_seeds", new AliasedBlockItem(ModBlocks.CORN_CROP, new Item.Settings()));
 
+    public static final Item STARDEW_MELON_SLICE = registerItem("stardew_melon_slice", new Item(new Item.Settings().food(ModFoodComponents.STARDEW_MELON_SLICE)));
+    public static final Item STARDEW_MELON_SEEDS = registerItem("stardew_melon_seeds", new AliasedBlockItem(ModBlocks.STARDEW_MELON_STEM, new Item.Settings()));
+    public static final Item POWDERMELON_SLICE = registerItem("powdermelon_slice", new Item(new Item.Settings().food(ModFoodComponents.POWDERMELON_SLICE)));
+    public static final Item POWDERMELON_SEEDS = registerItem("powdermelon_seeds", new AliasedBlockItem(ModBlocks.POWDERMELON_STEM, new Item.Settings()));
+
 
     public static final Item BLUEBERRIES = registerItem("blueberries",
             new AliasedBlockItem(ModBlocks.BLUEBERRY_BUSH, new Item.Settings().food(ModFoodComponents.BLUEBERRIES)));

@@ -20,6 +20,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.mocury.stardewravine.StardewRavine;
 import net.mocury.stardewravine.block.custom.*;
+import net.mocury.stardewravine.item.ModItems;
 import net.mocury.stardewravine.world.tree.ModSaplingGenerators;
 
 import static net.minecraft.block.Blocks.*;
@@ -643,8 +644,27 @@ public class ModBlocks {
             new PlumBushBlock(AbstractBlock.Settings.create()
                     .ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY)));
 
+    public static final Block STARDEW_MELON = registerBlock("stardew_melon",
+            new StardewMelonBlock(AbstractBlock.Settings.copy(MELON)));
+    public static final Block STARDEW_MELON_STEM = registerBlockWithoutBlockItem("stardew_melon_stem",
+            new StardewMelonStemBlock((StardewMelonBlock) STARDEW_MELON, () -> ModItems.STARDEW_MELON_SEEDS,
+                    AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly()
+                            .sounds(BlockSoundGroup.STEM).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block ATTACHED_STARDEW_MELON_STEM = registerBlockWithoutBlockItem("attached_stardew_melon_stem",
+            new AttachedStardewMelonStemBlock((StardewMelonBlock) STARDEW_MELON, () -> ModItems.STARDEW_MELON_SEEDS,
+                    AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly()
+                            .sounds(BlockSoundGroup.WOOD).pistonBehavior(PistonBehavior.DESTROY)));
 
-
+    public static final Block POWDERMELON = registerBlock("powdermelon",
+            new PowdermelonBlock(AbstractBlock.Settings.copy(MELON)));
+    public static final Block POWDERMELON_STEM = registerBlockWithoutBlockItem("powdermelon_stem",
+            new PowdermelonStemBlock((PowdermelonBlock) POWDERMELON, () -> ModItems.POWDERMELON_SEEDS,
+                    AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly()
+                            .sounds(BlockSoundGroup.STEM).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block ATTACHED_POWDERMELON_STEM = registerBlockWithoutBlockItem("attached_powdermelon_stem",
+            new AttachedPowdermelonStemBlock((PowdermelonBlock) POWDERMELON, () -> ModItems.POWDERMELON_SEEDS,
+                    AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly()
+                            .sounds(BlockSoundGroup.WOOD).pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block MAPLE_LOG = registerBlock("maple_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "stardewravine:block/stardew_melon_top",
+    "side": "stardewravine:block/stardew_melon_side"
+  }
+}

@@ -42,6 +42,9 @@ public class ModFoodComponents {
     public static final FoodComponent YAM = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2F).build();
     public static final FoodComponent CORN = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2F).build();
 
+    public static final FoodComponent STARDEW_MELON_SLICE = new FoodComponent.Builder().nutrition(1).saturationModifier(0.2F).build();
+    public static final FoodComponent POWDERMELON_SLICE = new FoodComponent.Builder().nutrition(1).saturationModifier(0.2F).build();
+
 
     public static final FoodComponent BLUEBERRIES = new FoodComponent.Builder().nutrition(1).saturationModifier(0.15F).snack().build();
     public static final FoodComponent SALMONBERRY = new FoodComponent.Builder().nutrition(1).saturationModifier(0.15F).snack().build();

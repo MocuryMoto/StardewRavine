@@ -159,6 +159,10 @@
   "item.stardewravine.blackberry": "Blackberry",
   "item.stardewravine.hazelnut": "Hazelnut",
   "item.stardewravine.plum": "Plum",
+  "item.stardewravine.stardew_melon_slice": "Stardew Melon Slice",
+  "item.stardewravine.stardew_melon_seeds": "Stardew Melon Seeds",
+  "item.stardewravine.powdermelon_slice": "Powdermelon Slice",
+  "item.stardewravine.powdermelon_seeds": "Powdermelon Seeds",
 
   "item.stardewravine.maple_boat": "Maple Boat",
   "item.stardewravine.maple_chest_boat": "Maple Chest Boat",
@@ -468,6 +472,12 @@
   "block.stardewravine.sweet_gem_berry_crop": "Sweet Gem Berry Crop",
   "block.stardewravine.hazelnut_bush": "Hazelnut Bush",
   "block.stardewravine.plum_bush": "Plum Bush",
+  "block.stardewravine.stardew_melon_stem": "Stardew Melon Stem",
+  "block.stardewravine.attached_stardew_melon_stem": "Attached Stardew Melon Stem",
+  "block.stardewravine.stardew_melon": "Stardew Melon",
+  "block.stardewravine.powdermelon_stem": "Powdermelon Stem",
+  "block.stardewravine.attached_powdermelon_stem": "Attached Powdermelon Stem",
+  "block.stardewravine.powdermelon": "Powdermelon",
 
 
 

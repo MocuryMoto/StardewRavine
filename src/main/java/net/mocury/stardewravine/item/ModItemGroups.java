@@ -355,6 +355,9 @@ public class ModItemGroups {
                         entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModItems.SUMMER_SQUASH);
                         entries.add(ModItems.SUMMER_SQUASH_SEEDS);
+                        entries.add(ModBlocks.STARDEW_MELON);
+                        entries.add(ModItems.STARDEW_MELON_SLICE);
+                        entries.add(ModItems.STARDEW_MELON_SEEDS);
                         entries.add(ModItems.SALMONBERRY);
                         entries.add(ModItems.STRAWBERRY);
                         entries.add(ModItems.COFFEE_BEANS);
@@ -379,6 +382,9 @@ public class ModItemGroups {
                         entries.add(ModItems.PLUM);
                         entries.add(ModItems.SWEET_GEM_BERRY);
                         entries.add(ModItems.RARE_SEED);
+                        entries.add(ModBlocks.POWDERMELON);
+                        entries.add(ModItems.POWDERMELON_SLICE);
+                        entries.add(ModItems.POWDERMELON_SEEDS);
                         entries.add(ModItems.ANCIENT_FRUIT);
                         entries.add(ModItems.ANCIENT_FRUIT_SEEDS);
 
@@ -895,6 +901,9 @@ public class ModItemGroups {
                         entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModItems.SUMMER_SQUASH);
                         entries.add(ModItems.SUMMER_SQUASH_SEEDS);
+                        entries.add(ModBlocks.STARDEW_MELON);
+                        entries.add(ModItems.STARDEW_MELON_SLICE);
+                        entries.add(ModItems.STARDEW_MELON_SEEDS);
                         entries.add(ModItems.SALMONBERRY);
                         entries.add(ModItems.STRAWBERRY);
                         entries.add(ModItems.COFFEE_BEANS);
@@ -919,6 +928,9 @@ public class ModItemGroups {
                         entries.add(ModItems.PLUM);
                         entries.add(ModItems.SWEET_GEM_BERRY);
                         entries.add(ModItems.RARE_SEED);
+                        entries.add(ModBlocks.POWDERMELON);
+                        entries.add(ModItems.POWDERMELON_SLICE);
+                        entries.add(ModItems.POWDERMELON_SEEDS);
                         entries.add(ModItems.ANCIENT_FRUIT);
                         entries.add(ModItems.ANCIENT_FRUIT_SEEDS);
 

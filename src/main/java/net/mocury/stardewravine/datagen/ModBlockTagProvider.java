@@ -556,6 +556,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WALL_HANGING_PEACH_SIGN)
                 .add(ModBlocks.WALL_HANGING_FIDDLEHEAD_SIGN)
         ;
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.STARDEW_MELON)
+                .add(ModBlocks.POWDERMELON)
+        ;
 
     }
 }

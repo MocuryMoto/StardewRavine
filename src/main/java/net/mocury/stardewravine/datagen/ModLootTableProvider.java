@@ -570,6 +570,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.JAMBORITE_TILES);
         addDrop(ModBlocks.NEKOITE_TILES);
         addDrop(ModBlocks.NEPTUNITE_TILES);
+
+        addDrop(ModBlocks.STARDEW_MELON, multipleOreDrops(ModBlocks.STARDEW_MELON, ModItems.STARDEW_MELON_SLICE, 3, 7));
+        addDrop(ModBlocks.POWDERMELON, multipleOreDrops(ModBlocks.POWDERMELON, ModItems.POWDERMELON_SLICE, 3, 7));
+
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

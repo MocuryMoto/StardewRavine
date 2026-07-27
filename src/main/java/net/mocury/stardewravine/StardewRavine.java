@@ -108,6 +108,12 @@ public class StardewRavine implements ModInitializer {
 		CompostingChanceRegistry.INSTANCE.add(ModItems.BLACKBERRY, 0.5f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.HAZELNUT, 0.5f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.PLUM, 0.5f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.STARDEW_MELON_SLICE, 0.3f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.STARDEW_MELON_SEEDS, 0.3f);
+		CompostingChanceRegistry.INSTANCE.add(ModBlocks.STARDEW_MELON, 0.85f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.POWDERMELON_SLICE, 0.3f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.POWDERMELON_SEEDS, 0.3f);
+		CompostingChanceRegistry.INSTANCE.add(ModBlocks.POWDERMELON, 0.85f);
 
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_LOG, ModBlocks.STRIPPED_MAPLE_LOG);
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_WOOD, ModBlocks.STRIPPED_MAPLE_WOOD);
