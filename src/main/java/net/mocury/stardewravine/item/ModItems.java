@@ -182,6 +182,8 @@ public class ModItems {
     public static final Item YAM = registerItem("yam", new AliasedBlockItem(ModBlocks.YAM_CROP, new Item.Settings().food(ModFoodComponents.YAM)));
     public static final Item CORN = registerItem("corn", new Item(new Item.Settings().food(ModFoodComponents.CORN)));
     public static final Item CORN_SEEDS = registerItem("corn_seeds", new AliasedBlockItem(ModBlocks.CORN_CROP, new Item.Settings()));
+    public static final Item SNOW_YAM = registerItem("snow_yam", new AliasedBlockItem(ModBlocks.SNOW_YAM_CROP, new Item.Settings().food(ModFoodComponents.SNOW_YAM)));
+    public static final Item WINTER_ROOT = registerItem("winter_root", new AliasedBlockItem(ModBlocks.WINTER_ROOT_CROP, new Item.Settings().food(ModFoodComponents.WINTER_ROOT)));
 
     public static final Item STARDEW_MELON_SLICE = registerItem("stardew_melon_slice", new Item(new Item.Settings().food(ModFoodComponents.STARDEW_MELON_SLICE)));
     public static final Item STARDEW_MELON_SEEDS = registerItem("stardew_melon_seeds", new AliasedBlockItem(ModBlocks.STARDEW_MELON_STEM, new Item.Settings()));
@@ -207,6 +209,11 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.HAZELNUT_BUSH, new Item.Settings().food(ModFoodComponents.HAZELNUT)));
     public static final Item PLUM = registerItem("plum",
             new AliasedBlockItem(ModBlocks.PLUM_BUSH, new Item.Settings().food(ModFoodComponents.PLUM)));
+    public static final Item HOLLY_BERRIES = registerItem("holly_berries",
+            new AliasedBlockItem(ModBlocks.HOLLY_BUSH, new Item.Settings().food(ModFoodComponents.HOLLY_BERRIES)));
+    public static final Item CRYSTAL_FRUIT = registerItem("crystal_fruit",
+            new AliasedBlockItem(ModBlocks.CRYSTAL_FRUIT_BUSH, new Item.Settings().food(ModFoodComponents.CRYSTAL_FRUIT)));
+
 
 
 

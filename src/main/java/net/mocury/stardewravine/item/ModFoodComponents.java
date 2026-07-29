@@ -41,6 +41,8 @@ public class ModFoodComponents {
     public static final FoodComponent EGGPLANT = new FoodComponent.Builder().nutrition(4).saturationModifier(0.2F).build();
     public static final FoodComponent YAM = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2F).build();
     public static final FoodComponent CORN = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2F).build();
+    public static final FoodComponent SNOW_YAM = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2F).build();
+    public static final FoodComponent WINTER_ROOT = new FoodComponent.Builder().nutrition(1).saturationModifier(0.2F).build();
 
     public static final FoodComponent STARDEW_MELON_SLICE = new FoodComponent.Builder().nutrition(1).saturationModifier(0.2F).build();
     public static final FoodComponent POWDERMELON_SLICE = new FoodComponent.Builder().nutrition(1).saturationModifier(0.2F).build();
@@ -55,6 +57,9 @@ public class ModFoodComponents {
     public static final FoodComponent BLACKBERRY = new FoodComponent.Builder().nutrition(1).saturationModifier(0.15F).snack().build();
     public static final FoodComponent HAZELNUT = new FoodComponent.Builder().nutrition(1).saturationModifier(0.15F).snack().build();
     public static final FoodComponent PLUM = new FoodComponent.Builder().nutrition(1).saturationModifier(0.15F).snack().build();
+    public static final FoodComponent HOLLY_BERRIES = new FoodComponent.Builder().nutrition(1).saturationModifier(0.15F).snack()
+            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 400, 1), 0.25F).build();
+    public static final FoodComponent CRYSTAL_FRUIT = new FoodComponent.Builder().nutrition(2).saturationModifier(0.15F).snack().build();
 
 
 

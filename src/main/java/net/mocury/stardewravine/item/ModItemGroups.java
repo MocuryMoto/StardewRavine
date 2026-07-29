@@ -385,6 +385,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POWDERMELON);
                         entries.add(ModItems.POWDERMELON_SLICE);
                         entries.add(ModItems.POWDERMELON_SEEDS);
+                        entries.add(ModItems.SNOW_YAM);
+                        entries.add(ModItems.WINTER_ROOT);
+                        entries.add(ModItems.HOLLY_BERRIES);
+                        entries.add(ModItems.CRYSTAL_FRUIT);
                         entries.add(ModItems.ANCIENT_FRUIT);
                         entries.add(ModItems.ANCIENT_FRUIT_SEEDS);
 
@@ -931,6 +935,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POWDERMELON);
                         entries.add(ModItems.POWDERMELON_SLICE);
                         entries.add(ModItems.POWDERMELON_SEEDS);
+                        entries.add(ModItems.SNOW_YAM);
+                        entries.add(ModItems.WINTER_ROOT);
+                        entries.add(ModItems.HOLLY_BERRIES);
+                        entries.add(ModItems.CRYSTAL_FRUIT);
                         entries.add(ModItems.ANCIENT_FRUIT);
                         entries.add(ModItems.ANCIENT_FRUIT_SEEDS);
 

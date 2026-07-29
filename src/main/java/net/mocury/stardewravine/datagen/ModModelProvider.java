@@ -215,6 +215,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCrop(ModBlocks.BROCCOLI_CROP, BroccoliCropBlock.AGE, 0, 1, 2, 3, 4);
         blockStateModelGenerator.registerCrop(ModBlocks.EGGPLANT_CROP, EggplantCropBlock.AGE, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerCrop(ModBlocks.YAM_CROP, YamCropBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.SNOW_YAM_CROP, SnowYamCropBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.WINTER_ROOT_CROP, WinterRootCropBlock.AGE, 0, 1, 2, 3, 4);
+
 
         blockStateModelGenerator.registerCrop(ModBlocks.ANCIENT_FRUIT_CROP, AncientFruitCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7, 8);
         blockStateModelGenerator.registerCrop(ModBlocks.CORN_CROP, CornCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7, 8);
@@ -238,6 +241,11 @@ public class ModModelProvider extends FabricModelProvider {
                 HazelnutBushBlock.AGE, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.PLUM_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
                 PlumBushBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.HOLLY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                HollyBushBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.CRYSTAL_FRUIT_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                CrystalFruitBushBlock.AGE, 0, 1, 2, 3, 4);
+
 
 
 
@@ -514,6 +522,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SWEET_GEM_BERRY, Models.GENERATED);
         itemModelGenerator.register(ModItems.STARDEW_MELON_SLICE, Models.GENERATED);
         itemModelGenerator.register(ModItems.POWDERMELON_SLICE, Models.GENERATED);
+
 
         itemModelGenerator.register(ModItems.BAT_WING, Models.GENERATED);
 

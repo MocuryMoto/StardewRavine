@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "stardewravine:block/holly_bush_stage0"
+    },
+    "age=1": {
+      "model": "stardewravine:block/holly_bush_stage1"
+    },
+    "age=2": {
+      "model": "stardewravine:block/holly_bush_stage2"
+    },
+    "age=3": {
+      "model": "stardewravine:block/holly_bush_stage3"
+    },
+    "age=4": {
+      "model": "stardewravine:block/holly_bush_stage4"
+    }
+  }
+}

@@ -604,6 +604,12 @@ public class ModBlocks {
     public static final Block YAM_CROP = registerBlockWithoutBlockItem("yam_crop",
             new YamCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
                     .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block SNOW_YAM_CROP = registerBlockWithoutBlockItem("snow_yam_crop",
+            new SnowYamCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block WINTER_ROOT_CROP = registerBlockWithoutBlockItem("winter_root_crop",
+            new WinterRootCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
+                    .breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
 
     public static final Block ANCIENT_FRUIT_CROP = registerBlockWithoutBlockItem("ancient_fruit_crop",
             new AncientFruitCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly()
@@ -643,6 +649,13 @@ public class ModBlocks {
     public static final Block PLUM_BUSH = registerBlockWithoutBlockItem("plum_bush",
             new PlumBushBlock(AbstractBlock.Settings.create()
                     .ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block HOLLY_BUSH = registerBlockWithoutBlockItem("holly_bush",
+            new HollyBushBlock(AbstractBlock.Settings.create()
+                    .ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block CRYSTAL_FRUIT_BUSH = registerBlockWithoutBlockItem("crystal_fruit_bush",
+            new CrystalFruitBushBlock(AbstractBlock.Settings.create()
+                    .ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY)));
+
 
     public static final Block STARDEW_MELON = registerBlock("stardew_melon",
             new StardewMelonBlock(AbstractBlock.Settings.copy(MELON)));

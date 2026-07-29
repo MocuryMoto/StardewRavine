@@ -465,6 +465,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         BlockStatePropertyLootCondition.Builder builder27 = BlockStatePropertyLootCondition.builder(ModBlocks.SWEET_GEM_BERRY_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(SweetGemBerryCropBlock.AGE, 7));
         this.addDrop(ModBlocks.SWEET_GEM_BERRY_CROP, this.cropDrops(ModBlocks.SWEET_GEM_BERRY_CROP, ModItems.SWEET_GEM_BERRY, ModItems.RARE_SEED, builder27));
+        BlockStatePropertyLootCondition.Builder builder28 = BlockStatePropertyLootCondition.builder(ModBlocks.SNOW_YAM_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(SnowYamCropBlock.AGE, 4));
+        this.addDrop(ModBlocks.SNOW_YAM_CROP, this.cropDrops(ModBlocks.SNOW_YAM_CROP, ModItems.SNOW_YAM, ModItems.SNOW_YAM, builder28));
+        BlockStatePropertyLootCondition.Builder builder29 = BlockStatePropertyLootCondition.builder(ModBlocks.WINTER_ROOT_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(WinterRootCropBlock.AGE, 4));
+        this.addDrop(ModBlocks.WINTER_ROOT_CROP, this.cropDrops(ModBlocks.WINTER_ROOT_CROP, ModItems.WINTER_ROOT, ModItems.WINTER_ROOT, builder29));
 
         this.addDrop(ModBlocks.BLUEBERRY_BUSH,
                 block -> this.applyExplosionDecay(block, LootTable.builder()
@@ -538,6 +544,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                 .with(ItemEntry.builder(ModItems.PLUM))
                                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 5.0F))) //how many items drop
                                 .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
+        this.addDrop(ModBlocks.HOLLY_BUSH,
+                block -> this.applyExplosionDecay(block, LootTable.builder()
+                        .pool(LootPool.builder().conditionally(
+                                        BlockStatePropertyLootCondition.builder(ModBlocks.HOLLY_BUSH)
+                                                .properties(StatePredicate.Builder.create().exactMatch(HollyBushBlock.AGE, 4)))
+                                .with(ItemEntry.builder(ModItems.HOLLY_BERRIES))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 3.0F))) //how many items drop
+                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
+        this.addDrop(ModBlocks.CRYSTAL_FRUIT_BUSH,
+                block -> this.applyExplosionDecay(block, LootTable.builder()
+                        .pool(LootPool.builder().conditionally(
+                                        BlockStatePropertyLootCondition.builder(ModBlocks.CRYSTAL_FRUIT_BUSH)
+                                                .properties(StatePredicate.Builder.create().exactMatch(HollyBushBlock.AGE, 4)))
+                                .with(ItemEntry.builder(ModItems.CRYSTAL_FRUIT))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 3.0F))) //how many items drop
+                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
+
 
 
 
